@@ -3,7 +3,12 @@
     "projeto": "Inteligência Competitiva CENBRAP - FASE 3",
     "titulo": "Mapa de Vulnerabilidades dos Concorrentes",
     "data": "2026-02-05",
-    "versao": "1.0"
+    "versao": "1.1",
+    "data_correcao": "2026-02-06",
+    "notas_correcao": [
+      "Removida duplicata de Liberdade Médica na lista de preço não transparente",
+      "Adicionadas ressalvas sobre escopo da análise"
+    ]
   },
   "resumo_executivo": {
     "total_vulnerabilidades": 28,
@@ -28,14 +33,13 @@
         "HCOR",
         "Einstein",
         "Sírio-Libanês",
-        "IBCMED",
-        "Liberdade Médica"
+        "IBCMED"
       ],
       "contra_ataque_cenbrap": {
         "titulo": "Preço Justo, Sem Surpresas",
         "copy_ads": "Sabe aquele curso que você tem que preencher formulário pra descobrir o preço? Aqui não. CENBRAP: R$ 7.200 transparente desde o primeiro clique.",
         "copy_landing": "👋 Sem joguinhos. Sem 'fale com consultor'. Nosso preço é R$ 7.200 e está aqui, visível pra você comparar. Confiança começa com transparência.",
-        "diferencial": "100% dos concorrentes diretos OCULTAM preço. CENBRAP é o único com transparência total."
+        "diferencial": "100% dos concorrentes diretos OCULTAM preço. CENBRAP é o único com transparência total. (dentro do grupo de concorrentes analiados neste estudo)"
       }
     },
     "docente_oculto": {
@@ -81,7 +85,7 @@
         "titulo": "Garantia de Resultados ou Dinheiro de Volta",
         "copy_ads": "7 dias de garantia? Isso não cobre nem o primeiro módulo. CENBRAP: garantia estendida de 30 dias + reembolso proporcional.",
         "copy_landing": "🛡️ Acreditamos tanto na nossa metodologia que oferecemos garantia estendida. Satisfação garantida ou seu investimento de volta.",
-        "diferencial": "Nenhum concorrente oferece garantia superior a 7 dias. CENBRAP pode criar vantagem com 30 dias."
+        "diferencial": "Nenhum concorrente oferece garantia superior a 7 dias. CENBRAP pode criar vantagem com 30 dias. (dentro do grupo de concorrentes analiados neste estudo)"
       }
     },
     "proposta_generica": {
@@ -225,19 +229,28 @@
   "concorrentes_mais_vulneraveis": [
     {
       "nome": "Liberdade Médica",
-      "vulnerabilidades": ["preco_oculto", "docente_parcial", "garantia_fraca"],
+      "vulnerabilidades": [
+        "preco_oculto",
+        "docente_parcial",
+        "garantia_fraca"
+      ],
       "prioridade_ataque": "ALTA",
       "estrategia": "Comparativo direto: CENBRAP preço transparente vs Liberdade Médica formulário oculto"
     },
     {
       "nome": "Caduceu",
-      "vulnerabilidades": ["preco_oculto"],
+      "vulnerabilidades": [
+        "preco_oculto"
+      ],
       "prioridade_ataque": "MÉDIA",
       "estrategia": "Não atacar docente (forte), focar em preço transparente"
     },
     {
       "nome": "Sanar",
-      "vulnerabilidades": ["modelo_prep", "docente_oculto"],
+      "vulnerabilidades": [
+        "modelo_prep",
+        "docente_oculto"
+      ],
       "prioridade_ataque": "ALTA",
       "estrategia": "Diferenciar pós-graduação credenciada vs preparatório"
     }

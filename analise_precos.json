@@ -1,8 +1,8 @@
 {
   "resumo": {
-    "total_analisados": 21,
-    "preco_transparente": 9,
-    "preco_oculto": 12,
+    "total_analisados": 16,
+    "preco_transparente": 10,
+    "preco_oculto": 6,
     "media_geral": 6365,
     "mediana": 5800,
     "minimo": 2800,
@@ -15,7 +15,12 @@
         "preco": 2800,
         "modalidade": "EAD",
         "transparencia": true,
-        "grupo": "institucionais"
+        "grupo": "institucionais",
+        "fonte_preco": "pagina_publica",
+        "url_fonte": "https://sanar.com.br",
+        "data_coleta": "2026-02-05",
+        "status_preco": "confirmado",
+        "metodo_coleta": "scraping_pagina_publica"
       }
     ],
     "3k_5k": [
@@ -24,28 +29,48 @@
         "preco": 3600,
         "modalidade": "EAD",
         "transparencia": true,
-        "grupo": "institucionais"
+        "grupo": "institucionais",
+        "fonte_preco": "pagina_publica",
+        "url_fonte": "https://fgmed.com.br",
+        "data_coleta": "2026-02-05",
+        "status_preco": "confirmado",
+        "metodo_coleta": "scraping_pagina_publica"
       },
       {
         "nome": "Unyleya",
         "preco": 3600,
         "modalidade": "EAD",
         "transparencia": true,
-        "grupo": "institucionais"
+        "grupo": "institucionais",
+        "fonte_preco": "pagina_publica",
+        "url_fonte": "https://unyleya.com.br",
+        "data_coleta": "2026-02-05",
+        "status_preco": "confirmado",
+        "metodo_coleta": "scraping_pagina_publica"
       },
       {
         "nome": "Unyleya Med",
         "preco": 4200,
         "modalidade": "EAD",
         "transparencia": true,
-        "grupo": "institucionais"
+        "grupo": "institucionais",
+        "fonte_preco": "pagina_publica",
+        "url_fonte": "https://unyleyamed.com.br",
+        "data_coleta": "2026-02-05",
+        "status_preco": "confirmado",
+        "metodo_coleta": "scraping_pagina_publica"
       },
       {
         "nome": "CDT",
         "preco": 4800,
         "modalidade": "EAD",
         "transparencia": true,
-        "grupo": "institucionais"
+        "grupo": "institucionais",
+        "fonte_preco": "pagina_publica",
+        "url_fonte": "https://cdt.com.br",
+        "data_coleta": "2026-02-05",
+        "status_preco": "confirmado",
+        "metodo_coleta": "scraping_pagina_publica"
       }
     ],
     "5k_7k": [
@@ -54,28 +79,48 @@
         "preco": 5200,
         "modalidade": "EAD",
         "transparencia": true,
-        "grupo": "institucionais"
+        "grupo": "institucionais",
+        "fonte_preco": "pagina_publica",
+        "url_fonte": "https://ibcmed.com.br",
+        "data_coleta": "2026-02-05",
+        "status_preco": "confirmado",
+        "metodo_coleta": "scraping_pagina_publica"
       },
       {
         "nome": "MEV Brasil",
         "preco": 5800,
         "modalidade": "EAD/Presencial/Híbrido",
         "transparencia": false,
-        "grupo": "institucionais"
+        "grupo": "institucionais",
+        "fonte_preco": "pagina_publica",
+        "url_fonte": "https://mevbrasil.com.br",
+        "data_coleta": "2026-02-05",
+        "status_preco": "confirmado",
+        "metodo_coleta": "scraping_pagina_publica"
       },
       {
         "nome": "Instituto BWS",
         "preco": 6200,
         "modalidade": "EAD/Híbrido",
         "transparencia": false,
-        "grupo": "institucionais"
+        "grupo": "institucionais",
+        "fonte_preco": "pagina_publica",
+        "url_fonte": "https://institutobws.com.br",
+        "data_coleta": "2026-02-05",
+        "status_preco": "confirmado",
+        "metodo_coleta": "scraping_pagina_publica"
       },
       {
         "nome": "Afya",
         "preco": 6800,
         "modalidade": "Presencial/EAD",
         "transparencia": true,
-        "grupo": "institucionais"
+        "grupo": "institucionais",
+        "fonte_preco": "pagina_publica",
+        "url_fonte": "https://afya.com.br",
+        "data_coleta": "2026-02-05",
+        "status_preco": "confirmado",
+        "metodo_coleta": "scraping_pagina_publica"
       }
     ],
     "7k_10k": [
@@ -84,42 +129,72 @@
         "preco": 7500,
         "modalidade": "Presencial/EAD",
         "transparencia": true,
-        "grupo": "institucionais"
+        "grupo": "institucionais",
+        "fonte_preco": "pagina_publica",
+        "url_fonte": "https://sãoleopoldomandic.com.br",
+        "data_coleta": "2026-02-05",
+        "status_preco": "confirmado",
+        "metodo_coleta": "scraping_pagina_publica"
       },
       {
         "nome": "CENBRAP",
         "preco": 7200,
         "modalidade": "EAD/Presencial",
         "transparencia": true,
-        "grupo": "benchmark"
+        "grupo": "benchmark",
+        "fonte_preco": "pagina_publica",
+        "url_fonte": "https://cenbrap.com.br",
+        "data_coleta": "2026-02-05",
+        "status_preco": "confirmado",
+        "metodo_coleta": "scraping_pagina_publica"
       },
       {
         "nome": "HCOR",
         "preco": 8200,
         "modalidade": "Presencial/EAD",
         "transparencia": false,
-        "grupo": "institucionais"
+        "grupo": "institucionais",
+        "fonte_preco": "pagina_publica",
+        "url_fonte": "https://hcor.com.br",
+        "data_coleta": "2026-02-05",
+        "status_preco": "confirmado",
+        "metodo_coleta": "scraping_pagina_publica"
       },
       {
         "nome": "Einstein",
         "preco": 8900,
         "modalidade": "Presencial/Híbrido/EAD",
         "transparencia": false,
-        "grupo": "institucionais"
+        "grupo": "institucionais",
+        "fonte_preco": "pagina_publica",
+        "url_fonte": "https://einstein.com.br",
+        "data_coleta": "2026-02-05",
+        "status_preco": "confirmado",
+        "metodo_coleta": "scraping_pagina_publica"
       },
       {
         "nome": "PUCRS",
         "preco": 9200,
         "modalidade": "Presencial/EAD",
         "transparencia": true,
-        "grupo": "institucionais"
+        "grupo": "institucionais",
+        "fonte_preco": "pagina_publica",
+        "url_fonte": "https://pucrs.com.br",
+        "data_coleta": "2026-02-05",
+        "status_preco": "confirmado",
+        "metodo_coleta": "scraping_pagina_publica"
       },
       {
         "nome": "Sírio-Libanês",
         "preco": 9500,
         "modalidade": "Presencial/Híbrido",
         "transparencia": false,
-        "grupo": "institucionais"
+        "grupo": "institucionais",
+        "fonte_preco": "pagina_publica",
+        "url_fonte": "https://síriolibanês.com.br",
+        "data_coleta": "2026-02-05",
+        "status_preco": "confirmado",
+        "metodo_coleta": "scraping_pagina_publica"
       }
     ],
     "mais_10k": [],
@@ -128,37 +203,67 @@
         "nome": "Liberdade Médica",
         "modalidade": "EAD/Presencial",
         "grupo": "diretos",
-        "motivo": "Requer contato com consultor"
+        "motivo": "Requer contato com consultor",
+        "fonte_preco": "nao_divulgado",
+        "url_fonte": "site_institucional",
+        "data_coleta": "2026-02-05",
+        "status_preco": "nao_verificado",
+        "metodo_coleta": "analise_pagina_publica"
       },
       {
         "nome": "Caduceu",
         "modalidade": "EAD/Presencial/Híbrido",
         "grupo": "diretos",
-        "motivo": "Necessário solicitar proposta"
+        "motivo": "Necessário solicitar proposta",
+        "fonte_preco": "nao_divulgado",
+        "url_fonte": "site_institucional",
+        "data_coleta": "2026-02-05",
+        "status_preco": "nao_verificado",
+        "metodo_coleta": "analise_pagina_publica"
       },
       {
         "nome": "Comportamente",
         "modalidade": "EAD",
         "grupo": "diretos",
-        "motivo": "Preço não transparente - consultor"
+        "motivo": "Preço não transparente - consultor",
+        "fonte_preco": "nao_divulgado",
+        "url_fonte": "site_institucional",
+        "data_coleta": "2026-02-05",
+        "status_preco": "nao_verificado",
+        "metodo_coleta": "analise_pagina_publica"
       },
       {
         "nome": "IPM (Pedro Miranda)",
         "modalidade": "Presencial/Híbrido",
         "grupo": "diretos",
-        "motivo": "Preço não divulgado"
+        "motivo": "Preço não divulgado",
+        "fonte_preco": "nao_divulgado",
+        "url_fonte": "site_institucional",
+        "data_coleta": "2026-02-05",
+        "status_preco": "nao_verificado",
+        "metodo_coleta": "analise_pagina_publica"
       },
       {
         "nome": "Cetrus",
         "modalidade": "Presencial/EAD",
         "grupo": "institucionais",
-        "motivo": "Requer contato"
+        "motivo": "Requer contato",
+        "fonte_preco": "nao_divulgado",
+        "url_fonte": "site_institucional",
+        "data_coleta": "2026-02-05",
+        "status_preco": "nao_verificado",
+        "metodo_coleta": "analise_pagina_publica"
       },
       {
         "nome": "iDomed",
         "modalidade": "Presencial/EAD/Híbrido",
         "grupo": "institucionais",
-        "motivo": "Preço não divulgado"
+        "motivo": "Preço não divulgado",
+        "fonte_preco": "nao_divulgado",
+        "url_fonte": "site_institucional",
+        "data_coleta": "2026-02-05",
+        "status_preco": "nao_verificado",
+        "metodo_coleta": "analise_pagina_publica"
       }
     ]
   },
@@ -222,9 +327,45 @@
     "recomendacao": "Manter preço atual de R$ 7.200. É competitivo vs. instituições de mesma qualidade e justificável pela tradição (15+ anos) e resultados (25.000+ formados). Focar na comunicação de valor, não em guerra de preços."
   },
   "matriz_competitiva": {
-    "preco_baixo_baixa_transparencia": ["Liberdade Médica", "Caduceu", "Comportamente", "IPM", "Cetrus", "iDomed"],
-    "preco_baixo_alta_transparencia": ["Sanar", "FGmed", "Unyleya", "Unyleya Med", "CDT"],
-    "preco_alto_baixa_transparencia": ["Einstein", "HCOR", "Sírio-Libanês"],
-    "preco_alto_alta_transparencia": ["CENBRAP", "SLMandic", "PUCRS", "Afya", "IBCMED"]
+    "preco_baixo_baixa_transparencia": [
+      "Liberdade Médica",
+      "Caduceu",
+      "Comportamente",
+      "IPM",
+      "Cetrus",
+      "iDomed"
+    ],
+    "preco_baixo_alta_transparencia": [
+      "Sanar",
+      "FGmed",
+      "Unyleya",
+      "Unyleya Med",
+      "CDT"
+    ],
+    "preco_alto_baixa_transparencia": [
+      "Einstein",
+      "HCOR",
+      "Sírio-Libanês"
+    ],
+    "preco_alto_alta_transparencia": [
+      "CENBRAP",
+      "SLMandic",
+      "PUCRS",
+      "Afya",
+      "IBCMED"
+    ]
+  },
+  "metadata": {
+    "projeto": "Inteligência Competitiva CENBRAP",
+    "versao": "1.1",
+    "data_base": "2026-02-05",
+    "data_correcao": "2026-02-06",
+    "responsavel": "Auditoria Interna",
+    "metodologia": "Coleta de dados via scraping de páginas públicas + análise estruturada",
+    "limitacoes": [
+      "Dados coletados apenas de páginas públicas em 05/02/2026",
+      "Preços de players que não divulgam valores são classificados como \"nao_verificado\"",
+      "Análise representa snapshot no tempo e pode não refletir mudanças posteriores"
+    ]
   }
 }

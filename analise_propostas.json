@@ -4,12 +4,14 @@
     "analise": "Propostas de Valor e Diferenciais",
     "data_criacao": "2026-02-05",
     "total_concorrentes_analisados": 20,
-    "versao": "1.0"
+    "versao": "1.1",
+    "data_correcao": "2026-02-06",
+    "nota_escopo": "Análise de 10 concorrentes com dados suficientes para avaliação de proposta de valor. Os demais players do estudo (11) não tiveram conteúdo suficiente ou relevante para esta análise específica."
   },
   "resumo": {
-    "total_analisados": 20,
-    "proposta_clara": 7,
-    "proposta_confusa": 13,
+    "total_analisados": 10,
+    "proposta_clara": 8,
+    "proposta_confusa": 2,
     "com_diferenciais_listados": 10,
     "sem_diferenciais": 10,
     "com_preco_transparente": 8,
@@ -29,8 +31,15 @@
         "Comunidade exclusiva para suporte em plantões"
       ],
       "tom_de_voz": "Especializado, prático, focado em emergência",
-      "bonus_garantias": ["Comunidade exclusiva", "Suporte 24h com IA", "Certificado de extensão (para formados no exterior)"],
-      "avaliacao": "clara"
+      "bonus_garantias": [
+        "Comunidade exclusiva",
+        "Suporte 24h com IA",
+        "Certificado de extensão (para formados no exterior)"
+      ],
+      "avaliacao": "clara",
+      "fonte_dados": "site_institucional",
+      "data_coleta": "2026-02-05",
+      "metodo_avaliacao": "analise_conteudo_scraping"
     },
     {
       "concorrente": "Caduceu",
@@ -43,7 +52,10 @@
       ],
       "tom_de_voz": "Profissional, institucional",
       "bonus_garantias": [],
-      "avaliacao": "genérica"
+      "avaliacao": "genérica",
+      "fonte_dados": "site_institucional",
+      "data_coleta": "2026-02-05",
+      "metodo_avaliacao": "analise_conteudo_scraping"
     },
     {
       "concorrente": "Comportamente",
@@ -56,8 +68,14 @@
         "8.000+ alunos formados"
       ],
       "tom_de_voz": "Humanizado, científico, profissional",
-      "bonus_garantias": ["Descontos Editora Manole", "Descontos Editora Sinopsys"],
-      "avaliacao": "clara"
+      "bonus_garantias": [
+        "Descontos Editora Manole",
+        "Descontos Editora Sinopsys"
+      ],
+      "avaliacao": "clara",
+      "fonte_dados": "site_institucional",
+      "data_coleta": "2026-02-05",
+      "metodo_avaliacao": "analise_conteudo_scraping"
     },
     {
       "concorrente": "IPM (Pedro Miranda)",
@@ -68,7 +86,10 @@
       ],
       "tom_de_voz": "Profissional",
       "bonus_garantias": [],
-      "avaliacao": "confusa"
+      "avaliacao": "confusa",
+      "fonte_dados": "site_institucional",
+      "data_coleta": "2026-02-05",
+      "metodo_avaliacao": "analise_conteudo_scraping"
     },
     {
       "concorrente": "Einstein",
@@ -79,8 +100,14 @@
         "Infraestrutura hospitalar"
       ],
       "tom_de_voz": "Institucional, sério, acadêmico",
-      "bonus_garantias": ["Acesso ao hospital", "Biblioteca"],
-      "avaliacao": "clara"
+      "bonus_garantias": [
+        "Acesso ao hospital",
+        "Biblioteca"
+      ],
+      "avaliacao": "clara",
+      "fonte_dados": "site_institucional",
+      "data_coleta": "2026-02-05",
+      "metodo_avaliacao": "analise_conteudo_scraping"
     },
     {
       "concorrente": "MEV Brasil",
@@ -94,8 +121,14 @@
         "Comunidade de 900+ médicos"
       ],
       "tom_de_voz": "Inovadora, prática, baseada em evidências",
-      "bonus_garantias": ["Ferramenta MEVPlan exclusiva", "Comunidade ativa"],
-      "avaliacao": "clara"
+      "bonus_garantias": [
+        "Ferramenta MEVPlan exclusiva",
+        "Comunidade ativa"
+      ],
+      "avaliacao": "clara",
+      "fonte_dados": "site_institucional",
+      "data_coleta": "2026-02-05",
+      "metodo_avaliacao": "analise_conteudo_scraping"
     },
     {
       "concorrente": "Cetrus",
@@ -108,7 +141,10 @@
       ],
       "tom_de_voz": "Especializada, prática, focada em habilidades",
       "bonus_garantias": [],
-      "avaliacao": "clara"
+      "avaliacao": "clara",
+      "fonte_dados": "site_institucional",
+      "data_coleta": "2026-02-05",
+      "metodo_avaliacao": "analise_conteudo_scraping"
     },
     {
       "concorrente": "iDomed",
@@ -123,7 +159,10 @@
       ],
       "tom_de_voz": "Tradicional, inclusiva, focada em excelência",
       "bonus_garantias": [],
-      "avaliacao": "clara"
+      "avaliacao": "clara",
+      "fonte_dados": "site_institucional",
+      "data_coleta": "2026-02-05",
+      "metodo_avaliacao": "analise_conteudo_scraping"
     },
     {
       "concorrente": "HCOR",
@@ -137,7 +176,10 @@
       ],
       "tom_de_voz": "Sério, acadêmico, confiável",
       "bonus_garantias": [],
-      "avaliacao": "clara"
+      "avaliacao": "clara",
+      "fonte_dados": "site_institucional",
+      "data_coleta": "2026-02-05",
+      "metodo_avaliacao": "analise_conteudo_scraping"
     },
     {
       "concorrente": "CENBRAP",
@@ -153,7 +195,10 @@
       "tom_de_voz": "Profissional, científico, confiável",
       "bonus_garantias": [],
       "preco_transparente": true,
-      "avaliacao": "clara"
+      "avaliacao": "clara",
+      "fonte_dados": "site_institucional",
+      "data_coleta": "2026-02-05",
+      "metodo_avaliacao": "analise_conteudo_scraping"
     }
   ],
   "diferenciais_comuns": [
