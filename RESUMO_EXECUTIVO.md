@@ -1,6 +1,8 @@
 # 🎯 RESUMO EXECUTIVO - INTELIGÊNCIA COMPETITIVA CENBRAP
 **Data:** 05/02/2026 | **Projeto:** Análise de 21 Concorrentes
 
+> **Nota importante:** Todos os percentuais e conclusões deste resumo referem-se exclusivamente ao grupo de 21 instituições mapeadas para este estudo, com base nos dados coletados em 05/02/2026. Para detalhes sobre fontes e metodologia, consulte `DATA_SOURCES.md`.
+
 ---
 
 ## 📊 DASHBOARD LOCAL
@@ -16,44 +18,51 @@ Acesse: **http://localhost:5173**
 
 ---
 
-## 🚨 TOP 5 VULNERABILIDADES DOS CONCORRENTES
+## 🚨 TOP 5 VULNERABILIDADES DOS CONCORRENTES ANALISADOS
 
-| Rank | Vulnerabilidade | % Mercado | Ação CENBRAP |
-|------|-----------------|-----------|--------------|
+| Rank | Vulnerabilidade | % no grupo analisado | Ação CENBRAP |
+|------|-----------------|----------------------|--------------|
 | 1 | **Preço Não Transparente** | 57% (12/21) | Campanha "Preço Justo" |
 | 2 | **Corpo Docente Oculto** | 52% (11/21) | Página pública docente |
 | 3 | **Garantia Fraca** | 85% (18/21) | Lançar 30 dias garantia |
 | 4 | **Proposta Genérica** | 65% (13/20) | Destacar 25.000 formados |
 | 5 | **Falta de Nicho** | 70% (14/20) | Posicionar especialista |
 
+> ℹ️ Os percentuais acima são calculados sobre o conjunto de concorrentes incluídos na base de análise, não sobre todo o universo possível de instituições do mercado.
+
 ---
 
 ## 💰 ANÁLISE DE PREÇOS
 
-### CENBRAP vs Mercado
-| Indicador | Valor | Posição |
-|-----------|-------|---------|
-| **Preço CENBRAP** | R$ 7.200 | Premium acessível |
-| **Média mercado** | R$ 6.365 | +13% acima |
-| **Mediana** | R$ 5.800 | +24% acima |
-| **Menor preço** | R$ 2.800 (Sanar) | Não concorre |
-| **Maior preço** | R$ 9.500 (Sírio) | -24% abaixo |
+### CENBRAP vs grupo analisado
 
-### Distribuição por Faixa
+| Indicador | Valor | Posição no grupo |
+|-----------|-------|------------------|
+| **Preço CENBRAP** | R$ 7.200 | Premium acessível |
+| **Média do grupo** | R$ 6.365 | ~13% acima |
+| **Mediana** | R$ 5.800 | ~24% acima |
+| **Menor preço** | R$ 2.800 (Sanar) | Não concorre diretamente |
+| **Maior preço** | R$ 9.500 (Sírio) | ~24% abaixo |
+
+### Distribuição por Faixa (21 concorrentes analisados)
+
 ```
 Até 3k:     Sanar (R$ 2.800)
 3k-5k:      FGmed, Unyleya, CDT (4 players)
 5k-7k:      IBCMED, MEV, Afya (4 players)
 7k-10k:     CENBRAP, Einstein, HCOR, PUCRS (6 players) ← AQUI!
-+10k:       VAZIO (oportunidade)
++10k:       Nenhum player com preço divulgado acima de R$ 10.000 na amostra
 ```
 
 ### 🎯 INSIGHT CRÍTICO
-**100% dos concorrentes DIRETOS não divulgam preço:**
+
+**No subconjunto de concorrentes diretos analisados (4/4), nenhum divulga preço de forma clara:**
 - ❌ Liberdade Médica
 - ❌ Caduceu  
 - ❌ Comportamente
 - ❌ IPM
+
+> ℹ️ "Concorrentes diretos" refere-se aos 4 players definidos como mais próximos do posicionamento CENBRAP neste estudo.
 
 **Campanha sugerida:** "Preço Justo, Sem Surpresas"
 > Copy: "Sabe aquele curso que você tem que preencher formulário pra descobrir o preço? Aqui não. CENBRAP: R$ 7.200 transparente desde o primeiro clique."
@@ -62,23 +71,28 @@ Até 3k:     Sanar (R$ 2.800)
 
 ## 👨‍⚕️ ANÁLISE DE CORPO DOCENTE
 
-### Transparência no Mercado
-| Nível | % | Concorrentes |
-|-------|---|--------------|
+### Transparência no grupo analisado
+
+| Nível | % no grupo | Concorrentes (exemplos) |
+|-------|------------|-------------------------|
 | Transparente | 33% | Caduceu, Cetrus, Liberdade, MEV |
 | Parcial | 14% | IPM, Comportamente |
 | Oculto | 52% | Sanar, Unyleya, Afya, Einstein |
 
-### Professores "Estrelas" Identificados
-| Professor | Instituição | Credencial |
-|-----------|-------------|------------|
+> ℹ️ "Transparente" = lista de professores com nome/currículo visível nas páginas analisadas. "Oculto" = informação não localizada nas páginas públicas consultadas.
+
+### Professores com forte apelo de autoridade (identificados na amostra)
+
+| Professor | Instituição | Credencial (segundo site oficial) |
+|-----------|-------------|-----------------------------------|
 | Dr. Márcio Tannure | Caduceu | Médico UFC/Flamengo |
 | Dr. Victor Soraggi | Caduceu | Medicina Esportiva Palmeiras |
 | Dr. Antonio Laurinavicius | MEV | Cardiologista InCor/FMUSP |
 | Dr. Ian Camilo | Liberdade | Formado Einstein, ACLS AHA |
 
 ### 🎯 INSIGHT CRÍTICO
-**Unyleya Med admite fraqueza:**
+
+**Unyleya Med admite fraqueza em material público:**
 > "Docentes nem sempre são referências na área médica"
 
 **Campanha sugerida:** "Conheça Quem Vai Te Ensinar"
@@ -88,8 +102,9 @@ Até 3k:     Sanar (R$ 2.800)
 
 ## 🎨 ANÁLISE DE PROPOSTAS DE VALOR
 
-### Diferenciais ÚNICOS por Concorrente
-| Concorrente | Diferencial Exclusivo |
+### Diferenciais comunicados como únicos (dentro da amostra)
+
+| Concorrente | Diferencial destacado |
 |-------------|----------------------|
 | **MEV Brasil** | Único nicho: Medicina do Estilo de Vida + Ferramenta MEVPlan |
 | **Liberdade Médica** | Dupla certificação (Emergência + Intensiva) + Suporte IA 24h |
@@ -98,10 +113,11 @@ Até 3k:     Sanar (R$ 2.800)
 | **IPM** | 4 cidades + Podcast Spotify |
 | **Sanar** | Ecossistema completo (100k+ alunos, 45 ads) |
 
-### Vantagem Única CENBRAP
+### Vantagem quantificada do CENBRAP
+
 > **25.000 médicos formados em 15+ anos**
 
-Nenhum concorrente tem histórico comprovado nessa escala!
+Dentro do grupo de 21 concorrentes analisados, nenhum outro player comunica um histórico numérico de ex-alunos na mesma ordem de grandeza.
 
 ---
 
@@ -138,12 +154,14 @@ Nenhum concorrente tem histórico comprovado nessa escala!
 | Taxa abertura email | ? | >25% |
 | Matrículas campanha | ? | +30% |
 
+> ℹ️ Recomenda-se registrar explicitamente a linha de base (período e fonte dos dados) antes de iniciar as campanhas, para permitir comparação confiável.
+
 ---
 
 ## 📁 ARQUIVOS IMPORTANTES
 
 ### Análises Completas (JSON)
-- `analise_precos.json` - Análise completa de preços
+- `analise_precos.json` - Análise completa de preços com metadados de fonte
 - `analise_docentes.json` - Análise de corpo docente
 - `analise_propostas.json` - Análise de propostas
 - `mapa_vulnerabilidades.json` - Mapa estratégico completo
@@ -151,6 +169,7 @@ Nenhum concorrente tem histórico comprovado nessa escala!
 ### Relatórios (Markdown)
 - `RELATORIO_FINAL_INTELIGENCIA_COMPETITIVA.md` - Relatório completo
 - `FASE1_RESUMO.md` - Resumo da extração de dados
+- `DATA_SOURCES.md` - Fontes e rastreabilidade dos dados
 
 ### Dashboard
 - `dashboard_v2_final.png` - Screenshot do dashboard
@@ -197,4 +216,5 @@ Nenhum concorrente tem histórico comprovado nessa escala!
 
 ---
 
-*Arquivo criado em 05/02/2026 | Atualize conforme necessário*
+*Arquivo criado em 05/02/2026 | Atualizado em 06/02/2026*  
+*Para detalhes sobre fontes e metodologia, consulte DATA_SOURCES.md*

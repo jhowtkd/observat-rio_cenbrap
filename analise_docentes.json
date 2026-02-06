@@ -1,9 +1,14 @@
 {
   "metadata": {
-    "projeto": "Inteligência Competitiva CENBRAP - Análise de Corpo Docente",
+    "projeto": "Inteligência Competitiva CENBRAP",
     "data_analise": "2026-02-05",
     "total_analisados": 21,
-    "analista": "Sistema de Inteligência Competitiva"
+    "analista": "Sistema de Inteligência Competitiva",
+    "versao": "1.1",
+    "data_base": "2026-02-05",
+    "data_correcao": "2026-02-06",
+    "metodologia": "Análise de páginas públicas de corpo docente",
+    "limitacao": "Classificação baseada apenas em informações disponíveis publicamente em 05/02/2026. Instituições podem ter informações não indexadas ou em áreas restritas do site."
   },
   "resumo": {
     "total_analisados": 21,
@@ -18,7 +23,11 @@
         "concorrente": "Caduceu",
         "nivel": "ALTO",
         "professores_contados": 8,
-        "parcerias_destaque": ["UFC Brazil", "Flamengo", "Palmeiras FC"],
+        "parcerias_destaque": [
+          "UFC Brazil",
+          "Flamengo",
+          "Palmeiras FC"
+        ],
         "observacao": "Maior transparência docente do mercado com nomes de peso"
       },
       {
