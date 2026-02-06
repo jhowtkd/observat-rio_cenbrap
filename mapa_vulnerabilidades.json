@@ -1,0 +1,245 @@
+{
+  "metadata": {
+    "projeto": "Inteligência Competitiva CENBRAP - FASE 3",
+    "titulo": "Mapa de Vulnerabilidades dos Concorrentes",
+    "data": "2026-02-05",
+    "versao": "1.0"
+  },
+  "resumo_executivo": {
+    "total_vulnerabilidades": 28,
+    "vulnerabilidades_criticas": 12,
+    "vulnerabilidades_medias": 11,
+    "vulnerabilidades_baixas": 5,
+    "concorrentes_com_vulnerabilidades": 18
+  },
+  "vulnerabilidades_por_tipo": {
+    "preco_nao_transparente": {
+      "tipo": "Preço Não Transparente",
+      "impacto": "ALTO",
+      "frequencia": "57% (12/21)",
+      "concorrentes_afetados": [
+        "Liberdade Médica",
+        "Caduceu",
+        "Comportamente",
+        "IPM",
+        "Cetrus",
+        "MEV Brasil",
+        "iDomed",
+        "HCOR",
+        "Einstein",
+        "Sírio-Libanês",
+        "IBCMED",
+        "Liberdade Médica"
+      ],
+      "contra_ataque_cenbrap": {
+        "titulo": "Preço Justo, Sem Surpresas",
+        "copy_ads": "Sabe aquele curso que você tem que preencher formulário pra descobrir o preço? Aqui não. CENBRAP: R$ 7.200 transparente desde o primeiro clique.",
+        "copy_landing": "👋 Sem joguinhos. Sem 'fale com consultor'. Nosso preço é R$ 7.200 e está aqui, visível pra você comparar. Confiança começa com transparência.",
+        "diferencial": "100% dos concorrentes diretos OCULTAM preço. CENBRAP é o único com transparência total."
+      }
+    },
+    "docente_oculto": {
+      "tipo": "Corpo Docente Não Divulgado",
+      "impacto": "ALTO",
+      "frequencia": "52% (11/21)",
+      "concorrentes_afetados": [
+        "Sanar",
+        "Unyleya",
+        "Afya",
+        "IBCMED",
+        "Sírio-Libanês",
+        "Einstein",
+        "HCOR",
+        "PUCRS",
+        "FGMed",
+        "BWS",
+        "São Leopoldo Mandic"
+      ],
+      "contra_ataque_cenbrap": {
+        "titulo": "Conheça Quem Vai Te Ensinar",
+        "copy_ads": "Médico de time de futebol? Doutor do InCor? Antes de pagar, você merece saber QUEM vai ser seu professor. CENBRAP: corpo docente 100% visível.",
+        "copy_landing": "🎓 Professor genérico não forma médico de excelência. Conheça cada nome do nosso corpo docente, suas formações e experiências. Transparência profissional.",
+        "diferencial": "67% do mercado esconde professores. CENBRAP destaca nomes, currículos e especializações."
+      }
+    },
+    "falta_garantia": {
+      "tipo": "Garantia Ausente ou Fraca",
+      "impacto": "MÉDIO",
+      "frequencia": "85% (18/21)",
+      "concorrentes_afetados": [
+        "Liberdade Médica (7 dias)",
+        "Sanar",
+        "Einstein",
+        "Cetrus",
+        "MEV Brasil",
+        "iDomed",
+        "Afya",
+        "Unyleya",
+        "Praticamente todos"
+      ],
+      "contra_ataque_cenbrap": {
+        "titulo": "Garantia de Resultados ou Dinheiro de Volta",
+        "copy_ads": "7 dias de garantia? Isso não cobre nem o primeiro módulo. CENBRAP: garantia estendida de 30 dias + reembolso proporcional.",
+        "copy_landing": "🛡️ Acreditamos tanto na nossa metodologia que oferecemos garantia estendida. Satisfação garantida ou seu investimento de volta.",
+        "diferencial": "Nenhum concorrente oferece garantia superior a 7 dias. CENBRAP pode criar vantagem com 30 dias."
+      }
+    },
+    "proposta_generica": {
+      "tipo": "Proposta de Valor Genérica",
+      "impacto": "MÉDIO",
+      "frequencia": "65% (13/20)",
+      "concorrentes_afetados": [
+        "Sanar",
+        "Unyleya",
+        "Afya",
+        "FGMed",
+        "BWS",
+        "CDT",
+        "São Leopoldo Mandic",
+        "IBCMED",
+        "Sírio-Libanês"
+      ],
+      "contra_ataque_cenbrap": {
+        "titulo": "25.000 Médicos Formados Não Mentem",
+        "copy_ads": "'Qualidade' e 'excelência' todo mundo promete. Números, só quem entrega mostra: 25.000 médicos formados, 15+ anos, centenas aprovados em títulos.",
+        "copy_landing": "📊 Dados que provam: 25.000+ médicos certificados, 15 anos de história, aprovações em provas de título. Resultado mensurável, não promessa vazia.",
+        "diferencial": "CENBRAP é a única instituição com histórico comprovado de 25.000+ formados."
+      }
+    },
+    "modelo_nicho_fraco": {
+      "tipo": "Falta de Diferenciação de Nicho",
+      "impacto": "BAIXO",
+      "frequencia": "70% (14/20)",
+      "concorrentes_afetados": [
+        "Instituições generalistas sem foco específico"
+      ],
+      "contra_ataque_cenbrap": {
+        "titulo": "Especialistas em Pós Médica EAD",
+        "copy_ads": "Instituição que faz de tudo (graduação, nutrição, direito) não entende da sua carreira médica. CENBRAP: só médicos, só pós, há 15 anos.",
+        "copy_landing": "🎯 Foco total em médicos. Não dividimos atenção com outras áreas. Especialização real em pós-graduação médica EAD.",
+        "diferencial": "CENBRAP é especialista em nicho; concorrentes são generalistas."
+      }
+    }
+  },
+  "ranking_vulnerabilidades": [
+    {
+      "rank": 1,
+      "vulnerabilidade": "Preço Não Transparente",
+      "impacto": "CRÍTICO",
+      "facilidade_exploracao": "ALTA",
+      "recomendacao_acao": "Campanha imediata de 'Preço Transparente'"
+    },
+    {
+      "rank": 2,
+      "vulnerabilidade": "Corpo Docente Oculto",
+      "impacto": "CRÍTICO",
+      "facilidade_exploracao": "ALTA",
+      "recomendacao_acao": "Criar página pública de professores com CV"
+    },
+    {
+      "rank": 3,
+      "vulnerabilidade": "Garantia Fraca/Ausente",
+      "impacto": "ALTO",
+      "facilidade_exploracao": "MÉDIA",
+      "recomendacao_acao": "Lançar garantia estendida de 30 dias"
+    },
+    {
+      "rank": 4,
+      "vulnerabilidade": "Proposta Genérica",
+      "impacto": "ALTO",
+      "facilidade_exploracao": "MÉDIA",
+      "recomendacao_acao": "Destacar números concretos (25.000 formados)"
+    },
+    {
+      "rank": 5,
+      "vulnerabilidade": "Falta de Nicho Definido",
+      "impacto": "MÉDIO",
+      "facilidade_exploracao": "MÉDIA",
+      "recomendacao_acao": "Posicionar como especialista médico"
+    }
+  ],
+  "mapa_ataques_prioritarios": {
+    "curto_prazo": [
+      {
+        "acao": "Campanha 'Preço Transparente vs Oculto'",
+        "prazo": "1-2 semanas",
+        "investimento": "Médio",
+        "roi_esperado": "ALTO",
+        "target": "Concorrentes diretos (100% sem preço)"
+      },
+      {
+        "acao": "Landing Page Corpo Docente Público",
+        "prazo": "2-3 semanas",
+        "investimento": "Baixo",
+        "roi_esperado": "ALTO",
+        "target": "Concorrentes institucionais (67% ocultam)"
+      }
+    ],
+    "medio_prazo": [
+      {
+        "acao": "Garantia Estendida 30 dias",
+        "prazo": "1 mês",
+        "investimento": "Baixo",
+        "roi_esperado": "MÉDIO",
+        "target": "Todos os concorrentes (85% sem garantia)"
+      },
+      {
+        "acao": "Campanha '25.000 Formados'",
+        "prazo": "1 mês",
+        "investimento": "Médio",
+        "roi_esperado": "ALTO",
+        "target": "Concorrentes genéricos (65%)"
+      }
+    ],
+    "longo_prazo": [
+      {
+        "acao": "Posicionamento Especialista Médico",
+        "prazo": "3 meses",
+        "investimento": "Médio",
+        "roi_esperado": "ALTO",
+        "target": "Generalistas (70% do mercado)"
+      }
+    ]
+  },
+  "scripts_copy_prontos": {
+    "google_ads_precos": {
+      "titulo1": "Preço Transparente R$ 7.200 | CENBRAP",
+      "titulo2": "Não Precisa Preencher Formulário | CENBRAP",
+      "descricao": "100% dos concorrentes escondem o preço. CENBRAP mostra desde o primeiro clique. 25.000 médicos formados. Inscreva-se.",
+      "cta": "Ver Preço Real"
+    },
+    "meta_ads_docentes": {
+      "titulo": "Conheça Seu Professor Antes de Pagar",
+      "texto": "67% das faculdades escondem quem vai te ensinar. No CENBRAP, você conhece o corpo docente COMPLETO antes da matrícula. Médicos de referência, currículos visíveis.",
+      "cta": "Ver Professores"
+    },
+    "landing_page_urgencia": {
+      "headline": "⚠️ 11 concorrentes analisados. NENHUM mostra o preço antes do cadastro.",
+      "subheadline": "CENBRAP é diferente. R$ 7.200. Sem joguinhos. Sem 'fale com consultor'.",
+      "bullet1": "✅ Preço visível: R$ 7.200",
+      "bullet2": "✅ Corpo docente público: veja quem te ensina",
+      "bullet3": "✅ 25.000 médicos já formados",
+      "cta": "Quero Transparência"
+    }
+  },
+  "concorrentes_mais_vulneraveis": [
+    {
+      "nome": "Liberdade Médica",
+      "vulnerabilidades": ["preco_oculto", "docente_parcial", "garantia_fraca"],
+      "prioridade_ataque": "ALTA",
+      "estrategia": "Comparativo direto: CENBRAP preço transparente vs Liberdade Médica formulário oculto"
+    },
+    {
+      "nome": "Caduceu",
+      "vulnerabilidades": ["preco_oculto"],
+      "prioridade_ataque": "MÉDIA",
+      "estrategia": "Não atacar docente (forte), focar em preço transparente"
+    },
+    {
+      "nome": "Sanar",
+      "vulnerabilidades": ["modelo_prep", "docente_oculto"],
+      "prioridade_ataque": "ALTA",
+      "estrategia": "Diferenciar pós-graduação credenciada vs preparatório"
+    }
+  ]
+}

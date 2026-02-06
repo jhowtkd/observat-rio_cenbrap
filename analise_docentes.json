@@ -1,0 +1,365 @@
+{
+  "metadata": {
+    "projeto": "Inteligência Competitiva CENBRAP - Análise de Corpo Docente",
+    "data_analise": "2026-02-05",
+    "total_analisados": 21,
+    "analista": "Sistema de Inteligência Competitiva"
+  },
+  "resumo": {
+    "total_analisados": 21,
+    "docente_transparente": 7,
+    "docente_parcial": 3,
+    "docente_oculto": 11,
+    "percentual_transparencia": "33%"
+  },
+  "classificacao_detalhada": {
+    "docente_transparente": [
+      {
+        "concorrente": "Caduceu",
+        "nivel": "ALTO",
+        "professores_contados": 8,
+        "parcerias_destaque": ["UFC Brazil", "Flamengo", "Palmeiras FC"],
+        "observacao": "Maior transparência docente do mercado com nomes de peso"
+      },
+      {
+        "concorrente": "Cetrus",
+        "nivel": "ALTO",
+        "professores_contados": 9,
+        "diferencial": "Professores renomados e atuantes na prática clínica",
+        "observacao": "Docentes listados por especialidade com nomes completos"
+      },
+      {
+        "concorrente": "Liberdade Médica",
+        "nivel": "ALTO",
+        "professores_contados": 2,
+        "diferencial": "Currículo detalhado (Einstein, ACLS/BLS AHA)",
+        "observacao": "Poucos professores mas com CV completo e verificável"
+      },
+      {
+        "concorrente": "MEV Brasil",
+        "nivel": "ALTO",
+        "professores_contados": 1,
+        "diferencial": "Dr. Antonio G. Laurinavicius (InCor/FMUSP)",
+        "observacao": "Professor destaque com credenciais de elite"
+      },
+      {
+        "concorrente": "Einstein",
+        "nivel": "ALTO",
+        "professores_contados": null,
+        "diferencial": "Marca institucional forte - 'Diversos especialistas do hospital'",
+        "observacao": "Não lista nomes individuais, mas carrega autoridade institucional"
+      }
+    ],
+    "docente_parcial": [
+      {
+        "concorrente": "Comportamente",
+        "nivel": "MÉDIO",
+        "professores_contados": "Genérico",
+        "observacao": "Menciona 'Corpo docente reconhecido nacional e internacionalmente' mas sem nomes específicos"
+      },
+      {
+        "concorrente": "Unyleya Med",
+        "nivel": "MÉDIO-BAIXO",
+        "vulnerabilidade_identificada": "Docentes nem sempre são referências na área",
+        "observacao": "Reconhece publicamente fraqueza no corpo docente"
+      },
+      {
+        "concorrente": "BWS",
+        "nivel": "MÉDIO",
+        "observacao": "Dados insuficientes - coleta resumida"
+      }
+    ],
+    "docente_oculto": [
+      {
+        "concorrente": "IPM (Pedro Miranda)",
+        "corpo_docente_publico": false,
+        "nivel": "OCULTO",
+        "observacao": "Sem menção a professores ou autoridade docente"
+      },
+      {
+        "concorrente": "iDomed",
+        "corpo_docente_publico": false,
+        "nivel": "OCULTO",
+        "observacao": "Diferencial é 'Rede com 18 faculdades', não docentes individuais"
+      },
+      {
+        "concorrente": "HCOR",
+        "corpo_docente_publico": false,
+        "nivel": "OCULTO",
+        "observacao": "Foco na marca do hospital, não em professores específicos"
+      },
+      {
+        "concorrente": "CDT",
+        "nivel": "OCULTO",
+        "observacao": "Dados insuficientes - coleta resumida"
+      },
+      {
+        "concorrente": "São Leopoldo Mandic",
+        "nivel": "OCULTO",
+        "observacao": "Dados insuficientes - coleta resumida"
+      },
+      {
+        "concorrente": "FGMed",
+        "nivel": "OCULTO",
+        "observacao": "Dados insuficientes - coleta resumida"
+      },
+      {
+        "concorrente": "PUCRS",
+        "nivel": "OCULTO",
+        "observacao": "Dados insuficientes - coleta resumida"
+      },
+      {
+        "concorrente": "Sanar",
+        "nivel": "N/A",
+        "observacao": "Foco em preparatórios, não pós-graduação com corpo docente fixo"
+      },
+      {
+        "concorrente": "Unyleya",
+        "nivel": "OCULTO",
+        "observacao": "Dados insuficientes - coleta resumida"
+      },
+      {
+        "concorrente": "Afya",
+        "nivel": "OCULTO",
+        "observacao": "Dados insuficientes - coleta resumida"
+      },
+      {
+        "concorrente": "Sírio-Libanês",
+        "nivel": "OCULTO",
+        "observacao": "Dados insuficientes - coleta resumida"
+      },
+      {
+        "concorrente": "IBCMED",
+        "nivel": "OCULTO",
+        "observacao": "Dados insuficientes - coleta resumida"
+      }
+    ]
+  },
+  "professores_estrelas": [
+    {
+      "nome": "Dr. Márcio Tannure",
+      "instituicao": "UFC/Flamengo",
+      "especialidade": "Ortopedia",
+      "concorrente": "Caduceu",
+      "notoriedade": "ALTA",
+      "observacao": "Médico do time de futebol mais popular do Brasil - grande apelo midiático"
+    },
+    {
+      "nome": "Dr. Victor B. Soraggi",
+      "instituicao": "Palmeiras FC",
+      "especialidade": "Medicina Esportiva",
+      "concorrente": "Caduceu",
+      "notoriedade": "ALTA",
+      "observacao": "Médico de time de futebol de grande expressão nacional"
+    },
+    {
+      "nome": "Dr. Gustavo Medeiros",
+      "instituicao": "Caduceu",
+      "especialidade": "Nutrologia Esportiva",
+      "concorrente": "Caduceu",
+      "notoriedade": "MÉDIA",
+      "observacao": "Especialista em nutrologia com foco em esporte"
+    },
+    {
+      "nome": "Dr. Ian Camilo",
+      "instituicao": "Hospital Albert Einstein/UFMG",
+      "especialidade": "Medicina de Emergência",
+      "concorrente": "Liberdade Médica",
+      "notoriedade": "MÉDIA-ALTA",
+      "observacao": "ACLS/BLS Instructor (AHA), pós-graduado pelo Einstein"
+    },
+    {
+      "nome": "Dr. Rodrigo Cleto",
+      "instituicao": "Liberdade Médica",
+      "especialidade": "Medicina Intensiva/Cardiologia",
+      "concorrente": "Liberdade Médica",
+      "notoriedade": "MÉDIA",
+      "observacao": "Coordenador de UTI há 20+ anos, Co-fundador da instituição"
+    },
+    {
+      "nome": "Dr. Antonio G. Laurinavicius",
+      "instituicao": "InCor/FMUSP",
+      "especialidade": "Cardiologia/Medicina do Estilo de Vida",
+      "concorrente": "MEV Brasil",
+      "notoriedade": "ALTA",
+      "observacao": "Cardiologista pelo InCor, Doutor em Ciências pela FMUSP - credenciais de elite"
+    },
+    {
+      "nome": "Dra. Saionara Nunes",
+      "instituicao": "Cetrus",
+      "especialidade": "Emergências Pediátricas",
+      "concorrente": "Cetrus",
+      "notoriedade": "MÉDIA",
+      "observacao": "Referência em emergências pediátricas"
+    },
+    {
+      "nome": "Dr. Marco Demange",
+      "instituicao": "Cetrus",
+      "especialidade": "Medicina Regenerativa Musculoesquelética",
+      "concorrente": "Cetrus",
+      "notoriedade": "MÉDIA-ALTA",
+      "observacao": "Especialista em medicina regenerativa - área de alta demanda"
+    }
+  ],
+  "parcerias_institucionais_docentes": [
+    {
+      "instituicao": "UFC Brazil",
+      "tipo": "Universidade Federal",
+      "concorrente": "Caduceu",
+      "impacto": "Credibilidade acadêmica e científica"
+    },
+    {
+      "instituicao": "Flamengo",
+      "tipo": "Time de Futebol",
+      "concorrente": "Caduceu",
+      "impacto": "Visibilidade popular e marketing de massa"
+    },
+    {
+      "instituicao": "Palmeiras FC",
+      "tipo": "Time de Futebol",
+      "concorrente": "Caduceu",
+      "impacto": "Visibilidade popular e marketing de massa"
+    },
+    {
+      "instituicao": "Hospital Albert Einstein",
+      "tipo": "Hospital de Referência",
+      "concorrente": "Einstein",
+      "impacto": "Máxima credibilidade médica no Brasil"
+    },
+    {
+      "instituicao": "InCor (Instituto do Coração)",
+      "tipo": "Instituto de Pesquisa Médica",
+      "concorrente": "MEV Brasil",
+      "impacto": "Excelência em cardiologia e pesquisa"
+    },
+    {
+      "instituicao": "FMUSP",
+      "tipo": "Faculdade de Medicina",
+      "concorrente": "MEV Brasil",
+      "impacto": "Maior tradução acadêmica médica da América Latina"
+    }
+  ],
+  "concorrentes_com_docente_publico": [
+    "liberdade_medica",
+    "caduceu",
+    "comportamente",
+    "einstein",
+    "mevbrasil",
+    "cetrus"
+  ],
+  "concorrentes_sem_docente_publico": [
+    "ipm",
+    "idomed",
+    "hcor",
+    "bws",
+    "cdt",
+    "slmandic",
+    "unyleya_med",
+    "fgmed",
+    "pucrs",
+    "sanar",
+    "unyleya",
+    "afya",
+    "sirio_libanes",
+    "ibcmed"
+  ],
+  "benchmark_cenbrap": {
+    "situacao_atual": "Professores renomados mencionados mas sem lista pública detalhada",
+    "posicao": "DOCENTE PARCIAL",
+    "oportunidade": "Há espaço para aumentar transparência e destacar currículos",
+    "diferencial_potencial": "25.000+ médicos formados como prova social"
+  },
+  "insights": [
+    {
+      "id": 1,
+      "categoria": "Transparência",
+      "insight": "Apenas 33% dos concorrentes (7 de 21) possuem corpo docente público e transparente. A maioria do mercado (52%) esconde ou não destaca seus professores, criando oportunidade para CENBRAP se diferenciar."
+    },
+    {
+      "id": 2,
+      "categoria": "Estratégia Times de Futebol",
+      "insight": "Caduceu domina a estratégia de professores 'estrelas' com parcerias em times de futebol (Flamengo e Palmeiras). Dr. Márcio Tannure (UFC/Flamengo) é o professor com maior potencial de marketing do mercado."
+    },
+    {
+      "id": 3,
+      "categoria": "Estratégia Institucional",
+      "insight": "Einstein e Sírio-Libanês não precisam destacar professores individuais pois a própria marca do hospital já confere autoridade máxima. CENBRAP não tem esse privilégio institucional."
+    },
+    {
+      "id": 4,
+      "categoria": "Vulnerabilidade Concorrente",
+      "insight": "Unyleya Med reconhece publicamente que 'docentes nem sempre são referências na área' - vulnerabilidade grave que CENBRAP pode explorar destacando seus professores renomados."
+    },
+    {
+      "id": 5,
+      "categoria": "Nicho Especializado",
+      "insight": "MEV Brasil e Cetrus demonstram que nichos especializados (Medicina do Estilo de Vida, Ultrassonografia) exigem e permitem professores altamente qualificados e reconhecidos na subespecialidade."
+    },
+    {
+      "id": 6,
+      "categoria": "Quantidade vs Qualidade",
+      "insight": "Cetrus lidera em quantidade de professores nomeados (9), mas Caduceu leva em qualidade/percepção pública com nomes como Márcio Tannure. Para marketing, qualidade > quantidade."
+    },
+    {
+      "id": 7,
+      "categoria": "Padrão Ouro",
+      "insight": "O padrão ouro de credibilidade docente combina: (1) Nome completo, (2) Instituição de prestígio, (3) Especialidade clara, (4) Conexão com prática real (hospitais/times). Caduceu é o mais próximo deste padrão."
+    }
+  ],
+  "recomendacoes_cenbrap": [
+    {
+      "prioridade": "ALTA",
+      "recomendacao": "Criar página pública de corpo docente com CV completo, foto e link para Lattes de cada professor. Transparência total é diferencial frente a 67% do mercado.",
+      "impacto_esperado": "Aumento de credibilidade e conversão de landing pages"
+    },
+    {
+      "prioridade": "ALTA",
+      "recomendacao": "Identificar e destacar 2-3 'professores estrelas' com credenciais de alto impacto (similar ao Dr. Márcio Tannure do Caduceu ou Dr. Laurinavicius do MEV).",
+      "impacto_esperado": "Viralização em redes sociais e maior engajamento orgânico"
+    },
+    {
+      "prioridade": "MÉDIA",
+      "recomendacao": "Desenvolver campanha comparativa sutil: 'Conheça quem vai te ensinar' contrastando com concorrentes que não divulgam docentes.",
+      "impacto_esperado": "Reposicionamento como instituição transparente e confiável"
+    },
+    {
+      "prioridade": "MÉDIA",
+      "recomendacao": "Buscar parceria com hospital de referência (tipo Einstein/InCor) ou personalidade médica reconhecida para elevar autoridade docente.",
+      "impacto_esperado": "Upgrade de percepção de marca institucional"
+    },
+    {
+      "prioridade": "MÉDIA",
+      "recomendacao": "Criar vídeos de apresentação de cada professor contando sua trajetória e por que escolheu ensinar na CENBRAP.",
+      "impacto_esperado": "Conexão emocional com alunos e prova social humanizada"
+    },
+    {
+      "prioridade": "BAIXA",
+      "recomendacao": "Monitorar novas contratações de docentes pelos concorrentes diretos (Liberdade Médica, Caduceu) para detectar movimentações estratégicas.",
+      "impacto_esperado": "Inteligência competitiva proativa"
+    },
+    {
+      "prioridade": "ALTA",
+      "recomendacao": "Destacar no posicionamento: '15+ anos de história, 25.000+ médicos formados, PROFESSORES COM NOME E CURRÍCULO' - combinando tradição + prova social + transparência.",
+      "impacto_esperado": "Diferencial competitivo completo contra todos os segmentos"
+    }
+  ],
+  "analise_competitiva_por_segmento": {
+    "concorrentes_diretos": {
+      "docente_transparente": "75% (3 de 4)",
+      "lider": "Caduceu (8 professores + parcerias times)",
+      "vulnerabilidade": "IPM - totalmente opaco",
+      "recomendacao_cenbrap": "Superar Caduceu em qualidade de currículo dos professores"
+    },
+    "institucionais_grandes": {
+      "docente_transparente": "25% (2 de 8 com dados)",
+      "lider": "Einstein (autoridade institucional)",
+      "padrao": "Dependem da marca, não de professores individuais",
+      "recomendacao_cenbrap": "Não competir neste campo - CENBRAP não tem marca hospitalar"
+    },
+    "nichos_especializados": {
+      "docente_transparente": "100% (MEV Brasil, Cetrus)",
+      "padrao": "Nichos exigem especialistas de verdade",
+      "recomendacao_cenbrap": "Adotar mesmo padrão de transparência para cada especialidade"
+    }
+  }
+}

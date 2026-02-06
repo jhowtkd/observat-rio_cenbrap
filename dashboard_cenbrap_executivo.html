@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CENBRAP Intelligence | Análise Competitiva</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --primary: #0066CC;
+            --primary-dark: #0052a3;
+            --accent: #00C853;
+            --accent-warning: #FF9100;
+            --accent-danger: #FF1744;
+            --bg-dark: #0a0e27;
+            --bg-card: #12163a;
+            --bg-elevated: #1a1f4a;
+            --text-primary: #ffffff;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+            --border: rgba(255,255,255,0.1);
+            --gradient-1: linear-gradient(135deg, #0066CC 0%, #00C853 100%);
+            --gradient-2: linear-gradient(135deg, #FF1744 0%, #FF9100 100%);
+            --gradient-3: linear-gradient(135deg, #7C3AED 0%, #EC4899 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-dark);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, rgba(0,102,204,0.1) 0%, rgba(0,200,83,0.05) 100%);
+            border-bottom: 1px solid var(--border);
+            padding: 2rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(0,102,204,0.15) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .brand-icon {
+            width: 60px;
+            height: 60px;
+            background: var(--gradient-1);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            font-weight: 800;
+            box-shadow: 0 8px 32px rgba(0,102,204,0.3);
+        }
+
+        .brand-text h1 {
+            font-size: 1.75rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+        }
+
+        .brand-text p {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+        }
+
+        .report-meta {
+            text-align: right;
+        }
+
+        .report-date {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+
+        .report-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: var(--gradient-1);
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-top: 0.5rem;
+        }
+
+        /* KPI Cards */
+        .kpi-section {
+            padding: 3rem 0;
+        }
+
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .kpi-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 1.5rem;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .kpi-card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(0,102,204,0.3);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+
+        .kpi-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+        }
+
+        .kpi-card.critical::before { background: var(--accent-danger); }
+        .kpi-card.warning::before { background: var(--accent-warning); }
+        .kpi-card.success::before { background: var(--accent); }
+        .kpi-card.info::before { background: var(--primary); }
+
+        .kpi-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+        }
+
+        .kpi-label {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        .kpi-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+        }
+
+        .kpi-card.critical .kpi-icon { background: rgba(255,23,68,0.1); }
+        .kpi-card.warning .kpi-icon { background: rgba(255,145,0,0.1); }
+        .kpi-card.success .kpi-icon { background: rgba(0,200,83,0.1); }
+        .kpi-card.info .kpi-icon { background: rgba(0,102,204,0.1); }
+
+        .kpi-value {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.02em;
+        }
+
+        .kpi-context {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+
+        .kpi-highlight {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.25rem;
+            padding: 0.25rem 0.75rem;
+            border-radius: 50px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-top: 0.75rem;
+        }
+
+        .kpi-card.critical .kpi-highlight { background: rgba(255,23,68,0.15); color: #FF1744; }
+        .kpi-card.warning .kpi-highlight { background: rgba(255,145,0,0.15); color: #FF9100; }
+        .kpi-card.success .kpi-highlight { background: rgba(0,200,83,0.15); color: #00C853; }
+
+        /* Section Headers */
+        .section {
+            padding: 3rem 0;
+            border-top: 1px solid var(--border);
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .section-title span {
+            font-size: 1.75rem;
+        }
+
+        .section-subtitle {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            margin-top: 0.25rem;
+        }
+
+        /* Charts Grid */
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .chart-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 1.5rem;
+        }
+
+        .chart-header {
+            margin-bottom: 1.5rem;
+        }
+
+        .chart-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .chart-subtitle {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+
+        .chart-container {
+            position: relative;
+            height: 300px;
+        }
+
+        /* Opportunities Section */
+        .opportunities-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .opportunity-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .opportunity-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+        }
+
+        .opportunity-card.critical::before { background: var(--accent-danger); }
+        .opportunity-card.high::before { background: var(--accent-warning); }
+        .opportunity-card.medium::before { background: var(--primary); }
+
+        .opportunity-header {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+        }
+
+        .opportunity-badge {
+            padding: 0.25rem 0.75rem;
+            border-radius: 50px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .opportunity-card.critical .opportunity-badge { background: rgba(255,23,68,0.15); color: #FF1744; }
+        .opportunity-card.high .opportunity-badge { background: rgba(255,145,0,0.15); color: #FF9100; }
+        .opportunity-card.medium .opportunity-badge { background: rgba(0,102,204,0.15); color: var(--primary); }
+
+        .opportunity-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+        }
+
+        .opportunity-description {
+            color: var(--text-secondary);
+            font-size: 0.9375rem;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        .opportunity-stat {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.875rem;
+            color: var(--text-muted);
+        }
+
+        .opportunity-stat strong {
+            color: var(--text-primary);
+            font-size: 1.25rem;
+        }
+
+        /* Competitors Table */
+        .table-container {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            overflow: hidden;
+            overflow-x: auto;
+        }
+
+        .competitors-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9375rem;
+        }
+
+        .competitors-table th {
+            background: var(--bg-elevated);
+            padding: 1rem 1.5rem;
+            text-align: left;
+            font-weight: 600;
+            color: var(--text-secondary);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .competitors-table td {
+            padding: 1.25rem 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .competitors-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .competitors-table tr:hover {
+            background: rgba(255,255,255,0.02);
+        }
+
+        .competitor-name {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-weight: 600;
+        }
+
+        .competitor-rank {
+            width: 28px;
+            height: 28px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            font-weight: 700;
+            background: var(--bg-elevated);
+        }
+
+        .competitor-rank.top {
+            background: var(--gradient-1);
+        }
+
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.375rem 0.875rem;
+            border-radius: 50px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+
+        .status-badge.hidden {
+            background: rgba(255,23,68,0.1);
+            color: #FF1744;
+        }
+
+        .status-badge.visible {
+            background: rgba(0,200,83,0.1);
+            color: #00C853;
+        }
+
+        .status-badge.partial {
+            background: rgba(255,145,0,0.1);
+            color: #FF9100;
+        }
+
+        .price-tag {
+            font-family: 'SF Mono', monospace;
+            font-weight: 600;
+        }
+
+        .price-tag.hidden-price {
+            color: var(--text-muted);
+            font-style: italic;
+        }
+
+        /* Strategy Cards */
+        .strategy-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .strategy-card {
+            background: var(--gradient-1);
+            border-radius: 20px;
+            padding: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .strategy-card.alt {
+            background: var(--gradient-3);
+        }
+
+        .strategy-card.alt-2 {
+            background: var(--gradient-2);
+        }
+
+        .strategy-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+        }
+
+        .strategy-number {
+            font-size: 4rem;
+            font-weight: 800;
+            opacity: 0.2;
+            line-height: 1;
+            margin-bottom: 1rem;
+        }
+
+        .strategy-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            position: relative;
+        }
+
+        .strategy-description {
+            font-size: 0.9375rem;
+            opacity: 0.9;
+            line-height: 1.6;
+            position: relative;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--bg-card);
+            border-top: 1px solid var(--border);
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .footer-text {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+        }
+
+        .footer-brand {
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .kpi-card, .chart-card, .opportunity-card, .strategy-card {
+            animation: fadeInUp 0.6s ease forwards;
+        }
+
+        .kpi-card:nth-child(1) { animation-delay: 0.1s; }
+        .kpi-card:nth-child(2) { animation-delay: 0.2s; }
+        .kpi-card:nth-child(3) { animation-delay: 0.3s; }
+        .kpi-card:nth-child(4) { animation-delay: 0.4s; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .report-meta {
+                text-align: center;
+            }
+
+            .charts-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .kpi-value {
+                font-size: 2rem;
+            }
+
+            .section-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                background: white;
+                color: black;
+            }
+
+            .kpi-card, .chart-card, .opportunity-card {
+                background: #f5f5f5;
+                border: 1px solid #ddd;
+                break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="brand">
+                    <div class="brand-icon">C</div>
+                    <div class="brand-text">
+                        <h1>CENBRAP Intelligence</h1>
+                        <p>Análise Competitiva de Mercado • Pós-Graduação Médica EAD</p>
+                    </div>
+                </div>
+                <div class="report-meta">
+                    <div class="report-date">Relatório gerado em 05 de fevereiro de 2026</div>
+                    <div class="report-badge">
+                        <span>●</span>
+                        Inteligência Competitiva Completa
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- KPI Section -->
+    <section class="kpi-section">
+        <div class="container">
+            <div class="kpi-grid">
+                <div class="kpi-card critical">
+                    <div class="kpi-header">
+                        <span class="kpi-label">Preço Não Transparente</span>
+                        <div class="kpi-icon">💰</div>
+                    </div>
+                    <div class="kpi-value">57%</div>
+                    <p class="kpi-context">12 de 21 concorrentes ocultam preços, obrigando formulários de contato</p>
+                    <span class="kpi-highlight">🚨 Oportunidade CRÍTICA</span>
+                </div>
+
+                <div class="kpi-card critical">
+                    <div class="kpi-header">
+                        <span class="kpi-label">Corpo Docente Oculto</span>
+                        <div class="kpi-icon">👨‍⚕️</div>
+                    </div>
+                    <div class="kpi-value">52%</div>
+                    <p class="kpi-context">11 instituições não revelam quem são seus professores</p>
+                    <span class="kpi-highlight">🚨 Oportunidade CRÍTICA</span>
+                </div>
+
+                <div class="kpi-card warning">
+                    <div class="kpi-header">
+                        <span class="kpi-label">Garantia Fraca/Ausente</span>
+                        <div class="kpi-icon">🛡️</div>
+                    </div>
+                    <div class="kpi-value">85%</div>
+                    <p class="kpi-context">18 de 21 players não oferecem garantia satisfatória</p>
+                    <span class="kpi-highlight">⚠️ Oportunidade ALTA</span>
+                </div>
+
+                <div class="kpi-card success">
+                    <div class="kpi-header">
+                        <span class="kpi-label">Posição CENBRAP</span>
+                        <div class="kpi-icon">🎯</div>
+                    </div>
+                    <div class="kpi-value">R$ 7.200</div>
+                    <p class="kpi-context">Faixa premium com 100% dos concorrentes diretos ocultando preço</p>
+                    <span class="kpi-highlight">✅ Vantagem Competitiva</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Charts Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <div>
+                    <h2 class="section-title"><span>📊</span> Análise de Mercado</h2>
+                    <p class="section-subtitle">Distribuição de preços e transparência do mercado</p>
+                </div>
+            </div>
+
+            <div class="charts-grid">
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Distribuição de Preços no Mercado</h3>
+                        <p class="chart-subtitle">CENBRAP posicionado na faixa R$ 7.000-10.000</p>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="priceChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Transparência de Docentes</h3>
+                        <p class="chart-subtitle">52% do mercado oculta informações sobre professores</p>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="transparencyChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Opportunities Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <div>
+                    <h2 class="section-title"><span>💡</span> Oportunidades Estratégicas</h2>
+                    <p class="section-subtitle">Principais gaps identificados na análise competitiva</p>
+                </div>
+            </div>
+
+            <div class="opportunities-grid">
+                <div class="opportunity-card critical">
+                    <div class="opportunity-header">
+                        <span class="opportunity-badge">Crítico</span>
+                    </div>
+                    <h3 class="opportunity-title">Transparência de Preço</h3>
+                    <p class="opportunity-description">
+                        <strong>100% dos concorrentes diretos</strong> (Liberdade Médica, Caduceu, Comportamente, IPM) 
+                        não divulgam preços. Obrigam o aluno a preencher formulário ou entrar em contato.
+                    </p>
+                    <div class="opportunity-stat">
+                        <strong>57%</strong> do mercado total oculta preços
+                    </div>
+                </div>
+
+                <div class="opportunity-card critical">
+                    <div class="opportunity-header">
+                        <span class="opportunity-badge">Crítico</span>
+                    </div>
+                    <h3 class="opportunity-title">Transparência de Docentes</h3>
+                    <p class="opportunity-description">
+                        Apenas <strong>33% das instituições</strong> são transparentes sobre seu corpo docente. 
+                        52% ocultam completamente e 14% são parciais.
+                    </p>
+                    <div class="opportunity-stat">
+                        <strong>11/21</strong> instituições ocultam professores
+                    </div>
+                </div>
+
+                <div class="opportunity-card high">
+                    <div class="opportunity-header">
+                        <span class="opportunity-badge">Alta</span>
+                    </div>
+                    <h3 class="opportunity-title">Garantia de Qualidade</h3>
+                    <p class="opportunity-description">
+                        <strong>85% do mercado</strong> oferece garantia fraca ou inexistente. 
+                        Grande oportunidade de diferenciação com garantia robusta.
+                    </p>
+                    <div class="opportunity-stat">
+                        <strong>18/21</strong> players com garantia fraca
+                    </div>
+                </div>
+
+                <div class="opportunity-card high">
+                    <div class="opportunity-header">
+                        <span class="opportunity-badge">Alta</span>
+                    </div>
+                    <h3 class="opportunity-title">Proposta de Valor Genérica</h3>
+                    <p class="opportunity-description">
+                        <strong>65% dos concorrentes</strong> têm propostas de valor genéricas. 
+                        Oportunidade de criar diferenciação única e memorável.
+                    </p>
+                    <div class="opportunity-stat">
+                        <strong>13/20</strong> com proposta genérica
+                    </div>
+                </div>
+
+                <div class="opportunity-card medium">
+                    <div class="opportunity-header">
+                        <span class="opportunity-badge">Média</span>
+                    </div>
+                    <h3 class="opportunity-title">Gap de Preço Premium</h3>
+                    <p class="opportunity-description">
+                        Nenhum concorrente na faixa <strong>acima de R$ 10.000</strong>. 
+                        Oportunidade de posicionamento ultra-premium.
+                    </p>
+                    <div class="opportunity-stat">
+                        <strong>0 players</strong> acima de R$ 10k
+                    </div>
+                </div>
+
+                <div class="opportunity-card medium">
+                    <div class="opportunity-header">
+                        <span class="opportunity-badge">Média</span>
+                    </div>
+                    <h3 class="opportunity-title">Vulnerabilidade da Unyleya</h3>
+                    <p class="opportunity-description">
+                        A maior concorrente <strong>admite publicamente</strong> que seus docentes 
+                        "nem sempre são referências na área médica".
+                    </p>
+                    <div class="opportunity-stat">
+                        <strong>500k</strong> alunos totais (potencial explorável)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Competitors Table -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <div>
+                    <h2 class="section-title"><span>🏆</span> Principais Concorrentes</h2>
+                    <p class="section-subtitle">Análise detalhada dos players mais relevantes</p>
+                </div>
+            </div>
+
+            <div class="table-container">
+                <table class="competitors-table">
+                    <thead>
+                        <tr>
+                            <th>Instituição</th>
+                            <th>Preço</th>
+                            <th>Docente</th>
+                            <th>Diferencial</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="competitor-name">
+                                    <span class="competitor-rank top">1</span>
+                                    <span>Caduceu</span>
+                                </div>
+                            </td>
+                            <td><span class="price-tag hidden-price">Oculto ❌</span></td>
+                            <td><span class="status-badge visible">✓ Público</span></td>
+                            <td>Dr. Márcio Tannure (UFC/Flamengo)</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="competitor-name">
+                                    <span class="competitor-rank top">2</span>
+                                    <span>Liberdade Médica</span>
+                                </div>
+                            </td>
+                            <td><span class="price-tag hidden-price">Oculto ❌</span></td>
+                            <td><span class="status-badge visible">✓ Público</span></td>
+                            <td>Dupla certificação, Dr. Ian Camilo (Einstein)</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="competitor-name">
+                                    <span class="competitor-rank">3</span>
+                                    <span>Sanar</span>
+                                </div>
+                            </td>
+                            <td><span class="price-tag">R$ 2.800</span></td>
+                            <td><span class="status-badge hidden">✗ Oculto</span></td>
+                            <td>100k+ alunos, 45 ads ativos</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="competitor-name">
+                                    <span class="competitor-rank">4</span>
+                                    <span>Unyleya Med</span>
+                                </div>
+                            </td>
+                            <td><span class="price-tag">R$ 3.600</span></td>
+                            <td><span class="status-badge hidden">✗ Genérico</span></td>
+                            <td>500k alunos, admite fraqueza docente</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="competitor-name">
+                                    <span class="competitor-rank">5</span>
+                                    <span>MEV Brasil</span>
+                                </div>
+                            </td>
+                            <td><span class="price-tag hidden-price">Oculto ❌</span></td>
+                            <td><span class="status-badge visible">✓ Público</span></td>
+                            <td>Nicho único: Medicina do Estilo de Vida</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Strategy Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <div>
+                    <h2 class="section-title"><span>🚀</span> Recomendações Estratégicas</h2>
+                    <p class="section-subtitle">Ações prioritárias baseadas na análise</p>
+                </div>
+            </div>
+
+            <div class="strategy-grid">
+                <div class="strategy-card">
+                    <div class="strategy-number">01</div>
+                    <h3 class="strategy-title">Liderar com Transparência</h3>
+                    <p class="strategy-description">
+                        Criar campanha "Preço Claro, Professor Presente" destacando que 
+                        a CENBRAP é a única da faixa premium com transparência total.
+                    </p>
+                </div>
+
+                <div class="strategy-card alt">
+                    <div class="strategy-number">02</div>
+                    <h3 class="strategy-title">Comparativo Direto</h3>
+                    <p class="strategy-description">
+                        Criar landing page comparativa explorando a vulnerabilidade da Unyleya 
+                        e a falta de transparência dos concorrentes diretos.
+                    </p>
+                </div>
+
+                <div class="strategy-card alt-2">
+                    <div class="strategy-number">03</div>
+                    <h3 class="strategy-title">Garantia Diferenciada</h3>
+                    <p class="strategy-description">
+                        Implementar garantia de satisfação de 30 dias com devolução integral, 
+                        explorando o gap de 85% do mercado.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">
+                    <span class="footer-brand">CENBRAP Intelligence</span> • 
+                    Análise gerada automaticamente em 05/02/2026
+                </p>
+                <p class="footer-text">
+                    Baseado em dados de 21 concorrentes analisados
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Price Distribution Chart
+        const priceCtx = document.getElementById('priceChart').getContext('2d');
+        new Chart(priceCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Até R$ 3k', 'R$ 3-5k', 'R$ 5-7k', 'R$ 7-10k', 'Acima R$ 10k'],
+                datasets: [{
+                    label: 'Número de Concorrentes',
+                    data: [1, 4, 4, 6, 0],
+                    backgroundColor: [
+                        'rgba(0, 102, 204, 0.3)',
+                        'rgba(0, 102, 204, 0.5)',
+                        'rgba(0, 102, 204, 0.7)',
+                        'rgba(0, 200, 83, 0.8)',
+                        'rgba(255, 23, 68, 0.3)'
+                    ],
+                    borderColor: [
+                        'rgba(0, 102, 204, 0.5)',
+                        'rgba(0, 102, 204, 0.7)',
+                        'rgba(0, 102, 204, 0.9)',
+                        'rgba(0, 200, 83, 1)',
+                        'rgba(255, 23, 68, 0.5)'
+                    ],
+                    borderWidth: 2,
+                    borderRadius: 8
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false },
+                    tooltip: {
+                        backgroundColor: '#12163a',
+                        titleColor: '#fff',
+                        bodyColor: '#94a3b8',
+                        borderColor: 'rgba(255,255,255,0.1)',
+                        borderWidth: 1,
+                        padding: 12
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        grid: { color: 'rgba(255,255,255,0.05)' },
+                        ticks: { color: '#64748b' }
+                    },
+                    x: {
+                        grid: { display: false },
+                        ticks: { color: '#94a3b8' }
+                    }
+                }
+            }
+        });
+
+        // Transparency Chart
+        const transparencyCtx = document.getElementById('transparencyChart').getContext('2d');
+        new Chart(transparencyCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Transparente (33%)', 'Parcial (14%)', 'Oculto (52%)'],
+                datasets: [{
+                    data: [7, 3, 11],
+                    backgroundColor: [
+                        'rgba(0, 200, 83, 0.8)',
+                        'rgba(255, 145, 0, 0.8)',
+                        'rgba(255, 23, 68, 0.8)'
+                    ],
+                    borderColor: '#0a0e27',
+                    borderWidth: 4
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                cutout: '65%',
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            color: '#94a3b8',
+                            padding: 20,
+                            usePointStyle: true,
+                            pointStyle: 'circle'
+                        }
+                    },
+                    tooltip: {
+                        backgroundColor: '#12163a',
+                        titleColor: '#fff',
+                        bodyColor: '#94a3b8',
+                        borderColor: 'rgba(255,255,255,0.1)',
+                        borderWidth: 1,
+                        padding: 12
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

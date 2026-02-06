@@ -1,0 +1,267 @@
+{
+  "fase": "1",
+  "data_extracao": "2026-02-05",
+  "total": 14,
+  "resultados": [
+    {
+      "nome": "Einstein",
+      "url": "https://educacao.einstein.br",
+      "status": "erro",
+      "erro": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://educacao.einstein.br/\nCall log:\n  - navigating to \"https://educacao.einstein.br/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "nome": "São Leopoldo Mandic",
+      "url": "https://www.slmandic.com.br",
+      "titulo": "",
+      "conteudo": "Not Found!",
+      "meta": {
+        "color-scheme": "light dark"
+      },
+      "social_links": {},
+      "telefones": [],
+      "status": "sucesso"
+    },
+    {
+      "nome": "BWS",
+      "url": "https://bwsead.com.br",
+      "status": "erro",
+      "erro": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://bwsead.com.br/\nCall log:\n  - navigating to \"https://bwsead.com.br/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "nome": "CDT",
+      "url": "https://cdt.com.br",
+      "titulo": "Hospedagem de Sites | Página não encontrada",
+      "conteudo": "Este site não está acessível no momento\n\nWebmaster, por favor, entre em contato com o provedor de hospedagem de sites.\n",
+      "meta": {},
+      "social_links": {},
+      "telefones": [],
+      "status": "sucesso"
+    },
+    {
+      "nome": "FGMed",
+      "url": "https://fgmed.com.br",
+      "status": "erro",
+      "erro": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://fgmed.com.br/\nCall log:\n  - navigating to \"https://fgmed.com.br/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "nome": "MEV Brasil",
+      "url": "https://mevbrasil.com.br",
+      "titulo": "A Escola Brasileira de Medicina do Estilo de Vida",
+      "conteudo": "INÍCIO\n\nMEVBOOKS\n\nMEVPLAN\n\neventos\n\nformações\n\nFORMAÇÃO\n\nTransforme a sua prática clínica. Gere mais resultados para seus pacientes através das ferramentas da Medicina do Estilo de Vida.\n\nSe torne um especialista em mudança dominando as ferramentas e técnicas da ciência da mudança.\n\nConheça as nossas formações\n\nSomos uma escola\n\nPróximos eventos\n\nConheça os eventos programados da Escola Brasileira de Medicina do Estilo de Vida\n\nFique por dentro das novidades na Medicina do Estilo de Vida\n\nImersão em Planos de Acompanhamento\n\nDescubra a estratégia por trás dos consultórios médicos que estão prosperando colocando o paciente no centro.\n\nCONHEÇA\n\nMevConf - Goiânia\n\nConferência Regional de Medicina do Estilo de Vida - Edição Goiânia\n\nCONHEÇA\n\nImersão em Planos de Acompanhamento\n\nDescubra a estratégia por trás dos consultórios médicos que estão prosperando colocando o paciente no centro.\n\nCONHEÇA\n\nMevConf - Goiânia\n\nConferência Regional de Medicina do Estilo de Vida - Edição Goiânia\n\nCONHEÇA\n\nImersão em Planos de Acompanhamento\n\nDescubra a estratégia por trás dos consultórios médicos que estão prosperando colocando o paciente no centro.\n\nCONHEÇA\n\nMevConf - Goiânia\n\nConferência Regional de Medicina do Estilo de Vida - Edição Goiânia\n\nCONHEÇA\n\nImersão em Planos de Acompanhamento\n\nDescubra a estratégia por trás dos consultórios médicos que estão prosperando colocando o paciente no centro.\n\nCONHEÇA\n\nMevConf - Goiânia\n\nConferência Regional de Medicina do Estilo de Vida - Edição Goiânia\n\nCONHEÇA\n\nSomos uma tribo\n\nSomos um ecossistema\n\nSomos a MevBrasil\n\nA ESCOLA PIONEIRA NO ENSINO EXCLUSIVO EM MEDICINA DO ESTILO DE VIDA DO BRASIL\n\nHá 5 anos a mevbrasil tem construído um ecossistema completo de soluções para o médico especialista que busca gerar mais resultados para os seus pacientes através de modelos clínicos, ferramentas e treinamento de técnicas de mudanças, utilizando o melhor das evidências disponíveis associado à metodologias para a prática clínica brasileira.\n\nPodcast\n\nEventos\n\nFormações\n\nComunidade\n\nPesquisa\n\nO MEVplan é a ferramenta personalizada de avalição do estilo de vida dos pacientes\n\nExclusiva de alunos mevbrasil\n\nO QUE É MEV\n\nO que é a Medicina do Estilo de Vida\n\nA Medicina do Estilo de Vida é uma abordagem de saúde que utiliza as ferramentas e técnicas da ciência da mudança para promover intervenções de estilo de vida de maneira mais efetiva, tendo como eixo central da sua prática o foco na avaliação e intervenções de estilo de vida (Alimentação, Movimento, Sono, Conexões Sociais, Gerenciamento do Estresse, Redução de Tóxicos), a fim de previnir, tratar e remitir doenças crônicas associadas ao estilo de vida.\n\nENTRAR PARA COMUNIDADE\n\nSe junte a 900+ médicos que estão trazendo melhores resultados para seus pacientes.\n\nInstituições que estão fazendo a revolução com a MevBrasil\n\nPROFESSORES\n\nProfessores que vivem a MEV na prática.\n\nAntonio G. Laurinavicius\n\nCardiologista pelo InCor e Doutor em Ciências pela Faculdade de Medicina da USP. É responsável pelo ambulatório de Medicina do Estilo de Vida do IDPC.\n\nMarcos Lange\n\nNeurologista, diretor da Comissão de Medicina do Estilo de Vida da Academia Brasileira de Neurologia.\n\nDiandro Mota\n\nCardiologista PhD (USP), DiretorMédico da Neomed, cardiologistaassistente no Instituto DantePazzanese de Cardiologia (IDPC)\n\nLuiz Carlos Junior\n\nPsiquiatra, Diretor de inovação da EBSERH e Cofundador da MEVBrasil\n\nCaio Marcos\n\nMédico de Família e Comunidade, pesquisador em mudanças baseadas em valores, diretor pedagógico da Formação de Competências Clínicas de MEV\n\nJacy Alves\n\nEndocrinologista, Mestre em Diabetes mellitus (UFPR), Coach de Saúde e Estilo de Vida pela MevBrasil.\n\nWéllida Rocha Oliveira\n\nGinecologista Especializada em Cirurgia Minimamente Invasiva e Endometriose pela HBP-SP e Formação de Competências Clínicas em Medicina do Estilo de Vida pela MEVBrasil.\n\nLarissa Morangoni\n\nPsiquiatra especialista em Psicologia Positiva pelo Instituto Wholebeing.\n\nAdriane Barreto Cunha\n\nMédica de Família certificada em Medicina do Estilo de Vida pelo IBLM/CBMEV. Vice-presidente da regional baiana do CBMEV. Membro do Colégio Brasileiro de Medicina do Estilo de Vida (CBMEV).\n\nAntonio G. Laurinavicius\n\nCardiologista pelo InCor e Doutor em Ciências pela Faculdade de Medicina da USP. É responsável pelo ambulatório de Medicina do Estilo de Vida do IDPC.\n\nMarcos Lange\n\nNeurologista, diretor da Comissão de Medicina do Estilo de Vida da Academia Brasileira de Neurologia.\n\nDiandro Mota\n\nCardiologista PhD (USP), DiretorMédico da Neomed, cardiologistaassistente no Instituto DantePazzanese de Cardiologia (IDPC)\n\nLuiz Carlos Junior\n\nPsiquiatra, Diretor de inovação da EBSERH e Cofundador da MEVBrasil\n\nCaio Marcos\n\nMédico de Família e Comunidade, pesquisador em mudanças baseadas em valores, diretor pedagógico da Formação de Competências Clínicas de MEV\n\nJacy Alves\n\nEndocrinologista, Mestre em Diabetes mellitus (UFPR), Coach de Saúde e Estilo de Vida pela MevBrasil.\n\nWéllida Rocha Oliveira\n\nGinecologista Especializada em Cirurgia Minimamente Invasiva e Endometriose pela HBP-SP e Formação de Competências Clínicas em Medicina do Estilo de Vida pela MEVBrasil.\n\nLarissa Morangoni\n\nPsiquiatra especialista em Psicologia Positiva pelo Instituto Wholebeing.\n\nAdriane Barreto Cunha\n\nMédica de Família certificada em Medicina do Estilo de Vida pelo IBLM/CBMEV. Vice-presidente da regional baiana do CBMEV. Membro do Colégio Brasileiro de Medicina do Estilo de Vida (CBMEV).\n\nAntonio G. Laurinavicius\n\nCardiologista pelo InCor e Doutor em Ciências pela Faculdade de Medicina da USP. É responsável pelo ambulatório de Medicina do Estilo de Vida do IDPC.\n\nMarcos Lange\n\nNeurologista, diretor da Comissão de Medicina do Estilo de Vida da Academia Brasileira de Neurologia.\n\nDiandro Mota\n\nCardiologista PhD (USP), DiretorMédico da Neomed, cardiologistaassistente no Instituto DantePazzanese de Cardiologia (IDPC)\n\nLuiz Carlos Junior\n\nPsiquiatra, Diretor de inovação da EBSERH e Cofundador da MEVBrasil\n\nCaio Marcos\n\nMédico de Família e Comunidade, pesquisador em mudanças baseadas em valores, diretor pedagógico da Formação de Competências Clínicas de MEV\n\nJacy Alves\n\nEndocrinologista, Mestre em Diabetes mellitus (UFPR), Coach de Saúde e Estilo de Vida pela MevBrasil.\n\nWéllida Rocha Oliveira\n\nGinecologista Especializada em Cirurgia Minimamente Invasiva e Endometriose pela HBP-SP e Formação de Competências Clínicas em Medicina do Estilo de Vida pela MEVBrasil.\n\nLarissa Morangoni\n\nPsiquiatra especialista em Psicologia Positiva pelo Instituto Wholebeing.\n\nAdriane Barreto Cunha\n\nMédica de Família certificada em Medicina do Estilo de Vida pelo IBLM/CBMEV. Vice-presidente da regional baiana do CBMEV. Membro do Colégio Brasileiro de Medicina do Estilo de Vida (CBMEV).\n\nAntonio G. Laurinavicius\n\nCardiologista pelo InCor e Doutor em Ciências pela Faculdade de Medicina da USP. É responsável pelo ambulatório de Medicina do Estilo de Vida do IDPC.\n\nMarcos Lange\n\nNeurologista, diretor da Comissão de Medicina do Estilo de Vida da Academia Brasileira de Neurologia.\n\nDiandro Mota\n\nCardiologista PhD (USP), DiretorMédico da Neomed, cardiologistaassistente no Instituto DantePazzanese de Cardiologia (IDPC)\n\nLuiz Carlos Junior\n\nPsiquiatra, Diretor de inovação da EBSERH e Cofundador da MEVBrasil\n\nCaio Marcos\n\nMédico de Família e Comunidade, pesquisador em mudanças baseadas em valores, diretor pedagógico da Formação de Competências Clínicas de MEV\n\nJacy Alves\n\nEndocrinologista, Mestre em Diabetes mellitus (UFPR), Coach de Saúde e Estilo de Vida pela MevBrasil.\n\nWéllida Rocha Oliveira\n\nGinecologista Especializada em Cirurgia Minimamente Invasiva e Endometriose pela HBP-SP e Formação de Competências Clínicas em Medicina do Estilo de Vida pela MEVBrasil.\n\nLarissa Morangoni\n\nPsiquiatra especialista em Psicologia Positiva pelo Instituto Wholebeing.\n\nAdriane Barreto Cunha\n\nMédica de Família certificada em Medicina do Estilo de Vida pelo IBLM/CBMEV. Vice-presidente da regional baiana do CBMEV. Membro do Colégio Brasileiro de Medicina do Estilo de Vida (CBMEV).\n\nUma Mev brasileira para todo o Brasil\n\n+\n0\n\nmil\n\nprofissionais de saúde impactados\n\n+\n0\n\nprofessores médicos especialistas\n\n+\n240\n\nmédicos na nossa #tribodamev\n\nFORMAÇÕES\n\nEstruture um novo modelo de prática clínica\n\nDescubra as melhores ferramentas e técnicas de intervenção clínica disponíveis na literatura científica, sistematizadas para a realidade da prática clínica brasileira.\n\nMevClinic\n\nEstruture o seu atendimento com as ferramentas da Medicina do Estilo de Vida. Formação pioneira no treinamento de habilidades clínicas de MEV no Brasil.\n\n100% Online\n\nSeja MevClinic\n\nMevChange\n\nFormação em ciência da mudança. Desenvolva as habilidades e técnicas para conduzir intervenções avanças de estilo de vida através de mudanças nos processos psicológicos.\n\n100% Online\n\nMevChange\n\nRevolução Positiva\n\nAplique as intervenções da psicologia positiva para criar intervenções personalizadas de estilo de vida, promovendo florescimento e significado de vida.\n\n100% Online\n\nEm Breve\n\nPodCast\n\nMevHack\n\nInicie hoje os seus estudos sobre MEV de maneira gratuita\n\n5 lições para prática clínica de MEV\n\nDescubra os principais pilares para um consultório médico e como a Medicina do Estilo de Vida pode potencializar o sucesso do seu empreendimento.\n\nOuça no Spotify\n\nPrincípios do consultório de MEV\n\nDescubra os principais pilares para um consultório médico e como a Medicina do Estilo de Vida pode potencializar o sucesso do seu empreendimento.\n\nOuça no Spotify\n\nVocê sabe o que não é MEV?\n\nVocê provavelmente já sabe o que é a Medicina do Estilo de Vida e seus pilares. Mas você sabe o que NÃO É a MEV?\n\nOuça no Spotify\n\n                               \n\nConfiguração de Cookie\n\nUsamos cookies para melhorar sua experiência, analisar o tráfego do site e fornecer conteúdo personalizado.",
+      "meta": {
+        "viewport": "width=device-width",
+        "generator": "Framer 62e9832",
+        "description": "A MevBrasil é a instituição pioneira no ensino exclusivo de Medicina do Estilo de Vida no Brasil.",
+        "framer-search-index": "https://framerusercontent.com/sites/QlQaJvyc4oPDpgSldr5dp/searchIndex-VhGw3Q9d3bkt.json",
+        "framer-search-index-fallback": "https://framerusercontent.com/sites/QlQaJvyc4oPDpgSldr5dp/searchIndex-XUKIbrI4NqSz.json",
+        "og:type": "website",
+        "og:title": "A Escola Brasileira de Medicina do Estilo de Vida",
+        "og:description": "A MevBrasil é a instituição pioneira no ensino exclusivo de Medicina do Estilo de Vida no Brasil.",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "A Escola Brasileira de Medicina do Estilo de Vida",
+        "twitter:description": "A MevBrasil é a instituição pioneira no ensino exclusivo de Medicina do Estilo de Vida no Brasil.",
+        "robots": "max-image-preview:large",
+        "og:url": "https://www.mevbrasil.com.br/"
+      },
+      "social_links": {
+        "spotify": "https://open.spotify.com/episode/4mpHzc3o64zWVMmrvrRA0f?si=wZeOjWVjSy-k9k7Jwx1rSQ&nd=1"
+      },
+      "telefones": [],
+      "status": "sucesso"
+    },
+    {
+      "nome": "Cetrus",
+      "url": "https://cetrus.com.br",
+      "titulo": "Cetrus | Cursos de especialização médica com prática hands-on",
+      "conteudo": "×\n\nEste website armazena cookies no seu computador. Esses cookies são usados ​​para melhorar sua experiência no site e fornecer serviços personalizados para você, tanto no website, quanto em outras mídias. Para saber mais sobre os cookies que usamos, consulte nossa Política de Privacidade.\n\nAceitar\nIr para o conteúdo\nFale Conosco\nNo Cetrus, você se desenvolve ao lado dos melhores\n\nConheça os cursos de especialização médica e conte com nossa infraestrutura de ponta para se desenvolver.\n\nPesquisar\nCursos em destaque\nConfira os cursos mais procurados no Cetrus:\nVer todos os cursos\n\nNovidade\n\nPÓS-GRADUAÇÃO ON-LINE\n\nEmergências Pediátricas\nDra. Saionara Nunes\nOn-line\n\nPós-Graduação\n\nMedicina Regenerativa Musculoesquelética\nDr. Marco Demange\nSão Paulo\n\n4 alunos por turma\n\nPÓS-GRADUAÇÃO\n\nUS TV Avançado e Endometriose - Dr. Fernando Guastella\nDr. Fernando Guastella\nSão Paulo, São Paulo\n\n6 alunos por turma\n\nPÓS-GRADUAÇÃO\n\nCosmiatria - Dra. Juliana Martins\nDra. Juliana Martins\nBelém, Pará\n\nPós-Graduação\n\nUSG Obstétrica, Morfológica e Doppler\nDr. Daniele Luminoso\nSão Paulo\n\nPós-Graduação\n\nMedicina da Dor\nDr. Kelson Ogata\nSão Paulo\n\nPós-Graduação\n\nUltrassonografia Geral, Musculoesquelética e Vascular\nDr. Alexandre Ferraz\nSão Paulo\n\nPós-Graduação\n\nEndoscopia da Coluna Vertebral\nDr. David Del Curto\nSão Paulo\n\nPós-Graduação\n\nIntervenção em Dor\nDr. Marcos Cardoso\nSão Paulo\n\nNovidade\n\nPÓS-GRADUAÇÃO ON-LINE\n\nEmergências Pediátricas\nDra. Saionara Nunes\nOn-line\n\nPós-Graduação\n\nMedicina Regenerativa Musculoesquelética\nDr. Marco Demange\nSão Paulo\n\n4 alunos por turma\n\nPÓS-GRADUAÇÃO\n\nUS TV Avançado e Endometriose - Dr. Fernando Guastella\nDr. Fernando Guastella\nSão Paulo, São Paulo\n\n6 alunos por turma\n\nPÓS-GRADUAÇÃO\n\nCosmiatria - Dra. Juliana Martins\nDra. Juliana Martins\nBelém, Pará\n\nPós-Graduação\n\nUSG Obstétrica, Morfológica e Doppler\nDr. Daniele Luminoso\nSão Paulo\n\nPós-Graduação\n\nMedicina da Dor\nDr. Kelson Ogata\nSão Paulo\n\nPós-Graduação\n\nUltrassonografia Geral, Musculoesquelética e Vascular\nDr. Alexandre Ferraz\nSão Paulo\n\nPós-Graduação\n\nEndoscopia da Coluna Vertebral\nDr. David Del Curto\nSão Paulo\n\nPós-Graduação\n\nIntervenção em Dor\nDr. Marcos Cardoso\nSão Paulo\n\nNovidade\n\nPÓS-GRADUAÇÃO ON-LINE\n\nEmergências Pediátricas\nDra. Saionara Nunes\nOn-line\n\nPós-Graduação\n\nMedicina Regenerativa Musculoesquelética\nDr. Marco Demange\nSão Paulo\n\n4 alunos por turma\n\nPÓS-GRADUAÇÃO\n\nUS TV Avançado e Endometriose - Dr. Fernando Guastella\nDr. Fernando Guastella\nSão Paulo, São Paulo\n\nPós em Formato Fellowship\n\nO Cetrus está em mais de 50 cidades, em todos os estados do país\n\nAlém das sedes em São Paulo e Recife, contamos com centros de treinamento em todo o Brasil, que oferecem especializações na modalidade Fellowship, com foco no modelo hands-on.\n\nVer todos os cursos\n\n+\n\n250\n\nCursos e Especializações\n\nEncontre o curso ideal para o seu momento na carreira médica.\n\n+\n\n150\n\nProfessores Especialistas\n\nConte com um corpo docente com especialistas renomados.\n\n+\n\n60k\n\nMédicos Formados\nFaça parte da transformação da medicina em mais de 45 áreas.\n\n+\n\n600k\n\nPacientes atendidos\nFavoreça a saúde e bem-estar da população, com qualidade e excelência.\nO curso foi surpreendente com o aprendizado, superando minhas expectativas. Os Drs. Ronaldo e Everaldo são muito dedicados e passam o conhecimentos teórico e prático de forma envolvente.\n\t\nDr. Marcos Antônio\nUSG Musculoesquelética\nGostaria de agradecer ao Cetrus pela qualidade do curso. Os docentes foram excepcionais, muito didáticos e consegui absorver tudo que prometeram. Superou muito mais do que eu imaginava.\n\t\nDr. Thiago Amaro\nUS em Medicina Interna\nEsse curso mudou minha vida, prática médica e sonhos. Gostaria de agradecer ao empenho e disponibilidade de todos os professores. Muito obrigada e estou com saudades já!\n\t\nDra. Letícia Regazzo\nUS Ginecologia Endócrina e Reprodutiva\nO curso foi surpreendente com o aprendizado, superando minhas expectativas. Os Drs. Ronaldo e Everaldo são muito dedicados e passam o conhecimentos teórico e prático de forma envolvente.\n\t\nDr. Marcos Antônio\nUSG Musculoesquelética\nGostaria de agradecer ao Cetrus pela qualidade do curso. Os docentes foram excepcionais, muito didáticos e consegui absorver tudo que prometeram. Superou muito mais do que eu imaginava.\n\t\nDr. Thiago Amaro\nUS em Medicina Interna\nExplore conteúdos gratuitos​\nCursos, materiais e artigos, feitos por médicos especialistas do Cetrus\nVer todos os conteúdos\nConsulte os parâmetros essenciais para sua prática diária\nBaixar ebook grátis\n\nGinecologia\n\nMiomas Uterinos e a Classificação FIGO/MUSA\n\nCirurgia Geral\n\nPosições Cirúrgicas: Guia para médicos e estudantes\n\nFormação e Carreira Médica\n\nInserção de DIU e Implante Subdérmico: saiba tudo sobre o curso",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "description": "Aprenda com especialistas no Cetrus! Cursos de especialização médica com prática hands-on e infraestrutura. Inscreva-se e avance na carreira!",
+        "og:locale": "pt_BR",
+        "og:type": "website",
+        "og:title": "Cetrus | Cursos de especialização médica com prática hands-on",
+        "og:description": "Aprenda com especialistas no Cetrus! Cursos de especialização médica com prática hands-on e infraestrutura. Inscreva-se e avance na carreira!",
+        "og:url": "https://cetrus.com.br/",
+        "og:site_name": "Cetrus",
+        "article:publisher": "https://pt-br.facebook.com/CetrusBrasil/",
+        "article:modified_time": "2026-01-28T12:57:15+00:00",
+        "og:image": "https://cetrus.com.br/wp-content/uploads/2025/02/cetrus-educacao-medica-metaog-default_.jpg",
+        "og:image:width": "1200",
+        "og:image:height": "630",
+        "og:image:type": "image/jpeg",
+        "twitter:card": "summary_large_image",
+        "cdp-version": "1.5.0",
+        "generator": "Elementor 3.35.2; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",
+        "redi-version": "1.2.7",
+        "msapplication-TileImage": "https://cetrus.com.br/wp-content/uploads/2022/11/Vector.png"
+      },
+      "social_links": {},
+      "telefones": [],
+      "status": "sucesso"
+    },
+    {
+      "nome": "PUC-RS",
+      "url": "https://www.pucrs.br",
+      "titulo": "Portal | Home | PUCRS",
+      "conteudo": "Store\nI am PUCRS\n|\nPT\nEN\n en\nI want to explore\nREGISTRATIONS UNTIL 20/2\n\nPortfolio with Exclusive online courses and with training in up to two and a half years. Take the online entrance exam or use your ENEM score in our selection processes.\n\nApply now\nTRANSFER\n\nStudy at PUCRS and discover everything you can be.\n\nApply here\nGRADUATE ADMISSION\n\nTake your next course where You can be so much more..\n\nApply here\nUNDERGRADUATE STUDIES IN-PERSON\n\nA new opportunity to be part of the best private university in Brazil, with admission via ENEM score or online essay exam.\n\nApply here\nEXCELLENCE IN EDUCATION\n\nThe only private university in Rio Grande do Sul with a 5 rating.Among the best in Brazil.\n\nLearn more\nREGISTRATIONS UNTIL 20/2\n\nPortfolio with Exclusive online courses and with training in up to two and a half years. Take the online entrance exam or use your ENEM score in our selection processes.\n\nApply now\nTRANSFER\n\nStudy at PUCRS and discover everything you can be.\n\nApply here\nGRADUATE ADMISSION\n\nTake your next course where You can be so much more..\n\nApply here\nUNDERGRADUATE STUDIES IN-PERSON\n\nA new opportunity to be part of the best private university in Brazil, with admission via ENEM score or online essay exam.\n\nApply here\nEXCELLENCE IN EDUCATION\n\nThe only private university in Rio Grande do Sul with a 5 rating.Among the best in Brazil.\n\nLearn more\nREGISTRATIONS UNTIL 20/2\n\nPortfolio with Exclusive online courses and with training in up to two and a half years. Take the online entrance exam or use your ENEM score in our selection processes.\n\nApply now\nUseful links\nCultural calendar\n\nCheck out everything that happens at PUCRS.\n\nMain Library\n\nSign up for training programs, search the collection and renew your loans.\n\nStudent’s portal\n\nAccess your academic and financial information.\n\nMoodle\n\nAccess the PUCRS digital learning environment.\n\nAcademic mail\n\nYour academic email.\n\nOmbudsman\n\nRecord and track your requests.\n\nAcademic Guide\n\nSee the rules and instructions for undergraduate programs.\n\nInstitutional Evaluation\n\nRate your program and don't miss the opportunity to share your opinion.\n\nStudent Directory and Academic Centers\n\nLearn how the Centers and Directories are organized.\n\nGraduations\n\nCheck out the guidelines for the event, dates and preparation for graduation.\n\nAcademic Mobility\n\nOpportunities to study abroad.\n\nPUCRS Careers\n\nCareer mentoring and internship opportunities.\n\nEnade\n\nEnhancement of the diploma and recognition in the market.\n\nStudent Support Center\n\nStudent support services.\n\nScholarships and Incentives\n\nDiscover opportunities for discounts and scholarships.\n\nDevise\n\nDiscover the possibilities of entrepreneurship and innovation in education.\n\nSports Park\n\nTake care of your health and well-being.\n\nUndergraduate Research Programs\n\nBe part of a research project at PUCRS.\n\nPastoral and Solidarity Center\n\nSpirituality and Solidarity.\n\nYouth Observatory\n\nYouth Observatory\n\nHappening now\n\nNews\nEvents\nStudy at PUCRS with scholarships for undergraduate and graduate studies\n5 reasons to invest in a specialization in the field of Engineering in 2026\nDiscover the career paths of those who chose to pursue more than one degree at PUCRS\nThe RS Talentos program is now accepting applications for scholarships in Engineering courses…\nPsychology: see what the profession that looks at behaviors and emotions is like\nApplications are open for the concurrent master's program with the University of Bonn, Germany. \nStudy at PUCRS with scholarships for undergraduate and graduate studies\n5 reasons to invest in a specialization in the field of Engineering in 2026\nDiscover the career paths of those who chose to pursue more than one degree at PUCRS\nThe RS Talentos program is now accepting applications for scholarships in Engineering courses…\nPsychology: see what the profession that looks at behaviors and emotions is like\nApplications are open for the concurrent master's program with the University of Bonn, Germany. \nSTUDY AT PUCRS\n\nDiscover our teaching options.\n\nPrevious\nUndergraduate Studies\nMaster's and PhD\nPostgraduate specialization and MBA\nCertification\nLanguages\nCourses 60+\nNext\nPUCRS Tour\n\nHave you ever imagined taking a personalized tour of the University? PUCRS presents all of our infrastructure and learning spaces to students and their families, tailored to their interests.\n\nLearn more\nPubli.Ciência\n\nFocused on popularizing the scientific research and initiatives developed at PUCRS, the purpose of the space is... To translate the knowledge produced at the University into clear and accessible language.bringing science closer to the general public.\n\nDiscover:\nWays\n\nThe new season of Caminhos: Copa do Conhecimento is exploring the different realms of knowledge at PUCRS. In addition to team challenges to determine who remains in the competition, the program has showcased the University's spaces and initiatives.\n\nWatch the episodes\nO world waiting for you!\n\nStudy abroad in 2026/2. Open for subscriptions!\n\nCheck the notices\nRS Talents\n\nNew opportunity to train professionals in strategic areas of Engineering. The idea is Connecting you to the job marketTo strengthen the productive sector and boost innovation in Rio Grande do Sul.\n\nApply now\nPUCRS Tour\n\nHave you ever imagined taking a personalized tour of the University? PUCRS presents all of our infrastructure and learning spaces to students and their families, tailored to their interests.\n\nLearn more\nPubli.Ciência\n\nFocused on popularizing the scientific research and initiatives developed at PUCRS, the purpose of the space is... To translate the knowledge produced at the University into clear and accessible language.bringing science closer to the general public.\n\nDiscover:\nWays\n\nThe new season of Caminhos: Copa do Conhecimento is exploring the different realms of knowledge at PUCRS. In addition to team challenges to determine who remains in the competition, the program has showcased the University's spaces and initiatives.\n\nWatch the episodes\nO world waiting for you!\n\nStudy abroad in 2026/2. Open for subscriptions!\n\nCheck the notices\nRS Talents\n\nNew opportunity to train professionals in strategic areas of Engineering. The idea is Connecting you to the job marketTo strengthen the productive sector and boost innovation in Rio Grande do Sul.\n\nApply now\nPUCRS Tour\n\nHave you ever imagined taking a personalized tour of the University? PUCRS presents all of our infrastructure and learning spaces to students and their families, tailored to their interests.\n\nLearn more\nWHY PUCRS?\n\nA new world of possibilitiesis waiting for you! Come with us. Live incredible experiences in best university in the south of the country. At PUCRS you are the protagonist of your training and you can choose the areas of interest to complement your training.\n\nMore than\n200 k\ngraduates in undergraduate and postgraduate courses\n\n59\nin-person undergraduate courses\n\n20\nMaster's and Doctoral program options\n\nPUCRS Tour\nOpen Campus\nPre-Grad\nJunior IC\nAMONG THE BEST IN BRAZIL\nTimes Higher Education World University Rankings\n\nThe institution remains the best private university in Southern Brazil and one of the best ranked in the country.\n\nLearn more\nFaculty Guide\n\nPUCRS stands out with 49 courses rated 4 or 5 stars.\n\nLearn more\nGeneral Course Index (IGC)\n\nPUCRS achieved the highest score in the General Course Index (IGC), the official indicator of institutional quality from the MEC, and took first place among private institutions in the country.\n\nLearn more\nServices and Business\nBiohub\n\nConnecting talents and knowledge to generate innovative businesses in Healthcare.\n\nCepuc\n\nHold your event in the most complete complex in the southern region.\n\nRehabilitation Center\n\nIntegrated physiotherapeutic assistance.\n\nEdiPUCRS\n\nScientific publications, books and more.\n\nSão Lucas Hospital\n\nOur care is with life.\n\nLabelo\n\nSpecialized laboratories at PUCRS.\n\nMuseum of Science and Technology\n\nKnowledge and science within everyone's reach.\n\nSports Park\n\nTake care of your health and well-being.\n\nPUCRS Store\n\nCheck out the PUCRS products designed for you.\n\nTecnopuc\n\nConnected and global innovation ecosystem.\n\nDevise\n\nDiscover the possibilities of an entrepreneurial education.\n\nPUBLIC\n\nPUCRS has different schools that cover different areas. Check out our options:\n\nHealth and Life Sciences\nCommunication, Arts and Design – Famecos\nLaw\nHumanities\nMedicine\nBusiness\nTechnology\nEVENTS\nSee all events\nNEWS\nEDUCATION\nThe RS Talentos program is now accepting applications for scholarships in Engineering courses.\nThursday, February 05 | 2026\nRead more\nEDUCATION\nPsychology: see what the profession that looks at behaviors and emotions is like\nWednesday, February 04 | 2026\nRead more\nEDUCATION\nApplications are open for the concurrent master's program with the University of Bonn, Germany. \nWednesday, February 04 | 2026\nRead more\nEDUCATION\nStudy at PUCRS with scholarships for undergraduate and graduate studies\nTuesday, February 03 | 2026\nRead more\nEDUCATION\n5 reasons to invest in a specialization in the field of Engineering in 2026\nMonday, February 02 | 2026\nRead more\nEDUCATION\nDiscover the career paths of those who chose to pursue more than one degree at PUCRS\nThursday, January 29 | 2026\nRead more\nEDUCATION\nCarrefour Group publishes new supplementary notice with scholarships for black and brown students  \nThursday, January 29 | 2026\nRead more\nEDUCATION\nLearn all about college transfers \nThursday, January 29 | 2026\nRead more\nView all news\nCONTACT US\n\nOur service channels for questions or information about the selection processes for the In-Person Undergraduate Program.\n\nAll contacts\nPhone\n\n(51) 3320.3500 (institutional)\n(51) 2101.0110 (exclusive for undergraduate)\n\nE-mail\n\natendimento@pucrs.br\n\nWhatsApp\n\n(51) 98443.0788\n\nI am a student\n\nCheck out information about benefits, academic calendar, access to academic systems and much more.\n\nI am a researcher\n\nLearn about research projects and our researchers, access systems, notices and much more.\n\nI am a professor\n\nHave access to the main systems, information and follow everything that is happening at the University.\n\nI am an administrative technician\n\nAccess the HR Portal, learn about the Fluir program and have access to the main systems.\n\nShow more\nUtilizamos tecnologias como cookies para melhorar a sua experiência em nossos sites, personalizar a oferta de cursos e serviços, e recomendar conteúdos de seu interesse. Para mais informações sobre a coleta e uso de dados pessoais, acesse a nossa Política de Privacidade.\nRejeitar Todos\nAceitar Todos\nPreferências",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "uri-translation": "on",
+        "description": "A new world of possibilities awaits you! Come with us. Live incredible experiences at the best university in the South of the country. At PUCRS, you are the protagonist of your education and can choose the areas of your interest to complement your training.",
+        "og:locale": "pt_BR",
+        "og:type": "website",
+        "og:title": "PUCRS Portal",
+        "og:description": "A new world of possibilities awaits you! Come with us. Live incredible experiences at the best university in the South of the country.",
+        "og:url": "https://portal.pucrs.br/en/",
+        "og:site_name": "PUCRS",
+        "article:publisher": "https://www.facebook.com/pucrs",
+        "article:modified_time": "2026-02-05T13:48:00+00:00",
+        "og:image": "http://portal.pucrs.br/wp-content/uploads/2024/04/protal-share-og.png",
+        "og:image:width": "2500",
+        "og:image:height": "1313",
+        "og:image:type": "image/png",
+        "twitter:card": "summary_large_image",
+        "twitter:site": "@pucrs",
+        "generator": "WordPress 6.2.6",
+        "msapplication-TileImage": "https://portal.pucrs.br/wp-content/uploads/2024/01/cropped-favicon-270x270.png"
+      },
+      "social_links": {},
+      "telefones": [
+        "tel:+555133203500",
+        "https://wa.me//5551984430788?text=Falar%20com%20atendente"
+      ],
+      "status": "sucesso"
+    },
+    {
+      "nome": "iDomed",
+      "url": "https://idomed.com.br",
+      "titulo": "IDOMED - ingresse no Instituto de Educação Médica via ENEM",
+      "conteudo": "0800 880 6770\n\nPrecisa de ajuda?\n\nAcompanhe sua inscrição\n\nO IDOMED\nEstude no IDOMED\nGraduação\nPós-graduação\nInscreva-se\nExcelência médica é no IDOMED\n+25 anos unindo tradição à tecnologia e inovação.\n\nValores\n\nExcelência, aprendizado prático e tecnologia.\n\nTradição e inovação\n\nFoco e valorização no futuro e no cuidado humano.\n\nCompromisso social\n\nAções que valorizam a inclusão e a diversidade.\n\nConheça o programa\n\nEducar para transformar\n\nFormação de médicos inclusivos e de excelência.\n\nValores\n\nExcelência, aprendizado prático e tecnologia.\n\nTradição e inovação\n\nFoco e valorização no futuro e no cuidado humano.\n\nCompromisso social\n\nAções que valorizam a inclusão e a diversidade.\n\nConheça o programa\n\nEducar para transformar\n\nFormação de médicos inclusivos e de excelência.\n\nValores\n\nExcelência, aprendizado prático e tecnologia.\n\nTradição e inovação\n\nFoco e valorização no futuro e no cuidado humano.\n\nCompromisso social\n\nAções que valorizam a inclusão e a diversidade.\n\nConheça o programa\n\nEducar para transformar\n\nFormação de médicos inclusivos e de excelência.\n\nFormamos médicos de excelência em todo país\n\nO IDOMED reúne 18 faculdades médicas ao redor do país.\n\nConheça nossas unidades\nApoiamos todas as fases da sua formação médica\n\nConheça as opções de cursos que temos para você.\n\nGraduação\n\nConheça os cursos de Medicina ou Odontologia que vão iniciar sua carreia com excelência. Conte com o apoio e infraestrutura necessários para formação de profissionais especialistas em suas áreas.\n\nInscreva-se\n\nConheça os cursos\n\nPós-Graduação\n\nConhecidos como cursos de especialização, a pós-graduação lato sensu une teoria e prática com excelência, tradição e foco na atuação médica de alto nível. Formação pensada para quem busca ir além.\n\nInscreva-se\n\nConheça os cursos\n\nMBA (Master in Business Administration)\n\nCurso MBA voltado para médicos, abordagem prática e integração as melhores práticas de gestão com sólidos fundamentos. Formato híbrido de aprendizado, com aulas online ao vivo e encontros presenciais.\n\nInscreva-se\n\nConheça os cursos\n\nFellowship\n\nEspecialização médica avançada, com mais de 50% de prática, voltada a médicos que buscam domínio técnico em áreas específicas e atuação de excelência.\n\nInscreva-se\n\nConheça os cursos\n\nMestrado e Doutorado\n\nCursos de especialização Stricto sensu. Mestrado e Doutorado IDOMED têm mais de 15 anos de tradição e nota máxima na CAPES na modalidade Mestrado. Preparação para alto nível de especialidade.\n\nInscreva-se\n\nConheça os cursos\n\nResidência Médica\n\nConheça os cursos que te farão especialista na área que deseja. Receba todo apoio e aprendizado necessário para ganhar mais confiança e reconhecimento em sua profissão.\n\nInscreva-se\n\nConheça os cursos\n\nAHA - American Heart Association\n\nCentro de Treinamento Internacional Autorizado da American Heart Association.\n\nInscreva-se\n\nConheça os cursos\n\nSua jornada na Medicina começa aqui\n\nCursos de Graduação e Pós de excelência em saúde.\n\nMBA Executivo em Gestão de Saúde\n\nMBA | 12 meses\n\nInscreva-seSobre o Curso\nPsiquiatria\n\nPós-Graduação | 2 anos\n\nPresencial\n\nInscreva-seSobre o Curso\nMedicina do Trabalho\n\nPós-Graduação | 2,5 anos\n\nPresencial\n\nInscreva-seSobre o Curso\nFellowship em Catarata\n\nFellowship | 12 meses\n\nPresencial\n\nInscreva-seSobre o Curso\nMedicina\n\nBacharelado | 6 anos\n\nPresencial\n\nInscreva-seSobre o Curso\nOdontologia\n\nBacharelado | 4 anos\n\nInscreva-seSobre o Curso\n\nBy clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. Politica de Privacidade\nAccept All Cookies\nPrivacy Preference Center\nWhen you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to find out more and change our default settings. However, blocking some types of cookies may impact your experience of the site and the services we are able to offer.\nAllow All\nManage Consent Preferences\nCookie List\n\n \nClear\n checkbox label label\nApply Cancel\nConsent Leg.Interest\n checkbox label label\n checkbox label label\n checkbox label label\nConfirm My Choices",
+      "meta": {
+        "viewport": "width=device-width",
+        "msvalidate.01": "A59A47503137A4270B98A8C2A90DF5C5",
+        "description": "No IDOMED conectamos prática, tecnologia e cuidado humano. Cursos em saúde com laboratórios modernos — use sua nota do ENEM e inscreva-se.",
+        "keywords": "Medicina\nÁrea da Saúde\nSaúde\nIDOMED\nInstituto de Educação Médica\nReferência em Educação em Saúde\nCompromisso com o Ensino Médico\nExcelência Acadêmica\nEducação Médica de Qualidade\nInovação em Educação Médica\nContribuindo para a Formação Médica\nComprometimento com o Conhecimento Médico\nEducação Médica Contínua\nInstituto Médico de Destaque",
+        "og:image": "https://cdn.portal.estacio.br/Logo_Idomed_2_aebfcaae0c.webp",
+        "next-head-count": "14",
+        "theme-color": "#C5F3F0"
+      },
+      "social_links": {},
+      "telefones": [
+        "tel:0800 880 6770",
+        "tel:0800 880 6770"
+      ],
+      "status": "sucesso"
+    },
+    {
+      "nome": "HCOR",
+      "url": "https://www.hcor.com.br",
+      "titulo": "Home | Hcor",
+      "conteudo": "Aviso – Golpe\nNão efetuamos qualquer tipo de cobrança no momento da entrega de resultados de exames em domicílio. Em nenhuma hipótese o portador solicita pagamento em nome do hospital. Se você recebeu alguma mensagem por telefone ou WhatsApp sobre o assunto, desconsidere e entre em contato imediatamente com nossa Central de Atendimento pelo número (11) 3889-3939.\n\nx\n\nResultado de\nExames / Portal\ndo Paciente\n\nAcessar\n\nConsultas\ne Exames\n \n\nVer mais\n\nColeta\nDomiciliar\n \n\nVer mais\n\nEncontre\num Médico\n \n\nBuscar\nServiços\nVer todos os serviços\nOncologia\n\nCentro de Cuidado em Oncologia e Hematologia O diagnóstico e o tratamento do Câncer é um momento sensível para o paciente e para sua família.[...]\n\nSaiba mais\nCardiologia\n\nCardiologia é a especialidade médica que realiza o diagnóstico e trata das doenças do coração. O padrão de excelência do Hcor em cardiologia é[...]\n\nSaiba mais\nMedicina Diagnóstica\n\nO Centro de Diagnósticos Hcor disponibiliza serviços como tomografia computadorizada, ressonância magnética, ergometria, medicina nuclear, holter,[...]\n\nSaiba mais\nHcor explica\nVer todas as matérias\nOncologia\nAvanços na área do câncer ginecológico e na saúde da mulher\n\nA saúde da mulher envolve diversas esferas diferentes. Os tumores ginecológicos surgem nos órgãos femininos internos ou externos, e podem impactar de […]\n\nSaiba mais\nOncologia\nCâncer de Ovário\n\nAproximadamente 95% dos casos acontecem na superfície do ovário, chamado de câncer epitelial, e ocorre, em geral, por volta dos 60 anos […]\n\nSaiba mais\nOutras\nEm tempos de pandemia, saiba quando ir ao hospital\n\n\"Quando devo ir ao hospital?\" é a nova série de vídeos do Hcor, que conta com a participação de especialistas que explicam […]\n\nSaiba mais\nOutras\nO que é uma síncope?\n\nSíncope é a perda súbita da consciência e do tônus postural, mais conhecida como desmaio. O indivíduo fica flácido, cai e recupera-se […]\n\nSaiba mais\nCardiologia\nSalada de rúcula com soja ao vinagrete\n\nA soja possui potentes antioxidantes que atuam como anti-inflamatórios na prevenção de câncer, diarreias e ameniza os sintomas da menopausa. Assista ao […]\n\nSaiba mais\nOncologia\nHPV: Muito além do Colo do Útero\n\nPara grande parte das pessoas, talvez não seja surpresa que o papilomavírus humano (também conhecido como HPV) seja o causador do câncer […]\n\nSaiba mais\n‹›\n1\n2\n3\n4\n5\nUnidades\nVer todas as unidades\nBLOCO A\n\nRua Desembargador Eliseu Guilherme, 147 - Paraíso - São Paulo - SP\n\n(11) 3053-6611\nBLOCO E\n\nRua Desembargador Eliseu Guilherme, 130 - Paraíso - São Paulo - SP\n\n(11) 3053-6611\nBLOCO B\n\nAv. Bernardino de Campos, 186 - Paraíso - São Paulo - SP\n\n(11) 3053-6611\nBLOCO U\n\nRua Abílio Soares, 250 - Paraíso - São Paulo - SP\n\n(11) 3889-3939\nUnidade Avançada Cidade Jardim\n\nAv. Cidade Jardim, 318 - Jardim Paulistano - São Paulo - SP\n\n(11) 3053-6611\nHcor Academy\n\nRua Desembargador Eliseu Guilherme, 390 - Paraíso - São Paulo -SP\n\n(11) 3053-6611\nInstituto de Pesquisa\n\nRua Desembargador Eliseu Guilherme, 200, 8º Andar - Vila Mariana - São Paulo -SP\n\n(11) 3053-6611\n‹›\n1\n2\n3\n4\nFaça seu agendamento\n\nNosso site utiliza cookies para aprimorar sua experiência de navegação, garantindo funcionalidades básicas, melhorando sua usabilidade, analisando o interesse em nossos produtos e personalizando interações de marketing com anúncios mais relevantes para você.\n\nMinhas opções\nEu recuso\nConcordo",
+      "meta": {
+        "facebook-domain-verification": "bk9hnsas403ymlzcj33xaneg8ve2s7",
+        "viewport": "width=device-width, initial-scale=1, maximum-scale=5, user-scalable=0",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "description": "O Hcor é referência no tratamento e na recuperação da saúde com participação multidisciplinar e multiprofissional dos profissionais envolvidos, em prol do bem-estar e da qualidade de vida.",
+        "og:locale": "pt_BR",
+        "og:type": "website",
+        "og:title": "Home | Hcor",
+        "og:description": "O Hcor é referência no tratamento e na recuperação da saúde com participação multidisciplinar e multiprofissional dos profissionais envolvidos, em prol do bem-estar e da qualidade de vida.",
+        "og:url": "https://www.hcor.com.br/",
+        "og:site_name": "Hcor",
+        "article:modified_time": "2024-12-06T20:40:26+00:00",
+        "twitter:card": "summary_large_image",
+        "og:image": "https://www.hcor.com.br/wp-content/themes/hcor-hc/images/hospital-do-coracao-facebook.png",
+        "msapplication-TileImage": "https://www.hcor.com.br/wp-content/uploads/2021/07/favicon-1.png"
+      },
+      "social_links": {},
+      "telefones": [
+        "tel:+113889-3939",
+        "tel:+1130536611",
+        "tel:+551130536611"
+      ],
+      "status": "sucesso"
+    },
+    {
+      "nome": "Sírio-Libanês",
+      "url": "https://faculdadesiriolibanes.org.br",
+      "titulo": "",
+      "conteudo": "Este site usa cookies para garantir que você obtenha a melhor experiência em nosso site. Saiba mais\nPermitir cookies\nDispensar\nPreferências de Cookie",
+      "meta": {
+        "basePath": "/fsl",
+        "deployTarget": "CORE",
+        "viewport": "width=device-width, initial-scale=1",
+        "lwr-revised": "236.0"
+      },
+      "social_links": {},
+      "telefones": [],
+      "status": "sucesso"
+    },
+    {
+      "nome": "IBCMED",
+      "url": "https://ibcmed.com",
+      "titulo": "IBCMED - Cursos de pós-graduação em Medicina",
+      "conteudo": "O IBCMED e MedPós agora são Inspirali Pós Medicina.\n\nSaiba Mais\nO curso ideal para você!\n\nOferecemos cursos em diversas áreas, pensados para impulsionar sua carreira no momento certo.\n\nConhecer todos os cursos\nPediatria\n\nAprenda na prática com um curso flexível e completo para sua atuação clínica.\n\nConheça o curso\nDermatologia\n\nCurso híbrido com foco na prática e no aprendizado contínuo de novas técnicas. \n\nConheça o curso\nPsiquiatria\n\nCurso focado nas principais doenças que afetam a população e suas diferentes terapêuticas.\n\nConheça o curso\nCompromisso com a evolução da educação médica continuada\n\nOferecemos uma formação sólida e abrangente, conectada às necessidades reais das áreas da saúde.\n\nQuem ensina faz toda a diferença: Saiba mais sobre os nossos docentes\n\nNossos docentes são referências no mercado, unindo ampla experiência prática à paixão por ensinar.\n\nDr. Francisco José Pascoal Ribeiro Jr.\nCoordenador da área de saúde mental\nDra. Rita Castelli\nCoordenadora da pós-graduação em Cardiologia Clínica\nIBCMED Coordinators container\nIBCMED Coordinators container\nIBCMED Coordinators container\nIBCMED Coordinators container\nIBCMED Coordinators container\nIBCMED Coordinators container\nO próximo passo da sua carreira médica está aqui!\n\nSomos uma instituição comprometida com o seu crescimento profissional.\n\nNossa missão é oferecer uma formação médica de excelência, preparando profissionais que se destacam pela competência, pela ética e pelo impacto positivo na vida de seus pacientes e na comunidade médica.\n\nQuer saber mais?\nEm qual momento está a sua carreira?*\nSou médico\nEstudante de medicina\nNão sou médico\nNenhuma das opções\n\nAutorizo o uso dos meus dados para contatos, conforme as Políticas de Privacidade e Termos de Uso da ibcmed.\n\nEnviar\nConheça nossas instituições de ensino\n\n O ibcmed integra a Inspirali, o maior ecossistema de educação médica do Brasil, com mais de 14 escolas de medicina. Descubra nossas instituições de ensino \n\n \n\nDepoimentos dos alunos\n\nVeja quem realizou nossos cursos e o que eles acharam.\n\nDra. Layla Duarte\n\nAluna de Pós-Graduação do curso de Ginecologia e Obstetrícia\n\nDra. Estefania Diniz\n\nAluna de Pós-Graduação do curso de Pediatria\n\nDra. Gabriela Galeano\n\nAluna de Pós-Graduação do curso de Psiquiatria\n\nConfira nosso blog\nLer todas as publicações\n4 de fevereiro de 2026\n\nNeste artigo, explicamos como a trajetória da inspirali Pós Medicina foi formada, qual foi o papel de cada instituição ao longo do tempo e o que essa mudança significa, na prática, para o médico que busca uma formação alinhada à realidade do exercício profissional.\n\nLer mais\n30 de janeiro de 2026\n\nEntenda a codependência, seus desafios e as abordagens terapêuticas essenciais para médicos especializados.\n\nLer mais\n28 de janeiro de 2026\n\nExplore IA, telemedicina, monitoramento contínuo e segurança com um guia essencial para médicos inovarem na prática profissional.\n\nLer mais\n\nPerguntas frequentes\n\n01\nTerei interação com professores durante o curso?\n\nNos cursos híbridos ou presenciais da ibcmed, os alunos têm a oportunidade de interagir diretamente com professores e facilitadores. Já os cursos 100% digitais, desenvolvidos para autoinstrução, proporcionam flexibilidade total, eliminando a necessidade de encontros ao vivo.\n\n02\nHá atividades práticas nos cursos?\n03\nQuais são os diferenciais dos cursos de especialização?",
+      "meta": {
+        "template": "page-content",
+        "viewport": "width=device-width, initial-scale=1",
+        "robots": "index",
+        "content-page-ref": "bB3eYdV6xzHHkx-Ostvl7FdF6ENj3vfN9P4rUhcoVCk5yDco87iKL1in2ZagKdmV",
+        "google-site-verification": "mZvsmkSr28YN0YyuhkRHR_A0jZ4K5neBi4s5nmQ9yjo"
+      },
+      "social_links": {
+        "linkedin": "https://www.linkedin.com/company/ibcmed/"
+      },
+      "telefones": [
+        "https://wa.me/3131814055"
+      ],
+      "status": "sucesso"
+    },
+    {
+      "nome": "Liberdade Médica - Preço",
+      "url": "https://liberdademedicaedu.com.br/investimento",
+      "titulo": "Page Not Found - Liberdade Médica",
+      "conteudo": "Ir para o conteúdo\nSearch\nA página não pode ser encontrada.\n\nParece que nada foi encontrado neste local.",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "robots": "follow, noindex",
+        "og:locale": "pt_BR",
+        "og:type": "article",
+        "og:title": "Page Not Found - Liberdade Médica",
+        "og:site_name": "Liberdade Médica",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Page Not Found - Liberdade Médica",
+        "generator": "Elementor 3.35.1; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap"
+      },
+      "social_links": {},
+      "telefones": [],
+      "status": "sucesso"
+    },
+    {
+      "nome": "Caduceu - Cursos",
+      "url": "https://caduceucursos.com.br/cursos",
+      "titulo": "Página não encontrada - Faculdade Caduceu",
+      "conteudo": "Skip to content\nLigação gratuita \n+55 51 31054085\nFuncionamento  \n24 horas\n \nÁrea do Aluno\nERRO 404\nPágina não encontrada\n\nEssa página foi removida, lamentamos o ocorrido\n\nVoltar para a Home Page\n×",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "robots": "noindex, follow",
+        "og:locale": "pt_BR",
+        "og:title": "Página não encontrada - Faculdade Caduceu",
+        "og:site_name": "Faculdade Caduceu",
+        "generator": "Elementor 3.29.1; features: additional_custom_breakpoints, e_local_google_fonts; settings: css_print_method-external, google_font-enabled, font_display-auto",
+        "msapplication-TileImage": "https://i0.wp.com/caduceucursos.com.br/wp-content/uploads/2020/10/fav-icon-novo-1-vermelho.png?fit=270%2C270&ssl=1",
+        "google-site-verification": "google-site-verification=PL6kSndu3BvdO3VwMJnLTieq_ixm23TFAYeMmeDFM3U"
+      },
+      "social_links": {
+        "instagram": "https://www.instagram.com/faculdadecaduceu",
+        "facebook": "https://www.facebook.com/faculdadecaduceu"
+      },
+      "telefones": [
+        "tel:+55 51 31054085"
+      ],
+      "status": "sucesso"
+    }
+  ]
+}

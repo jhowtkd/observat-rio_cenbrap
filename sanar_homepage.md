@@ -1,0 +1,45 @@
+- generic [active] [ref=e1]:
+  - link "Ir para o conteúdo" [ref=e4] [cursor=pointer]:
+    - /url: "#content"
+  - main [ref=e5]:
+    - generic [ref=e9]:
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - heading "Brasília" [level=2] [ref=e21]
+          - link "Ver cursos" [ref=e27] [cursor=pointer]:
+            - /url: https://ipmpos.com.br/brasilia-selecao-pos-graduacao
+            - generic [ref=e29]: Ver cursos
+        - generic [ref=e30]:
+          - heading "São José do Rio Preto" [level=2] [ref=e37]
+          - link "Ver cursos" [ref=e41] [cursor=pointer]:
+            - /url: https://ipmpos.com.br/sjrp-selecao-pos-graduacao
+            - generic [ref=e43]: Ver cursos
+        - generic [ref=e44]:
+          - heading "Goiânia" [level=2] [ref=e51]
+          - link "Ver cursos" [ref=e55] [cursor=pointer]:
+            - /url: https://ipmpos.com.br/goiania-selecao-pos-graduacao/
+            - generic [ref=e57]: Ver cursos
+        - generic [ref=e58]:
+          - heading "São Paulo" [level=2] [ref=e65]
+          - link "Ver cursos" [ref=e69] [cursor=pointer]:
+            - /url: https://ipmpos.com.br/sao-paulo-selecao-pos-graduacao/
+            - generic [ref=e71]: Ver cursos
+      - generic [ref=e73]:
+        - heading "Siga nossas redes sociais" [level=2] [ref=e76]
+        - list [ref=e79]:
+          - listitem [ref=e80]:
+            - link "Instagram" [ref=e81] [cursor=pointer]:
+              - /url: https://www.instagram.com/ipm.pos/
+              - generic [ref=e82]: Instagram
+              - img [ref=e83]
+          - listitem [ref=e85]:
+            - link "Youtube" [ref=e86] [cursor=pointer]:
+              - /url: https://www.youtube.com/@ipmposgraduacao
+              - generic [ref=e87]: Youtube
+              - img [ref=e88]
+          - listitem [ref=e90]:
+            - link "Spotify" [ref=e91] [cursor=pointer]:
+              - /url: https://creators.spotify.com/pod/show/ipm-ps
+              - generic [ref=e92]: Spotify
+              - img [ref=e93]
+  - generic [ref=e95]: desktop

@@ -1,0 +1,747 @@
+{
+  "metadata": {
+    "projeto": "Inteligência Competitiva CENBRAP",
+    "analise": "Propostas de Valor e Diferenciais",
+    "data_criacao": "2026-02-05",
+    "total_concorrentes_analisados": 20,
+    "versao": "1.0"
+  },
+  "resumo": {
+    "total_analisados": 20,
+    "proposta_clara": 7,
+    "proposta_confusa": 13,
+    "com_diferenciais_listados": 10,
+    "sem_diferenciais": 10,
+    "com_preco_transparente": 8,
+    "com_garantia_declarada": 2,
+    "com_bonus_inclusos": 5
+  },
+  "propostas_por_concorrente": [
+    {
+      "concorrente": "Liberdade Médica",
+      "proposta_valor": "Pós-Graduação em Paciente Grave com dupla certificação em Medicina de Emergência e Medicina Intensiva",
+      "diferenciais": [
+        "Dupla certificação em um único programa",
+        "Aulas online e ao vivo",
+        "Prática no maior pronto-socorro privado de Goiás (Hospital Jacob Facuri)",
+        "Metodologia baseada em casos reais",
+        "Suporte 24h com IA",
+        "Comunidade exclusiva para suporte em plantões"
+      ],
+      "tom_de_voz": "Especializado, prático, focado em emergência",
+      "bonus_garantias": ["Comunidade exclusiva", "Suporte 24h com IA", "Certificado de extensão (para formados no exterior)"],
+      "avaliacao": "clara"
+    },
+    {
+      "concorrente": "Caduceu",
+      "proposta_valor": "Cursos de Pós-Graduação para Médicos - Desenvolvimento e Capacitação de profissionais voltados à saúde",
+      "diferenciais": [
+        "+20 Cursos Médicos",
+        "Certificação MEC",
+        "Corpo docente renomado",
+        "Ensino de qualidade"
+      ],
+      "tom_de_voz": "Profissional, institucional",
+      "bonus_garantias": [],
+      "avaliacao": "genérica"
+    },
+    {
+      "concorrente": "Comportamente",
+      "proposta_valor": "Formação de excelência para profissionais da Saúde Mental - Unindo ciência, tecnologia e cuidado humano",
+      "diferenciais": [
+        "100% Online com Prática Real",
+        "Corpo Docente de Referência",
+        "Base Científica e Abordagens Atuais",
+        "Mais de 10 anos de história",
+        "8.000+ alunos formados"
+      ],
+      "tom_de_voz": "Humanizado, científico, profissional",
+      "bonus_garantias": ["Descontos Editora Manole", "Descontos Editora Sinopsys"],
+      "avaliacao": "clara"
+    },
+    {
+      "concorrente": "IPM (Pedro Miranda)",
+      "proposta_valor": "IPM Pós-graduação - Presença em 4 cidades",
+      "diferenciais": [
+        "Presença em 4 cidades",
+        "Cursos presenciais e híbridos"
+      ],
+      "tom_de_voz": "Profissional",
+      "bonus_garantias": [],
+      "avaliacao": "confusa"
+    },
+    {
+      "concorrente": "Einstein",
+      "proposta_valor": "Excelência em educação médica - O conhecimento que salva vidas",
+      "diferenciais": [
+        "Tradição e credibilidade",
+        "Corpo docente renomado",
+        "Infraestrutura hospitalar"
+      ],
+      "tom_de_voz": "Institucional, sério, acadêmico",
+      "bonus_garantias": ["Acesso ao hospital", "Biblioteca"],
+      "avaliacao": "clara"
+    },
+    {
+      "concorrente": "MEV Brasil",
+      "proposta_valor": "Escola pioneira no ensino exclusivo em Medicina do Estilo de Vida do Brasil. Transforme sua prática clínica e gere mais resultados para seus pacientes.",
+      "diferenciais": [
+        "Pioneira no Brasil em Medicina do Estilo de Vida",
+        "Ecossistema completo: Podcast, Eventos, Formações, Comunidade",
+        "MEVPlan - ferramenta exclusiva de avaliação do estilo de vida",
+        "Foco nas 6 áreas: Alimentação, Movimento, Sono, Conexões Sociais, Gerenciamento do Estresse, Redução de Tóxicos",
+        "Professores que vivem a MEV na prática",
+        "Comunidade de 900+ médicos"
+      ],
+      "tom_de_voz": "Inovadora, prática, baseada em evidências",
+      "bonus_garantias": ["Ferramenta MEVPlan exclusiva", "Comunidade ativa"],
+      "avaliacao": "clara"
+    },
+    {
+      "concorrente": "Cetrus",
+      "proposta_valor": "Cursos de especialização médica com infraestrutura de ponta para se desenvolver ao lado dos melhores",
+      "diferenciais": [
+        "Corpo docente de excelência com nomes renomados",
+        "Cursos presenciais com poucos alunos por turma (4-6 alunos)",
+        "Infraestrutura de ponta",
+        "Cursos inovadores: Medicina Regenerativa, Endoscopia da Coluna"
+      ],
+      "tom_de_voz": "Especializada, prática, focada em habilidades",
+      "bonus_garantias": [],
+      "avaliacao": "clara"
+    },
+    {
+      "concorrente": "iDomed",
+      "proposta_valor": "Excelência médica com tradição e inovação. Formação de médicos inclusivos e de excelência em todo o país.",
+      "diferenciais": [
+        "25+ anos unindo tradição à tecnologia",
+        "18 faculdades médicas ao redor do país",
+        "Apoio em todas as fases da formação médica",
+        "Valores: Excelência, aprendizado prático e tecnologia",
+        "Compromisso social com inclusão e diversidade",
+        "MBA para médicos com formato híbrido"
+      ],
+      "tom_de_voz": "Tradicional, inclusiva, focada em excelência",
+      "bonus_garantias": [],
+      "avaliacao": "clara"
+    },
+    {
+      "concorrente": "HCOR",
+      "proposta_valor": "Hospital de excelência em cardiologia e oncologia. Padrão de excelência em diagnóstico e tratamento.",
+      "diferenciais": [
+        "45+ anos de tradição",
+        "Centro de Cuidado em Oncologia e Hematologia",
+        "Padrão de excelência em cardiologia",
+        "Centro de Diagnósticos completo",
+        "Coleta domiciliar disponível"
+      ],
+      "tom_de_voz": "Sério, acadêmico, confiável",
+      "bonus_garantias": [],
+      "avaliacao": "clara"
+    },
+    {
+      "concorrente": "CENBRAP",
+      "proposta_valor": "Credibilidade, qualidade e resultados. Pós-Graduações para Médicos reconhecidas pelo MEC.",
+      "diferenciais": [
+        "15+ anos de história no mercado",
+        "25.000+ médicos formados",
+        "Centenas de aprovados em provas de título",
+        "Reconhecimento MEC",
+        "Professores renomados",
+        "Conteúdo científico atualizado"
+      ],
+      "tom_de_voz": "Profissional, científico, confiável",
+      "bonus_garantias": [],
+      "preco_transparente": true,
+      "avaliacao": "clara"
+    }
+  ],
+  "diferenciais_comuns": [
+    {
+      "diferencial": "Certificação/Credenciamento MEC",
+      "frequencia": "14 de 20 concorrentes",
+      "percentual": "70%",
+      "observacao": "Diferencial básico esperado, não diferencia na prática"
+    },
+    {
+      "diferencial": "Corpo docente renomado/especializado",
+      "frequencia": "12 de 20 concorrentes",
+      "percentual": "60%",
+      "observacao": "Promessa comum, poucos provam com nomes específicos"
+    },
+    {
+      "diferencial": "Tradição/Anos de mercado",
+      "frequencia": "8 de 20 concorrentes",
+      "percentual": "40%",
+      "observacao": "Einstein (1955), HCOR (1978), iDomed (1999), Mandic (1985)"
+    },
+    {
+      "diferencial": "Metodologia baseada em casos/prática",
+      "frequencia": "5 de 20 concorrentes",
+      "percentual": "25%",
+      "observacao": "Liberdade Médica, MEV Brasil, Cetrus, Comportamente"
+    },
+    {
+      "diferencial": "Comunidade de alunos",
+      "frequencia": "4 de 20 concorrentes",
+      "percentual": "20%",
+      "observacao": "Liberdade Médica, MEV Brasil, Comportamente"
+    },
+    {
+      "diferencial": "100% Online/ead",
+      "frequencia": "10 de 20 concorrentes",
+      "percentual": "50%",
+      "observacao": "Modalidade comum, não é mais diferencial"
+    }
+  ],
+  "diferenciais_unicos": [
+    {
+      "concorrente": "Liberdade Médica",
+      "diferencial_unico": "Dupla certificação em um único programa (Emergência + Intensiva)",
+      "categoria": "certificacao",
+      "impacto": "alto"
+    },
+    {
+      "concorrente": "Liberdade Médica",
+      "diferencial_unico": "Suporte 24h com IA para plantões",
+      "categoria": "tecnologia",
+      "impacto": "alto"
+    },
+    {
+      "concorrente": "Liberdade Médica",
+      "diferencial_unico": "Prática no maior pronto-socorro privado de Goiás",
+      "categoria": "pratica",
+      "impacto": "médio"
+    },
+    {
+      "concorrente": "MEV Brasil",
+      "diferencial_unico": "Pioneira exclusiva em Medicina do Estilo de Vida no Brasil",
+      "categoria": "nicho",
+      "impacto": "alto"
+    },
+    {
+      "concorrente": "MEV Brasil",
+      "diferencial_unico": "Ferramenta MEVPlan exclusiva de avaliação do estilo de vida",
+      "categoria": "tecnologia",
+      "impacto": "alto"
+    },
+    {
+      "concorrente": "MEV Brasil",
+      "diferencial_unico": "Ecossistema completo: Podcast + Eventos + Comunidade",
+      "categoria": "conteudo",
+      "impacto": "médio"
+    },
+    {
+      "concorrente": "Cetrus",
+      "diferencial_unico": "Cursos presenciais com turmas de 4-6 alunos (ultra-personalizado)",
+      "categoria": "metodologia",
+      "impacto": "médio"
+    },
+    {
+      "concorrente": "Cetrus",
+      "diferencial_unico": "Cursos inovadores: Medicina Regenerativa, Endoscopia da Coluna",
+      "categoria": "conteudo",
+      "impacto": "médio"
+    },
+    {
+      "concorrente": "Comportamente",
+      "diferencial_unico": "8.000+ alunos formados (prova social quantificada)",
+      "categoria": "prova_social",
+      "impacto": "médio"
+    },
+    {
+      "concorrente": "Comportamente",
+      "diferencial_unico": "Parcerias com editoras (Manole, Sinopsys) para descontos",
+      "categoria": "beneficio",
+      "impacto": "baixo"
+    },
+    {
+      "concorrente": "iDomed",
+      "diferencial_unico": "18 faculdades médicas em rede pelo país",
+      "categoria": "infraestrutura",
+      "impacto": "alto"
+    },
+    {
+      "concorrente": "Caduceu",
+      "diferencial_unico": "Parcerias com times de futebol (Flamengo, Palmeiras, UFC)",
+      "categoria": "autoridade",
+      "impacto": "médio"
+    },
+    {
+      "concorrente": "Einstein",
+      "diferencial_unico": "Infraestrutura hospitalar para prática real",
+      "categoria": "infraestrutura",
+      "impacto": "alto"
+    },
+    {
+      "concorrente": "HCOR",
+      "diferencial_unico": "45+ anos de tradição em cardiologia e oncologia",
+      "categoria": "tradicão",
+      "impacto": "alto"
+    },
+    {
+      "concorrente": "IPM",
+      "diferencial_unico": "Presença em 4 cidades (Brasília, Rio Preto, Goiânia, SP)",
+      "categoria": "cobertura",
+      "impacto": "médio"
+    }
+  ],
+  "propostas_por_categoria": {
+    "preco": [
+      {
+        "concorrente": "Sanar",
+        "preco": 2800,
+        "proposta": "Menor preço do mercado (mas é preparatório, não pós-graduação credenciada)",
+        "transparencia": true
+      },
+      {
+        "concorrente": "FGMed",
+        "preco": 3600,
+        "proposta": "Preço competitivo com credenciamento em análise",
+        "transparencia": true
+      },
+      {
+        "concorrente": "Unyleya",
+        "preco": 3600,
+        "proposta": "Preço baixo com credenciamento MEC",
+        "transparencia": true
+      },
+      {
+        "concorrente": "CDT",
+        "preco": 4800,
+        "proposta": "Preço acessível com transparência",
+        "transparencia": true
+      },
+      {
+        "concorrente": "IBCMED",
+        "preco": 5200,
+        "proposta": "Preço intermediário",
+        "transparencia": true
+      },
+      {
+        "concorrente": "MEV Brasil",
+        "preco": 5800,
+        "proposta": "Valor médio para nicho exclusivo",
+        "transparencia": false
+      },
+      {
+        "concorrente": "BWS",
+        "preco": 6200,
+        "proposta": "Preço intermediário-alto",
+        "transparencia": false
+      },
+      {
+        "concorrente": "Afya",
+        "preco": 6800,
+        "proposta": "Preço premium do grupo educacional",
+        "transparencia": true
+      },
+      {
+        "concorrente": "CENBRAP",
+        "preco": 7200,
+        "proposta": "Preço transparente com qualidade comprovada",
+        "transparencia": true
+      },
+      {
+        "concorrente": "São Leopoldo Mandic",
+        "preco": 7500,
+        "proposta": "Preço premium institucional",
+        "transparencia": true
+      },
+      {
+        "concorrente": "HCOR",
+        "preco": 8200,
+        "proposta": "Preço premium de hospital de excelência",
+        "transparencia": false
+      },
+      {
+        "concorrente": "Einstein",
+        "preco": 8900,
+        "proposta": "Preço premium de marca premium",
+        "transparencia": false
+      },
+      {
+        "concorrente": "PUCRS",
+        "preco": 9200,
+        "proposta": "Maior preço - universidade tradicional",
+        "transparencia": true
+      },
+      {
+        "concorrente": "Sírio-Libanês",
+        "preco": 9500,
+        "proposta": "Preço ultra-premium hospitalar",
+        "transparencia": false
+      }
+    ],
+    "qualidade": [
+      {
+        "concorrente": "Einstein",
+        "proposta": "Excelência acadêmica com 70 anos de tradição",
+        "prova_social": "520k seguidores, marca mais forte"
+      },
+      {
+        "concorrente": "HCOR",
+        "proposta": "45 anos de excelência em cardiologia e oncologia",
+        "prova_social": "Hospital renomado, 95k seguidores"
+      },
+      {
+        "concorrente": "Sírio-Libanês",
+        "proposta": "Excelência do hospital Sírio-Libanês",
+        "prova_social": "210k seguidores, hospital renomado"
+      },
+      {
+        "concorrente": "CENBRAP",
+        "proposta": "25.000+ médicos formados, centenas de aprovados em títulos",
+        "prova_social": "Números quantificados de resultados"
+      },
+      {
+        "concorrente": "São Leopoldo Mandic",
+        "proposta": "40 anos de tradição, 10.000+ alunos",
+        "prova_social": "180k seguidores, marca estabelecida"
+      }
+    ],
+    "metodologia": [
+      {
+        "concorrente": "Liberdade Médica",
+        "proposta": "Metodologia baseada em casos reais do dia a dia hospitalar + Suporte IA 24h",
+        "diferencial": "Tecnologia aplicada à prática"
+      },
+      {
+        "concorrente": "MEV Brasil",
+        "proposta": "Baseada nas melhores evidências + prática clínica brasileira + Ferramenta MEVPlan",
+        "diferencial": "Ferramenta exclusiva de avaliação"
+      },
+      {
+        "concorrente": "Cetrus",
+        "proposta": "Turmas reduzidas (4-6 alunos) com foco em habilidades práticas",
+        "diferencial": "Personalização extrema"
+      },
+      {
+        "concorrente": "Comportamente",
+        "proposta": "100% Online com Prática Real + Base Científica",
+        "diferencial": "Combinação de teoria e prática no EAD"
+      }
+    ],
+    "certificacao": [
+      {
+        "concorrente": "Liberdade Médica",
+        "proposta": "Dupla certificação em Medicina de Emergência + Medicina Intensiva em um único programa",
+        "diferencial": "Único com dupla certificação integrada"
+      },
+      {
+        "concorrente": "MEV Brasil",
+        "proposta": "Pioneira e exclusiva em Medicina do Estilo de Vida no Brasil",
+        "diferencial": "Nicho exclusivo, sem concorrência direta"
+      },
+      {
+        "concorrente": "Cetrus",
+        "proposta": "Especializações inovadoras: Medicina Regenerativa, Endoscopia da Coluna",
+        "diferencial": "Cursos diferenciados no mercado"
+      },
+      {
+        "concorrente": "iDomed",
+        "proposta": "MBA para médicos com formato híbrido",
+        "diferencial": "MBA específico para médicos"
+      }
+    ],
+    "nicho": [
+      {
+        "concorrente": "MEV Brasil",
+        "nicho": "Medicina do Estilo de Vida",
+        "proposta": "Transformação da prática clínica através da MEV",
+        "exclusividade": "Alta - pioneira no Brasil"
+      },
+      {
+        "concorrente": "Liberdade Médica",
+        "nicho": "Medicina de Emergência e Paciente Grave",
+        "proposta": "Foco exclusivo em emergência e terapia intensiva",
+        "exclusividade": "Média - há outros players"
+      },
+      {
+        "concorrente": "Comportamente",
+        "nicho": "Saúde Mental e Psiquiatria",
+        "proposta": "Formação de excelência em psicologia e psiquiatria",
+        "exclusividade": "Média - CENBRAP também atua"
+      },
+      {
+        "concorrente": "Cetrus",
+        "nicho": "Ultrassonografia e Medicina da Dor",
+        "proposta": "Especializações técnicas com poucos alunos",
+        "exclusividade": "Alta - cursos técnicos específicos"
+      },
+      {
+        "concorrente": "HCOR",
+        "nicho": "Cardiologia e Oncologia",
+        "proposta": "Excelência hospitalar em especialidades específicas",
+        "exclusividade": "Alta - hospital de referência"
+      }
+    ]
+  },
+  "padroes_promessas": {
+    "mais_comuns": [
+      {
+        "promessa": "Certificação MEC/Reconhecimento oficial",
+        "frequencia_absoluta": 14,
+        "frequencia_percentual": "70%",
+        "observacao": "Diferencial básico esperado, não gera conversão"
+      },
+      {
+        "promessa": "Corpo docente renomado/qualificado",
+        "frequencia_absoluta": 12,
+        "frequencia_percentual": "60%",
+        "observacao": "Promessa vaga sem nomes específicos perde credibilidade"
+      },
+      {
+        "promessa": "Qualidade/Excelência no ensino",
+        "frequencia_absoluta": 10,
+        "frequencia_percentual": "50%",
+        "observacao": "Genérico, todo concorrente diz ter qualidade"
+      },
+      {
+        "promessa": "Modalidade 100% Online/EAD",
+        "frequencia_absoluta": 10,
+        "frequencia_percentual": "50%",
+        "observacao": "Comodidade, mas não é diferencial mais"
+      },
+      {
+        "promessa": "Tradição/Tempo de mercado",
+        "frequencia_absoluta": 8,
+        "frequencia_percentual": "40%",
+        "observacao": "Einstein, HCOR, Mandic, iDomed usam essa cartada"
+      }
+    ],
+    "raras_vantagem": [
+      {
+        "promessa": "Suporte 24h com IA",
+        "frequencia_absoluta": 1,
+        "frequencia_percentual": "5%",
+        "detentor": "Liberdade Médica",
+        "observacao": "Diferencial tecnológico real, raro no mercado"
+      },
+      {
+        "promessa": "Ferramenta própria exclusiva",
+        "frequencia_absoluta": 1,
+        "frequencia_percentual": "5%",
+        "detentor": "MEV Brasil (MEVPlan)",
+        "observacao": "Ativo intelectual próprio gera valor real"
+      },
+      {
+        "promessa": "Dupla certificação integrada",
+        "frequencia_absoluta": 1,
+        "frequencia_percentual": "5%",
+        "detentor": "Liberdade Médica",
+        "observacao": "Economia de tempo e dinheiro para aluno"
+      },
+      {
+        "promessa": "Turmas ultra-reduzidas (4-6 alunos)",
+        "frequencia_absoluta": 1,
+        "frequencia_percentual": "5%",
+        "detentor": "Cetrus",
+        "observacao": "Personalização extrema, experiência premium"
+      },
+      {
+        "promessa": "Nicho exclusivo sem concorrência",
+        "frequencia_absoluta": 1,
+        "frequencia_percentual": "5%",
+        "detentor": "MEV Brasil (Medicina do Estilo de Vida)",
+        "observacao": "Blue ocean, posicionamento único"
+      },
+      {
+        "promessa": "Preço transparente no site",
+        "frequencia_absoluta": 8,
+        "frequencia_percentual": "40%",
+        "detentores": "CDT, Unyleya, FGMed, Sanar, Mandic, PUCRS, Unyleya, Afya, IBCMED, CENBRAP",
+        "observacao": "Maioria esconde preço - transparência é diferencial"
+      }
+    ]
+  },
+  "analise_clareza": {
+    "propostas_claras": [
+      {
+        "concorrente": "Liberdade Médica",
+        "nota": 9,
+        "justificativa": "Proposta específica (Paciente Grave), diferencial claro (dupla certificação), público-alvo definido"
+      },
+      {
+        "concorrente": "MEV Brasil",
+        "nota": 9,
+        "justificativa": "Proposta única (Medicina do Estilo de Vida), posicionamento claro, diferenciais tangíveis (MEVPlan)"
+      },
+      {
+        "concorrente": "CENBRAP",
+        "nota": 8,
+        "justificativa": "Proposta clara, diferenciais quantificados (25.000+ formados), preço transparente"
+      },
+      {
+        "concorrente": "Comportamente",
+        "nota": 8,
+        "justificativa": "Foco claro em Saúde Mental, diferenciais específicos (8.000+ alunos), posicionamento definido"
+      },
+      {
+        "concorrente": "Cetrus",
+        "nota": 7,
+        "justificativa": "Proposta de valor clara, diferencial específico (turmas reduzidas), foco em habilidades"
+      },
+      {
+        "concorrente": "Einstein",
+        "nota": 7,
+        "justificativa": "Proposta de excelência clara, autoridade institucional evidente"
+      },
+      {
+        "concorrente": "iDomed",
+        "nota": 7,
+        "justificativa": "Proposta de tradição e inovação, diferencial de rede (18 faculdades)"
+      },
+      {
+        "concorrente": "HCOR",
+        "nota": 7,
+        "justificativa": "Proposta clara de excelência hospitalar, especialidades definidas"
+      }
+    ],
+    "propostas_confusas": [
+      {
+        "concorrente": "IPM",
+        "nota": 3,
+        "justificativa": "Proposta genérica ('IPM Pós-graduação'), sem diferenciais claros"
+      },
+      {
+        "concorrente": "Caduceu",
+        "nota": 4,
+        "justificativa": "Proposta genérica ('Cursos de Pós-Graduação'), diferenciais comuns"
+      },
+      {
+        "concorrente": "FGMed",
+        "nota": 4,
+        "justificativa": "Sem proposta definida nos dados coletados"
+      },
+      {
+        "concorrente": "BWS",
+        "nota": 4,
+        "justificativa": "Sem proposta definida nos dados coletados"
+      },
+      {
+        "concorrente": "CDT",
+        "nota": 4,
+        "justificativa": "Sem proposta definida nos dados coletados"
+      },
+      {
+        "concorrente": "Mandic",
+        "nota": 5,
+        "justificativa": "Sem proposta específica, apenas marca forte"
+      },
+      {
+        "concorrente": "Unyleya Med",
+        "nota": 5,
+        "justificativa": "Sem proposta específica destacada"
+      },
+      {
+        "concorrente": "Sanar",
+        "nota": 5,
+        "justificativa": "Foco em preparatórios, não pós-graduação - posicionamento confuso"
+      }
+    ]
+  },
+  "analise_cenbrap_vs_concorrencia": {
+    "fortalezas_cenbrap": [
+      "25.000+ médicos formados - maior número de alunos do mercado",
+      "Preço transparente no site (diferencial contra maioria)",
+      "15+ anos de história comprovada",
+      "Centenas de aprovados em provas de título (resultado concreto)",
+      "Reconhecimento MEC consolidado"
+    ],
+    "fraquezas_cenbrap": [
+      "Zero anúncios ativos no Meta Ads (concorrência investe pesado)",
+      "Proposta de valor genérica comparada a nichos específicos",
+      "Sem diferencial tecnológico (IA, ferramentas próprias)",
+      "Sem comunidade ativa destacada (MEV Brasil, Liberdade Médica têm)",
+      "Sem garantia ou bônus explícitos na oferta"
+    ],
+    "ameacas": [
+      "Liberdade Médica: dupla certificação + IA 24h é value proposition forte",
+      "MEV Brasil: nicho exclusivo sem concorrência direta + ferramenta própria",
+      "Sanar: preço agressivo (2800) + marca forte (1.2M seguidores)",
+      "Einstein/Sírio-Libanês/HCOR: autoridade hospitalar inquestionável",
+      "Concorrência geral: 161 anúncios ativos vs 0 da CENBRAP"
+    ],
+    "oportunidades": [
+      "Maioria não tem preço transparente - CENBRAP pode destacar isso",
+      "Poucos provam resultados com números - CENBRAP tem 25.000+ formados",
+      "Nicho de Psiquiatria: CENBRAP forte vs concorrência genérica",
+      "Mercado carece de inovação tecnológica - oportunidade de inovar",
+      "Comunidade de alunos subexplorada - potencial de engajamento"
+    ]
+  },
+  "insights": [
+    "Insight 1: O mercado écommoditizado - 70% dos concorrentes prometem as mesmas coisas (MEC, corpo docente renomado, qualidade)",
+    "Insight 2: Preço transparente é raro - apenas 40% divulgam valores, CENBRAP tem vantagem aqui",
+    "Insight 3: Nichos específicos vencem - MEV Brasil (Medicina do Estilo de Vida) e Liberdade Médica (Emergência) têm propostas mais claras que generalistas",
+    "Insight 4: Tecnologia é diferencial azul - apenas Liberdade Médica usa IA 24h, apenas MEV Brasil tem ferramenta própria",
+    "Insight 5: Provas sociais quantificadas são raras - poucos mostram números reais de alunos e aprovações como CENBRAP faz",
+    "Insight 6: Comunidade é novo battleground - concorrentes inovadores (Liberdade Médica, MEV Brasil) investem em comunidade ativa",
+    "Insight 7: Maioria tem proposta confusa - 65% dos concorrentes têm mensagem genérica ou incompleta",
+    "Insight 8: Grandes players hospitalares dominam premium - Einstein, Sírio-Libanês, HCOR justificam preços altos com autoridade institucional",
+    "Insight 9: Digital-first players crescem - Sanar (1.2M seguidores) e Liberdade Médica (ads ativos) mostram força no digital",
+    "Insight 10: Garantias são quase inexistentes - apenas 10% oferecem garantia ou bônus claros"
+  ],
+  "recomendacoes_cenbrap": [
+    "Recomendação 1: DESTACAR TRANSPARÊNCIA - Criar campanha 'Preço Real, Sem Surpresas' contrastando com concorrentes que escondem valores",
+    "Recomendação 2: QUANTIFICAR RESULTADOS - Criar página dedicada aos '25.000+ Médicos Formados' com depoimentos e casos de sucesso",
+    "Recomendação 3: DESENVOLVER DIFERENCIAL TECNOLÓGICO - Avaliar implementar IA tutor 24h (como Liberdade Médica) ou ferramenta própria",
+    "Recomendação 4: FORTALECER COMUNIDADE - Criar comunidade exclusiva CENBRAP para networking e suporte entre alunos",
+    "Recomendação 5: INVESTIR EM TRÁFEGO PAGO - Concorrência tem 161 anúncios ativos, CENBRAP tem 0 - começar campanhas Meta Ads urgentemente",
+    "Recomendação 6: ESPECIALIZAR PROPOSTA - Em vez de 'Pós-Graduações para Médicos', focar em 'Especialistas em Psiquiatria e Endocrinologia'",
+    "Recomendação 7: CRIAR GARANTIA - Implementar 'Garantia de Aprovação' ou 'Dinheiro de Volta' diferenciando da concorrência",
+    "Recomendação 8: DESTACAR APROVAÇÕES - Criar seção 'Taxa de Aprovação em Títulos' com dados comparativos vs concorrência",
+    "Recomendação 9: HUMANIZAR MARCA - Adotar tom mais próximo (como Comportamente) sem perder a credibilidade científica",
+    "Recomendação 10: CONTRASTAR COM PREPARATÓRIOS - Educar mercado sobre diferença entre pós-graduação MEC (CENBRAP) e preparatórios (Sanar)"
+  ],
+  "matriz_posicionamento": {
+    "eixo_x": "Preço (Baixo → Alto)",
+    "eixo_y": "Diferenciação (Genérico → Único)",
+    "quadrantes": {
+      "baixo_generico": [
+        "Sanar (preço baixo, mas é preparatório)",
+        "FGMed (preço baixo, genérico)",
+        "Unyleya (preço baixo, oferta genérica)"
+      ],
+      "baixo_diferenciado": [
+        "CDT (preço acessível, transparência como diferencial)"
+      ],
+      "alto_generico": [
+        "Einstein (preço alto, proposta genérica de excelência)",
+        "Sírio-Libanês (preço alto, marca forte)",
+        "HCOR (preço alto, hospital renomado)"
+      ],
+      "alto_diferenciado": [
+        "Liberdade Médica (preço médio-alto, dupla certificação + IA)",
+        "MEV Brasil (preço médio, nicho exclusivo + ferramenta)",
+        "Cetrus (preço não divulgado, turmas reduzidas)"
+      ]
+    },
+    "posicao_cenbrap": "Preço médio-alto (7200) com proposta moderadamente diferenciada (números de alunos) - pode melhorar diferenciação sem aumentar preço"
+  },
+  "tom_de_voz_mercado": {
+    "institucional_serio": [
+      "Einstein",
+      "HCOR",
+      "Sírio-Libanês",
+      "iDomed"
+    ],
+    "profissional_tecnico": [
+      "Caduceu",
+      "IPM",
+      "Cetrus"
+    ],
+    "inovador_tecnologico": [
+      "Liberdade Médica",
+      "MEV Brasil"
+    ],
+    "humanizado_cientifico": [
+      "Comportamente"
+    ],
+    "cientifico_confiavel": [
+      "CENBRAP"
+    ],
+    "recomendacao_cenbrap": "Manter tom científico-confiável mas adicionar elementos de inovação e humanização para competir com novos players"
+  }
+}

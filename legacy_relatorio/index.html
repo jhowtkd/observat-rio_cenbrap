@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inteligência Competitiva CENBRAP</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    
+    <style>
+        /* Additional page-specific styles */
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: var(--space-lg);
+            margin-bottom: var(--space-2xl);
+        }
+        
+        .charts-grid .chart-container {
+            margin-bottom: 0;
+        }
+        
+        .competitor-card.selected {
+            border-color: var(--accent-purple);
+            box-shadow: 0 0 0 2px rgba(139, 92, 246, 0.3);
+        }
+        
+        .hero-stats {
+            display: flex;
+            justify-content: center;
+            gap: var(--space-2xl);
+            margin-top: var(--space-xl);
+            flex-wrap: wrap;
+        }
+        
+        .hero-stat {
+            text-align: center;
+        }
+        
+        .hero-stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+        
+        .hero-stat-label {
+            font-size: 0.875rem;
+            color: var(--text-muted);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-badge">
+            <span>🎯</span>
+            <span>Relatório de Inteligência Competitiva</span>
+        </div>
+        <h1>Análise de Concorrência</h1>
+        <p class="subtitle">CENBRAP - Pós-graduação EAD Médica</p>
+        <div class="meta">
+            <span>📅 <span id="date"></span></span>
+            <span>📊 20 Concorrentes</span>
+            <span>✓ Fontes Verificáveis</span>
+        </div>
+        
+        <div class="hero-stats">
+            <div class="hero-stat">
+                <div class="hero-stat-value">4</div>
+                <div class="hero-stat-label">Diretos</div>
+            </div>
+            <div class="hero-stat">
+                <div class="hero-stat-value">16</div>
+                <div class="hero-stat-label">Institucionais</div>
+            </div>
+            <div class="hero-stat">
+                <div class="hero-stat-value">6</div>
+                <div class="hero-stat-label">Fases</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="#dashboard" class="active">Dashboard</a>
+            <a href="#grupo1">Concorrentes Diretos</a>
+            <a href="#grupo2">Institucionais</a>
+            <a href="#analises">Análises</a>
+            <a href="#matriz">Matriz</a>
+            <a href="#vulnerabilidades">Vulnerabilidades</a>
+            <a href="#insights">Insights</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- DASHBOARD -->
+        <section id="dashboard" class="section">
+            <div class="section-header">
+                <div>
+                    <h2 class="section-title">
+                        <span class="icon" style="background: var(--gradient-blue);">📊</span>
+                        Dashboard Executivo
+                    </h2>
+                    <p class="section-description">Visão consolidada da análise competitiva</p>
+                </div>
+            </div>
+
+            <!-- Stats Cards -->
+            <div class="grid grid-4" id="stats-container">
+                <div class="card stat-card skeleton" style="height: 150px;"></div>
+                <div class="card stat-card skeleton" style="height: 150px;"></div>
+                <div class="card stat-card skeleton" style="height: 150px;"></div>
+                <div class="card stat-card skeleton" style="height: 150px;"></div>
+            </div>
+
+            <!-- Charts Grid -->
+            <div class="charts-grid" style="margin-top: var(--space-2xl);">
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <h3 class="chart-title">💰 Distribuição de Preços</h3>
+                    </div>
+                    <div class="chart-wrapper">
+                        <canvas id="priceDistributionChart"></canvas>
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <h3 class="chart-title">📱 Presença Digital</h3>
+                    </div>
+                    <div class="chart-wrapper">
+                        <canvas id="digitalPresenceChart"></canvas>
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <h3 class="chart-title">⚠️ Tipos de Vulnerabilidades</h3>
+                    </div>
+                    <div class="chart-wrapper">
+                        <canvas id="vulnerabilityChart"></canvas>
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <h3 class="chart-title">🎯 Mapa de Posicionamento</h3>
+                    </div>
+                    <div class="chart-wrapper">
+                        <canvas id="positioningMap"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- GRUPO 1 - CONCORRENTES DIRETOS -->
+        <section id="grupo1" class="section">
+            <div class="section-header">
+                <div>
+                    <h2 class="section-title">
+                        <span class="icon" style="background: var(--gradient-amber);">🎯</span>
+                        Grupo 1 - Concorrentes Diretos
+                    </h2>
+                    <p class="section-description">Pós-graduação EAD Médica - Análise Completa</p>
+                </div>
+            </div>
+
+            <!-- Filters -->
+            <div id="filters-container">
+                <div class="filters skeleton" style="height: 80px;"></div>
+            </div>
+
+            <!-- Competitors Grid -->
+            <div class="grid grid-competitors" id="grupo1-content">
+                <div class="card skeleton" style="height: 300px;"></div>
+                <div class="card skeleton" style="height: 300px;"></div>
+                <div class="card skeleton" style="height: 300px;"></div>
+                <div class="card skeleton" style="height: 300px;"></div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- GRUPO 2 - PLAYERS INSTITUCIONAIS -->
+        <section id="grupo2" class="section">
+            <div class="section-header">
+                <div>
+                    <h2 class="section-title">
+                        <span class="icon" style="background: var(--gradient-emerald);">🏛️</span>
+                        Grupo 2 - Players Institucionais
+                    </h2>
+                    <p class="section-description">Grandes instituições de saúde e educação</p>
+                </div>
+            </div>
+
+            <!-- Competitors Grid -->
+            <div class="grid grid-competitors" id="grupo2-content">
+                <div class="card skeleton" style="height: 250px;"></div>
+                <div class="card skeleton" style="height: 250px;"></div>
+                <div class="card skeleton" style="height: 250px;"></div>
+                <div class="card skeleton" style="height: 250px;"></div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- ANÁLISES VISUAIS -->
+        <section id="analises" class="section">
+            <div class="section-header">
+                <div>
+                    <h2 class="section-title">
+                        <span class="icon" style="background: var(--gradient-purple);">📈</span>
+                        Análises Visuais
+                    </h2>
+                    <p class="section-description">Gráficos e visualizações de dados</p>
+                </div>
+            </div>
+
+            <div class="charts-grid">
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <h3 class="chart-title">🎯 Investimento em Ads (Meta)</h3>
+                    </div>
+                    <div class="chart-wrapper">
+                        <canvas id="adsInvestmentChart"></canvas>
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <h3 class="chart-title">📅 Timeline de Anúncios</h3>
+                    </div>
+                    <div class="chart-wrapper">
+                        <canvas id="adsTimelineChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- MATRIZ COMPARATIVA -->
+        <section id="matriz" class="section">
+            <div class="section-header">
+                <div>
+                    <h2 class="section-title">
+                        <span class="icon" style="background: var(--gradient-blue);">📋</span>
+                        Matriz Comparativa
+                    </h2>
+                    <p class="section-description">Comparação detalhada entre todos os concorrentes</p>
+                </div>
+                <div class="section-actions">
+                    <button class="btn btn-secondary btn-sm" onclick="exportarCSV()">
+                        📥 Exportar CSV
+                    </button>
+                </div>
+            </div>
+
+            <div id="matriz-content">
+                <div class="table-container skeleton" style="height: 400px;"></div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- VULNERABILIDADES -->
+        <section id="vulnerabilidades" class="section">
+            <div class="section-header">
+                <div>
+                    <h2 class="section-title">
+                        <span class="icon" style="background: var(--gradient-amber);">⚠️</span>
+                        Vulnerabilidades Exploráveis
+                    </h2>
+                    <p class="section-description">Oportunidades de diferenciação identificadas nos concorrentes</p>
+                </div>
+            </div>
+
+            <div id="vulnerabilidades-content">
+                <div class="card skeleton" style="height: 200px;"></div>
+                <div class="card skeleton" style="height: 200px; margin-top: var(--space-lg);"></div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- INSIGHTS ACIONÁVEIS -->
+        <section id="insights" class="section">
+            <div class="section-header">
+                <div>
+                    <h2 class="section-title">
+                        <span class="icon" style="background: var(--gradient-emerald);">💡</span>
+                        Insights Acionáveis
+                    </h2>
+                    <p class="section-description">Recomendações estratégicas baseadas em dados</p>
+                </div>
+            </div>
+
+            <div id="insights-content">
+                <div class="card skeleton" style="height: 150px;"></div>
+                <div class="card skeleton" style="height: 150px; margin-top: var(--space-lg);"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Comparison Bar -->
+    <div class="comparison-bar" id="comparison-bar">
+        <div class="comparison-inner">
+            <div class="comparison-selection">
+                <span style="font-weight: 600;">Comparar:</span>
+                <div class="comparison-selected" id="comparison-selected"></div>
+            </div>
+            <div class="comparison-actions">
+                <button class="btn btn-primary btn-sm" onclick="showComparison()">
+                    Ver Comparação
+                </button>
+                <button class="btn btn-ghost btn-sm" onclick="AppState.comparacao = []; renderizarConcorrentes(); atualizarBarraComparacao();">
+                    Limpar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Comparison Modal -->
+    <div class="comparison-modal" id="comparison-modal" onclick="if(event.target === this) closeComparison()">
+        <div class="comparison-content">
+            <div class="comparison-header">
+                <h2>⚖️ Comparação Detalhada</h2>
+                <button class="comparison-close" onclick="closeComparison()">×</button>
+            </div>
+            <div class="comparison-body">
+                <table class="comparison-table">
+                    <tbody id="comparison-tbody"></tbody>
+                </table>
+                
+                <div class="chart-container" style="margin-top: var(--space-xl); height: 400px;">
+                    <div class="chart-header">
+                        <h3 class="chart-title">📊 Radar Comparativo</h3>
+                    </div>
+                    <div class="chart-wrapper">
+                        <canvas id="radarComparisonChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer style="text-align: center; padding: var(--space-3xl); color: var(--text-muted); font-size: 0.875rem; border-top: 1px solid var(--border-subtle);">
+        <p style="font-size: 1.25rem; margin-bottom: var(--space-sm);">📄 Inteligência Competitiva CENBRAP</p>
+        <p style="font-family: var(--font-mono); margin-bottom: var(--space-md);">
+            Toda afirmação documentada com fontes verificáveis
+        </p>
+        <p style="font-size: 0.75rem; opacity: 0.6;">
+            Relatório gerado em <span id="footer-date"></span> | 
+            Metodologia: Análise de 20 concorrentes em 6 fases
+        </p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/app.js"></script>
+    <script src="js/charts.js"></script>
+    
+    <script>
+        // Atualizar footer date
+        document.getElementById('footer-date').textContent = new Date().toLocaleDateString('pt-BR');
+        
+        // Exportar CSV
+        function exportarCSV() {
+            const concorrentes = AppState.concorrentes;
+            let csv = 'Nome,Grupo,Prioridade,MEC,Preço,Docente Publico,Anuncios,Vulnerabilidades\n';
+            
+            concorrentes.forEach(c => {
+                csv += `"${c.nome}",${c.grupo},${c.prioridade},`;
+                csv += `${c.ficha_cadastral?.credenciamento_mec?.includes('Credenciada') ? 'Sim' : 'Nao'},`;
+                csv += `${c.oferta?.valor_total || ''},`;
+                csv += `${c.autoridade?.corpo_docente_publico ? 'Sim' : 'Nao'},`;
+                csv += `${c.trafego_pago?.meta_ads?.anuncios_ativos || 0},`;
+                csv += `${c.vulnerabilidades?.length || 0}\n`;
+            });
+            
+            const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = 'analise-concorrencia-cenbrap.csv';
+            link.click();
+        }
+        
+        // Inicializar gráficos após carregar dados
+        document.addEventListener('dataLoaded', () => {
+            setTimeout(initCharts, 100);
+        });
+    </script>
+</body>
+</html>

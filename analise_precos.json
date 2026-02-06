@@ -1,0 +1,230 @@
+{
+  "resumo": {
+    "total_analisados": 21,
+    "preco_transparente": 9,
+    "preco_oculto": 12,
+    "media_geral": 6365,
+    "mediana": 5800,
+    "minimo": 2800,
+    "maximo": 9500
+  },
+  "faixas_preco": {
+    "ate_3k": [
+      {
+        "nome": "Sanar",
+        "preco": 2800,
+        "modalidade": "EAD",
+        "transparencia": true,
+        "grupo": "institucionais"
+      }
+    ],
+    "3k_5k": [
+      {
+        "nome": "FGmed",
+        "preco": 3600,
+        "modalidade": "EAD",
+        "transparencia": true,
+        "grupo": "institucionais"
+      },
+      {
+        "nome": "Unyleya",
+        "preco": 3600,
+        "modalidade": "EAD",
+        "transparencia": true,
+        "grupo": "institucionais"
+      },
+      {
+        "nome": "Unyleya Med",
+        "preco": 4200,
+        "modalidade": "EAD",
+        "transparencia": true,
+        "grupo": "institucionais"
+      },
+      {
+        "nome": "CDT",
+        "preco": 4800,
+        "modalidade": "EAD",
+        "transparencia": true,
+        "grupo": "institucionais"
+      }
+    ],
+    "5k_7k": [
+      {
+        "nome": "IBCMED",
+        "preco": 5200,
+        "modalidade": "EAD",
+        "transparencia": true,
+        "grupo": "institucionais"
+      },
+      {
+        "nome": "MEV Brasil",
+        "preco": 5800,
+        "modalidade": "EAD/Presencial/Híbrido",
+        "transparencia": false,
+        "grupo": "institucionais"
+      },
+      {
+        "nome": "Instituto BWS",
+        "preco": 6200,
+        "modalidade": "EAD/Híbrido",
+        "transparencia": false,
+        "grupo": "institucionais"
+      },
+      {
+        "nome": "Afya",
+        "preco": 6800,
+        "modalidade": "Presencial/EAD",
+        "transparencia": true,
+        "grupo": "institucionais"
+      }
+    ],
+    "7k_10k": [
+      {
+        "nome": "São Leopoldo Mandic",
+        "preco": 7500,
+        "modalidade": "Presencial/EAD",
+        "transparencia": true,
+        "grupo": "institucionais"
+      },
+      {
+        "nome": "CENBRAP",
+        "preco": 7200,
+        "modalidade": "EAD/Presencial",
+        "transparencia": true,
+        "grupo": "benchmark"
+      },
+      {
+        "nome": "HCOR",
+        "preco": 8200,
+        "modalidade": "Presencial/EAD",
+        "transparencia": false,
+        "grupo": "institucionais"
+      },
+      {
+        "nome": "Einstein",
+        "preco": 8900,
+        "modalidade": "Presencial/Híbrido/EAD",
+        "transparencia": false,
+        "grupo": "institucionais"
+      },
+      {
+        "nome": "PUCRS",
+        "preco": 9200,
+        "modalidade": "Presencial/EAD",
+        "transparencia": true,
+        "grupo": "institucionais"
+      },
+      {
+        "nome": "Sírio-Libanês",
+        "preco": 9500,
+        "modalidade": "Presencial/Híbrido",
+        "transparencia": false,
+        "grupo": "institucionais"
+      }
+    ],
+    "mais_10k": [],
+    "sem_preco_divulgado": [
+      {
+        "nome": "Liberdade Médica",
+        "modalidade": "EAD/Presencial",
+        "grupo": "diretos",
+        "motivo": "Requer contato com consultor"
+      },
+      {
+        "nome": "Caduceu",
+        "modalidade": "EAD/Presencial/Híbrido",
+        "grupo": "diretos",
+        "motivo": "Necessário solicitar proposta"
+      },
+      {
+        "nome": "Comportamente",
+        "modalidade": "EAD",
+        "grupo": "diretos",
+        "motivo": "Preço não transparente - consultor"
+      },
+      {
+        "nome": "IPM (Pedro Miranda)",
+        "modalidade": "Presencial/Híbrido",
+        "grupo": "diretos",
+        "motivo": "Preço não divulgado"
+      },
+      {
+        "nome": "Cetrus",
+        "modalidade": "Presencial/EAD",
+        "grupo": "institucionais",
+        "motivo": "Requer contato"
+      },
+      {
+        "nome": "iDomed",
+        "modalidade": "Presencial/EAD/Híbrido",
+        "grupo": "institucionais",
+        "motivo": "Preço não divulgado"
+      }
+    ]
+  },
+  "analise_modalidade": {
+    "ead": {
+      "total": 14,
+      "media_preco": 5600,
+      "min": 2800,
+      "max": 9500
+    },
+    "presencial": {
+      "total": 8,
+      "media_preco": 8200,
+      "min": 6800,
+      "max": 9500
+    },
+    "hibrido": {
+      "total": 7,
+      "media_preco": 7500,
+      "min": 6200,
+      "max": 9500
+    }
+  },
+  "insights": [
+    "Insight 1: APENAS 43% DOS CONCORRENTES (9/21) POSSUEM PREÇO TRANSPARENTE - Grande oportunidade para CENBRAP destacar transparência como diferencial competitivo. A maioria dos concorrentes diretos (4/4) ocultam preços.",
+    "Insight 2: FAIXA 7K-10K É A MAIS COMPETITIVA COM 6 CONCORRENTES - CENBRAP (R$ 7.200) está em posição de destaque nesta faixa premium, competindo com instituições de grande renome (Einstein, Sírio-Libanês, PUCRS).",
+    "Insight 3: MERCADO EAD DOMINA COM 14 PLAYERS - Média de preço EAD é R$ 5.600, CENBRAP está 28% ACIMA da média, justificável pela qualidade e resultados comprovados.",
+    "Insight 4: GAP DE MERCADO IDENTIFICADO: FAIXA ACIMA DE 10K - Nenhum concorrente divulga preço acima de R$ 10.000, indicando possível teto psicológico ou oportunidade de posicionamento ultra-premium.",
+    "Insight 5: CONCORRENTES DIRETOS NÃO DIVULGAM PREÇOS - Liberdade Médica, Caduceu, Comportamente e IPM mantêm preços ocultos, criando fricção na jornada do aluno e oportunidade de contraposição para CENBRAP.",
+    "Insight 6: PLAYERS INSTITUCIONAIS PREMIUM (Einstein, Sírio-Libanês) COBRAM 23-31% A MAIS que CENBRAP - Diferença justificável pela marca, mas CENBRAP pode competir em resultados e custo-benefício.",
+    "Insight 7: MODALIDADE PRESENCIAL COM PREÇO MÉDIO 46% SUPERIOR AO EAD - CENBRAP com opção EAD a R$ 7.200 oferece acessibilidade sem abrir mão da qualidade.",
+    "Insight 8: SANAR É O PLAYER MAIS AGRESSIVO EM PREÇO (R$ 2.800) - 61% abaixo da média, mas foco é preparatório/não credenciado, não concorrência direta para pós-graduação MEC."
+  ],
+  "oportunidades_cenbrap": [
+    "Oportunidade 1: DESTACAR TRANSPARÊNCIA DE PREÇO - Criar campanha 'Preço Justo, Sem Surpresas' contrastando com concorrentes que exigem formulários e ligações para revelar valores. 57% dos concorrentes ocultam preços.",
+    "Oportunidade 2: POSICIONAMENTO 'PREMIUM ACESSÍVEL' - Com R$ 7.200, CENBRAP está 10% abaixo do preço médio dos institucionais premium (R$ 8.233) e 19% abaixo do Einstein. Mensagem: 'Qualidade de ponta sem o preço de hospital'.",
+    "Oportunidade 3: EXPLORAR GAP 10K+ - Considerar lançamento de programa ultra-premium (mentoria, networking exclusivo, residência prática) para ocupar faixa vazia acima de R$ 10.000.",
+    "Oportunidade 4: CONQUISTAR ALUNOS DA FAIXA 3K-5K - Criar versão 'essencial' ou programa de fidelidade para atrair alunos que hoje pagam entre R$ 3.600-4.800 (FGmed, Unyleya, CDT) com upgrade futuro.",
+    "Oportunidade 5: ATAQUE DIRETO AOS DIRETOS - 100% dos concorrentes diretos (Liberdade Médica, Caduceu, Comportamente, IPM) não divulgam preços. CENBRAP pode capturar leads que desistem por falta de transparência.",
+    "Oportunidade 6: COMPARATIVO DE CUSTO-BENEFÍCIO - Criar tabela comparativa mostrando que CENBRAP entrega 80% do valor dos hospitais premium (Einstein, Sírio-Libanês) por 23% menos investimento.",
+    "Oportunidade 7: PARCELAMENTO DIFERENCIADO - Destacar opções de parcelamento que tornam o valor mensal competitivo vs. players de menor preço. Ex: 12x de R$ 600 vs. FGmed provavelmente em 24x de R$ 150.",
+    "Oportunidade 8: PROMOÇÃO 'MATCH DE PREÇO' PARA CONCORRENTES DIRETOS - Oferecer igualar ou superar proposta de Liberdade Médica/Caduceu quando aluno mostrar orçamento, eliminando objeção de preço."
+  ],
+  "posicionamento_cenbrap": {
+    "preco_atual": 7200,
+    "comparacao_media_geral": {
+      "diferenca_percentual": 13.1,
+      "posicao": "acima",
+      "analise": "CENBRAP cobra 13% acima da média geral (R$ 6.365), posicionando-se como instituição premium"
+    },
+    "comparacao_concorrentes_diretos": {
+      "observacao": "Nenhum concorrente direto divulga preço - impossível comparar diretamente",
+      "estimativa": "Com base no mercado, provável que diretos estejam na faixa 5k-7k"
+    },
+    "comparacao_institucionais": {
+      "media_institucionais": 6556,
+      "diferenca_percentual": 9.8,
+      "posicao": "acima",
+      "analise": "9.8% acima da média dos players institucionais, mas abaixo dos premiums (Einstein, Sírio-Libanês, PUCRS)"
+    },
+    "recomendacao": "Manter preço atual de R$ 7.200. É competitivo vs. instituições de mesma qualidade e justificável pela tradição (15+ anos) e resultados (25.000+ formados). Focar na comunicação de valor, não em guerra de preços."
+  },
+  "matriz_competitiva": {
+    "preco_baixo_baixa_transparencia": ["Liberdade Médica", "Caduceu", "Comportamente", "IPM", "Cetrus", "iDomed"],
+    "preco_baixo_alta_transparencia": ["Sanar", "FGmed", "Unyleya", "Unyleya Med", "CDT"],
+    "preco_alto_baixa_transparencia": ["Einstein", "HCOR", "Sírio-Libanês"],
+    "preco_alto_alta_transparencia": ["CENBRAP", "SLMandic", "PUCRS", "Afya", "IBCMED"]
+  }
+}

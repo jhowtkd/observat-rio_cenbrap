@@ -1,0 +1,1136 @@
+{
+  "metadata": {
+    "projeto": "Inteligência Competitiva CENBRAP",
+    "data_criacao": "2026-02-05",
+    "total_concorrentes": 20,
+    "versao": "2.0"
+  },
+  "grupos": {
+    "diretos": {
+      "nome": "Concorrentes Diretos",
+      "descricao": "Pós-graduação EAD Médica - Mesmo nicho",
+      "concorrentes": ["liberdade_medica", "caduceu", "comportamente", "ipm"]
+    },
+    "institucionais": {
+      "nome": "Players Institucionais",
+      "descricao": "Grandes instituições de saúde/educação",
+      "concorrentes": ["einstein", "bws", "cdt", "slmandic", "unyleya_med", "fgmed", "mevbrasil", "cetrus", "pucrs", "sanar", "idomed", "hcor", "unyleya", "afya", "sirio_libanes", "ibcmed"]
+    }
+  },
+  "concorrentes": {
+    "liberdade_medica": {
+      "id": "liberdade_medica",
+      "nome": "Liberdade Médica",
+      "url": "liberdademedicaedu.com.br",
+      "grupo": "diretos",
+      "prioridade": "alta",
+      "ficha_cadastral": {
+        "nome_completo": "Liberdade Médica Educação",
+        "natureza_juridica": "Privada",
+        "credenciamento_mec": "Em análise",
+        "ano_fundacao": 2019,
+        "alunos_formados": null,
+        "modalidade": ["EAD"],
+        "especialidades": ["Medicina"],
+        "sede": null
+      },
+      "posicionamento": {
+        "headline": "Única pós-graduação médica do Brasil com certificação internacional",
+        "slogan": "Sua carreira sem fronteiras",
+        "diferenciais_declarados": [
+          "Certificação internacional",
+          "Corpo docente de Harvard",
+          "Aprovação em provas de título"
+        ],
+        "tom_de_voz": "Transformacional, aspiracional, autoritário"
+      },
+      "oferta": {
+        "preco_avista": "R$ 2.970",
+        "preco_parcelado": "12x R$ 297",
+        "valor_total": 3564,
+        "desconto_a_vista": "16.6%",
+        "garantia": "7 dias",
+        "parcelamento_max": 12,
+        "bonus_inclusos": ["Material exclusivo", "Grupo de networking"],
+        "preco_transparente": true
+      },
+      "autoridade": {
+        "corpo_docente_publico": false,
+        "professores_destacados": ["Professores internacionais"],
+        "parcerias": ["Instituições internacionais"],
+        "certificacoes": ["Certificação internacional"],
+        "casos_sucesso": null,
+        "depoimentos_quantidade": null
+      },
+      "digital": {
+        "instagram": {
+          "handle": "@liberdademedica",
+          "seguidores": "15.2k",
+          "engajamento": "2.1%",
+          "frequencia_posts": "3x/semana",
+          "url": "https://instagram.com/liberdademedica"
+        },
+        "facebook": {
+          "url": null,
+          "seguidores": null
+        },
+        "linkedin": {
+          "url": null,
+          "seguidores": null
+        },
+        "youtube": {
+          "url": null,
+          "inscritos": null
+        },
+        "blog": false,
+        "seo_organico": "Baixo"
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 12,
+          "investimento_estimado": "Médio",
+          "angulos_copy": ["Certificação internacional", "Corpo docente de Harvard", "Aprovação em títulos"],
+          "formatos": ["Video", "Carrossel"],
+          "landing_pages": ["liberdademedicaedu.com.br/pos"]
+        },
+        "google_ads": {
+          "anuncios_ativos": false,
+          "palavras_chave": []
+        }
+      },
+      "landing_page": {
+        "url": "liberdademedicaedu.com.br/pos",
+        "headline": "A única pós-graduação médica do Brasil com certificação internacional",
+        "subheadline": "Estude com professores de Harvard e conquiste o mundo",
+        "video_vendas": {
+          "tem": true,
+          "duracao": "12 min",
+          "mensagem_principal": "Transformação de carreira"
+        },
+        "bullets_beneficios": ["Certificação internacional", "Networking global", "Conteúdo exclusivo"],
+        "prova_social": {
+          "tipo": "Depoimentos em vídeo",
+          "quantidade": null,
+          "identificacao": false
+        },
+        "formulario": {
+          "campos": ["Nome", "Email", "WhatsApp", "Especialidade"],
+          "cta": "Quero garantir minha vaga"
+        },
+        "escassez": "Vagas limitadas",
+        "urgencia": "Turma inicia em breve"
+      },
+      "funil": {
+        "email_sequence": true,
+        "whatsapp_contato": true,
+        "redirect_pos_cadastro": "Pagina de obrigado + WhatsApp"
+      },
+      "vulnerabilidades": [
+        {
+          "tipo": "transparencia",
+          "descricao": "Corpo docente sem nomes públicos ou links para perfis/Lattes",
+          "gravidade": "alta",
+          "contra_ataque": "Destacar professores com CV completo e Lattes verificável"
+        },
+        {
+          "tipo": "dados",
+          "descricao": "Não exibe número de alunos formados",
+          "gravidade": "media",
+          "contra_ataque": "Mostrar números reais de alunos e aprovados com dados verificáveis"
+        },
+        {
+          "tipo": "resultados",
+          "descricao": "Não apresenta % de aprovação em títulos de especialista",
+          "gravidade": "alta",
+          "contra_ataque": "Publicar taxas de aprovação comprovadas em títulos"
+        }
+      ],
+      "swot": {
+        "forcas": ["Copy persuasiva", "Promessa de certificação internacional", "Preço competitivo"],
+        "fraquezas": ["Falta de transparência docente", "Sem dados públicos de resultados", "Marca recente"],
+        "oportunidades": ["Mercado aspiracional", "Busca por diferenciação"],
+        "ameacas": ["Concorrência institucional estabelecida", "Validação das certificações"]
+      },
+      "screenshots": {
+        "homepage": null,
+        "landing_page": null,
+        "anuncios": [],
+        "instagram": null
+      },
+      "status_coleta": "parcial"
+    },
+    "caduceu": {
+      "id": "caduceu",
+      "nome": "Caduceu",
+      "url": "caduceucursos.com.br",
+      "grupo": "diretos",
+      "prioridade": "alta",
+      "ficha_cadastral": {
+        "nome_completo": "Caduceu Cursos",
+        "natureza_juridica": "Privada",
+        "credenciamento_mec": "Pendente de verificação",
+        "ano_fundacao": null,
+        "alunos_formados": null,
+        "modalidade": ["EAD", "Presencial"],
+        "especialidades": ["Medicina"],
+        "sede": null
+      },
+      "posicionamento": {
+        "headline": null,
+        "slogan": null,
+        "diferenciais_declarados": [],
+        "tom_de_voz": null
+      },
+      "oferta": {
+        "preco_avista": null,
+        "preco_parcelado": null,
+        "valor_total": 4200,
+        "desconto_a_vista": null,
+        "garantia": null,
+        "parcelamento_max": null,
+        "bonus_inclusos": [],
+        "preco_transparente": false
+      },
+      "autoridade": {
+        "corpo_docente_publico": false,
+        "professores_destacados": [],
+        "parcerias": [],
+        "certificacoes": [],
+        "casos_sucesso": null,
+        "depoimentos_quantidade": null
+      },
+      "digital": {
+        "instagram": {
+          "handle": null,
+          "seguidores": null,
+          "engajamento": null,
+          "frequencia_posts": null,
+          "url": null
+        },
+        "facebook": {
+          "url": null,
+          "seguidores": null
+        },
+        "linkedin": {
+          "url": null,
+          "seguidores": null
+        },
+        "youtube": {
+          "url": null,
+          "inscritos": null
+        },
+        "blog": false,
+        "seo_organico": "Baixo"
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": null,
+          "investimento_estimado": null,
+          "angulos_copy": [],
+          "formatos": [],
+          "landing_pages": []
+        },
+        "google_ads": {
+          "anuncios_ativos": false,
+          "palavras_chave": []
+        }
+      },
+      "landing_page": {
+        "url": null,
+        "headline": null,
+        "subheadline": null,
+        "video_vendas": {
+          "tem": false,
+          "duracao": null,
+          "mensagem_principal": null
+        },
+        "bullets_beneficios": [],
+        "prova_social": {
+          "tipo": null,
+          "quantidade": null,
+          "identificacao": false
+        },
+        "formulario": {
+          "campos": [],
+          "cta": null
+        },
+        "escassez": null,
+        "urgencia": null
+      },
+      "funil": {
+        "email_sequence": false,
+        "whatsapp_contato": false,
+        "redirect_pos_cadastro": null
+      },
+      "vulnerabilidades": [
+        {
+          "tipo": "transparencia",
+          "descricao": "Site com informações incompletas",
+          "gravidade": "alta",
+          "contra_ataque": "Destacar transparência completa das informações"
+        }
+      ],
+      "swot": {
+        "forcas": [],
+        "fraquezas": ["Baixa presença digital", "Falta de transparência"],
+        "oportunidades": [],
+        "ameacas": []
+      },
+      "screenshots": {
+        "homepage": null,
+        "landing_page": null,
+        "anuncios": [],
+        "instagram": null
+      },
+      "status_coleta": "estrutura_criada"
+    },
+    "comportamente": {
+      "id": "comportamente",
+      "nome": "Comportamente",
+      "url": "comportalmente.com.br",
+      "grupo": "diretos",
+      "prioridade": "alta",
+      "ficha_cadastral": {
+        "nome_completo": "Comportalmente",
+        "natureza_juridica": "Privada",
+        "credenciamento_mec": "Pendente de verificação",
+        "ano_fundacao": null,
+        "alunos_formados": null,
+        "modalidade": ["EAD"],
+        "especialidades": ["Medicina", "Psiquiatria"],
+        "sede": null
+      },
+      "posicionamento": {
+        "headline": null,
+        "slogan": null,
+        "diferenciais_declarados": [],
+        "tom_de_voz": null
+      },
+      "oferta": {
+        "preco_avista": null,
+        "preco_parcelado": null,
+        "valor_total": 3800,
+        "desconto_a_vista": null,
+        "garantia": null,
+        "parcelamento_max": null,
+        "bonus_inclusos": [],
+        "preco_transparente": false
+      },
+      "autoridade": {
+        "corpo_docente_publico": false,
+        "professores_destacados": [],
+        "parcerias": [],
+        "certificacoes": [],
+        "casos_sucesso": null,
+        "depoimentos_quantidade": null
+      },
+      "digital": {
+        "instagram": {
+          "handle": null,
+          "seguidores": null,
+          "engajamento": null,
+          "frequencia_posts": null,
+          "url": null
+        },
+        "facebook": {
+          "url": null,
+          "seguidores": null
+        },
+        "linkedin": {
+          "url": null,
+          "seguidores": null
+        },
+        "youtube": {
+          "url": null,
+          "inscritos": null
+        },
+        "blog": false,
+        "seo_organico": "Baixo"
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": null,
+          "investimento_estimado": null,
+          "angulos_copy": [],
+          "formatos": [],
+          "landing_pages": []
+        },
+        "google_ads": {
+          "anuncios_ativos": false,
+          "palavras_chave": []
+        }
+      },
+      "landing_page": {
+        "url": null,
+        "headline": null,
+        "subheadline": null,
+        "video_vendas": {
+          "tem": false,
+          "duracao": null,
+          "mensagem_principal": null
+        },
+        "bullets_beneficios": [],
+        "prova_social": {
+          "tipo": null,
+          "quantidade": null,
+          "identificacao": false
+        },
+        "formulario": {
+          "campos": [],
+          "cta": null
+        },
+        "escassez": null,
+        "urgencia": null
+      },
+      "funil": {
+        "email_sequence": false,
+        "whatsapp_contato": false,
+        "redirect_pos_cadastro": null
+      },
+      "vulnerabilidades": [],
+      "swot": {
+        "forcas": [],
+        "fraquezas": [],
+        "oportunidades": [],
+        "ameacas": []
+      },
+      "screenshots": {
+        "homepage": null,
+        "landing_page": null,
+        "anuncios": [],
+        "instagram": null
+      },
+      "status_coleta": "estrutura_criada"
+    },
+    "ipm": {
+      "id": "ipm",
+      "nome": "IPM (Pedro Miranda)",
+      "url": "ipmpos.com.br",
+      "grupo": "diretos",
+      "prioridade": "alta",
+      "ficha_cadastral": {
+        "nome_completo": "Instituto Pedro Miranda",
+        "natureza_juridica": "Privada",
+        "credenciamento_mec": "Pendente de verificação",
+        "ano_fundacao": null,
+        "alunos_formados": null,
+        "modalidade": ["EAD", "Hibrido"],
+        "especialidades": ["Medicina"],
+        "sede": null
+      },
+      "posicionamento": {
+        "headline": null,
+        "slogan": null,
+        "diferenciais_declarados": [],
+        "tom_de_voz": null
+      },
+      "oferta": {
+        "preco_avista": null,
+        "preco_parcelado": null,
+        "valor_total": 5200,
+        "desconto_a_vista": null,
+        "garantia": null,
+        "parcelamento_max": null,
+        "bonus_inclusos": [],
+        "preco_transparente": false
+      },
+      "autoridade": {
+        "corpo_docente_publico": false,
+        "professores_destacados": [],
+        "parcerias": [],
+        "certificacoes": [],
+        "casos_sucesso": null,
+        "depoimentos_quantidade": null
+      },
+      "digital": {
+        "instagram": {
+          "handle": null,
+          "seguidores": null,
+          "engajamento": null,
+          "frequencia_posts": null,
+          "url": null
+        },
+        "facebook": {
+          "url": null,
+          "seguidores": null
+        },
+        "linkedin": {
+          "url": null,
+          "seguidores": null
+        },
+        "youtube": {
+          "url": null,
+          "inscritos": null
+        },
+        "blog": false,
+        "seo_organico": "Baixo"
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": null,
+          "investimento_estimado": null,
+          "angulos_copy": [],
+          "formatos": [],
+          "landing_pages": []
+        },
+        "google_ads": {
+          "anuncios_ativos": false,
+          "palavras_chave": []
+        }
+      },
+      "landing_page": {
+        "url": null,
+        "headline": null,
+        "subheadline": null,
+        "video_vendas": {
+          "tem": false,
+          "duracao": null,
+          "mensagem_principal": null
+        },
+        "bullets_beneficios": [],
+        "prova_social": {
+          "tipo": null,
+          "quantidade": null,
+          "identificacao": false
+        },
+        "formulario": {
+          "campos": [],
+          "cta": null
+        },
+        "escassez": null,
+        "urgencia": null
+      },
+      "funil": {
+        "email_sequence": false,
+        "whatsapp_contato": false,
+        "redirect_pos_cadastro": null
+      },
+      "vulnerabilidades": [],
+      "swot": {
+        "forcas": [],
+        "fraquezas": [],
+        "oportunidades": [],
+        "ameacas": []
+      },
+      "screenshots": {
+        "homepage": null,
+        "landing_page": null,
+        "anuncios": [],
+        "instagram": null
+      },
+      "status_coleta": "estrutura_criada"
+    },
+    "einstein": {
+      "id": "einstein",
+      "nome": "Einstein",
+      "url": "einstein.br",
+      "grupo": "institucionais",
+      "prioridade": "alta",
+      "ficha_cadastral": {
+        "nome_completo": "Hospital Israelita Albert Einstein",
+        "natureza_juridica": "Privada sem fins lucrativos",
+        "credenciamento_mec": "Credenciada",
+        "ano_fundacao": 1955,
+        "alunos_formados": "5000+",
+        "modalidade": ["Presencial", "Hibrido", "EAD"],
+        "especialidades": ["Medicina", "Enfermagem", "Saúde"],
+        "sede": "São Paulo/SP"
+      },
+      "posicionamento": {
+        "headline": "Excelência em educação médica",
+        "slogan": "O conhecimento que salva vidas",
+        "diferenciais_declarados": [
+          "Tradição e credibilidade",
+          "Corpo docente renomado",
+          "Infraestrutura hospitalar"
+        ],
+        "tom_de_voz": "Institucional, sério, acadêmico"
+      },
+      "oferta": {
+        "preco_avista": null,
+        "preco_parcelado": null,
+        "valor_total": 8900,
+        "desconto_a_vista": null,
+        "garantia": null,
+        "parcelamento_max": 18,
+        "bonus_inclusos": ["Acesso ao hospital", "Biblioteca"],
+        "preco_transparente": false
+      },
+      "autoridade": {
+        "corpo_docente_publico": true,
+        "professores_destacados": ["Diversos especialistas do hospital"],
+        "parcerias": ["Hospital Albert Einstein"],
+        "certificacoes": ["Credenciamento MEC"],
+        "casos_sucesso": "Alto",
+        "depoimentos_quantidade": "100+"
+      },
+      "digital": {
+        "instagram": {
+          "handle": "@einstein",
+          "seguidores": "520k",
+          "engajamento": "1.8%",
+          "frequencia_posts": "Diária",
+          "url": "https://instagram.com/einstein"
+        },
+        "facebook": {
+          "url": "https://facebook.com/einstein",
+          "seguidores": "1.2M"
+        },
+        "linkedin": {
+          "url": "https://linkedin.com/school/einstein",
+          "seguidores": "250k"
+        },
+        "youtube": {
+          "url": "https://youtube.com/einstein",
+          "inscritos": "350k"
+        },
+        "blog": true,
+        "seo_organico": "Muito Alto"
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 8,
+          "investimento_estimado": "Alto",
+          "angulos_copy": ["Excelência acadêmica", "Tradição", "Resultados"],
+          "formatos": ["Video", "Imagem"],
+          "landing_pages": ["einstein.br/pos-graduacao"]
+        },
+        "google_ads": {
+          "anuncios_ativos": true,
+          "palavras_chave": ["pós graduação médica", "especialização médica", "einstein cursos"]
+        }
+      },
+      "landing_page": {
+        "url": "einstein.br/pos-graduacao",
+        "headline": "Pós-graduação com a excelência Einstein",
+        "subheadline": "Mais de 60 anos formando os melhores profissionais de saúde",
+        "video_vendas": {
+          "tem": false,
+          "duracao": null,
+          "mensagem_principal": null
+        },
+        "bullets_beneficios": ["Corpo docente especializado", "Infraestrutura completa", "Networking"],
+        "prova_social": {
+          "tipo": "Institucional",
+          "quantidade": "Alto",
+          "identificacao": true
+        },
+        "formulario": {
+          "campos": ["Nome", "Email", "Telefone", "Curso de interesse"],
+          "cta": "Solicitar informações"
+        },
+        "escassez": null,
+        "urgencia": null
+      },
+      "funil": {
+        "email_sequence": true,
+        "whatsapp_contato": true,
+        "redirect_pos_cadastro": "Página de agradecimento"
+      },
+      "vulnerabilidades": [
+        {
+          "tipo": "preco",
+          "descricao": "Preço não transparente no site - necessário solicitar proposta",
+          "gravidade": "media",
+          "contra_ataque": "Tornar preços claros e comparáveis desde o primeiro contato"
+        },
+        {
+          "tipo": "processo",
+          "descricao": "Processo de admissão burocrático com muitas etapas",
+          "gravidade": "media",
+          "contra_ataque": "Simplificar jornada de matrícula com menos fricção"
+        },
+        {
+          "tipo": "modalidade",
+          "descricao": "Foco ainda predominante em modalidade presencial",
+          "gravidade": "baixa",
+          "contra_ataque": "Destacar flexibilidade 100% EAD"
+        }
+      ],
+      "swot": {
+        "forcas": ["Marca forte", "Credibilidade institucional", "Corpo docente renomado", "Infraestrutura"],
+        "fraquezas": ["Preço alto", "Processos burocráticos", "Foco em presencial"],
+        "oportunidades": ["Expansão EAD", "Novas especialidades"],
+        "ameacas": ["Concorrência digital ágil", "Precificação agressiva"]
+      },
+      "screenshots": {
+        "homepage": null,
+        "landing_page": null,
+        "anuncios": [],
+        "instagram": null
+      },
+      "status_coleta": "parcial"
+    },
+    "bws": {
+      "id": "bws",
+      "nome": "Instituto BWS",
+      "url": "institutobws.com.br",
+      "grupo": "institucionais",
+      "prioridade": "media",
+      "ficha_cadastral": {
+        "nome_completo": "Instituto BWS",
+        "natureza_juridica": "Privada",
+        "credenciamento_mec": "Credenciada",
+        "ano_fundacao": 2008,
+        "alunos_formados": null,
+        "modalidade": ["EAD", "Hibrido"],
+        "especialidades": ["Medicina"],
+        "sede": "São Paulo/SP"
+      },
+      "oferta": {
+        "valor_total": 6200,
+        "preco_transparente": false
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "45k",
+          "engajamento": "1.5%"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 5
+        }
+      },
+      "vulnerabilidades": [],
+      "status_coleta": "resumida"
+    },
+    "cdt": {
+      "id": "cdt",
+      "nome": "Instituto CDT",
+      "url": "institutocdt.com.br",
+      "grupo": "institucionais",
+      "prioridade": "media",
+      "ficha_cadastral": {
+        "nome_completo": "Instituto CDT",
+        "natureza_juridica": "Privada",
+        "credenciamento_mec": "Credenciada",
+        "ano_fundacao": 2010,
+        "modalidade": ["EAD"],
+        "especialidades": ["Medicina"]
+      },
+      "oferta": {
+        "valor_total": 4800,
+        "preco_transparente": true
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "28k",
+          "engajamento": "1.2%"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 3
+        }
+      },
+      "vulnerabilidades": [
+        {
+          "tipo": "dados",
+          "descricao": "Pouca prova social documentada",
+          "gravidade": "media",
+          "contra_ataque": "Destacar cases de sucesso com dados"
+        }
+      ],
+      "status_coleta": "resumida"
+    },
+    "slmandic": {
+      "id": "slmandic",
+      "nome": "São Leopoldo Mandic",
+      "url": "slmandic.edu.br",
+      "grupo": "institucionais",
+      "prioridade": "alta",
+      "ficha_cadastral": {
+        "nome_completo": "Centro de Pesquisas São Leopoldo Mandic",
+        "natureza_juridica": "Privada",
+        "credenciamento_mec": "Credenciada",
+        "ano_fundacao": 1985,
+        "alunos_formados": "10000+",
+        "modalidade": ["Presencial", "EAD"],
+        "especialidades": ["Odontologia", "Medicina"]
+      },
+      "oferta": {
+        "valor_total": 7500,
+        "preco_transparente": true
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "180k",
+          "engajamento": "2.3%"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 15
+        }
+      },
+      "vulnerabilidades": [],
+      "status_coleta": "resumida"
+    },
+    "unyleya_med": {
+      "id": "unyleya_med",
+      "nome": "Unyleya Med",
+      "url": "unyleyamed.com.br",
+      "grupo": "institucionais",
+      "prioridade": "alta",
+      "ficha_cadastral": {
+        "nome_completo": "Unyleya Medicina",
+        "natureza_juridica": "Privada",
+        "credenciamento_mec": "Credenciada",
+        "ano_fundacao": 2015,
+        "modalidade": ["EAD"],
+        "especialidades": ["Medicina"]
+      },
+      "oferta": {
+        "valor_total": 4200,
+        "preco_transparente": true
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "85k",
+          "engajamento": "2.8%"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 22
+        }
+      },
+      "vulnerabilidades": [
+        {
+          "tipo": "autoridade",
+          "descricao": "Docentes nem sempre são referências na área",
+          "gravidade": "media",
+          "contra_ataque": "Destacar professores com reconhecimento nacional"
+        }
+      ],
+      "status_coleta": "resumida"
+    },
+    "fgmed": {
+      "id": "fgmed",
+      "nome": "FGMed",
+      "url": "fgmed.org",
+      "grupo": "institucionais",
+      "prioridade": "media",
+      "ficha_cadastral": {
+        "credenciamento_mec": "Em análise",
+        "modalidade": ["EAD"]
+      },
+      "oferta": {
+        "valor_total": 3600,
+        "preco_transparente": true
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "12k",
+          "engajamento": "1.8%"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 2
+        }
+      },
+      "status_coleta": "resumida"
+    },
+    "mevbrasil": {
+      "id": "mevbrasil",
+      "nome": "MEV Brasil",
+      "url": "mevbrasil.com.br",
+      "grupo": "institucionais",
+      "prioridade": "media",
+      "ficha_cadastral": {
+        "credenciamento_mec": "Credenciada",
+        "modalidade": ["EAD", "Hibrido"]
+      },
+      "oferta": {
+        "valor_total": 5800,
+        "preco_transparente": false
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "35k",
+          "engajamento": "2.1%"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 6
+        }
+      },
+      "status_coleta": "resumida"
+    },
+    "cetrus": {
+      "id": "cetrus",
+      "nome": "Cetrus",
+      "url": "cetrus.com.br",
+      "grupo": "institucionais",
+      "prioridade": "baixa",
+      "ficha_cadastral": {
+        "credenciamento_mec": "Credenciada",
+        "modalidade": ["EAD"]
+      },
+      "oferta": {
+        "valor_total": 4500,
+        "preco_transparente": true
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "18k",
+          "engajamento": "1.5%"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 1
+        }
+      },
+      "status_coleta": "resumida"
+    },
+    "pucrs": {
+      "id": "pucrs",
+      "nome": "PUCRS",
+      "url": "pucrs.br",
+      "grupo": "institucionais",
+      "prioridade": "media",
+      "ficha_cadastral": {
+        "nome_completo": "Pontifícia Universidade Católica do Rio Grande do Sul",
+        "natureza_juridica": "Universidade",
+        "credenciamento_mec": "Credenciada",
+        "ano_fundacao": 1948,
+        "modalidade": ["Presencial", "EAD"]
+      },
+      "oferta": {
+        "valor_total": 9200,
+        "preco_transparente": true
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "320k",
+          "engajamento": "1.2%"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 4
+        }
+      },
+      "status_coleta": "resumida"
+    },
+    "sanar": {
+      "id": "sanar",
+      "nome": "Sanar",
+      "url": "sanar.com.br",
+      "grupo": "institucionais",
+      "prioridade": "alta",
+      "ficha_cadastral": {
+        "nome_completo": "Sanar",
+        "natureza_juridica": "Privada",
+        "credenciamento_mec": "Não aplicável (prepatory)",
+        "ano_fundacao": 2015,
+        "modalidade": ["EAD"]
+      },
+      "oferta": {
+        "valor_total": 2800,
+        "preco_transparente": true
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "1.2M",
+          "engajamento": "3.5%"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 45
+        }
+      },
+      "vulnerabilidades": [
+        {
+          "tipo": "modelo",
+          "descricao": "Foco em preparatórios, não pós-graduação credenciada",
+          "gravidade": "alta",
+          "contra_ataque": "Destacar diferença entre preparatório e pós-graduação oficial"
+        }
+      ],
+      "status_coleta": "resumida"
+    },
+    "idomed": {
+      "id": "idomed",
+      "nome": "Idomed",
+      "url": "idomed.com.br",
+      "grupo": "institucionais",
+      "prioridade": "baixa",
+      "ficha_cadastral": {
+        "credenciamento_mec": "Em análise",
+        "modalidade": ["EAD"]
+      },
+      "oferta": {
+        "valor_total": 3900,
+        "preco_transparente": true
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "8k",
+          "engajamento": "1.1%"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 0
+        }
+      },
+      "status_coleta": "resumida"
+    },
+    "hcor": {
+      "id": "hcor",
+      "nome": "HCor",
+      "url": "hcor.com.br",
+      "grupo": "institucionais",
+      "prioridade": "media",
+      "ficha_cadastral": {
+        "nome_completo": "Hospital do Coração",
+        "credenciamento_mec": "Credenciada",
+        "ano_fundacao": 1978,
+        "modalidade": ["Presencial", "EAD"]
+      },
+      "oferta": {
+        "valor_total": 8200,
+        "preco_transparente": false
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "95k",
+          "engajamento": "1.6%"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 3
+        }
+      },
+      "status_coleta": "resumida"
+    },
+    "unyleya": {
+      "id": "unyleya",
+      "nome": "Unyleya",
+      "url": "unyleya.edu.br",
+      "grupo": "institucionais",
+      "prioridade": "media",
+      "ficha_cadastral": {
+        "credenciamento_mec": "Credenciada",
+        "modalidade": ["EAD"]
+      },
+      "oferta": {
+        "valor_total": 3600,
+        "preco_transparente": true
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "65k",
+          "engajamento": "2.0%"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 8
+        }
+      },
+      "status_coleta": "resumida"
+    },
+    "afya": {
+      "id": "afya",
+      "nome": "Afya",
+      "url": "afya.com.br",
+      "grupo": "institucionais",
+      "prioridade": "alta",
+      "ficha_cadastral": {
+        "nome_completo": "Afya",
+        "natureza_juridica": "Grupo educacional",
+        "credenciamento_mec": "Credenciada",
+        "ano_fundacao": 2012,
+        "modalidade": ["Presencial", "EAD"]
+      },
+      "oferta": {
+        "valor_total": 6800,
+        "preco_transparente": true
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "150k",
+          "engajamento": "2.5%"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 18
+        }
+      },
+      "status_coleta": "resumida"
+    },
+    "sirio_libanes": {
+      "id": "sirio_libanes",
+      "nome": "Sírio-Libanês",
+      "url": "faculdadesiriolibanes.org.br",
+      "grupo": "institucionais",
+      "prioridade": "alta",
+      "ficha_cadastral": {
+        "nome_completo": "Faculdade de Medicina do Hospital Sírio-Libanês",
+        "credenciamento_mec": "Credenciada",
+        "ano_fundacao": 2009,
+        "modalidade": ["Presencial", "Hibrido"]
+      },
+      "oferta": {
+        "valor_total": 9500,
+        "preco_transparente": false
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "210k",
+          "engajamento": "1.9%"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 6
+        }
+      },
+      "status_coleta": "resumida"
+    },
+    "ibcmed": {
+      "id": "ibcmed",
+      "nome": "IBCMED",
+      "url": "ibcmed.com",
+      "grupo": "institucionais",
+      "prioridade": "media",
+      "ficha_cadastral": {
+        "credenciamento_mec": "Credenciada",
+        "modalidade": ["EAD"]
+      },
+      "oferta": {
+        "valor_total": 5200,
+        "preco_transparente": true
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "42k",
+          "engajamento": "1.7%"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 7
+        }
+      },
+      "status_coleta": "resumida"
+    }
+  },
+  "analise_geral": {
+    "total_anuncios_meta": 161,
+    "total_vulnerabilidades": 12,
+    "total_insights": 5,
+    "media_precos": 5564,
+    "concorrentes_com_transparencia": 8,
+    "concorrentes_com_mec": 14
+  }
+}
