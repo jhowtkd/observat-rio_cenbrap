@@ -1,0 +1,88 @@
+{
+  "data_auditoria": "2026-02-06",
+  "projeto": "Dashboard CENBRAP",
+  "agentes_utilizados": [
+    "POLISH",
+    "PALETTE",
+    "BOLT",
+    "JANITOR",
+    "UX-WRITER"
+  ],
+  "resumo_geral": {
+    "polish": {
+      "agente": "POLISH (Refinamento Visual)",
+      "total_problemas": 44,
+      "categorias": [
+        "Espaçamentos",
+        "Tipografia",
+        "Cores",
+        "Bordas",
+        "Animações",
+        "Responsividade",
+        "Alinhamento"
+      ],
+      "prioridade_alta": 4
+    },
+    "acessibilidade": {
+      "agente": "PALETTE (Acessibilidade)",
+      "total_problemas": 27,
+      "categorias": [
+        "Contraste",
+        "Semântica HTML",
+        "ARIA",
+        "Teclado",
+        "Fonte",
+        "Clique"
+      ],
+      "prioridade_alta": 7
+    },
+    "performance": {
+      "agente": "BOLT (Performance)",
+      "total_problemas": 30,
+      "categorias": [
+        "Re-renders",
+        "Imports",
+        "Imagens",
+        "Bundle",
+        "Effects",
+        "Listas",
+        "Charts"
+      ],
+      "impacto_alto": 3
+    },
+    "limpeza": {
+      "agente": "JANITOR (Limpeza de Código)",
+      "total_problemas": 43,
+      "categorias": [
+        "Imports",
+        "Variáveis",
+        "Duplicados",
+        "Console",
+        "Comentado",
+        "Any",
+        "Componentes",
+        "Inline",
+        "Strings"
+      ],
+      "prioridade_alta": 0
+    },
+    "ux_writing": {
+      "agente": "UX-WRITER (Microcopy)",
+      "total_problemas": 102,
+      "categorias": [
+        "Terminologia",
+        "Tom",
+        "Confusos",
+        "Títulos",
+        "Longos",
+        "Jargão",
+        "CTAs",
+        "Erros",
+        "Botões"
+      ],
+      "prioridade_alta": 6
+    }
+  },
+  "total_problemas": 246,
+  "total_criticos": 20
+}

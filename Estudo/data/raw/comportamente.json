@@ -1,0 +1,156 @@
+{
+  "nome": "Comportalmente",
+  "site": "https://comportalmente.com.br",
+  "segmento": "Formação de excelência em Psicologia e Saúde Mental",
+  "descricao": "Pós-graduações e capacitações de excelência para profissionais da Saúde Mental, com professores reconhecidos e foco no desenvolvimento clínico.",
+  "modelo": "Educação a Distância",
+  "certificacao": "Certificação Profissional",
+  "foco": "Práticas validadas cientificamente",
+  "categorias_formacao": [
+    "Pós-graduações",
+    "Capacitações"
+  ],
+  "cursos": [
+    {
+      "nome": "Pós-Graduação em Transtornos do Neurodesenvolvimento",
+      "status": "Inscrições abertas",
+      "publico": "Multiprofissional"
+    },
+    {
+      "nome": "Pós-Graduação em Transtornos do Neurodesenvolvimento para Médicos",
+      "status": "Inscrições abertas",
+      "publico": "Médicos"
+    },
+    {
+      "nome": "Pós-Graduação em TCC e Práticas Baseadas em Evidências",
+      "status": "Inscrições abertas"
+    },
+    {
+      "nome": "Pós-Graduação em Psiquiatria da Infância e Adolescência",
+      "status": "Inscrições abertas"
+    },
+    {
+      "nome": "Pós-Graduação em Psicopatologia e Transtornos Psiquiátricos na Infância e Adolescência",
+      "status": "Lista VIP"
+    },
+    {
+      "nome": "Pós-Graduação em Transtorno do Espectro Autista: Abordagens Médicas no Diagnóstico e Tratamento",
+      "status": "Lista VIP"
+    },
+    {
+      "nome": "Pós-Graduação em TEA: Da Avaliação ao Tratamento",
+      "status": "Lista VIP"
+    },
+    {
+      "nome": "Pós-Graduação em TCC na Infância e Adolescência",
+      "status": "Lista VIP"
+    },
+    {
+      "nome": "Pós-Graduação em Saúde Mental da Mulher",
+      "status": "Lista VIP"
+    },
+    {
+      "nome": "Pós-Graduação em Orientação Parental",
+      "status": "Lista VIP"
+    },
+    {
+      "nome": "Pós-Graduação em Medicina do Estilo de Vida",
+      "status": "Lista VIP"
+    },
+    {
+      "nome": "Pós-Graduação em Qualidade de Vida e Bem-Estar",
+      "status": "Lista VIP"
+    },
+    {
+      "nome": "Pós-Graduação em Altas Habilidades",
+      "status": "Lista VIP"
+    },
+    {
+      "nome": "Pós-Graduação em Terapia de Casal e Família",
+      "status": "Lista VIP"
+    },
+    {
+      "nome": "Pós-Graduação em Terapia Comportamental Dialética e Terapia de Aceitação e Compromisso",
+      "status": "Lista VIP"
+    },
+    {
+      "nome": "Pós-Graduação em Terapia Comportamental Dialética",
+      "status": "Lista VIP"
+    },
+    {
+      "nome": "Pós-Graduação em Psicogeriatria",
+      "status": "Lista VIP"
+    },
+    {
+      "nome": "Pós-Graduação em Psicofarmacologia",
+      "status": "Lista VIP"
+    },
+    {
+      "nome": "Pós-Graduação Médica em Psicofarmacologia",
+      "status": "Lista VIP"
+    },
+    {
+      "nome": "Pós-Graduação em Transtornos de Personalidade",
+      "status": "Lista VIP"
+    },
+    {
+      "nome": "Pós-Graduação em Transtornos de Ansiedade",
+      "status": "Lista VIP"
+    },
+    {
+      "nome": "Pós-Graduação em Treinamento de Habilidades Sociais",
+      "status": "Fila de espera"
+    },
+    {
+      "nome": "Pós-Graduação em Comportamento Alimentar e Transtornos Alimentares",
+      "status": "Fila de espera"
+    },
+    {
+      "nome": "Pós-Graduação em Neuropsicologia",
+      "status": "Fila de espera"
+    },
+    {
+      "nome": "Pós-Graduação em Psiquiatria",
+      "status": "Lista VIP"
+    }
+  ],
+  "diferenciais": [
+    "Corpo Docente de Referência - Professores reconhecidos nacional e internacionalmente",
+    "Base Científica e Abordagens Atuais - Práticas baseadas em evidências (TCC, DBT, ACT, ABA)",
+    "Metodologia Humanizada - Didática acessível, suporte próximo e time disponível"
+  ],
+  "depoimentos_alunos": [
+    {
+      "aluno": "Jussara Forchetti (CRP 06/213423)",
+      "depoimento": "Eu fui aluna da Pós-graduação em TCC da Comportalmente. Achei o curso incrível e muito rico em conteúdos e materiais. Comparando com uma faculdade famosa, falo sem dúvidas que é a melhor pós que já fiz."
+    },
+    {
+      "aluno": "Karina I. T. Barradas (CRM/SP 134.973)",
+      "depoimento": "A Comportalmente é onde eu faço todos os meus cursos. São 10 anos de história, com muitas aulas e com muito aprendizado. Os professores são muito bons e as aulas têm muita qualidade."
+    },
+    {
+      "aluno": "Cecília Rocha (CRP 06/190097)",
+      "depoimento": "Estou extremamente satisfeita com a plataforma e com o conteúdo oferecido no curso de orientação parental. Os professores são altamente qualificados."
+    },
+    {
+      "aluno": "Christiane Carvalho Ribeiro (CRM/MG 57.238)",
+      "depoimento": "Com certeza um dos materiais mais ricos e completos que já vi nessa área. Como psiquiatra atuo bastante com os quadros de alterações em neurodesenvolvimento."
+    },
+    {
+      "aluno": "Bárbara Siqueira (CRP 02/26334)",
+      "depoimento": "O curso em orientação parental foi um excelente investimento para a minha prática clínica. As tutorias são momentos riquíssimos de aprendizado."
+    }
+  ],
+  "publico_alvo": "Psicólogos, médicos e profissionais da saúde mental",
+  "contato": {
+    "whatsapp": "(11) 96470-8797",
+    "email": "contato@comportalmente.com.br",
+    "endereco": "Al. Rio Negro, 503 - cj 2020 - Alphaville, Barueri - SP, 06454-000"
+  },
+  "redes_sociais": {
+    "instagram": "https://www.instagram.com/comportalmente/",
+    "facebook": "https://www.facebook.com/comportalmente/",
+    "linkedin": "https://www.linkedin.com/company/comportalmente/"
+  },
+  "extraido_em": "2026-02-06"
+}

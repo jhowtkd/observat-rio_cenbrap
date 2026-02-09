@@ -1,0 +1,125 @@
+{
+  "nome": "Cetrus",
+  "site": "https://cetrus.com.br",
+  "segmento": "Cursos de especialização médica com prática hands-on",
+  "descricao": "Cetrus oferece cursos de especialização médica com foco prático hands-on. Parte do ecossistema Sanar.",
+  "numeros": {
+    "cursos_especializacoes": "+250",
+    "professores_especialistas": "+150",
+    "medicos_formados": "+60k",
+    "pacientes_atendidos": "+600k"
+  },
+  "modalidades": [
+    {
+      "nome": "Pós-Graduação",
+      "url": "https://cetrus.com.br/modalidades/pos-graduacao/"
+    },
+    {
+      "nome": "Fellowship",
+      "descricao": "Foco no modelo hands-on",
+      "url": "https://cetrus.com.br/modalidades/fellowship/"
+    },
+    {
+      "nome": "Cursos Intensivos",
+      "url": "https://cetrus.com.br/modalidades/cursos-intensivos/"
+    },
+    {
+      "nome": "Monitoria",
+      "url": "https://cetrus.com.br/modalidades/monitoria/"
+    },
+    {
+      "nome": "Preparatórios",
+      "url": "https://cetrus.com.br/modalidades/cursos-preparatorios/"
+    },
+    {
+      "nome": "Graduação em Gestão Hospitalar",
+      "url": "https://cetrus.com.br/cursos/graduacao-em-gestao-hospitalar/"
+    },
+    {
+      "nome": "EAD",
+      "url": "https://cetrus.com.br/modalidades/ead/"
+    }
+  ],
+  "cursos_destaque": [
+    {
+      "nome": "Cosmiatria",
+      "coordenador": "Dra. Juliana Martins",
+      "local": "Belém, Pará",
+      "turma": "6 alunos"
+    },
+    {
+      "nome": "USG Obstétrica, Morfológica e Doppler",
+      "coordenador": "Dr. Daniele Luminoso",
+      "local": "São Paulo"
+    },
+    {
+      "nome": "Medicina da Dor",
+      "coordenador": "Dr. Kelson Ogata",
+      "local": "São Paulo"
+    },
+    {
+      "nome": "Ultrassonografia Geral, Musculoesquelética e Vascular",
+      "coordenador": "Dr. Alexandre Ferraz",
+      "local": "São Paulo"
+    },
+    {
+      "nome": "Endoscopia da Coluna Vertebral",
+      "coordenador": "Dr. David Del Curto",
+      "local": "São Paulo"
+    },
+    {
+      "nome": "Intervenção em Dor",
+      "coordenador": "Dr. Marcos Cardoso",
+      "local": "São Paulo"
+    },
+    {
+      "nome": "Emergências Pediátricas",
+      "coordenador": "Dra. Saionara Nunes",
+      "modalidade": "Online",
+      "novidade": true
+    },
+    {
+      "nome": "Medicina Regenerativa Musculoesquelética",
+      "coordenador": "Dr. Marco Demange",
+      "local": "São Paulo"
+    },
+    {
+      "nome": "US TV Avançado e Endometriose",
+      "coordenador": "Dr. Fernando Guastella",
+      "local": "São Paulo",
+      "turma": "4 alunos"
+    }
+  ],
+  "diferenciais": [
+    "Foco prático hands-on",
+    "Turmas pequenas (4-6 alunos)",
+    "Presença em mais de 50 cidades",
+    "Centros de treinamento em todo o Brasil",
+    "Parte do ecossistema Sanar"
+  ],
+  "depoimentos": [
+    {
+      "aluno": "Dr. Marcos Antônio",
+      "curso": "USG Musculoesquelética",
+      "depoimento": "O curso foi surpreendente com o aprendizado, superando minhas expectativas. Os Drs. Ronaldo e Everaldo são muito dedicados e passam o conhecimento teórico e prático de forma envolvente."
+    },
+    {
+      "aluno": "Dr. Thiago Amaro",
+      "curso": "US em Medicina Interna",
+      "depoimento": "Gostaria de agradecer ao Cetrus pela qualidade do curso. Os docentes foram excepcionais, muito didáticos e consegui absorver tudo que prometeram. Superou muito mais do que eu imaginava."
+    }
+  ],
+  "cobertura": "Mais de 50 cidades em todos os estados do país",
+  "sedes": ["São Paulo", "Recife"],
+  "areas_especializacao": "+45 áreas",
+  "conteudos_gratuitos": "https://cetrus.com.br/conteudos-gratuitos/",
+  "plataforma_ensino": "https://educa.cetrus.com.br",
+  "reconhecimento": "MEC",
+  "redes_sociais": {
+    "instagram": "https://www.instagram.com/cetrus.ensino/",
+    "linkedin": "https://br.linkedin.com/company/cetrusensino",
+    "youtube": "https://www.youtube.com/user/mktcetrus",
+    "facebook": "https://pt-br.facebook.com/CetrusBrasil/"
+  },
+  "extraido_em": "2026-02-06"
+}

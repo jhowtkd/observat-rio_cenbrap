@@ -1,0 +1,48 @@
+{
+  "nome": "FGMED",
+  "site": "https://fgmed.org",
+  "segmento": "Educação Médica Continuada e Pós-Graduação",
+  "descricao": "FGMED oferece educação médica continuada desde 2010. Mais de 30 mil médicos formados com certificação digital em até 48 horas. Estrutura completa com pós-graduações, práticas hands-on, cursos livres e extensões.",
+  "fundacao": "2010",
+  "medicos_formados": "30.000+",
+  "modalidades": [
+    "Pós-Graduações",
+    "Práticas Hands On",
+    "Preceptorship",
+    "Treinamentos",
+    "Aperfeiçoamentos (Cursos Livres)",
+    "Extensões",
+    "Cursos In Company",
+    "E-books"
+  ],
+  "diferenciais": [
+    "Certificado com validade nacional",
+    "Outorga Título Acadêmico de Especialização",
+    "Mais de 30 mil médicos formados",
+    "Qualidade reconhecida pelo MEC",
+    "Avançado Sistema Virtual de Aprendizagem",
+    "Corpo docente 100% doutores, mestres e especialistas",
+    "Suporte pedagógico 24hs",
+    "Aproveitamento de estudos (concluir estudos de outras instituições)",
+    "Certificado digital em até 48 horas"
+  ],
+  "plataformas": {
+    "ava": "https://ava.fgmed.org",
+    "medflix": "https://fgmed.org/medflix",
+    "fgcred": "Disponível",
+    "blog": "https://fgmed.org/blog/",
+    "tv": "https://fgmed.org/tv-fgmed"
+  },
+  "contato": {
+    "telefone": "0800-111-1011",
+    "whatsapp": "+55 11 97070-2940",
+    "email": "contato@fgmed.org"
+  },
+  "redes_sociais": {
+    "twitter": "https://www.twitter.com/fgmedbr",
+    "facebook": "https://www.facebook.com/FG.FGMED/",
+    "youtube": "https://www.youtube.com/@fgmed9133",
+    "instagram": "https://www.instagram.com/fgmed.online/",
+    "linkedin": "https://www.linkedin.com/company/fgmed/"
+  }
+}

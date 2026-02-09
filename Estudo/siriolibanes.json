@@ -1,0 +1,69 @@
+{
+  "nome": "Faculdade Sírio-Libanês",
+  "site": "https://faculdadesiriolibanes.org.br/fsl/",
+  "segmento": "Excelência em Educação Superior em Saúde",
+  "descricao": "Faculdade com tradição e excelência do Hospital Sírio-Libanês. Humanidade e ética guiam a busca por inovação. Formação de profissionais com empatia e sensibilidade.",
+  "tradiciao": "+100 anos de excelência em saúde do Hospital Sírio-Libanês",
+  "categorias_cursos": [
+    {
+      "nome": "Graduação",
+      "descricao": "Cursos de graduação na área da saúde"
+    },
+    {
+      "nome": "Pós-Graduação",
+      "descricao": "Especializações e MBAs"
+    },
+    {
+      "nome": "Curta Duração",
+      "descricao": "Cursos rápidos e atualizações"
+    },
+    {
+      "nome": "Residência",
+      "descricao": "Programas de residência médica"
+    }
+  ],
+  "motivos_escolher": [
+    {
+      "nome": "Referência em saúde",
+      "descricao": "Nossos cursos carregam a tradição e inovação do Hospital Sírio-Libanês, que há +100 anos é referência em excelência em saúde"
+    },
+    {
+      "nome": "Estrutura de ponta",
+      "descricao": "Laboratórios com recursos tecnológicos de última geração, biblioteca digital e salas de aulas flexíveis"
+    },
+    {
+      "nome": "Metodologias inovadoras",
+      "descricao": "Estimulamos atividades práticas, estágios, experiência com serviços de saúde públicos e privados"
+    },
+    {
+      "nome": "Jornada Sírio-Libanês",
+      "descricao": "Alguns programas permitem estreitar networking com colaboradores da instituição, acompanhar a jornada do paciente e realizar estágios"
+    },
+    {
+      "nome": "Corpo docente de excelência",
+      "descricao": "Docentes e coordenadores especialistas em suas áreas, muitos fazem parte do corpo clínico HSL"
+    },
+    {
+      "nome": "Reconhecimento do MEC",
+      "descricao": "Instituição credenciada com nota máxima nas avaliações do Ministério da Educação"
+    }
+  ],
+  "diferenciais": [
+    "Tradição de +100 anos do Hospital Sírio-Libanês",
+    "Humanidade e ética no ensino",
+    "Inovação com propósito",
+    "Formação de profissionais com empatia",
+    "Excelência reconhecida pelo MEC",
+    "Estrutura tecnológica de ponta",
+    "Corpo docente do corpo clínico HSL"
+  ],
+  "experiencia_aprendizagem": "Experiência de Aprendizagem Sírio-Libanês - abordagem curricular criativa e inovadora",
+  "infraestrutura": [
+    "Laboratórios com tecnologia de última geração",
+    "Centros de treinamento e simulação",
+    "Biblioteca digital",
+    "Salas de aulas flexíveis"
+  ],
+  "reconhecimento": "MEC - Nota máxima",
+  "extraido_em": "2026-02-06"
+}

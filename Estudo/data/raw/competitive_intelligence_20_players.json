@@ -1,0 +1,409 @@
+[
+  {
+    "company_name": "Sanar",
+    "website": "https://www.sanar.com.br",
+    "type": "Institutional",
+    "courses_offered": [
+      "SanarFlix - Videoaulas e questões para estudantes de medicina (ciclo básico ao R1)",
+      "Sanar Pós - Pós-graduação médica em mais de 20 especialidades",
+      "Medicina do Trabalho",
+      "Cursos de pós-graduação na área médica",
+      "Livros e materiais de estudos sobre medicina e saúde"
+    ],
+    "pricing": {
+      "sanarflix": "Planos mensal, anual e bianual (promoção com R$100-200 desconto)",
+      "pos_graduacao": "Consultar condições especiais por tempo limitado"
+    },
+    "differentiators": [
+      "Ecossistema completo de produtos e serviços",
+      "Mais de 100 mil alunos",
+      "Professores padrão ouro (Harvard, USP, UNICAMP)",
+      "Metodologia focada na prática com casos clínicos reais",
+      "Pós validada pelo MEC",
+      "Aulas online e ao vivo",
+      "Parceria com Faculdade Cetrus Sanar"
+    ],
+    "target_audience": "Estudantes de medicina, médicos em preparação para residência, profissionais em busca de atualização",
+    "social_media": {
+      "website": "https://www.sanar.com.br",
+      "sanarflix": "https://sanarflix.com.br",
+      "pos": "https://pos.sanar.com.br"
+    }
+  },
+  {
+    "company_name": "Afya",
+    "website": "https://www.afya.com.br",
+    "type": "Institutional",
+    "courses_offered": [
+      "Graduação em Medicina (38 unidades, 33 com curso de Medicina)",
+      "Educação médica continuada (+70 cursos)",
+      "Pós-graduação, aprimoramentos e demais modalidades",
+      "Preparação Revalida, R1 e R+",
+      "Whitebook (app de decisão clínica com IA - WB Assist)",
+      "iClinic (gestão de consultório)",
+      "ReceitaPro (prescrição digital)"
+    ],
+    "pricing": "Não disponível publicamente - consultar instituição",
+    "differentiators": [
+      "Maior ecossistema de educação e soluções para prática médica do Brasil",
+      "38 unidades de graduação (33 com Medicina)",
+      "+20 mil alunos de Medicina em 14 estados",
+      "25 unidades de educação médica continuada",
+      "1 em cada 3 médicos ou estudantes usa solução Afya",
+      "3 milhões de atendimentos gratuitos desde 2019",
+      "Metodologia ativa e exclusiva",
+      "Aulas práticas desde o primeiro dia",
+      "Líder em graduação médica no Brasil"
+    ],
+    "target_audience": "Estudantes de medicina, médicos em todas as fases da carreira",
+    "social_media": {
+      "linkedin": "https://br.linkedin.com/company/afyamedicina",
+      "youtube": "https://www.youtube.com/c/Afyaeducacional",
+      "instagram": "https://www.instagram.com/afya.oficial/",
+      "facebook": "https://www.facebook.com/afyaeducacional/"
+    }
+  },
+  {
+    "company_name": "Unyleya Educacional",
+    "website": "https://unyleya.com.br",
+    "type": "Institutional",
+    "courses_offered": [
+      "Graduação EAD (mais de 1.800 cursos em 50 áreas)",
+      "Pós-Graduação EAD",
+      "UnyleyaMED - Pós-Graduação na área Médica",
+      "Escola de Saúde Unyleya (Cursos Técnicos, Graduação Presencial, Pós-Graduação)",
+      "IMP Concursos (cursos preparatórios)",
+      "IMP Online (plataforma de cursos online)"
+    ],
+    "pricing": "Não disponível publicamente",
+    "differentiators": [
+      "Pioneira em educação digital no Brasil (18 anos)",
+      "Maior variedade de cursos de Graduação e Pós do Brasil",
+      "Mais de 400 mil alunos formados",
+      "+100 polos em todo país",
+      "Mais de 3.000 colaboradores",
+      "Tecnologia proprietária",
+      "UnyleyaMED: plataforma exclusiva que simula atendimento clínico com pacientes reais",
+      "Flexibilidade e inovação para médicos"
+    ],
+    "target_audience": "Estudantes de diversas áreas, profissionais da saúde, médicos",
+    "social_media": {
+      "website": "https://unyleya.com.br",
+      "unyleyamed": "https://unyleyamed.com.br"
+    }
+  },
+  {
+    "company_name": "UnyleyaMED",
+    "website": "https://unyleyamed.com.br",
+    "type": "Institutional",
+    "courses_offered": [
+      "Mais de 50 Pós-Graduações exclusivas para médicos",
+      "Cursos na modalidade EAD focados em medicina"
+    ],
+    "pricing": "Não disponível publicamente",
+    "differentiators": [
+      "Programa de Pós-Graduação Médica da Unyleya",
+      "+ de 2 mil médicos escolheram a UnyleyaMED",
+      "100% dos cursos compostos por médicos docentes",
+      "19 anos de excelência em EAD",
+      "+ de 500 mil alunos formados na Unyleya",
+      "+ de 1,8 mil cursos de Graduação e Pós-Graduação",
+      "Plataforma exclusiva e inovadora",
+      "Simulação humanizada de atendimento clínico",
+      "Formação flexível compatível com rotina de plantões",
+      "Reconhecida pelo MEC"
+    ],
+    "target_audience": "Médicos em busca de pós-graduação e especialização",
+    "social_media": {
+      "website": "https://unyleyamed.com.br"
+    }
+  },
+  {
+    "company_name": "IBCMED",
+    "website": "https://ibcmed.com",
+    "type": "Institutional",
+    "courses_offered": [
+      "Pediatria",
+      "Dermatologia",
+      "Psiquiatria",
+      "Sexologia Clínica",
+      "Neuropediatria",
+      "Cirurgia Ambulatorial Dermatológica",
+      "Endocrinologia e Metabologia",
+      "Cardiologia Clínica",
+      "Ginecologia e Obstetrícia",
+      "Ginecologia Regenerativa e Estética Íntima",
+      "Medicina de Emergência",
+      "Neurologia Clínica",
+      "Perícia Médica",
+      "Pediatria Integrativa",
+      "Geriatria e Gerontologia",
+      "Saúde da Criança e Adolescente"
+    ],
+    "pricing": "Não disponível publicamente - consultar via WhatsApp (31) 3181-4055",
+    "differentiators": [
+      "Integra a Inspirali, maior ecossistema de educação médica do Brasil",
+      "+ de 5.000 médicos pós-graduados",
+      "+ de 300 turmas formadas em todo o país",
+      "+ de 200 docentes especialistas, mestres e doutores",
+      "Presença em + de 20 cidades e + de 10 estados",
+      "Atuação em + de 20 áreas estratégicas da Medicina",
+      "+ de 20 mil atendimentos realizados em 2025",
+      "15 escolas médicas Inspirali em diversos estados",
+      "Certificação emitida por instituição com nota máxima no MEC",
+      "Cursos híbridos com foco na prática",
+      "Corpo docente com referências no mercado"
+    ],
+    "target_audience": "Médicos com CRM ativo em busca de pós-graduação",
+    "social_media": {
+      "website": "https://ibcmed.com",
+      "linkedin": "https://www.linkedin.com/company/souibcmed/"
+    }
+  },
+  {
+    "company_name": "Cetrus",
+    "website": "https://cetrus.com.br",
+    "type": "Institutional",
+    "courses_offered": [
+      "Pós em Formato Fellowship (mais de 250 cursos e especializações)",
+      "Especializações médicas com prática hands-on em +45 áreas"
+    ],
+    "pricing": "Não disponível publicamente",
+    "differentiators": [
+      "Presente em mais de 50 cidades em todos os estados do país",
+      "Sedes em São Paulo e Recife",
+      "Modelo Fellowship com foco hands-on",
+      "+ de 150 professores especialistas",
+      "+ de 60 mil médicos formados",
+      "+ de 600 mil pacientes atendidos",
+      "Centros de treinamento em todo o Brasil",
+      "Conteúdos gratuitos disponíveis"
+    ],
+    "target_audience": "Médicos em busca de especialização com foco prático",
+    "social_media": {
+      "website": "https://cetrus.com.br"
+    }
+  },
+  {
+    "company_name": "Hcor Academy",
+    "website": "https://ensino.hcor.com.br",
+    "type": "Institutional",
+    "courses_offered": [
+      "PALS - Suporte Avançado de Vida em Pediatria (R$ 1.200,00)",
+      "ACLS - Advanced Cardiovascular Life Support (R$ 1.232,50)",
+      "Programa Experiência Hcor - Cardiologia Intervencionista (R$ 3.500,00)",
+      "Programa Experiência Hcor - Neurologia (R$ 3.500,00)",
+      "Tecnologia em Saúde (R$ 197,00)",
+      "Renovação PALS (R$ 900,00)",
+      "Curso Básico de Eletrocardiograma",
+      "Ultrassom em Emergências",
+      "PICC - Cateter Central de Inserção Periférica",
+      "Dinamometria Isocinética",
+      "Pós-Graduação Hcor Academy"
+    ],
+    "pricing": {
+      "pals": "R$ 1.200,00 (6x R$ 200,00)",
+      "acls": "R$ 1.232,50 (6x R$ 205,41)",
+      "experiencia_hcor_cardio": "R$ 3.500,00 (6x R$ 583,33)",
+      "experiencia_hcor_neuro": "R$ 3.500,00 (6x R$ 583,33)",
+      "tecnologia_saude": "R$ 197,00 (6x R$ 32,83)",
+      "renovacao_pals": "R$ 900,00 (6x R$ 150,00)"
+    },
+    "differentiators": [
+      "Mais de 50 mil alunos treinados",
+      "Um dos mais avançados centros de Ensino, Treinamento e Simulação Realística",
+      "Centro de Formação Internacional da AHA (American Heart Association)",
+      "Prêmio de Reconhecimento aos Centros de Formação Internacional da AHA",
+      "Programas PROADI-SUS em parceria com Ministério da Saúde",
+      "Foco em fortalecer e qualificar o SUS"
+    ],
+    "target_audience": "Profissionais de saúde, colaboradores, corpo clínico",
+    "social_media": {
+      "website": "https://ensino.hcor.com.br",
+      "ead": "https://ead.hcor.com.br"
+    }
+  },
+  {
+    "company_name": "PUCRS Online",
+    "website": "https://online.pucrs.br",
+    "type": "Institutional",
+    "courses_offered": [
+      "Graduação Online",
+      "Pós-Graduação (Especialização e MBA)",
+      "Mestrado",
+      "Doutorado",
+      "Extensão Universitária",
+      "Certificações",
+      "Idiomas"
+    ],
+    "pricing": "Não disponível publicamente",
+    "differentiators": [
+      "Melhor Universidade Privada do Brasil (Ranking Folha 2025 - 6º ano consecutivo)",
+      "100% Online com certificação igual ao presencial",
+      "Mais de 9 mil horas de conteúdo educacional",
+      "Cursos de 12 meses com 24 disciplinas em 3 eixos de formação",
+      "Vídeo aulas de cinema com equipamentos técnicos profissionais",
+      "Ebooks de resumo interativos e PDF",
+      "App PUCRS Online para assistir offline",
+      "Professores renomados (Prêmio Nobel, ONU, CEOs, Chefs Michelin, Ministros)",
+      "+100 professores de universidades dos EUA e Europa",
+      "Trabalho prático final com orientação de professor",
+      "Única Universidade privada do RS com curso de Medicina nota máxima no ENADE"
+    ],
+    "target_audience": "Estudantes em busca de graduação e pós-graduação online",
+    "social_media": {
+      "website": "https://online.pucrs.br",
+      "portal": "https://portal.pucrs.br"
+    }
+  },
+  {
+    "company_name": "Instituto CDT",
+    "website": "https://www.institutocdt.com.br",
+    "type": "Niche",
+    "courses_offered": [
+      "Imersões em cirurgias estéticas",
+      "Emergências",
+      "Diagnósticos por imagem",
+      "Pós-Graduação em Medicina"
+    ],
+    "pricing": "Não disponível publicamente",
+    "differentiators": [
+      "Capacitação de alto nível",
+      "Certificações hands-on",
+      "Foco em diferenciais técnicos que valorizam currículo",
+      "Abertura de oportunidades de alta remuneração"
+    ],
+    "target_audience": "Médicos em busca de especialização em cirurgias e emergências",
+    "social_media": {
+      "website": "https://www.institutocdt.com.br"
+    }
+  },
+  {
+    "company_name": "MEV Brasil",
+    "website": "https://www.mevbrasil.com.br",
+    "type": "Niche",
+    "courses_offered": [
+      "Formações 100% Online em Medicina do Estilo de Vida",
+      "Cursos sobre princípios do consultório de MEV",
+      "Podcast MEV"
+    ],
+    "pricing": "Não disponível publicamente",
+    "differentiators": [
+      "A Escola Brasileira de Medicina do Estilo de Vida",
+      "+10 mil profissionais de saúde impactados",
+      "+100 professores médicos especialistas",
+      "Comunidade #tribodamev",
+      "Eventos MevHack",
+      "Foco em empreendedorismo médico"
+    ],
+    "target_audience": "Profissionais de saúde interessados em Medicina do Estilo de Vida",
+    "social_media": {
+      "website": "https://www.mevbrasil.com.br"
+    }
+  },
+  {
+    "company_name": "Instituto BWS",
+    "website": "https://institutobws.com.br",
+    "type": "Niche",
+    "courses_offered": [
+      "Pós-Graduação Médica",
+      "Cursos reconhecidos e avaliados pelo MEC"
+    ],
+    "pricing": "Não disponível publicamente",
+    "differentiators": [
+      "Cursos reconhecidos e avaliados pelo MEC",
+      "Infraestrutura de parceiros internacionais (Universidad de Cádiz - Espanha)",
+      "Hospital Menino Jesus em SP (referência no atendimento infantil)",
+      "Duas unidades completas em São Paulo",
+      "Capacidade para atender mais de 4.000 pacientes/mês",
+      "50 ambulatórios e salas totalmente equipadas",
+      "Corpo docente atualizado e de renome",
+      "Melhor relação custo-benefício",
+      "Alternativa ética e competente"
+    ],
+    "target_audience": "Médicos em busca de pós-graduação reconhecida pelo MEC",
+    "social_media": {
+      "website": "https://institutobws.com.br"
+    }
+  },
+  {
+    "company_name": "IDOMED",
+    "website": "https://idomed.com.br",
+    "type": "Niche",
+    "courses_offered": [
+      "Educação médica de qualidade internacional"
+    ],
+    "pricing": "Não disponível publicamente",
+    "differentiators": [
+      "Educação de Qualidade Internacional"
+    ],
+    "target_audience": "Médicos em busca de educação continuada internacional",
+    "social_media": {
+      "website": "https://idomed.com.br"
+    }
+  },
+  {
+    "company_name": "Hospital Israelita Albert Einstein",
+    "website": "https://www.einstein.br",
+    "type": "Institutional",
+    "courses_offered": [
+      "Educação e pesquisa médica",
+      "Residências médicas",
+      "Especializações"
+    ],
+    "pricing": "Não disponível publicamente",
+    "differentiators": [
+      "Hospital de excelência reconhecido nacionalmente",
+      "Estrutura de ensino e pesquisa",
+      "Múltiplas unidades",
+      "Referência em saúde no Brasil"
+    ],
+    "target_audience": "Estudantes de medicina, residentes, médicos",
+    "social_media": {
+      "website": "https://www.einstein.br"
+    }
+  },
+  {
+    "company_name": "HCOR",
+    "website": "https://www.hcor.com.br",
+    "type": "Institutional",
+    "courses_offered": [
+      "Especialidades médicas",
+      "Oncologia",
+      "Cardiologia",
+      "Medicina Diagnóstica"
+    ],
+    "pricing": "Não disponível publicamente",
+    "differentiators": [
+      "Centro de Cuidado em Oncologia e Hematologia",
+      "Padrão de excelência em cardiologia",
+      "Centro de Diagnósticos completo",
+      "Hcor Academy para educação continuada"
+    ],
+    "target_audience": "Pacientes, estudantes, profissionais de saúde",
+    "social_media": {
+      "website": "https://www.hcor.com.br",
+      "academy": "https://ensino.hcor.com.br"
+    }
+  },
+  {
+    "company_name": "Comportamente",
+    "website": "https://comportamente.com",
+    "type": "Niche",
+    "courses_offered": [
+      "Programas para superação da obesidade",
+      "Transformação mental e corporal"
+    ],
+    "pricing": "Não disponível publicamente",
+    "differentiators": [
+      "Foco em superação da obesidade através da força mental",
+      "Histórias de transformação e resiliência",
+      "Abordagem focada na mente e determinação"
+    ],
+    "target_audience": "Pessoas em busca de superação da obesidade e transformação de vida",
+    "social_media": {
+      "website": "https://comportamente.com"
+    },
+    "notes": "Nota: Site parece ser de emagrecimento/saúde, não educação médica especificamente"
+  }
+]

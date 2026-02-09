@@ -1,0 +1,56 @@
+{
+  "nome": "Sanar",
+  "site": "https://sanar.com.br",
+  "segmento": "Ecossistema completo de educação médica",
+  "descricao": "Sanar oferece um ecossistema de produtos e serviços de apoio aos estudantes e profissionais de medicina. Da graduação à pós-graduação, com mais de 100 mil alunos. Inclui SanarFlix, Sanar Pós, Cetrus e Sanar Shopping.",
+  "alunos": "100.000+",
+  "produtos": [
+    {
+      "nome": "SanarFlix",
+      "descricao": "Estude com videoaulas, mapas mentais e questões do ciclo básico ao R1",
+      "url": "https://www.sanarflix.com.br",
+      "instagram": "@sanarflix"
+    },
+    {
+      "nome": "Sanar Pós",
+      "descricao": "Cursos de pós-graduação na área médica",
+      "url": "https://posmed.sanarmed.com",
+      "instagram": "@sanarpos.med"
+    },
+    {
+      "nome": "Cetrus",
+      "descricao": "Treinamento de habilidades médicas especializadas",
+      "url": "https://www.cetrus.com.br",
+      "instagram": "@cetrus.ensino"
+    },
+    {
+      "nome": "Sanar Shopping",
+      "descricao": "Maior loja online do Brasil para médicos e profissionais da saúde",
+      "url": "https://www.sanarsaude.com",
+      "instagram": "@sanar.shopping"
+    }
+  ],
+  "servicos": {
+    "portal": "https://www.sanarmed.com",
+    "carreiras": "https://www.sanarmed.com/carreiras/"
+  },
+  "depoimentos": [
+    {
+      "autor": "Luiza Vitória da Silva",
+      "cargo": "Estudante de medicina do 5º semestre",
+      "texto": "Facilita o acesso à informação, utiliza linguagem clara e objetiva. Emprega tabelas, fluxogramas, imagens de qualidade."
+    },
+    {
+      "autor": "Dra. Lucia Amoedo",
+      "cargo": "Estudante de Pós em Nutrologia",
+      "texto": "Trabalho de qualidade e com seriedade. Todos que quiserem fazer um curso de consistência, venham para a Sanar."
+    }
+  ],
+  "redes_sociais": {
+    "linkedin": "https://www.linkedin.com/company/sanar/",
+    "youtube": "https://www.youtube.com/c/SanarOficial",
+    "instagram": "https://www.instagram.com/sanar/",
+    "twitter": "https://twitter.com/sanartech",
+    "facebook": "https://www.facebook.com/TalentosSanar"
+  }
+}

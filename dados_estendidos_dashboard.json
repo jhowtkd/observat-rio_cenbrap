@@ -1,0 +1,1235 @@
+{
+  "metadata": {
+    "projeto": "CENBRAP - Dados Estendidos",
+    "versao": "2.0",
+    "data_criacao": "2026-02-06",
+    "fonte": "Pasta Estudo - Agência Claw",
+    "total_players": 16,
+    "data_atualizacao": "2026-02-06",
+    "novos_dados": [
+      "Mapeamento completo de redes sociais (20 players)",
+      "Dados consolidados de competitive_intelligence_20_players.json",
+      "Análise de presença digital",
+      "Observações estratégicas"
+    ]
+  },
+  "resumo_modelos": {
+    "Personal Brand (Nicho)": 2,
+    "Nicho": 2,
+    "Ecossistema (Inst)": 2,
+    "EAD Massivo (Inst)": 4,
+    "Hands-on Premium": 3,
+    "Comunidade/Tribo": 1,
+    "Hospital + Ensino": 4,
+    "Universidade Tradicional": 1
+  },
+  "estrategias_conteudo": {
+    "Prova Social Massiva": [
+      "liberdade_medica"
+    ],
+    "Multi-perfil": [
+      "sanar"
+    ],
+    "Fundador como Influencer": [
+      "ipm"
+    ],
+    "Comunidade/Tribo": [
+      "mevbrasil"
+    ],
+    "Educação Prática": [
+      "cdt",
+      "cetrus"
+    ],
+    "Nicho Especializado": [
+      "caduceu",
+      "comportamente"
+    ]
+  },
+  "dados_complementares": {
+    "liberdade_medica": {
+      "nome": "Liberdade Médica Educação",
+      "site": "https://liberdademedicaedu.com.br",
+      "segmento": "Pós-graduação médica - Medicina de Emergência e Medicina Intensiva",
+      "modelo_negocio": "Personal Brand (Nicho)",
+      "estrategia_conteudo": "Prova Social Massiva",
+      "presenca_digital": {
+        "instagram": "473K",
+        "nota": "⭐⭐⭐⭐⭐"
+      },
+      "diferenciais": [
+        "Dupla certificação em um único programa",
+        "Foco na prática e aplicabilidade real",
+        "Aulas online e ao vivo",
+        "Reconhecido pelo MEC",
+        "Baseado em evidências científicas",
+        "Comunidade exclusiva para suporte nos plantões",
+        "Discussão de casos clínicos em tempo real"
+      ],
+      "professores": 2
+    },
+    "sanar": {
+      "nome": "Sanar",
+      "site": "https://sanar.com.br",
+      "segmento": "Ecossistema completo de educação médica",
+      "modelo_negocio": "Ecossistema (Inst)",
+      "estrategia_conteudo": "Multi-perfil",
+      "presenca_digital": {
+        "instagram": "Múltiplos perfis",
+        "nota": "⭐⭐⭐⭐⭐"
+      },
+      "diferenciais": [],
+      "professores": 0,
+      "numeros": {
+        "alunos": "+100 mil"
+      },
+      "quantidade_produtos": 5,
+      "redes_sociais": [
+        "instagram",
+        "youtube",
+        "linkedin",
+        "twitter",
+        "facebook"
+      ]
+    },
+    "mevbrasil": {
+      "nome": "MEV Brasil",
+      "site": "https://mevbrasil.com.br",
+      "segmento": "Escola Brasileira de Medicina do Estilo de Vida",
+      "modelo_negocio": "Comunidade/Tribo",
+      "estrategia_conteudo": "Comunidade/Tribo",
+      "presenca_digital": {
+        "instagram": "Comunidade 1.1K",
+        "nota": "⭐⭐⭐⭐"
+      },
+      "diferenciais": [
+        "Pioneira no ensino exclusivo em Medicina do Estilo de Vida do Brasil",
+        "Ecossistema completo (escola + comunidade + ferramentas)",
+        "MEV Plan - Ferramenta exclusiva de avaliação do estilo de vida",
+        "Professores que vivem a MEV na prática",
+        "Foco na geração de resultados para pacientes",
+        "Metodologias para a prática clínica brasileira"
+      ],
+      "professores": 0,
+      "comunidade": "1100+ médicos",
+      "quantidade_produtos": 4,
+      "redes_sociais": [
+        "linkedin",
+        "instagram"
+      ]
+    },
+    "caduceu": {
+      "nome": "Faculdade Caduceu",
+      "site": "https://caduceucursos.com.br",
+      "segmento": "Pós-graduação médica multidisciplinar",
+      "modelo_negocio": "Nicho",
+      "estrategia_conteudo": "Personal Brand",
+      "presenca_digital": {
+        "nota": "⭐⭐⭐"
+      },
+      "diferenciais": [],
+      "professores": 0,
+      "redes_sociais": [
+        "facebook",
+        "instagram"
+      ]
+    },
+    "comportamente": {
+      "nome": "Comportalmente",
+      "site": "https://comportalmente.com.br",
+      "segmento": "Formação de excelência em Psicologia e Saúde Mental",
+      "modelo_negocio": "Nicho",
+      "estrategia_conteudo": "Nicho Especializado",
+      "presenca_digital": {
+        "nota": "⭐⭐⭐"
+      },
+      "diferenciais": [
+        "Corpo Docente de Referência - Professores reconhecidos nacional e internacionalmente",
+        "Base Científica e Abordagens Atuais - Práticas baseadas em evidências (TCC, DBT, ACT, ABA)",
+        "Metodologia Humanizada - Didática acessível, suporte próximo e time disponível"
+      ],
+      "professores": 0,
+      "redes_sociais": [
+        "instagram",
+        "facebook",
+        "linkedin"
+      ]
+    },
+    "ipm": {
+      "nome": "IPM Pós-graduação (Instituto Pedro Miranda)",
+      "site": "https://ipmpos.com.br",
+      "segmento": "Pós-graduação médica presencial",
+      "modelo_negocio": "Personal Brand (Nicho)",
+      "estrategia_conteudo": "Fundador como Influencer",
+      "presenca_digital": {
+        "instagram": "118K (pessoal)",
+        "nota": "⭐⭐⭐⭐"
+      },
+      "diferenciais": [
+        "Abordagem prática de aprendizado por meio de ambulatórios",
+        "Programa de pacientes modelos",
+        "Presença em múltiplas cidades brasileiras",
+        "Foco em especialidades médicas práticas"
+      ],
+      "professores": 0,
+      "redes_sociais": [
+        "instagram",
+        "youtube",
+        "spotify"
+      ]
+    },
+    "fgmed": {
+      "nome": "FGMED",
+      "site": "https://fgmed.org",
+      "segmento": "Educação Médica Continuada e Pós-Graduação Médica",
+      "modelo_negocio": "EAD Massivo (Inst)",
+      "estrategia_conteudo": "Não mapeado",
+      "presenca_digital": {
+        "nota": "⭐⭐⭐"
+      },
+      "diferenciais": [
+        "Certificado com Validade Nacional",
+        "Outorga Título Acadêmico de Especialização",
+        "Mais de 30 mil Médicos formados",
+        "Qualidade Reconhecida pelo Ministério da Educação",
+        "Avançado Sistema Virtual de Aprendizagem",
+        "Corpo docente 100% composto por Doutores, Mestres e Especialistas",
+        "Suporte Pedagógico 24hs",
+        "Aproveitamento de Estudos: Conclua estudos incompletos de outras instituições",
+        "Certificado Digital em até 48 horas"
+      ],
+      "professores": 0,
+      "numeros": {
+        "medicos_formados": "+30 mil",
+        "especializacoes": "+400",
+        "anos_atuacao": "+12"
+      },
+      "redes_sociais": [
+        "twitter",
+        "facebook",
+        "youtube",
+        "instagram",
+        "linkedin"
+      ]
+    },
+    "unyleya": {
+      "nome": "Unyleya",
+      "site": "https://unyleya.edu.br",
+      "segmento": "Graduação e Pós-Graduação EAD - Multidisciplinar",
+      "modelo_negocio": "EAD Massivo (Inst)",
+      "estrategia_conteudo": "Não mapeado",
+      "presenca_digital": {
+        "nota": "⭐⭐⭐"
+      },
+      "diferenciais": [],
+      "professores": 0,
+      "numeros": {
+        "cursos": "+1.800",
+        "convenios": "+2.500",
+        "alunos": "+500 mil",
+        "colaboradores": "+3.000",
+        "tempo_atuacao": "Pioneira em EAD"
+      },
+      "quantidade_produtos": 3,
+      "redes_sociais": [
+        "facebook",
+        "instagram",
+        "twitter",
+        "linkedin",
+        "youtube",
+        "tiktok"
+      ]
+    },
+    "unyleya_med": {
+      "nome": "UnyleyaMED",
+      "site": "https://unyleyamed.com.br",
+      "segmento": "Pós-Graduação EAD exclusiva para médicos",
+      "modelo_negocio": "EAD Massivo (Inst)",
+      "estrategia_conteudo": "Não mapeado",
+      "presenca_digital": {
+        "nota": "⭐⭐⭐"
+      },
+      "diferenciais": [
+        "Educação Flexível para Médicos - Metodologia desenvolvida para a rotina de plantões e atendimentos",
+        "Plataforma 100% digital, com videoaulas objetivas",
+        "Acesso de qualquer dispositivo e flexível aos seus horários",
+        "Simulador de Casos Clínicos - Simulação realista de atendimentos médicos",
+        "Decisões em tempo real, interação com pacientes e feedback imediato",
+        "Biblioteca Médica - Milhões de artigos e diretrizes atualizados",
+        "Adaptados ao SUS, com curadoria de especialistas da América Latina",
+        "Tutoria com Médicos Especialistas - Acompanhamento individualizado",
+        "Corpo Docente Renomado - Especialistas, mestres e doutores",
+        "Certificação Reconhecida pelo MEC - Válida nacionalmente"
+      ],
+      "professores": 0,
+      "numeros": {
+        "medicos": "+2 mil",
+        "cursos": "+50",
+        "docentes_medicos": "100%",
+        "tempo_unyleya": "19 anos de excelência em Educação Superior"
+      },
+      "redes_sociais": [
+        "facebook",
+        "instagram",
+        "x",
+        "linkedin",
+        "youtube"
+      ]
+    },
+    "cdt": {
+      "nome": "Instituto CDT",
+      "site": "https://institutocdt.com.br",
+      "segmento": "Pós-Graduação em Medicina com foco prático",
+      "modelo_negocio": "Hands-on Premium",
+      "estrategia_conteudo": "Educação Prática",
+      "presenca_digital": {
+        "instagram": "Média",
+        "nota": "⭐⭐⭐⭐"
+      },
+      "diferenciais": [
+        "Método Dr. Thiago Amorim",
+        "Abordagem extremamente prática",
+        "Suporte ao aluno é o forte da instituição",
+        "Cursos hands-on com prática real",
+        "Imersões presenciais com cadáveres frescos",
+        "Materiais didáticos exclusivos (livros)"
+      ],
+      "professores": 0,
+      "numeros": {
+        "alunos": "+21.000",
+        "avaliacoes": "229 avaliações"
+      },
+      "redes_sociais": [
+        "youtube",
+        "tiktok",
+        "instagram",
+        "linkedin"
+      ]
+    },
+    "ibcmed": {
+      "nome": "IBCMED (Agora Inspirali Pós Medicina)",
+      "site": "https://ibcmed.com",
+      "segmento": "Pós-Graduação e MBA em Medicina",
+      "modelo_negocio": "EAD Massivo (Inst)",
+      "estrategia_conteudo": "Não mapeado",
+      "presenca_digital": {
+        "nota": "⭐⭐⭐"
+      },
+      "diferenciais": [
+        "Formação sólida e abrangente",
+        "Conectada às necessidades reais das áreas da saúde",
+        "Docentes são referências no mercado",
+        "Experiência prática unida à paixão por ensinar",
+        "Parte do maior ecossistema de educação médica do Brasil (Inspirali)"
+      ],
+      "professores": 0,
+      "redes_sociais": [
+        "facebook",
+        "tiktok",
+        "instagram",
+        "linkedin",
+        "youtube"
+      ]
+    },
+    "cetrus": {
+      "nome": "Cetrus",
+      "site": "https://cetrus.com.br",
+      "segmento": "Cursos de especialização médica com prática hands-on",
+      "modelo_negocio": "Hands-on Premium",
+      "estrategia_conteudo": "Educação Prática",
+      "presenca_digital": {
+        "nota": "⭐⭐⭐"
+      },
+      "diferenciais": [
+        "Foco prático hands-on",
+        "Turmas pequenas (4-6 alunos)",
+        "Presença em mais de 50 cidades",
+        "Centros de treinamento em todo o Brasil",
+        "Parte do ecossistema Sanar"
+      ],
+      "professores": 0,
+      "numeros": {
+        "cursos_especializacoes": "+250",
+        "professores_especialistas": "+150",
+        "medicos_formados": "+60k",
+        "pacientes_atendidos": "+600k"
+      },
+      "redes_sociais": [
+        "instagram",
+        "linkedin",
+        "youtube",
+        "facebook"
+      ]
+    },
+    "afya": {
+      "nome": "Afya",
+      "site": "https://afya.com.br",
+      "segmento": "Ecossistema de educação e soluções para prática médica",
+      "modelo_negocio": "Ecossistema (Inst)",
+      "estrategia_conteudo": "Não mapeado",
+      "presenca_digital": {
+        "nota": "⭐⭐⭐"
+      },
+      "diferenciais": [
+        "Maior ecossistema de educação médica do Brasil",
+        "Metodologia ativa e exclusiva",
+        "Aulas práticas desde o primeiro dia",
+        "Presença em 14 estados",
+        "3 milhões de atendimentos gratuitos desde 2019",
+        "1 em cada 3 médicos usa soluções Afya"
+      ],
+      "professores": 0,
+      "numeros": {
+        "unidades_graduacao": "38 (33 com curso de Medicina)",
+        "alunos_medicina": "+20 mil",
+        "unidades_educacao_continuada": "25",
+        "cursos_educacao_continuada": "+70",
+        "penetracao": "1 em cada 3 médicos ou estudantes de medicina usa uma solução da Afya",
+        "atendimentos_gratuitos": "3 milhões (desde 2019)"
+      },
+      "redes_sociais": [
+        "linkedin",
+        "youtube",
+        "instagram",
+        "facebook"
+      ]
+    },
+    "pucrs": {
+      "nome": "PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)",
+      "site": "https://portal.pucrs.br",
+      "segmento": "Universidade completa - Graduação, Pós, Mestrado e Doutorado",
+      "modelo_negocio": "Universidade Tradicional",
+      "estrategia_conteudo": "Não mapeado",
+      "presenca_digital": {
+        "instagram": "6 plataformas",
+        "nota": "⭐⭐⭐⭐⭐"
+      },
+      "diferenciais": [
+        "Conceito 5 no MEC (nota máxima)",
+        "Melhor universidade privada do RS",
+        "Excelência em ensino, pesquisa e inovação",
+        "Fortaleza em saúde (Hospital São Lucas)",
+        "Ecossistema de inovação (Tecnopuc)",
+        "Mobilidade acadêmica internacional",
+        "Múltiplas unidades e campi"
+      ],
+      "professores": 0,
+      "redes_sociais": [
+        "instagram",
+        "facebook",
+        "linkedin",
+        "twitter",
+        "tiktok",
+        "youtube",
+        "flickr"
+      ]
+    },
+    "idomed": {
+      "nome": "IDOMED",
+      "site": "https://idomed.com.br",
+      "segmento": "Instituto de Educação Médica - Graduação e Pós-Graduação",
+      "modelo_negocio": "Hospital + Ensino",
+      "estrategia_conteudo": "Não mapeado",
+      "presenca_digital": {
+        "nota": "⭐⭐⭐"
+      },
+      "diferenciais": [
+        "Tradição de +25 anos",
+        "Tecnologia e inovação",
+        "Formação de médicos inclusivos",
+        "Excelência acadêmica",
+        "18 faculdades em todo o país"
+      ],
+      "professores": 0,
+      "numeros": {
+        "faculdades_medicas": "18 faculdades médicas ao redor do país"
+      }
+    },
+    "sirio_libanes": {
+      "nome": "Faculdade Sírio-Libanês",
+      "site": "https://faculdadesiriolibanes.org.br/fsl/",
+      "segmento": "Excelência em Educação Superior em Saúde",
+      "modelo_negocio": "Hospital + Ensino",
+      "estrategia_conteudo": "Não mapeado",
+      "presenca_digital": {
+        "nota": "⭐⭐⭐"
+      },
+      "diferenciais": [
+        "Tradição de +100 anos do Hospital Sírio-Libanês",
+        "Humanidade e ética no ensino",
+        "Inovação com propósito",
+        "Formação de profissionais com empatia",
+        "Excelência reconhecida pelo MEC",
+        "Estrutura tecnológica de ponta",
+        "Corpo docente do corpo clínico HSL"
+      ],
+      "professores": 0
+    }
+  },
+  "oportunidades": [
+    {
+      "titulo": "Híbrido Nicho + Institucional",
+      "descricao": "Ninguém combina personalidade com escala. Criar marca pessoal com estrutura institucional.",
+      "prioridade": "Alta"
+    },
+    {
+      "titulo": "Garantia de Resultado",
+      "descricao": "Todos prometem, ninguém garante. Proposta: \"Se não aplicar na prática, devolvemos seu dinheiro\"",
+      "prioridade": "Alta"
+    },
+    {
+      "titulo": "Comunidade Ativa",
+      "descricao": "Apenas MEV tem comunidade (1.100 médicos). Criar \"tribo\" antes mesmo do curso.",
+      "prioridade": "Média"
+    },
+    {
+      "titulo": "Conteúdo Multi-plataforma",
+      "descricao": "Poucos usam Spotify/TikTok efetivamente. Podcast desde o dia 1 + shorts diários.",
+      "prioridade": "Média"
+    },
+    {
+      "titulo": "Parcerias Estratégicas",
+      "descricao": "Poucos têm convênios relevantes. Parcerias com hospitais, indústria farmacêutica.",
+      "prioridade": "Baixa"
+    }
+  ],
+  "framework_conteudo": {
+    "educacao_pratica": {
+      "percentual": 40,
+      "frequencia": "3x/semana"
+    },
+    "prova_social": {
+      "percentual": 25,
+      "frequencia": "2x/semana"
+    },
+    "autoridade_pessoal": {
+      "percentual": 20,
+      "frequencia": "2x/semana"
+    },
+    "entretenimento": {
+      "percentual": 10,
+      "frequencia": "1x/semana"
+    },
+    "venda_direta": {
+      "percentual": 5,
+      "frequencia": "1x/semana"
+    }
+  },
+  "mapeamento_redes_sociais": {
+    "total_players": 20,
+    "total_completo": 16,
+    "total_pendente": 4,
+    "players_destaque": [
+      {
+        "nome": "Sanar",
+        "destaque": "Estratégia multi-perfil: @sanar (geral), @sanarflix (conteúdo), @sanarpos.med (pós), @sanar.shopping (e-commerce)"
+      },
+      {
+        "nome": "PUCRS",
+        "destaque": "Maior diversidade de redes: Instagram, YouTube, LinkedIn, Twitter, TikTok, Facebook"
+      },
+      {
+        "nome": "Einstein",
+        "destaque": "Presença completa incluindo Spotify (podcasts)"
+      },
+      {
+        "nome": "Unyleya",
+        "destaque": "Presença em 5 redes sociais + apps próprios"
+      }
+    ],
+    "players_nicho_destaque": [
+      {
+        "nome": "Liberdade Médica",
+        "seguidores": "473K no Instagram",
+        "estrategia": "Maior audiência entre todos os players nicho"
+      },
+      {
+        "nome": "IPM (Pedro Miranda)",
+        "seguidores": "118K no perfil pessoal",
+        "estrategia": "Usa perfil pessoal do fundador como vetor de autoridade"
+      }
+    ],
+    "observacoes": [
+      "Liberdade Médica tem a maior presença no Instagram entre os nichos com 473K seguidores",
+      "Sanar tem estratégia multi-perfil: @sanar (geral), @sanarflix (conteúdo), @sanarpos.med (pós), @sanar.shopping (e-commerce)",
+      "Pedro Miranda (IPM) usa perfil pessoal @pedroernestomiranda (118K) como vetor de autoridade",
+      "Cetrus tem presença organizada em todas as principais redes",
+      "PUCRS é a mais completa em diversidade de redes (IG, YT, LI, TT, TikTok, FB)",
+      "Einstein se destaca por ter presença no Spotify (podcasts)",
+      "IBCMED mudou de marca para Inspirali Pós Medicina",
+      "MEV Brasil foca em LinkedIn e Instagram, com podcasts no Spotify"
+    ],
+    "dados_detalhados": {
+      "liberdade_medica": {
+        "nome": "Liberdade Médica",
+        "tipo": "Nicho",
+        "site": "https://liberdademedicaedu.com.br",
+        "instagram": {
+          "perfil": "@liberdademedicaedu",
+          "url": "https://www.instagram.com/liberdademedicaedu/",
+          "seguidores": "473K",
+          "posts": "2.228",
+          "descricao": "🎯 1 MILHÃO de Vidas Salvas nos próximos 10 anos. Pós Graduação Médica com Dupla Certificação e Prática Hospitalar"
+        },
+        "youtube": {
+          "canal": "@liberdademedicatv",
+          "url": "https://www.youtube.com/@liberdademedicatv"
+        },
+        "linkedin": "Não identificado",
+        "outras": {}
+      },
+      "caduceu": {
+        "nome": "Caduceu Cursos",
+        "tipo": "Nicho",
+        "site": "https://caduceucursos.com.br",
+        "instagram": "@caduceucursos (a confirmar)",
+        "youtube": "Pendente",
+        "linkedin": "Pendente",
+        "outras": {}
+      },
+      "comportamente": {
+        "nome": "Comportalmente",
+        "tipo": "Nicho",
+        "site": "https://comportalmente.com.br",
+        "instagram": "@comportalmente (a confirmar)",
+        "youtube": "Pendente",
+        "linkedin": "Pendente",
+        "outras": {}
+      },
+      "ipm": {
+        "nome": "IPM Pós-Graduação (Pedro Miranda)",
+        "tipo": "Nicho",
+        "site": "https://ipmpos.com.br",
+        "instagram": {
+          "perfil_institucional": "@ipm.pos",
+          "perfil_fundador": "@pedroernestomiranda",
+          "url_fundador": "https://www.instagram.com/pedroernestomiranda/",
+          "seguidores_fundador": "118K",
+          "posts_fundador": "994"
+        },
+        "youtube": "Pendente",
+        "linkedin": {
+          "empresa": "IPM EDUCAÇÃO",
+          "url": "https://br.linkedin.com/company/ipmpos"
+        },
+        "outras": {}
+      },
+      "sanar": {
+        "nome": "Sanar",
+        "tipo": "Institucional",
+        "site": "https://sanar.com.br",
+        "instagram": {
+          "perfil_principal": "@sanar",
+          "url": "https://www.instagram.com/sanar/",
+          "perfis_especificos": [
+            {
+              "nome": "SanarFlix",
+              "perfil": "@sanarflix",
+              "url": "https://www.instagram.com/sanarflix/"
+            },
+            {
+              "nome": "Sanar Pós",
+              "perfil": "@sanarpos.med",
+              "url": "https://www.instagram.com/sanarpos.med/"
+            },
+            {
+              "nome": "Sanar Shopping",
+              "perfil": "@sanar.shopping",
+              "url": "https://www.instagram.com/sanar.shopping/"
+            }
+          ]
+        },
+        "youtube": {
+          "canal": "Sanar Oficial",
+          "url": "https://www.youtube.com/c/SanarOficial"
+        },
+        "linkedin": {
+          "empresa": "Sanar",
+          "url": "https://www.linkedin.com/company/sanar/"
+        },
+        "outras": {
+          "twitter": "@sanartech",
+          "facebook": "https://www.facebook.com/TalentosSanar"
+        }
+      },
+      "fgmed": {
+        "nome": "FGMED",
+        "tipo": "Institucional",
+        "site": "https://fgmed.org",
+        "instagram": {
+          "perfil": "@fgmed.online",
+          "url": "https://www.instagram.com/fgmed.online/"
+        },
+        "youtube": {
+          "canal": "@fgmed9133",
+          "url": "https://www.youtube.com/@fgmed9133"
+        },
+        "linkedin": {
+          "empresa": "FGMED",
+          "url": "https://www.linkedin.com/company/fgmed/"
+        },
+        "outras": {
+          "twitter": "@fgmedbr",
+          "facebook": "https://www.facebook.com/FG.FGMED/",
+          "whatsapp": "0800-111-1011"
+        }
+      },
+      "unyleya": {
+        "nome": "Unyleya",
+        "tipo": "Institucional",
+        "site": "https://unyleya.edu.br",
+        "instagram": {
+          "perfil": "@faculdadeunyleya",
+          "url": "https://www.instagram.com/faculdadeunyleya/"
+        },
+        "youtube": {
+          "canal": "@faculdade.unyleya",
+          "url": "https://www.youtube.com/@faculdade.unyleya"
+        },
+        "linkedin": {
+          "empresa": "Unyleya Educacional",
+          "url": "https://www.linkedin.com/company/unyleyaeducacional/"
+        },
+        "outras": {
+          "twitter": "@Unyleya",
+          "tiktok": "@unyleya",
+          "facebook": "https://www.facebook.com/faculdadeunyleya"
+        }
+      },
+      "unyleya_med": {
+        "nome": "UnyleyaMED",
+        "tipo": "Institucional",
+        "site": "https://unyleyamed.com.br",
+        "instagram": "Pendente - @unyleyamed",
+        "youtube": "Pendente",
+        "linkedin": "Pendente",
+        "outras": {}
+      },
+      "cdt": {
+        "nome": "Instituto CDT",
+        "tipo": "Institucional",
+        "site": "https://institutocdt.com.br",
+        "instagram": {
+          "perfil": "@institutocdt",
+          "url": "https://www.instagram.com/institutocdt/"
+        },
+        "youtube": {
+          "canal": "Instituto CDT",
+          "url": "https://www.youtube.com/channel/UCmljj6vCQ2ZGv4832SRoq0g"
+        },
+        "linkedin": {
+          "empresa": "Instituto CDT",
+          "url": "https://www.linkedin.com/company/81813900/"
+        },
+        "outras": {
+          "tiktok": "@drthiago"
+        }
+      },
+      "ibcmed": {
+        "nome": "IBCMED / Inspirali Pós Medicina",
+        "tipo": "Institucional",
+        "site": "https://ibcmed.com",
+        "instagram": {
+          "perfil": "@inspirali.posmedicina",
+          "url": "https://www.instagram.com/inspirali.posmedicina/"
+        },
+        "youtube": {
+          "canal": "@inspirali.posmedicina",
+          "url": "https://www.youtube.com/@inspirali.posmedicina"
+        },
+        "linkedin": {
+          "empresa": "Inspirali Pós",
+          "url": "https://www.linkedin.com/company/inspiralipos/"
+        },
+        "outras": {
+          "facebook": "https://www.facebook.com/inspirali.pos",
+          "tiktok": "@inspirali.pos"
+        }
+      },
+      "mevbrasil": {
+        "nome": "MEV Brasil",
+        "tipo": "Institucional",
+        "site": "https://mevbrasil.com.br",
+        "instagram": {
+          "perfil": "@mevbrasil",
+          "url": "https://www.instagram.com/mevbrasil/"
+        },
+        "youtube": "Pendente",
+        "linkedin": {
+          "empresa": "MEV Brasil",
+          "url": "https://www.linkedin.com/company/mevbrasil"
+        },
+        "outras": {
+          "spotify": "Presente"
+        }
+      },
+      "afya": {
+        "nome": "Afya",
+        "tipo": "Institucional",
+        "site": "https://afya.com.br",
+        "instagram": {
+          "perfil": "@afya.oficial",
+          "url": "https://www.instagram.com/afya.oficial/"
+        },
+        "youtube": {
+          "canal": "Afya Educacional",
+          "url": "https://www.youtube.com/c/Afyaeducacional"
+        },
+        "linkedin": {
+          "empresa": "Afya Medicina",
+          "url": "https://br.linkedin.com/company/afyamedicina"
+        },
+        "outras": {
+          "facebook": "https://www.facebook.com/afyaeducacional/"
+        }
+      },
+      "bws": {
+        "nome": "Instituto BWS",
+        "tipo": "Institucional",
+        "site": "https://institutobws.com.br",
+        "instagram": {
+          "perfil": "@institutobws (a confirmar)",
+          "url": "https://www.instagram.com/institutobws/"
+        },
+        "youtube": "Pendente",
+        "linkedin": {
+          "empresa": "BWS (a confirmar)",
+          "url": "https://www.linkedin.com/company/institutobws/"
+        },
+        "outras": {}
+      },
+      "slmandic": {
+        "nome": "São Leopoldo Mandic",
+        "tipo": "Institucional",
+        "site": "https://slmandic.edu.br",
+        "instagram": {
+          "perfil": "@saoleopoldomandic",
+          "url": "https://www.instagram.com/saoleopoldomandic/"
+        },
+        "youtube": {
+          "canal": "São Leopoldo Mandic",
+          "url": "https://www.youtube.com/channel/UClx774EbaBecptaAvw00n0A"
+        },
+        "linkedin": {
+          "empresa": "São Leopoldo Mandic",
+          "url": "https://br.linkedin.com/school/saoleopoldomandic/"
+        },
+        "outras": {
+          "facebook": "https://www.facebook.com/saoleopoldomandic",
+          "podcast": "Mandicast"
+        }
+      },
+      "hcor": {
+        "nome": "HCOR",
+        "tipo": "Institucional",
+        "site": "https://hcor.com.br",
+        "instagram": {
+          "perfil": "@hcoroficial",
+          "url": "https://www.instagram.com/hcoroficial/"
+        },
+        "youtube": {
+          "canal": "HCOR",
+          "url": "https://www.youtube.com/channel/UC7tOeqLpmCejyymIyZlrWNQ"
+        },
+        "linkedin": {
+          "empresa": "HCOR",
+          "url": "https://www.linkedin.com/company/hcor"
+        },
+        "outras": {
+          "facebook": "https://www.facebook.com/HCor.Oficial"
+        }
+      },
+      "einstein": {
+        "nome": "Einstein",
+        "tipo": "Institucional",
+        "site": "https://einstein.br",
+        "instagram": {
+          "perfil": "@hosp_einstein",
+          "url": "https://instagram.com/hosp_einstein"
+        },
+        "youtube": {
+          "canal": "@einstein",
+          "url": "https://www.youtube.com/@einstein"
+        },
+        "linkedin": {
+          "empresa": "Einstein Hospital Israelita",
+          "url": "https://www.linkedin.com/company/einstein-hospital-israelita"
+        },
+        "outras": {
+          "facebook": "https://www.facebook.com/EinsteinHospital",
+          "tiktok": "@hosp_einstein",
+          "spotify": "https://open.spotify.com/user/hospital_albert_einstein"
+        }
+      },
+      "cetrus": {
+        "nome": "Cetrus",
+        "tipo": "Institucional",
+        "site": "https://cetrus.com.br",
+        "instagram": {
+          "perfil": "@cetrus.ensino",
+          "url": "https://www.instagram.com/cetrus.ensino/"
+        },
+        "youtube": {
+          "canal": "Cetrus",
+          "url": "https://www.youtube.com/user/mktcetrus"
+        },
+        "linkedin": {
+          "empresa": "Cetrus Ensino",
+          "url": "https://br.linkedin.com/company/cetrusensino"
+        },
+        "outras": {
+          "facebook": "https://pt-br.facebook.com/CetrusBrasil/"
+        }
+      },
+      "pucrs": {
+        "nome": "PUCRS",
+        "tipo": "Institucional",
+        "site": "https://pucrs.br",
+        "instagram": {
+          "perfil": "@pucrs",
+          "url": "https://www.instagram.com/pucrs/"
+        },
+        "youtube": {
+          "canal": "@PUCRSOficial",
+          "url": "https://www.youtube.com/@PUCRSOficial"
+        },
+        "linkedin": {
+          "empresa": "PUCRS",
+          "url": "https://www.linkedin.com/school/pucrs/"
+        },
+        "outras": {
+          "twitter": "@pucrs",
+          "tiktok": "@pucrs",
+          "facebook": "https://www.facebook.com/pucrs"
+        }
+      },
+      "idomed": {
+        "nome": "IDOMED",
+        "tipo": "Institucional",
+        "site": "https://idomed.com.br",
+        "instagram": "Pendente - @idomed (a confirmar)",
+        "youtube": "Pendente",
+        "linkedin": "Pendente",
+        "outras": {
+          "whatsapp": "0800 880 6770"
+        }
+      },
+      "sirio_libanes": {
+        "nome": "Faculdade Sírio-Libanês",
+        "tipo": "Institucional",
+        "site": "https://faculdadesiriolibanes.org.br/fsl/",
+        "instagram": "Pendente - @faculdadesiriolibanes (a confirmar)",
+        "youtube": "Pendente",
+        "linkedin": "Pendente",
+        "outras": {}
+      }
+    }
+  },
+  "dados_consolidados": {
+    "total": 15,
+    "players": [
+      {
+        "nome": "Sanar",
+        "tipo": "Institutional",
+        "website": "https://www.sanar.com.br",
+        "cursos": [
+          "SanarFlix - Videoaulas e questões para estudantes de medicina (ciclo básico ao R1)",
+          "Sanar Pós - Pós-graduação médica em mais de 20 especialidades",
+          "Medicina do Trabalho"
+        ],
+        "diferenciais": [
+          "Ecossistema completo de produtos e serviços",
+          "Mais de 100 mil alunos",
+          "Professores padrão ouro (Harvard, USP, UNICAMP)"
+        ],
+        "publico_alvo": "Estudantes de medicina, médicos em preparação para residência, profissionais em busca de atualização"
+      },
+      {
+        "nome": "Afya",
+        "tipo": "Institutional",
+        "website": "https://www.afya.com.br",
+        "cursos": [
+          "Graduação em Medicina (38 unidades, 33 com curso de Medicina)",
+          "Educação médica continuada (+70 cursos)",
+          "Pós-graduação, aprimoramentos e demais modalidades"
+        ],
+        "diferenciais": [
+          "Maior ecossistema de educação e soluções para prática médica do Brasil",
+          "38 unidades de graduação (33 com Medicina)",
+          "+20 mil alunos de Medicina em 14 estados"
+        ],
+        "publico_alvo": "Estudantes de medicina, médicos em todas as fases da carreira"
+      },
+      {
+        "nome": "Unyleya Educacional",
+        "tipo": "Institutional",
+        "website": "https://unyleya.com.br",
+        "cursos": [
+          "Graduação EAD (mais de 1.800 cursos em 50 áreas)",
+          "Pós-Graduação EAD",
+          "UnyleyaMED - Pós-Graduação na área Médica"
+        ],
+        "diferenciais": [
+          "Pioneira em educação digital no Brasil (18 anos)",
+          "Maior variedade de cursos de Graduação e Pós do Brasil",
+          "Mais de 400 mil alunos formados"
+        ],
+        "publico_alvo": "Estudantes de diversas áreas, profissionais da saúde, médicos"
+      },
+      {
+        "nome": "UnyleyaMED",
+        "tipo": "Institutional",
+        "website": "https://unyleyamed.com.br",
+        "cursos": [
+          "Mais de 50 Pós-Graduações exclusivas para médicos",
+          "Cursos na modalidade EAD focados em medicina"
+        ],
+        "diferenciais": [
+          "Programa de Pós-Graduação Médica da Unyleya",
+          "+ de 2 mil médicos escolheram a UnyleyaMED",
+          "100% dos cursos compostos por médicos docentes"
+        ],
+        "publico_alvo": "Médicos em busca de pós-graduação e especialização"
+      },
+      {
+        "nome": "IBCMED",
+        "tipo": "Institutional",
+        "website": "https://ibcmed.com",
+        "cursos": [
+          "Pediatria",
+          "Dermatologia",
+          "Psiquiatria"
+        ],
+        "diferenciais": [
+          "Integra a Inspirali, maior ecossistema de educação médica do Brasil",
+          "+ de 5.000 médicos pós-graduados",
+          "+ de 300 turmas formadas em todo o país"
+        ],
+        "publico_alvo": "Médicos com CRM ativo em busca de pós-graduação"
+      },
+      {
+        "nome": "Cetrus",
+        "tipo": "Institutional",
+        "website": "https://cetrus.com.br",
+        "cursos": [
+          "Pós em Formato Fellowship (mais de 250 cursos e especializações)",
+          "Especializações médicas com prática hands-on em +45 áreas"
+        ],
+        "diferenciais": [
+          "Presente em mais de 50 cidades em todos os estados do país",
+          "Sedes em São Paulo e Recife",
+          "Modelo Fellowship com foco hands-on"
+        ],
+        "publico_alvo": "Médicos em busca de especialização com foco prático"
+      },
+      {
+        "nome": "Hcor Academy",
+        "tipo": "Institutional",
+        "website": "https://ensino.hcor.com.br",
+        "cursos": [
+          "PALS - Suporte Avançado de Vida em Pediatria (R$ 1.200,00)",
+          "ACLS - Advanced Cardiovascular Life Support (R$ 1.232,50)",
+          "Programa Experiência Hcor - Cardiologia Intervencionista (R$ 3.500,00)"
+        ],
+        "diferenciais": [
+          "Mais de 50 mil alunos treinados",
+          "Um dos mais avançados centros de Ensino, Treinamento e Simulação Realística",
+          "Centro de Formação Internacional da AHA (American Heart Association)"
+        ],
+        "publico_alvo": "Profissionais de saúde, colaboradores, corpo clínico"
+      },
+      {
+        "nome": "PUCRS Online",
+        "tipo": "Institutional",
+        "website": "https://online.pucrs.br",
+        "cursos": [
+          "Graduação Online",
+          "Pós-Graduação (Especialização e MBA)",
+          "Mestrado"
+        ],
+        "diferenciais": [
+          "Melhor Universidade Privada do Brasil (Ranking Folha 2025 - 6º ano consecutivo)",
+          "100% Online com certificação igual ao presencial",
+          "Mais de 9 mil horas de conteúdo educacional"
+        ],
+        "publico_alvo": "Estudantes em busca de graduação e pós-graduação online"
+      },
+      {
+        "nome": "Instituto CDT",
+        "tipo": "Niche",
+        "website": "https://www.institutocdt.com.br",
+        "cursos": [
+          "Imersões em cirurgias estéticas",
+          "Emergências",
+          "Diagnósticos por imagem"
+        ],
+        "diferenciais": [
+          "Capacitação de alto nível",
+          "Certificações hands-on",
+          "Foco em diferenciais técnicos que valorizam currículo"
+        ],
+        "publico_alvo": "Médicos em busca de especialização em cirurgias e emergências"
+      },
+      {
+        "nome": "MEV Brasil",
+        "tipo": "Niche",
+        "website": "https://www.mevbrasil.com.br",
+        "cursos": [
+          "Formações 100% Online em Medicina do Estilo de Vida",
+          "Cursos sobre princípios do consultório de MEV",
+          "Podcast MEV"
+        ],
+        "diferenciais": [
+          "A Escola Brasileira de Medicina do Estilo de Vida",
+          "+10 mil profissionais de saúde impactados",
+          "+100 professores médicos especialistas"
+        ],
+        "publico_alvo": "Profissionais de saúde interessados em Medicina do Estilo de Vida"
+      },
+      {
+        "nome": "Instituto BWS",
+        "tipo": "Niche",
+        "website": "https://institutobws.com.br",
+        "cursos": [
+          "Pós-Graduação Médica",
+          "Cursos reconhecidos e avaliados pelo MEC"
+        ],
+        "diferenciais": [
+          "Cursos reconhecidos e avaliados pelo MEC",
+          "Infraestrutura de parceiros internacionais (Universidad de Cádiz - Espanha)",
+          "Hospital Menino Jesus em SP (referência no atendimento infantil)"
+        ],
+        "publico_alvo": "Médicos em busca de pós-graduação reconhecida pelo MEC"
+      },
+      {
+        "nome": "IDOMED",
+        "tipo": "Niche",
+        "website": "https://idomed.com.br",
+        "cursos": [
+          "Educação médica de qualidade internacional"
+        ],
+        "diferenciais": [
+          "Educação de Qualidade Internacional"
+        ],
+        "publico_alvo": "Médicos em busca de educação continuada internacional"
+      },
+      {
+        "nome": "Hospital Israelita Albert Einstein",
+        "tipo": "Institutional",
+        "website": "https://www.einstein.br",
+        "cursos": [
+          "Educação e pesquisa médica",
+          "Residências médicas",
+          "Especializações"
+        ],
+        "diferenciais": [
+          "Hospital de excelência reconhecido nacionalmente",
+          "Estrutura de ensino e pesquisa",
+          "Múltiplas unidades"
+        ],
+        "publico_alvo": "Estudantes de medicina, residentes, médicos"
+      },
+      {
+        "nome": "HCOR",
+        "tipo": "Institutional",
+        "website": "https://www.hcor.com.br",
+        "cursos": [
+          "Especialidades médicas",
+          "Oncologia",
+          "Cardiologia"
+        ],
+        "diferenciais": [
+          "Centro de Cuidado em Oncologia e Hematologia",
+          "Padrão de excelência em cardiologia",
+          "Centro de Diagnósticos completo"
+        ],
+        "publico_alvo": "Pacientes, estudantes, profissionais de saúde"
+      },
+      {
+        "nome": "Comportamente",
+        "tipo": "Niche",
+        "website": "https://comportamente.com",
+        "cursos": [
+          "Programas para superação da obesidade",
+          "Transformação mental e corporal"
+        ],
+        "diferenciais": [
+          "Foco em superação da obesidade através da força mental",
+          "Histórias de transformação e resiliência",
+          "Abordagem focada na mente e determinação"
+        ],
+        "publico_alvo": "Pessoas em busca de superação da obesidade e transformação de vida"
+      }
+    ]
+  },
+  "oportunidades_estrategicas": [
+    {
+      "id": 1,
+      "titulo": "Híbrido Nicho + Institucional",
+      "prioridade": "Alta",
+      "gap": "Ninguém combina personalidade com escala",
+      "acao": "Criar marca pessoal (fundo) com estrutura institucional (meio)",
+      "diferencial": "A única pós-graduação médica com garantia de resultado"
+    },
+    {
+      "id": 2,
+      "titulo": "Garantia de Resultado",
+      "prioridade": "Alta",
+      "gap": "Todos prometem, ninguém garante",
+      "acao": "Se não aplicar na prática, devolvemos seu dinheiro",
+      "diferencial": "Risco zero para o aluno"
+    },
+    {
+      "id": 3,
+      "titulo": "Comunidade Ativa",
+      "prioridade": "Média",
+      "gap": "Apenas MEV tem comunidade estruturada (1.100 médicos)",
+      "acao": "Criar \"tribo\" antes mesmo do curso (WhatsApp/Discord)",
+      "diferencial": "Network de médicos desde o primeiro dia"
+    },
+    {
+      "id": 4,
+      "titulo": "Conteúdo Multi-plataforma",
+      "prioridade": "Média",
+      "gap": "Poucos usam Spotify/TikTok efetivamente",
+      "acao": "Podcast desde o dia 1 + shorts diários",
+      "diferencial": "Presença onde o médico está"
+    },
+    {
+      "id": 5,
+      "titulo": "Parcerias Estratégicas",
+      "prioridade": "Baixa",
+      "gap": "Poucos têm convênios relevantes",
+      "acao": "Parcerias com hospitais, indústria farmacêutica",
+      "diferencial": "Acesso a oportunidades exclusivas"
+    }
+  ],
+  "cronograma_sugerido": {
+    "fase_1_fundacao": {
+      "duracao": "0-3 meses",
+      "acoes": [
+        "Definir nicho específico de atuação",
+        "Criar perfil pessoal no Instagram/LinkedIn",
+        "Mapear 3 concorrentes diretos para monitoramento",
+        "Desenvolver proposta de valor única"
+      ]
+    },
+    "fase_2_tracao": {
+      "duracao": "3-6 meses",
+      "acoes": [
+        "Lançar podcast (diferencial no mercado)",
+        "Criar comunidade (grupo fechado)",
+        "Estratégia multi-perfil (institucional + pessoal)",
+        "Conteúdo diário nas principais redes"
+      ]
+    },
+    "fase_3_escala": {
+      "duracao": "6-12 meses",
+      "acoes": [
+        "Ecossistema: Gratuito → Pago → Comunidade",
+        "Parcerias com hospitais para prática",
+        "Eventos presenciais (workshops)",
+        "Publicar cases de resultados de alunos"
+      ]
+    }
+  }
+}

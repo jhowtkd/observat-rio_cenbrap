@@ -1,0 +1,373 @@
+{
+  "auditoria": "performance",
+  "data": "2026-02-06",
+  "arquivos_analisados": [
+    "pages/PresencaDigital.tsx",
+    "pages/Oportunidades.tsx",
+    "components/MapaPosicionamento.tsx",
+    "components/Dashboard.tsx",
+    "components/charts/RadarComparison.tsx",
+    "components/charts/PriceDistribution.tsx",
+    "components/charts/PositioningMatrix.tsx",
+    "components/charts/AdsInvestmentChart.tsx",
+    "components/layout/ChromeTabs.tsx",
+    "App.tsx"
+  ],
+  "problemas_encontrados": [
+    {
+      "arquivo": "pages/Oportunidades.tsx",
+      "linha": 243,
+      "tipo": "re-render",
+      "descricao": "Funções getCategoriaIcon, getCategoriaLabel, getImpactoColor e getEsforcoColor são recriadas a cada render sem useCallback",
+      "impacto": "medio",
+      "sugestao": "Memoizar as funções de mapeamento com useCallback ou mover para fora do componente",
+      "codigo_exemplo": "const getCategoriaIcon = useCallback((categoria: string) => {\n  switch (categoria) {\n    case 'preco': return <DollarSign className=\"w-4 h-4\" />;\n    // ...\n  }\n}, []);"
+    },
+    {
+      "arquivo": "pages/Oportunidades.tsx",
+      "linha": 310,
+      "tipo": "effect",
+      "descricao": "new Date().toLocaleDateString() é chamado a cada render, criando novo objeto Date desnecessariamente",
+      "impacto": "baixo",
+      "sugestao": "Usar useMemo para memoizar a data formatada ou usar uma constante fora do componente",
+      "codigo_exemplo": "const dataAtual = useMemo(() => {\n  return new Date().toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' });\n}, []);"
+    },
+    {
+      "arquivo": "pages/Oportunidades.tsx",
+      "linha": 2,
+      "tipo": "bundle",
+      "descricao": "Importação completa do framer-motion sendo usada apenas para animações simples de entrada",
+      "impacto": "medio",
+      "sugestao": "Considerar usar CSS transitions nativas para animações simples ou implementar lazy loading para páginas menos críticas",
+      "codigo_exemplo": "// Substituir motion.div por CSS:\n// .fade-in { animation: fadeIn 0.3s ease-out; }\n// @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } }"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 159,
+      "tipo": "re-render",
+      "descricao": "new Date().toLocaleDateString() é recalculado a cada render no header",
+      "impacto": "baixo",
+      "sugestao": "Memoizar a data com useMemo ou extrair para constante fora do componente",
+      "codigo_exemplo": "const formattedDate = useMemo(() => {\n  return new Date().toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' });\n}, []);"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 78,
+      "tipo": "re-render",
+      "descricao": "Array de alertas é recriado a cada render mesmo quando competitors não muda de forma relevante",
+      "impacto": "medio",
+      "sugestao": "Otimizar dependências do useMemo para alerts ou dividir em useEffects separados",
+      "codigo_exemplo": "const alerts: AlertItem[] = useMemo(() => {\n  // lógica atual\n}, [competitors]); // já está correto, mas verificar se todas as dependências são necessárias"
+    },
+    {
+      "arquivo": "components/charts/RadarComparison.tsx",
+      "linha": 23,
+      "tipo": "re-render",
+      "descricao": "Função calcScore é recriada a cada render sem useCallback",
+      "impacto": "medio",
+      "sugestao": "Memoizar calcScore com useCallback ou mover para fora do componente",
+      "codigo_exemplo": "const calcScore = useCallback((c: Competitor) => {\n  // lógica de cálculo\n}, []);"
+    },
+    {
+      "arquivo": "components/charts/RadarComparison.tsx",
+      "linha": 51,
+      "tipo": "re-render",
+      "descricao": "chartData é recalculado a cada render mesmo quando competitors não mudam",
+      "impacto": "medio",
+      "sugestao": "Já está usando useMemo no componente pai (Dashboard), mas calcScore deveria ser memoizado",
+      "codigo_exemplo": "// Garantir que calcScore esteja memoizado para evitar recálculos desnecessários"
+    },
+    {
+      "arquivo": "components/charts/PositioningMatrix.tsx",
+      "linha": 21,
+      "tipo": "re-render",
+      "descricao": "Função calcCredibility é recriada a cada render",
+      "impacto": "medio",
+      "sugestao": "Mover calcCredibility para fora do componente ou usar useCallback",
+      "codigo_exemplo": "const calcCredibility = useCallback((c: Competitor): number => {\n  // lógica de cálculo\n}, []);"
+    },
+    {
+      "arquivo": "components/charts/PositioningMatrix.tsx",
+      "linha": 66,
+      "tipo": "re-render",
+      "descricao": "Componente CustomTooltip é definido dentro do componente principal, causando recriação a cada render",
+      "impacto": "alto",
+      "sugestao": "Extrair CustomTooltip para um componente separado fora do PositioningMatrix",
+      "codigo_exemplo": "// Fora do componente PositioningMatrix:\nconst CustomTooltip = memo(({ active, payload }: any) => {\n  // implementação\n});"
+    },
+    {
+      "arquivo": "components/charts/PriceDistribution.tsx",
+      "linha": 29,
+      "tipo": "re-render",
+      "descricao": "Dados do gráfico são recalculados a cada render sem memoização",
+      "impacto": "medio",
+      "sugestao": "Usar useMemo para memoizar o array de dados do gráfico",
+      "codigo_exemplo": "const data = useMemo(() => {\n  return priceRanges.map(range => {\n    // lógica de contagem\n  });\n}, [competitors, selectedCompetitor]);"
+    },
+    {
+      "arquivo": "components/charts/AdsInvestmentChart.tsx",
+      "linha": 20,
+      "tipo": "re-render",
+      "descricao": "Dados do gráfico são recalculados a cada render sem memoização",
+      "impacto": "medio",
+      "sugestao": "Usar useMemo para memoizar o array data",
+      "codigo_exemplo": "const data = useMemo(() => {\n  return competitors\n    .filter(c => (c.trafego_pago?.meta_ads?.anuncios_ativos || 0) > 0)\n    .sort(...)\n    .slice(0, 10)\n    .map(...);\n}, [competitors, selectedCompetitor]);"
+    },
+    {
+      "arquivo": "components/layout/ChromeTabs.tsx",
+      "linha": 43,
+      "tipo": "re-render",
+      "descricao": "Array sortedCompetitors é recriado a cada render com spread operator",
+      "impacto": "medio",
+      "sugestao": "Usar useMemo para memoizar o array ordenado",
+      "codigo_exemplo": "const sortedCompetitors = useMemo(() => {\n  return [...competitors].sort((a, b) => {\n    // lógica de ordenação\n  });\n}, [competitors]);"
+    },
+    {
+      "arquivo": "components/layout/ChromeTabs.tsx",
+      "linha": 33,
+      "tipo": "bundle",
+      "descricao": "framer-motion é usado para animações simples de tabs",
+      "impacto": "medio",
+      "sugestao": "Considerar usar CSS transitions para animações de tab mais simples",
+      "codigo_exemplo": "// Usar CSS ao invés de motion:\n<button className=\"tab transition-all duration-300\">...</button>"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 574,
+      "tipo": "re-render",
+      "descricao": "Array estrategiasDestaque contém elementos React (ícones) criados inline",
+      "impacto": "baixo",
+      "sugestao": "Mover estrategiasDestaque para fora do componente ou memoizar",
+      "codigo_exemplo": "// Fora do componente:\nconst estrategiasDestaque: EstrategiaDestaque[] = [...];"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 623,
+      "tipo": "re-render",
+      "descricao": "Função parseSeguidores é recriada a cada render",
+      "impacto": "baixo",
+      "sugestao": "Mover parseSeguidores para fora do componente ou usar useCallback",
+      "codigo_exemplo": "// Fora do componente:\nconst parseSeguidores = (seguidores: string | undefined): number => {\n  // implementação\n};"
+    },
+    {
+      "arquivo": "App.tsx",
+      "linha": 1,
+      "tipo": "import",
+      "descricao": "Importação estática de todas as páginas sem lazy loading",
+      "impacto": "alto",
+      "sugestao": "Implementar React.lazy() e Suspense para code splitting das páginas",
+      "codigo_exemplo": "const PresencaDigital = lazy(() => import('./pages/PresencaDigital'));\nconst Oportunidades = lazy(() => import('./pages/Oportunidades'));\n\n// No JSX:\n<Suspense fallback={<Loading />}>\n  <Routes>...</Routes>\n</Suspense>"
+    },
+    {
+      "arquivo": "package.json",
+      "linha": 12,
+      "tipo": "bundle",
+      "descricao": "Duas bibliotecas de gráficos sendo usadas: recharts e chart.js + react-chartjs-2",
+      "impacto": "alto",
+      "descricao": "Duplicação de bibliotecas de charts aumenta o bundle size desnecessariamente",
+      "sugestao": "Escolher apenas uma biblioteca de charts e remover a outra",
+      "codigo_exemplo": "// Remover do package.json:\n// \"chart.js\": \"^4.5.1\",\n// \"react-chartjs-2\": \"^5.3.1\","
+    },
+    {
+      "arquivo": "package.json",
+      "linha": 13,
+      "tipo": "bundle",
+      "descricao": "Biblioteca agentation incluída em produção (deveria ser devDependency apenas)",
+      "impacto": "medio",
+      "descricao": "Agentation é uma ferramenta de desenvolvimento que não deveria ir para produção",
+      "sugestao": "Mover agentation para devDependencies ou garantir que seja removido no build",
+      "codigo_exemplo": "// No package.json, mover para devDependencies:\n\"devDependencies\": {\n  \"agentation\": \"^1.3.2\"\n}"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 1,
+      "tipo": "import",
+      "descricao": "Importação de todos os ícones do lucide-react sem tree-shaking otimizado",
+      "impacto": "baixo",
+      "descricao": "Importação nomeada já permite tree-shaking, mas verificar se há ícones não usados",
+      "sugestao": "Remover ícones não utilizados da importação",
+      "codigo_exemplo": "// Verificar e remover ícones não usados da lista de imports"
+    },
+    {
+      "arquivo": "pages/Oportunidades.tsx",
+      "linha": 411,
+      "tipo": "lista",
+      "descricao": "Lista de oportunidades pode crescer e não tem virtualização",
+      "impacto": "baixo",
+      "descricao": "Se a lista de oportunidades crescer muito, pode causar lentidão na renderização",
+      "sugestao": "Implementar virtualização com react-window ou react-virtualized se a lista crescer",
+      "codigo_exemplo": "import { FixedSizeList as List } from 'react-window';\n// Usar List para renderizar apenas itens visíveis"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 956,
+      "tipo": "lista",
+      "descricao": "Tabela de players pode crescer sem virtualização",
+      "impacto": "baixo",
+      "descricao": "Tabela com muitos players pode causar lentidão",
+      "sugestao": "Considerar paginação ou virtualização para tabelas grandes",
+      "codigo_exemplo": "// Implementar paginação ou usar react-window para virtualização"
+    },
+    {
+      "arquivo": "components/charts/RadarComparison.tsx",
+      "linha": 82,
+      "tipo": "chart",
+      "descricao": "Gráfico Radar é re-renderizado mesmo quando dados não mudam significativamente",
+      "impacto": "medio",
+      "descricao": "Componente de gráfico não está memoizado, causando re-render desnecessário",
+      "sugestao": "Memoizar o componente RadarComparison com React.memo",
+      "codigo_exemplo": "export const RadarComparison = memo(function RadarComparison({ competitors, selectedCompetitor }: RadarComparisonProps) {\n  // implementação\n});"
+    },
+    {
+      "arquivo": "components/charts/PriceDistribution.tsx",
+      "linha": 73,
+      "tipo": "chart",
+      "descricao": "Gráfico de barras é re-renderizado a cada mudança de selectedCompetitor",
+      "impacto": "medio",
+      "descricao": "O gráfico inteiro re-renderiza quando apenas a seleção muda",
+      "sugestao": "Separar a lógica de seleção visual do gráfico principal ou memoizar",
+      "codigo_exemplo": "export const PriceDistribution = memo(function PriceDistribution({ competitors, selectedCompetitor }: PriceDistributionProps) {\n  // implementação\n});"
+    },
+    {
+      "arquivo": "components/charts/PositioningMatrix.tsx",
+      "linha": 89,
+      "tipo": "chart",
+      "descricao": "ScatterChart é re-renderizado sem necessidade",
+      "impacto": "medio",
+      "sugestao": "Memoizar o componente PositioningMatrix",
+      "codigo_exemplo": "export const PositioningMatrix = memo(function PositioningMatrix({ competitors, selectedCompetitor }: PositioningMatrixProps) {\n  // implementação\n});"
+    },
+    {
+      "arquivo": "components/charts/AdsInvestmentChart.tsx",
+      "linha": 46,
+      "tipo": "chart",
+      "descricao": "BarChart é re-renderizado sem necessidade",
+      "impacto": "medio",
+      "sugestao": "Memoizar o componente AdsInvestmentChart",
+      "codigo_exemplo": "export const AdsInvestmentChart = memo(function AdsInvestmentChart({ competitors, selectedCompetitor }: AdsInvestmentChartProps) {\n  // implementação\n});"
+    },
+    {
+      "arquivo": "components/layout/ChromeTabs.tsx",
+      "linha": 61,
+      "tipo": "re-render",
+      "descricao": "Cada tab usa motion.button que recria animações a cada render",
+      "impacto": "medio",
+      "descricao": "Animações framer-motion em lista podem causar overhead",
+      "sugestao": "Considerar usar CSS transitions para tabs ou memoizar componentes individuais",
+      "codigo_exemplo": "const TabButton = memo(function TabButton({ comp, isSelected, onSelect }) {\n  return <motion.button>...</motion.button>;\n});"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 1,
+      "tipo": "import",
+      "descricao": "Importação de 19 ícones do lucide-react, verificar se todos são usados",
+      "impacto": "baixo",
+      "descricao": "Importação grande de ícones, alguns podem não estar sendo usados",
+      "sugestao": "Auditar e remover ícones não utilizados",
+      "codigo_exemplo": "// Remover imports não utilizados como: Crown, Share2, UserCircle, etc se não usados"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 600,
+      "tipo": "lista",
+      "descricao": "Mapeamento de vulnerabilidades sem key estável",
+      "impacto": "medio",
+      "descricao": "Usar index como key pode causar problemas de re-renderização",
+      "sugestao": "Usar ID único da vulnerabilidade como key se disponível",
+      "codigo_exemplo": "{selectedCompetitor.vulnerabilidades?.map((vuln) => (\n  <div key={vuln.id} ...>  // usar ID real ao invés de index\n))}"
+    },
+    {
+      "arquivo": "pages/Oportunidades.tsx",
+      "linha": 41,
+      "tipo": "effect",
+      "descricao": "useEffect sem cleanup em caso de componente desmontar durante fetch",
+      "impacto": "baixo",
+      "descricao": "Possível memory leak se o componente desmontar durante o fetch",
+      "sugestao": "Adicionar AbortController para cancelar fetch se componente desmontar",
+      "codigo_exemplo": "useEffect(() => {\n  const controller = new AbortController();\n  fetch('/data/concorrentes.json', { signal: controller.signal })\n    .then(...);\n  return () => controller.abort();\n}, []);"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 33,
+      "tipo": "effect",
+      "descricao": "useEffect sem cleanup em caso de componente desmontar durante fetch",
+      "impacto": "baixo",
+      "descricao": "Possível memory leak se o componente desmontar durante o fetch",
+      "sugestao": "Adicionar AbortController para cancelar fetch se componente desmontar",
+      "codigo_exemplo": "useEffect(() => {\n  const controller = new AbortController();\n  fetch('/data/concorrentes.json', { signal: controller.signal })\n    .then(...);\n  return () => controller.abort();\n}, []);"
+    }
+  ],
+  "recomendacoes_gerais": [
+    {
+      "prioridade": "alta",
+      "categoria": "Code Splitting",
+      "descricao": "Implementar React.lazy() e Suspense para todas as páginas do dashboard",
+      "beneficio": "Reduzir o bundle inicial e carregar código sob demanda"
+    },
+    {
+      "prioridade": "alta",
+      "categoria": "Dependências",
+      "descricao": "Remover biblioteca chart.js/react-chartjs-2 se não estiver sendo usada (já usa recharts)",
+      "beneficio": "Reduzir bundle size em aproximadamente 60-80KB"
+    },
+    {
+      "prioridade": "media",
+      "categoria": "Memoização",
+      "descricao": "Aplicar React.memo() em todos os componentes de gráficos (RadarComparison, PriceDistribution, PositioningMatrix, AdsInvestmentChart)",
+      "beneficio": "Evitar re-renders desnecessários quando props não mudam"
+    },
+    {
+      "prioridade": "media",
+      "categoria": "Memoização",
+      "descricao": "Usar useMemo para todos os cálculos de dados de gráficos e useCallback para funções auxiliares",
+      "beneficio": "Evitar recálculos desnecessários a cada render"
+    },
+    {
+      "prioridade": "media",
+      "categoria": "Animações",
+      "descricao": "Avaliar substituir framer-motion por CSS transitions para animações simples",
+      "beneficio": "Reduzir bundle size (framer-motion ~40KB gzip)"
+    },
+    {
+      "prioridade": "media",
+      "categoria": "Componentes",
+      "descricao": "Extrair CustomTooltip de PositioningMatrix para componente separado memoizado",
+      "beneficio": "Evitar recriação do componente a cada render"
+    },
+    {
+      "prioridade": "baixa",
+      "categoria": "Listas",
+      "descricao": "Implementar virtualização se listas crescerem além de 50 itens",
+      "beneficio": "Manter performance constante independente do tamanho da lista"
+    },
+    {
+      "prioridade": "baixa",
+      "categoria": "Cleanup",
+      "descricao": "Adicionar AbortController em todos os useEffects que fazem fetch",
+      "beneficio": "Prevenir memory leaks e operações em componentes desmontados"
+    },
+    {
+      "prioridade": "baixa",
+      "categoria": "Importações",
+      "descricao": "Auditar e remover imports não utilizados de ícones e componentes",
+      "beneficio": "Melhorar tree-shaking e reduzir bundle"
+    },
+    {
+      "prioridade": "media",
+      "categoria": "DevTools",
+      "descricao": "Mover 'agentation' para devDependencies ou remover de produção",
+      "beneficio": "Reduzir bundle de produção"
+    }
+  ],
+  "metricas_estimadas": {
+    "bundle_atual_estimado": "~450-550KB (gzip)",
+    "bundle_otimizado_estimado": "~300-350KB (gzip)",
+    "reducao_potencial": "~30-40%",
+    "principais_ganhos": [
+      "Remoção de chart.js duplicado: ~60-80KB",
+      "Code splitting das páginas: ~100-150KB no inicial",
+      "Otimização de framer-motion: ~40KB",
+      "Melhor tree-shaking: ~20-30KB"
+    ]
+  }
+}

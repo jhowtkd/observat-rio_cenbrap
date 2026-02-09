@@ -1,0 +1,64 @@
+{
+  "nome": "IBCMED (Agora Inspirali Pós Medicina)",
+  "site": "https://ibcmed.com",
+  "segmento": "Pós-Graduação e MBA em Medicina",
+  "descricao": "O IBCMED e MedPós agora são Inspirali Pós Medicina. Faz parte do maior ecossistema de educação médica do Brasil, com mais de 14 escolas de medicina.",
+  "cursos_destaque": [
+    {
+      "nome": "Pediatria",
+      "descricao": "Aprenda na prática com um curso flexível e completo para sua atuação clínica"
+    },
+    {
+      "nome": "Dermatologia",
+      "descricao": "Curso híbrido com foco na prática e no aprendizado contínuo de novas técnicas"
+    },
+    {
+      "nome": "Psiquiatria",
+      "descricao": "Curso focado nas principais doenças que afetam a população e suas diferentes terapêuticas"
+    }
+  ],
+  "diferenciais": [
+    "Formação sólida e abrangente",
+    "Conectada às necessidades reais das áreas da saúde",
+    "Docentes são referências no mercado",
+    "Experiência prática unida à paixão por ensinar",
+    "Parte do maior ecossistema de educação médica do Brasil (Inspirali)"
+  ],
+  "depoimentos": [
+    {
+      "aluno": "Dra. Layla Duarte",
+      "curso": "Ginecologia e Obstetrícia"
+    },
+    {
+      "aluno": "Dra. Estefania Diniz",
+      "curso": "Pediatria"
+    },
+    {
+      "aluno": "Dra. Gabriela Galeano",
+      "curso": "Psiquiatria"
+    }
+  ],
+  "instituicoes_grupo": [
+    "IBCMED",
+    "MedPós",
+    "Inspirali"
+  ],
+  "categorias_cursos": [
+    "Pós-Graduação e MBA",
+    "Graduação",
+    "Inspirali (cursos para médicos)"
+  ],
+  "reconhecimento": "MEC",
+  "contato": {
+    "whatsapp": "+55 (31) 3181-4055",
+    "email": "jornadaestudante.emc@inspirali.com"
+  },
+  "redes_sociais": {
+    "facebook": "https://www.facebook.com/inspirali.pos",
+    "tiktok": "https://www.tiktok.com/@inspirali.pos",
+    "instagram": "https://www.instagram.com/inspirali.posmedicina/",
+    "linkedin": "https://www.linkedin.com/company/inspiralipos/",
+    "youtube": "https://www.youtube.com/@inspirali.posmedicina"
+  },
+  "extraido_em": "2026-02-06"
+}

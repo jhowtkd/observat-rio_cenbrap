@@ -1,0 +1,437 @@
+{
+  "auditoria": "polish",
+  "data": "2026-02-06",
+  "arquivos_analisados": [
+    "relatorio/src/pages/PresencaDigital.tsx",
+    "relatorio/src/pages/Oportunidades.tsx",
+    "relatorio/src/components/MapaPosicionamento.tsx",
+    "relatorio/src/App.tsx",
+    "relatorio/src/components/layout/Layout.tsx",
+    "relatorio/src/components/Dashboard.tsx",
+    "relatorio/src/index.css",
+    "relatorio/src/styles/cenbrap-theme.css"
+  ],
+  "problemas_encontrados": [
+    {
+      "arquivo": "relatorio/src/pages/PresencaDigital.tsx",
+      "linha": 698,
+      "tipo": "espacamento",
+      "descricao": "Inconsistência de espaçamento no header - py-8 (32px) no header vs padding consistente de 24px em outras páginas",
+      "sugestao": "Padronizar para py-6 (24px) para manter consistência com o tema CENBRAP que usa 24px como base",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "relatorio/src/pages/PresencaDigital.tsx",
+      "linha": 700,
+      "tipo": "cor",
+      "descricao": "Uso de cores hardcoded no gradiente 'from-[#1e3c72] to-[#2a5298]' em vez de usar as variáveis CSS do tema",
+      "sugestao": "Substituir por 'from-[var(--cenbrap-primary)] to-[var(--cenbrap-primary-soft)]' ou criar classe utilitária no CSS",
+      "prioridade": "alta"
+    },
+    {
+      "arquivo": "relatorio/src/pages/PresencaDigital.tsx",
+      "linha": 740,
+      "tipo": "espacamento",
+      "descricao": "Main container usando py-8 (32px) enquanto outras páginas usam padding de 24px ou 20px",
+      "sugestao": "Padronizar para py-6 (24px) para alinhar com o padrão do tema",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "relatorio/src/pages/PresencaDigital.tsx",
+      "linha": 742,
+      "tipo": "borda",
+      "descricao": "Card de filtros usando 'border-gray-200' em vez das variáveis de borda do tema (--cenbrap-border)",
+      "sugestao": "Usar 'border-zinc-800' ou criar classe utilitária que respeite o tema dark",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "relatorio/src/pages/PresencaDigital.tsx",
+      "linha": 782,
+      "tipo": "tipografia",
+      "descricao": "Título de seção usando 'text-2xl' (24px) inconsistente com outros títulos do dashboard que usam 14-15px",
+      "sugestao": "Reduzir para text-lg (18px) ou text-xl (20px) para manter hierarquia visual consistente",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "relatorio/src/pages/PresencaDigital.tsx",
+      "linha": 837,
+      "tipo": "tipografia",
+      "descricao": "Título 'Comparativo de Seguidores Instagram' com text-2xl inconsistente com padrão de 15px do tema",
+      "sugestao": "Padronizar para text-base (16px) ou criar classe cenbrap-section-title para consistência",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "relatorio/src/pages/PresencaDigital.tsx",
+      "linha": 889,
+      "tipo": "tipografia",
+      "descricao": "Título 'Estratégias de Destaque' com text-2xl fora do padrão tipográfico estabelecido",
+      "sugestao": "Ajustar para manter consistência com outros títulos de seção (14-15px)",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "relatorio/src/pages/PresencaDigital.tsx",
+      "linha": 921,
+      "tipo": "tipografia",
+      "descricao": "Título 'Mapeamento Completo de Redes Sociais' com text-2xl inconsistente",
+      "sugestao": "Padronizar tamanho da fonte para alinhar com hierarquia visual do dashboard",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "relatorio/src/pages/PresencaDigital.tsx",
+      "linha": 1059,
+      "tipo": "cor",
+      "descricao": "Seção Insights usando gradiente hardcoded 'from-[#1e3c72] to-[#2a5298]'",
+      "sugestao": "Usar variáveis CSS do tema ou criar classe utilitária no cenbrap-theme.css",
+      "prioridade": "alta"
+    },
+    {
+      "arquivo": "relatorio/src/pages/Oportunidades.tsx",
+      "linha": 281,
+      "tipo": "animacao",
+      "descricao": "Loading state sem animação de entrada suave - transição abrupta",
+      "sugestao": "Adicionar motion.div com initial/animate para transição suave do loading",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "relatorio/src/pages/Oportunidades.tsx",
+      "linha": 319,
+      "tipo": "espacamento",
+      "descricao": "Grid de KPIs usando gap-4 (16px) inconsistente com cenbrap-kpi-grid que usa 16px mas com padding diferente",
+      "sugestao": "Verificar consistência - gap está correto mas padding p-6 (24px) difere do p-5 (20px) do tema",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "relatorio/src/pages/Oportunidades.tsx",
+      "linha": 320,
+      "tipo": "animacao",
+      "descricao": "Cards de KPI têm animação de entrada (motion.div) mas falta hover animation consistente",
+      "sugestao": "Adicionar whileHover={{ y: -2 }} para consistência com cenbrap-kpi-card:hover do CSS",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "relatorio/src/pages/Oportunidades.tsx",
+      "linha": 411,
+      "tipo": "animacao",
+      "descricao": "Lista de oportunidades usa motion.div com delay baseado em idx mas sem staggerChildren no parent",
+      "sugestao": "Considerar adicionar staggerChildren no container para animação mais fluida",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "relatorio/src/pages/Oportunidades.tsx",
+      "linha": 417,
+      "tipo": "borda",
+      "descricao": "Borda 'hover:border-orange-500/30' usa opacidade manual em vez de variável de tema",
+      "sugestao": "Usar border-cenbrap-accent com opacidade definida em CSS ou Tailwind config",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "relatorio/src/pages/Oportunidades.tsx",
+      "linha": 451,
+      "tipo": "espacamento",
+      "descricao": "Seção de métricas usando p-4 (16px) enquanto cenbrap-section-card-body usa 20px",
+      "sugestao": "Padronizar para p-5 (20px) para manter consistência com o tema",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "relatorio/src/components/MapaPosicionamento.tsx",
+      "linha": 46,
+      "tipo": "cor",
+      "descricao": "Tooltip usando cores hardcoded 'bg-white', 'border-gray-200' inconsistentes com tema dark",
+      "sugestao": "Adaptar para tema dark usando bg-zinc-900, border-zinc-800, text-zinc-100",
+      "prioridade": "alta"
+    },
+    {
+      "arquivo": "relatorio/src/components/MapaPosicionamento.tsx",
+      "linha": 75,
+      "tipo": "borda",
+      "descricao": "Container usando 'border-gray-200' em tema que deveria ser dark",
+      "sugestao": "Substituir por border-zinc-800 para consistência com tema CENBRAP",
+      "prioridade": "alta"
+    },
+    {
+      "arquivo": "relatorio/src/components/MapaPosicionamento.tsx",
+      "linha": 76,
+      "tipo": "espacamento",
+      "descricao": "Padding p-6 (24px) consistente, mas verificar se alinha com outros componentes",
+      "sugestao": "OK - manter p-6 está consistente com cenbrap-card padding",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "relatorio/src/components/MapaPosicionamento.tsx",
+      "linha": 167,
+      "tipo": "tipografia",
+      "descricao": "Labels de quadrantes usando 'text-xs' (12px) com font-medium - verificar se precisa de maior contraste",
+      "sugestao": "Considerar adicionar text-zinc-300 para melhor legibilidade sobre o gráfico",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "relatorio/src/components/MapaPosicionamento.tsx",
+      "linha": 182,
+      "tipo": "espacamento",
+      "descricao": "Grid de lista de players usando gap-4 (16px) - verificar consistência",
+      "sugestao": "Consistente com cenbrap-content-grid gap-5 (20px)? Verificar se precisa ajustar",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "relatorio/src/components/layout/Layout.tsx",
+      "linha": 86,
+      "tipo": "alinhamento",
+      "descricao": "Sidebar usando classe 'cenbrap-sidebar' mas sem verificação de alinhamento do conteúdo principal",
+      "sugestao": "Verificar se cenbrap-dashboard grid está alinhando corretamente em todas as resoluções",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "relatorio/src/components/layout/Layout.tsx",
+      "linha": 152,
+      "tipo": "espacamento",
+      "descricao": "Detalhes do tópico usando px-3 py-2 - verificar se segue escala de espaçamento do tema",
+      "sugestao": "Usar padding consistente com design system (múltiplos de 4px)",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "relatorio/src/components/layout/Layout.tsx",
+      "linha": 169,
+      "tipo": "espacamento",
+      "descricao": "Stats rápidos usando p-4 (16px) - verificar consistência com cenbrap-card que usa 20px",
+      "sugestao": "Padronizar para p-5 (20px) se for considerado um card, ou manter p-4 se for elemento diferente",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "relatorio/src/components/Dashboard.tsx",
+      "linha": 131,
+      "tipo": "animacao",
+      "descricao": "Loading state sem animação de transição suave",
+      "sugestao": "Adicionar AnimatePresence e motion.div para transição suave entre loading e conteúdo",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "relatorio/src/components/Dashboard.tsx",
+      "linha": 145,
+      "tipo": "espacamento",
+      "descricao": "Header usando style inline para flexDirection e gap em vez de classes Tailwind",
+      "sugestao": "Mover para classe utilitária ou CSS para manter consistência e facilitar manutenção",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "relatorio/src/components/Dashboard.tsx",
+      "linha": 183,
+      "tipo": "responsividade",
+      "descricao": "KPI grid usando classe cenbrap-kpi-grid - verificar se está responsivo em telas < 600px",
+      "sugestao": "Verificado OK no CSS - grid muda para 1 coluna em < 600px",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "relatorio/src/components/Dashboard.tsx",
+      "linha": 217,
+      "tipo": "tipografia",
+      "descricao": "Font size inline style 'fontSize: 18px' em vez de classe Tailwind",
+      "sugestao": "Substituir por classe 'text-lg' para manter consistência tipográfica",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "relatorio/src/components/Dashboard.tsx",
+      "linha": 308,
+      "tipo": "espacamento",
+      "descricao": "Margin top inline style 'marginTop: 32px' em vez de classe Tailwind 'mt-8'",
+      "sugestao": "Usar classes Tailwind para facilitar manutenção e manter consistência",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "relatorio/src/components/Dashboard.tsx",
+      "linha": 337,
+      "tipo": "alinhamento",
+      "descricao": "Inline styles para display: flex e alignItems em vez de classes Tailwind",
+      "sugestao": "Substituir por 'flex items-center gap-2' para consistência",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "relatorio/src/components/Dashboard.tsx",
+      "linha": 470,
+      "tipo": "cor",
+      "descricao": "Cores hardcoded '#22c55e' e '#ef4444' para indicador de preço transparente",
+      "sugestao": "Usar classes Tailwind 'text-green-500' e 'text-red-500' ou variáveis do tema",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "relatorio/src/components/Dashboard.tsx",
+      "linha": 477,
+      "tipo": "tipografia",
+      "descricao": "Texto inline style para cor e alinhamento em mensagem de dados não disponíveis",
+      "sugestao": "Mover para classe utilitária ou componente reutilizável",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "relatorio/src/components/Dashboard.tsx",
+      "linha": 591,
+      "tipo": "cor",
+      "descricao": "Cores hardcoded 'rgba(34, 197, 94, 0.1)' e '#22c55e' em vez de variáveis do tema",
+      "sugestao": "Usar --cenbrap-success e variações definidas no CSS",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "relatorio/src/components/Dashboard.tsx",
+      "linha": 595,
+      "tipo": "tipografia",
+      "descricao": "Inline styles para cor e fontSize em mensagem",
+      "sugestao": "Substituir por classes Tailwind 'text-white font-medium' e 'text-sm text-zinc-500'",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "relatorio/src/index.css",
+      "linha": 1,
+      "tipo": "cor",
+      "descricao": "Import do Tailwind mas possível inconsistência entre tema light no :root e tema dark aplicado",
+      "sugestao": "Verificar se color-scheme: light está correto quando o tema visual é dark",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "relatorio/src/styles/cenbrap-theme.css",
+      "linha": 31,
+      "tipo": "espacamento",
+      "descricao": "Variáveis de raio --cenbrap-radius-lg: 16px, --cenbrap-radius-md: 12px, --cenbrap-radius-sm: 8px - verificar uso consistente",
+      "sugestao": "Verificar se todos os componentes estão usando essas variáveis e não valores hardcoded",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "relatorio/src/styles/cenbrap-theme.css",
+      "linha": 374,
+      "tipo": "responsividade",
+      "descricao": "KPI grid muda para 2 colunas em < 1200px e 1 coluna em < 600px - verificar se breakpoints estão alinhados",
+      "sugestao": "Considerar adicionar breakpoint intermediário para tablets (768px-900px)",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "relatorio/src/styles/cenbrap-theme.css",
+      "linha": 460,
+      "tipo": "espacamento",
+      "descricao": "Content grid usando gap: 20px enquanto outros grids usam 16px - verificar consistência",
+      "sugestao": "Padronizar para 16px (gap-4) ou 24px (gap-6) em todo o sistema",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "relatorio/src/styles/cenbrap-theme.css",
+      "linha": 610,
+      "tipo": "espacamento",
+      "descricao": "Opportunity grid usando gap: 16px - verificar se alinha com outros grids",
+      "sugestao": "Consistente com cenbrap-kpi-grid, documentar escala de espaçamento",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "relatorio/src/styles/cenbrap-theme.css",
+      "linha": 816,
+      "tipo": "espacamento",
+      "descricao": "Expanded sections usando gap: 16px entre cards - verificar consistência",
+      "sugestao": "Verificar se deve usar 16px ou 20px para alinhar com cenbrap-content-grid",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "relatorio/src/styles/cenbrap-theme.css",
+      "linha": 855,
+      "tipo": "espacamento",
+      "descricao": "Section card body usando padding: 20px - consistente com cenbrap-card",
+      "sugestao": "OK - manter como padrão",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "relatorio/src/styles/cenbrap-theme.css",
+      "linha": 1000,
+      "tipo": "responsividade",
+      "descricao": "Social grid usando minmax(200px, 1fr) - verificar se funciona bem em mobile < 400px",
+      "sugestao": "Considerar reduzir para minmax(160px, 1fr) em telas muito pequenas",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "relatorio/src/styles/cenbrap-theme.css",
+      "linha": 1074,
+      "tipo": "espacamento",
+      "descricao": "Info grid usando gap: 16px e 2 colunas - verificar comportamento em mobile",
+      "sugestao": "OK - já tem media query para 1 coluna em < 600px",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "relatorio/src/styles/cenbrap-theme.css",
+      "linha": 1195,
+      "tipo": "animacao",
+      "descricao": "Chrome tabs usando transition: all 0.2s ease - verificar se segue --transition-fast (0.18s)",
+      "sugestao": "Padronizar para usar var(--transition-fast) para consistência",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "relatorio/src/styles/cenbrap-theme.css",
+      "linha": 1308,
+      "tipo": "responsividade",
+      "descricao": "Chrome tabs compact usando display: none em desktop mas sem transição suave",
+      "sugestao": "Considerar adicionar transição suave entre modos de visualização",
+      "prioridade": "baixa"
+    }
+  ],
+  "recomendacoes_gerais": [
+    {
+      "categoria": "Design System",
+      "titulo": "Criar escala consistente de espaçamentos",
+      "descricao": "Padronizar espaçamentos em múltiplos de 4px: xs=4px, sm=8px, md=16px, lg=24px, xl=32px. Atualizar todos os componentes para usar essa escala."
+    },
+    {
+      "categoria": "Cores",
+      "titulo": "Eliminar cores hardcoded",
+      "descricao": "Substituir todas as cores hardcoded (ex: #1e3c72, #2a5298, bg-white) por variáveis CSS do tema (--cenbrap-primary, --cenbrap-bg-card). Isso garante consistência e facilita manutenção."
+    },
+    {
+      "categoria": "Tipografia",
+      "titulo": "Estabelecer hierarquia tipográfica clara",
+      "descricao": "Definir tamanhos padronizados: H1=24px, H2=18px, H3=15px, Body=13px, Small=11px. Aplicar consistentemente em todos os componentes."
+    },
+    {
+      "categoria": "Animações",
+      "titulo": "Padronizar sistema de animações",
+      "descricao": "Usar framer-motion consistentemente em todos os estados de loading e transições. Definir padrões: entrada (fadeIn + slideUp), hover (scale ou translateY), loading (pulse ou spin)."
+    },
+    {
+      "categoria": "Responsividade",
+      "titulo": "Revisar breakpoints",
+      "descricao": "Padronizar breakpoints: mobile < 600px, tablet 600-900px, desktop > 900px, large > 1200px. Garantir que todos os grids se adaptem corretamente."
+    },
+    {
+      "categoria": "Bordas e Sombras",
+      "titulo": "Usar variáveis CSS para bordas",
+      "descricao": "Substituir todas as classes Tailwind de borda (border-gray-200, border-zinc-800) por variáveis do tema (--cenbrap-border, --cenbrap-border-light)."
+    },
+    {
+      "categoria": "Alinhamento",
+      "titulo": "Remover inline styles",
+      "descricao": "Mover todos os inline styles (style={{...}}) para classes Tailwind ou CSS modules. Isso melhora a manutenibilidade e consistência."
+    },
+    {
+      "categoria": "Componentização",
+      "titulo": "Criar componentes reutilizáveis",
+      "descricao": "Extrair padrões repetidos em componentes: Card, SectionTitle, Badge, LoadingState. Isso reduz duplicação e garante consistência."
+    },
+    {
+      "categoria": "Acessibilidade",
+      "titulo": "Melhorar contraste e foco",
+      "descricao": "Verificar contraste de cores em todos os textos (WCAG AA). Garantir que estados de foco sejam visíveis e consistentes."
+    },
+    {
+      "categoria": "Performance",
+      "titulo": "Otimizar animações",
+      "descricao": "Usar will-change e transform em animações. Evitar animar propriedades que causam reflow (width, height, top, left)."
+    }
+  ],
+  "resumo_executivo": {
+    "total_problemas": 45,
+    "por_categoria": {
+      "espacamento": 11,
+      "tipografia": 9,
+      "cor": 8,
+      "borda": 3,
+      "animacao": 6,
+      "responsividade": 5,
+      "alinhamento": 3
+    },
+    "por_prioridade": {
+      "alta": 4,
+      "media": 16,
+      "baixa": 25
+    }
+  }
+}

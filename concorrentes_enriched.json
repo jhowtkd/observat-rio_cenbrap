@@ -1,0 +1,2188 @@
+{
+  "metadata": {
+    "projeto": "Inteligência Competitiva CENBRAP",
+    "data_criacao": "2026-02-05",
+    "total_concorrentes": 21,
+    "versao": "3.0-enriched",
+    "data_enriquecimento": "2026-02-06",
+    "fontes_adicionais": [
+      "dados_estendidos_dashboard.json",
+      "mapeamento_redes_sociais.json"
+    ]
+  },
+  "grupos": {
+    "benchmark": {
+      "nome": "CENBRAP (Referência)",
+      "descricao": "Dados da nossa instituição para comparação",
+      "concorrentes": [
+        "cenbrap"
+      ]
+    },
+    "diretos": {
+      "nome": "Concorrentes Diretos",
+      "descricao": "Pós-graduação EAD Médica - Mesmo nicho",
+      "concorrentes": [
+        "liberdade_medica",
+        "caduceu",
+        "comportamente",
+        "ipm"
+      ]
+    },
+    "institucionais": {
+      "nome": "Players Institucionais",
+      "descricao": "Grandes instituições de saúde/educação",
+      "concorrentes": [
+        "einstein",
+        "bws",
+        "cdt",
+        "slmandic",
+        "unyleya_med",
+        "fgmed",
+        "mevbrasil",
+        "cetrus",
+        "pucrs",
+        "sanar",
+        "idomed",
+        "hcor",
+        "unyleya",
+        "afya",
+        "sirio_libanes",
+        "ibcmed"
+      ]
+    }
+  },
+  "concorrentes": {
+    "liberdade_medica": {
+      "id": "liberdade_medica",
+      "nome": "Liberdade Médica",
+      "url": "liberdademedicaedu.com.br",
+      "grupo": "diretos",
+      "prioridade": "alta",
+      "ficha_cadastral": {
+        "nome_completo": "Liberdade Médica Educação",
+        "natureza_juridica": "Privada",
+        "cnpj": "40.070.030/0001-99",
+        "credenciamento_mec": "Reconhecido pelo MEC",
+        "ano_fundacao": 2019,
+        "tempo_atuacao": "6+ anos",
+        "modalidade": [
+          "EAD",
+          "Presencial"
+        ],
+        "area_atuacao": [
+          "Pós-Graduação Médica"
+        ],
+        "cursos_principais": [
+          "Medicina de Emergência",
+          "Medicina Intensiva",
+          "Paciente Grave (Dupla Certificação)"
+        ],
+        "duracao_cursos": "14-18 meses"
+      },
+      "posicionamento": {
+        "proposta_valor": "Pós-Graduação em Paciente Grave com dupla certificação em Medicina de Emergência e Medicina Intensiva",
+        "diferenciais": [
+          "Dupla certificação em um único programa",
+          "Aulas online e ao vivo",
+          "Prática no maior pronto-socorro privado de Goiás (Hospital Jacob Facuri)",
+          "Metodologia baseada em casos reais",
+          "Suporte 24h com IA",
+          "Comunidade exclusiva para suporte em plantões"
+        ],
+        "tom_voz": "Especializado, prático, focado em emergência"
+      },
+      "oferta": {
+        "valor_total": null,
+        "preco_transparente": false,
+        "observacao_preco": "Preço não divulgado no site - requer contato com consultor",
+        "duracao_meses": 14,
+        "garantia": "Política de cancelamento/trancamento disponível",
+        "bonus_inclusos": [
+          "Comunidade exclusiva",
+          "Suporte 24h com IA",
+          "Certificado de extensão (para formados no exterior)"
+        ]
+      },
+      "operacional": {
+        "cidade_sede": "Goiânia - GO",
+        "hospital_praticas": "Hospital Jacob Facuri (maior pronto-socorro privado de Goiás)",
+        "processo_seletivo": "Rigoroso - próxima turma em Maio/2025",
+        "vagas": "Limitadas"
+      },
+      "autoridade": {
+        "corpo_docente_publico": true,
+        "professores_destacados": [
+          "Dr. Ian Camilo - Especialista em Medicina de Emergência, ACLS/BLS Instructor (AHA), Pós-graduado pelo Hospital Albert Einstein (UFMG)",
+          "Dr. Rodrigo Cleto - Especialista em Medicina Intensiva, Cardiologista, Intensivista, Coordenador de UTI há 20+ anos, Co-fundador da Liberdade Médica"
+        ],
+        "certificacoes": [
+          "ACLS/BLS Instructor (AHA)",
+          "Reconhecido pelo MEC"
+        ],
+        "metodologia": "Baseada em casos reais do dia a dia hospitalar"
+      },
+      "digital": {
+        "instagram": {
+          "url": "https://instagram.com/liberdademedica",
+          "seguidores": "15.2k",
+          "engajamento": "2.1%"
+        },
+        "seo_organico": "Médio"
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 12,
+          "investimento_estimado": "Médio-Alto",
+          "landing_pages": [
+            "liberdademedicaedu.com.br"
+          ]
+        }
+      },
+      "vulnerabilidades": [
+        {
+          "tipo": "transparencia",
+          "descricao": "GRAVE: Corpo docente anônimo - impossível verificar qualidade dos professores",
+          "gravidade": "alta",
+          "contra_ataque": "ATAQUE: Expor corpo docente completo com Lattes - transparência total"
+        },
+        {
+          "tipo": "dados",
+          "descricao": "FALHA: Número de alunos oculto - sem prova de mercado ou credibilidade",
+          "gravidade": "media",
+          "contra_ataque": "ATAQUE: Comunicar 25.000+ formados como prova de autoridade de mercado"
+        },
+        {
+          "tipo": "resultados",
+          "descricao": "CRÍTICO: Sem taxa de aprovação - aluno compra sem garantia de resultado",
+          "gravidade": "alta",
+          "contra_ataque": "ATAQUE: Divulgar índices de aprovação validados em títulos de especialista"
+        }
+      ],
+      "landing_page": {
+        "url": "liberdademedicaedu.com.br/pos",
+        "headline": "A única pós-graduação médica do Brasil com certificação internacional",
+        "subheadline": "Estude com professores de Harvard e conquiste o mundo",
+        "video_vendas": {
+          "tem": true,
+          "duracao": "12 min",
+          "mensagem_principal": "Transformação de carreira"
+        },
+        "bullets_beneficios": [
+          "Certificação internacional",
+          "Networking global",
+          "Conteúdo exclusivo"
+        ],
+        "prova_social": {
+          "tipo": "Depoimentos em vídeo",
+          "quantidade": null,
+          "identificacao": false
+        },
+        "formulario": {
+          "campos": [
+            "Nome",
+            "Email",
+            "WhatsApp",
+            "Especialidade"
+          ],
+          "cta": "Quero garantir minha vaga"
+        },
+        "escassez": "Vagas limitadas",
+        "urgencia": "Turma inicia em breve"
+      },
+      "funil": {
+        "email_sequence": true,
+        "whatsapp_contato": true,
+        "redirect_pos_cadastro": "Pagina de obrigado + WhatsApp"
+      },
+      "swot": {
+        "forcas": [
+          "Copy persuasiva",
+          "Promessa de certificação internacional",
+          "Preço competitivo"
+        ],
+        "fraquezas": [
+          "Falta de transparência docente",
+          "Sem dados públicos de resultados",
+          "Marca recente"
+        ],
+        "oportunidades": [
+          "Mercado aspiracional",
+          "Busca por diferenciação"
+        ],
+        "ameacas": [
+          "Concorrência institucional estabelecida",
+          "Validação das certificações"
+        ]
+      },
+      "screenshots": {
+        "homepage": null,
+        "landing_page": null,
+        "anuncios": [],
+        "instagram": null
+      },
+      "status_coleta": "parcial",
+      "enriched_data": {
+        "modelo_negocio": "Personal Brand (Nicho)",
+        "estrategia_conteudo": "Prova Social Massiva",
+        "presenca_digital": {
+          "seguidores_instagram": "473K",
+          "nota": "⭐⭐⭐⭐⭐",
+          "score": 5,
+          "observacoes": "473K"
+        },
+        "redes_sociais": [
+          "Instagram",
+          "YouTube"
+        ],
+        "diferenciais_detalhados": [
+          "Dupla certificação em um único programa",
+          "Foco na prática e aplicabilidade real",
+          "Aulas online e ao vivo",
+          "Reconhecido pelo MEC",
+          "Baseado em evidências científicas",
+          "Comunidade exclusiva para suporte nos plantões",
+          "Discussão de casos clínicos em tempo real"
+        ]
+      }
+    },
+    "caduceu": {
+      "id": "caduceu",
+      "nome": "Caduceu",
+      "url": "caduceucursos.com.br",
+      "grupo": "diretos",
+      "prioridade": "alta",
+      "ficha_cadastral": {
+        "nome_completo": "Faculdade Caduceu",
+        "natureza_juridica": "Privada",
+        "credenciamento_mec": "Credenciada",
+        "ano_fundacao": null,
+        "alunos_formados": null,
+        "modalidade": [
+          "EAD",
+          "Presencial",
+          "Hibrido"
+        ],
+        "especialidades": [
+          "Medicina",
+          "Quiropraxia",
+          "Nutrologia",
+          "Psiquiatria",
+          "Dermatologia",
+          "Cardiologia",
+          "Neurologia",
+          "Ortopedia"
+        ],
+        "sede": "Porto Alegre - RS e São Paulo - SP"
+      },
+      "posicionamento": {
+        "headline": "Cursos de Pós-Graduação para Médicos",
+        "slogan": "Desenvolvimento e Capacitação de profissionais voltados à saúde",
+        "diferenciais_declarados": [
+          "+20 Cursos Médicos",
+          "Certificação MEC",
+          "Corpo docente renomado",
+          "Ensino de qualidade"
+        ],
+        "tom_de_voz": "Profissional, institucional"
+      },
+      "oferta": {
+        "preco_avista": null,
+        "preco_parcelado": null,
+        "valor_total": null,
+        "desconto_a_vista": null,
+        "garantia": null,
+        "parcelamento_max": null,
+        "bonus_inclusos": [],
+        "preco_transparente": false
+      },
+      "autoridade": {
+        "corpo_docente_publico": true,
+        "professores_destacados": [
+          "Dr. Gustavo Medeiros - Nutrologia Esportiva",
+          "Dr. Márcio Tannure - Ortopedia (UFC/Flamengo)",
+          "Dr. Victor B. Soraggi - Medicina Esportiva (Palmeiras)",
+          "Dra. Camila Nicolucci - Psiquiatria",
+          "Dra. Cristiane Fumo - Pediatria",
+          "Dra. Júlia Ribar - Dermatologia",
+          "Dra. Juliana Risso - Ginecologia",
+          "Thiago Monteiro - Obesidade"
+        ],
+        "parcerias": [
+          "UFC Brazil",
+          "Flamengo",
+          "Palmeiras FC"
+        ],
+        "certificacoes": [
+          "MEC"
+        ],
+        "casos_sucesso": "Depoimentos de alunos disponíveis",
+        "depoimentos_quantidade": "Vários"
+      },
+      "digital": {
+        "instagram": {
+          "handle": "@faculdadecaduceu",
+          "seguidores": null,
+          "engajamento": null,
+          "frequencia_posts": null,
+          "url": "https://www.instagram.com/faculdadecaduceu/"
+        },
+        "facebook": {
+          "url": "https://www.facebook.com/faculdadecaduceu",
+          "seguidores": null
+        },
+        "linkedin": {
+          "url": null,
+          "seguidores": null
+        },
+        "youtube": {
+          "url": null,
+          "inscritos": null
+        },
+        "blog": true,
+        "seo_organico": "Médio"
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 0,
+          "investimento_estimado": null,
+          "angulos_copy": [],
+          "formatos": [],
+          "landing_pages": []
+        },
+        "google_ads": {
+          "anuncios_ativos": false,
+          "palavras_chave": []
+        }
+      },
+      "landing_page": {
+        "url": "https://caduceucursos.com.br/pos-graduacao/",
+        "headline": "Pós Graduação",
+        "subheadline": null,
+        "video_vendas": {
+          "tem": false,
+          "duracao": null,
+          "mensagem_principal": null
+        },
+        "bullets_beneficios": [
+          "Certificação MEC",
+          "Corpo docente renomado",
+          "Mais de 20 cursos médicos"
+        ],
+        "prova_social": {
+          "tipo": "Depoimentos",
+          "quantidade": "Vários",
+          "identificacao": true
+        },
+        "formulario": {
+          "campos": [],
+          "cta": "Ligação gratuita: 0800 440 2002"
+        },
+        "escassez": null,
+        "urgencia": null
+      },
+      "funil": {
+        "email_sequence": false,
+        "whatsapp_contato": true,
+        "redirect_pos_cadastro": null
+      },
+      "vulnerabilidades": [
+        {
+          "tipo": "preco",
+          "descricao": "CRÍTICO: Preço oculto força prospecto a dar dados antes de saber investimento",
+          "gravidade": "alta",
+          "contra_ataque": "ATAQUE: Preço visível imediatamente - respeito ao tempo do prospecto"
+        }
+      ],
+      "swot": {
+        "forcas": [
+          "Credenciamento MEC",
+          "Corpo docente renomado",
+          "Presença em duas cidades (POA e SP)",
+          "Parcerias com times de futebol"
+        ],
+        "fraquezas": [
+          "Preço não transparente",
+          "Sem anúncios ativos",
+          "Pouca presença digital"
+        ],
+        "oportunidades": [
+          "Expandir EAD",
+          "Investir em marketing digital"
+        ],
+        "ameacas": [
+          "Concorrência digital"
+        ]
+      },
+      "screenshots": {
+        "homepage": null,
+        "landing_page": null,
+        "anuncios": [],
+        "instagram": null
+      },
+      "status_coleta": "parcial",
+      "enriched_data": {
+        "modelo_negocio": "Nicho",
+        "estrategia_conteudo": "Personal Brand",
+        "presenca_digital": {
+          "seguidores_instagram": null,
+          "nota": "⭐⭐⭐",
+          "score": 3,
+          "observacoes": null
+        },
+        "redes_sociais": [
+          "Instagram"
+        ]
+      }
+    },
+    "comportamente": {
+      "id": "comportamente",
+      "nome": "Comportamente",
+      "url": "comportalmente.com.br",
+      "grupo": "diretos",
+      "prioridade": "alta",
+      "ficha_cadastral": {
+        "nome_completo": "Comportalmente",
+        "natureza_juridica": "Privada",
+        "credenciamento_mec": "Pendente de verificação",
+        "ano_fundacao": null,
+        "alunos_formados": "8000+",
+        "modalidade": [
+          "EAD"
+        ],
+        "especialidades": [
+          "Psiquiatria",
+          "Psicologia",
+          "Neurodesenvolvimento"
+        ],
+        "sede": "Alphaville, Barueri - SP"
+      },
+      "posicionamento": {
+        "headline": "Formação de excelência para profissionais da Saúde Mental",
+        "slogan": "Unindo ciência, tecnologia e cuidado humano",
+        "diferenciais_declarados": [
+          "100% Online com Prática Real",
+          "Corpo Docente de Referência",
+          "Base Científica e Abordagens Atuais",
+          "Mais de 10 anos de história",
+          "8.000+ alunos formados"
+        ],
+        "tom_de_voz": "Humanizado, científico, profissional"
+      },
+      "oferta": {
+        "preco_avista": null,
+        "preco_parcelado": null,
+        "valor_total": null,
+        "desconto_a_vista": null,
+        "garantia": null,
+        "parcelamento_max": null,
+        "bonus_inclusos": [
+          "Descontos Editora Manole",
+          "Descontos Editora Sinopsys"
+        ],
+        "preco_transparente": false
+      },
+      "autoridade": {
+        "corpo_docente_publico": true,
+        "professores_destacados": [
+          "Corpo docente reconhecido nacional e internacionalmente"
+        ],
+        "parcerias": [
+          "Editora Manole",
+          "Editora Sinopsys"
+        ],
+        "certificacoes": [],
+        "casos_sucesso": "Depoimentos de alunos disponíveis",
+        "depoimentos_quantidade": "Vários"
+      },
+      "digital": {
+        "instagram": {
+          "handle": "@comportalmente",
+          "seguidores": null,
+          "engajamento": null,
+          "frequencia_posts": null,
+          "url": "https://www.instagram.com/comportalmente/"
+        },
+        "facebook": {
+          "url": "https://www.facebook.com/comportalmente/",
+          "seguidores": null
+        },
+        "linkedin": {
+          "url": "https://www.linkedin.com/company/comportalmente/",
+          "seguidores": null
+        },
+        "youtube": {
+          "url": null,
+          "inscritos": null
+        },
+        "blog": true,
+        "seo_organico": "Médio"
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 0,
+          "investimento_estimado": null,
+          "angulos_copy": [],
+          "formatos": [],
+          "landing_pages": []
+        },
+        "google_ads": {
+          "anuncios_ativos": false,
+          "palavras_chave": []
+        }
+      },
+      "landing_page": {
+        "url": "https://comportalmente.com.br/",
+        "headline": "Formação de Excelência em Psicologia e Saúde Mental",
+        "subheadline": "Educação a distância | Certificação Profissional | Foco em Práticas Validadas",
+        "video_vendas": {
+          "tem": false,
+          "duracao": null,
+          "mensagem_principal": null
+        },
+        "bullets_beneficios": [
+          "100% Online com Prática Real",
+          "Corpo Docente de Referência",
+          "Mais de 10 anos de história"
+        ],
+        "prova_social": {
+          "tipo": "Depoimentos",
+          "quantidade": "Vários",
+          "identificacao": true
+        },
+        "formulario": {
+          "campos": [],
+          "cta": "WhatsApp: (11) 96470-8797"
+        },
+        "escassez": null,
+        "urgencia": null
+      },
+      "funil": {
+        "email_sequence": false,
+        "whatsapp_contato": true,
+        "redirect_pos_cadastro": null
+      },
+      "vulnerabilidades": [
+        {
+          "tipo": "preco",
+          "descricao": "CRÍTICO: Preço oculto - prospecto é coagido a dar dados pessoais antes de saber investimento",
+          "gravidade": "alta",
+          "contra_ataque": "ATAQUE: Preço visível imediatamente - respeito ao tempo do prospecto"
+        }
+      ],
+      "swot": {
+        "forcas": [
+          "10+ anos de história",
+          "8.000+ alunos formados",
+          "Corpo docente renomado",
+          "100% online",
+          "Blog ativo"
+        ],
+        "fraquezas": [
+          "Preço não transparente",
+          "Sem anúncios ativos"
+        ],
+        "oportunidades": [
+          "Expandir para outros estados",
+          "Aumentar investimento em ads"
+        ],
+        "ameacas": [
+          "Concorrência digital"
+        ]
+      },
+      "screenshots": {
+        "homepage": null,
+        "landing_page": null,
+        "anuncios": [],
+        "instagram": null
+      },
+      "status_coleta": "parcial",
+      "enriched_data": {
+        "modelo_negocio": "Nicho",
+        "estrategia_conteudo": "Nicho Especializado",
+        "presenca_digital": {
+          "seguidores_instagram": null,
+          "nota": "⭐⭐⭐",
+          "score": 3,
+          "observacoes": null
+        },
+        "redes_sociais": [
+          "Instagram"
+        ],
+        "diferenciais_detalhados": [
+          "Corpo Docente de Referência - Professores reconhecidos nacional e internacionalmente",
+          "Base Científica e Abordagens Atuais - Práticas baseadas em evidências (TCC, DBT, ACT, ABA)",
+          "Metodologia Humanizada - Didática acessível, suporte próximo e time disponível"
+        ]
+      }
+    },
+    "ipm": {
+      "id": "ipm",
+      "nome": "IPM (Pedro Miranda)",
+      "url": "ipmpos.com.br",
+      "grupo": "diretos",
+      "prioridade": "alta",
+      "ficha_cadastral": {
+        "nome_completo": "IPM Pós-graduação",
+        "natureza_juridica": "Privada",
+        "credenciamento_mec": "Pendente de verificação",
+        "ano_fundacao": null,
+        "alunos_formados": null,
+        "modalidade": [
+          "Presencial",
+          "Hibrido"
+        ],
+        "especialidades": [
+          "Medicina"
+        ],
+        "sede": "Brasília, São José do Rio Preto, Goiânia, São Paulo"
+      },
+      "posicionamento": {
+        "headline": "IPM Pós-graduação",
+        "slogan": null,
+        "diferenciais_declarados": [
+          "Presença em 4 cidades",
+          "Cursos presenciais e híbridos"
+        ],
+        "tom_de_voz": "Profissional"
+      },
+      "oferta": {
+        "preco_avista": null,
+        "preco_parcelado": null,
+        "valor_total": null,
+        "desconto_a_vista": null,
+        "garantia": null,
+        "parcelamento_max": null,
+        "bonus_inclusos": [],
+        "preco_transparente": false
+      },
+      "autoridade": {
+        "corpo_docente_publico": false,
+        "professores_destacados": [],
+        "parcerias": [],
+        "certificacoes": [],
+        "casos_sucesso": null,
+        "depoimentos_quantidade": null
+      },
+      "digital": {
+        "instagram": {
+          "handle": "@ipm.pos",
+          "seguidores": null,
+          "engajamento": null,
+          "frequencia_posts": null,
+          "url": "https://www.instagram.com/ipm.pos/"
+        },
+        "facebook": {
+          "url": null,
+          "seguidores": null
+        },
+        "linkedin": {
+          "url": null,
+          "seguidores": null
+        },
+        "youtube": {
+          "url": "https://www.youtube.com/@ipmposgraduacao",
+          "inscritos": null
+        },
+        "blog": false,
+        "seo_organico": "Baixo"
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 0,
+          "investimento_estimado": null,
+          "angulos_copy": [],
+          "formatos": [],
+          "landing_pages": []
+        },
+        "google_ads": {
+          "anuncios_ativos": false,
+          "palavras_chave": []
+        }
+      },
+      "landing_page": {
+        "url": "https://ipmpos.com.br/",
+        "headline": "IPM Pós-graduação",
+        "subheadline": null,
+        "video_vendas": {
+          "tem": false,
+          "duracao": null,
+          "mensagem_principal": null
+        },
+        "bullets_beneficios": [],
+        "prova_social": {
+          "tipo": null,
+          "quantidade": null,
+          "identificacao": false
+        },
+        "formulario": {
+          "campos": [],
+          "cta": null
+        },
+        "escassez": null,
+        "urgencia": null
+      },
+      "funil": {
+        "email_sequence": false,
+        "whatsapp_contato": false,
+        "redirect_pos_cadastro": null
+      },
+      "vulnerabilidades": [
+        {
+          "tipo": "preco",
+          "descricao": "FALHA GRAVE: Preço não informado - prática antiética no mercado educacional",
+          "gravidade": "alta",
+          "contra_ataque": "ATAQUE: Preço visível imediatamente - respeito ao tempo do prospecto"
+        }
+      ],
+      "swot": {
+        "forcas": [
+          "Presença em 4 cidades",
+          "Canal no YouTube",
+          "Podcast no Spotify"
+        ],
+        "fraquezas": [
+          "Preço não transparente",
+          "Sem anúncios ativos",
+          "Pouca informação no site"
+        ],
+        "oportunidades": [
+          "Expandir EAD",
+          "Investir em marketing digital"
+        ],
+        "ameacas": [
+          "Concorrência digital"
+        ]
+      },
+      "screenshots": {
+        "homepage": null,
+        "landing_page": null,
+        "anuncios": [],
+        "instagram": null
+      },
+      "status_coleta": "parcial",
+      "enriched_data": {
+        "modelo_negocio": "Personal Brand (Nicho)",
+        "estrategia_conteudo": "Fundador como Influencer",
+        "presenca_digital": {
+          "seguidores_instagram": "118K",
+          "nota": "⭐⭐⭐⭐",
+          "score": 4,
+          "observacoes": "118K (pessoal)"
+        },
+        "redes_sociais": [
+          "Instagram",
+          "LinkedIn"
+        ],
+        "diferenciais_detalhados": [
+          "Abordagem prática de aprendizado por meio de ambulatórios",
+          "Programa de pacientes modelos",
+          "Presença em múltiplas cidades brasileiras",
+          "Foco em especialidades médicas práticas"
+        ]
+      }
+    },
+    "einstein": {
+      "id": "einstein",
+      "nome": "Einstein",
+      "url": "einstein.br",
+      "grupo": "institucionais",
+      "prioridade": "alta",
+      "ficha_cadastral": {
+        "nome_completo": "Hospital Israelita Albert Einstein",
+        "natureza_juridica": "Privada sem fins lucrativos",
+        "credenciamento_mec": "Credenciada",
+        "ano_fundacao": 1955,
+        "alunos_formados": "5000+",
+        "modalidade": [
+          "Presencial",
+          "Hibrido",
+          "EAD"
+        ],
+        "especialidades": [
+          "Medicina",
+          "Enfermagem",
+          "Saúde"
+        ],
+        "sede": "São Paulo/SP"
+      },
+      "posicionamento": {
+        "headline": "Excelência em educação médica",
+        "slogan": "O conhecimento que salva vidas",
+        "diferenciais_declarados": [
+          "Tradição e credibilidade",
+          "Corpo docente renomado",
+          "Infraestrutura hospitalar"
+        ],
+        "tom_de_voz": "Institucional, sério, acadêmico"
+      },
+      "oferta": {
+        "preco_avista": null,
+        "preco_parcelado": null,
+        "valor_total": 8900,
+        "desconto_a_vista": null,
+        "garantia": null,
+        "parcelamento_max": 18,
+        "bonus_inclusos": [
+          "Acesso ao hospital",
+          "Biblioteca"
+        ],
+        "preco_transparente": false
+      },
+      "autoridade": {
+        "corpo_docente_publico": true,
+        "professores_destacados": [
+          "Diversos especialistas do hospital"
+        ],
+        "parcerias": [
+          "Hospital Albert Einstein"
+        ],
+        "certificacoes": [
+          "Credenciamento MEC"
+        ],
+        "casos_sucesso": "Alto",
+        "depoimentos_quantidade": "100+"
+      },
+      "digital": {
+        "instagram": {
+          "handle": "@einstein",
+          "seguidores": "520k",
+          "engajamento": "1.8%",
+          "frequencia_posts": "Diária",
+          "url": "https://instagram.com/einstein"
+        },
+        "facebook": {
+          "url": "https://facebook.com/einstein",
+          "seguidores": "1.2M"
+        },
+        "linkedin": {
+          "url": "https://linkedin.com/school/einstein",
+          "seguidores": "250k"
+        },
+        "youtube": {
+          "url": "https://youtube.com/einstein",
+          "inscritos": "350k"
+        },
+        "blog": true,
+        "seo_organico": "Muito Alto"
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 8,
+          "investimento_estimado": "Alto",
+          "angulos_copy": [
+            "Excelência acadêmica",
+            "Tradição",
+            "Resultados"
+          ],
+          "formatos": [
+            "Video",
+            "Imagem"
+          ],
+          "landing_pages": [
+            "einstein.br/pos-graduacao"
+          ]
+        },
+        "google_ads": {
+          "anuncios_ativos": true,
+          "palavras_chave": [
+            "pós graduação médica",
+            "especialização médica",
+            "einstein cursos"
+          ]
+        }
+      },
+      "landing_page": {
+        "url": "einstein.br/pos-graduacao",
+        "headline": "Pós-graduação com a excelência Einstein",
+        "subheadline": "Mais de 60 anos formando os melhores profissionais de saúde",
+        "video_vendas": {
+          "tem": false,
+          "duracao": null,
+          "mensagem_principal": null
+        },
+        "bullets_beneficios": [
+          "Corpo docente especializado",
+          "Infraestrutura completa",
+          "Networking"
+        ],
+        "prova_social": {
+          "tipo": "Institucional",
+          "quantidade": "Alto",
+          "identificacao": true
+        },
+        "formulario": {
+          "campos": [
+            "Nome",
+            "Email",
+            "Telefone",
+            "Curso de interesse"
+          ],
+          "cta": "Solicitar informações"
+        },
+        "escassez": null,
+        "urgencia": null
+      },
+      "funil": {
+        "email_sequence": true,
+        "whatsapp_contato": true,
+        "redirect_pos_cadastro": "Página de agradecimento"
+      },
+      "vulnerabilidades": [
+        {
+          "tipo": "preco",
+          "descricao": "CRÍTICO: Preço oculto força prospecto a dar dados antes de saber investimento",
+          "gravidade": "media",
+          "contra_ataque": "ATAQUE: Preço visível imediatamente - respeito ao tempo do prospecto"
+        },
+        {
+          "tipo": "processo",
+          "descricao": "PROBLEMA: Processo burocrático desnecessário - gera fricção e abandono",
+          "gravidade": "media",
+          "contra_ataque": "ATAQUE: Matrícula em minutos, sem burocracia ou espera"
+        },
+        {
+          "tipo": "modalidade",
+          "descricao": "DESVANTAGEM: Ainda presa ao modelo presencial - perde mercado EAD em crescimento",
+          "gravidade": "baixa",
+          "contra_ataque": "ATAQUE: 100% EAD - estude de qualquer lugar, sem deslocamento"
+        }
+      ],
+      "swot": {
+        "forcas": [
+          "Marca forte",
+          "Credibilidade institucional",
+          "Corpo docente renomado",
+          "Infraestrutura"
+        ],
+        "fraquezas": [
+          "Preço alto",
+          "Processos burocráticos",
+          "Foco em presencial"
+        ],
+        "oportunidades": [
+          "Expansão EAD",
+          "Novas especialidades"
+        ],
+        "ameacas": [
+          "Concorrência digital ágil",
+          "Precificação agressiva"
+        ]
+      },
+      "screenshots": {
+        "homepage": null,
+        "landing_page": null,
+        "anuncios": [],
+        "instagram": null
+      },
+      "status_coleta": "parcial",
+      "enriched_data": {
+        "presenca_digital": {
+          "seguidores_instagram": null,
+          "nota": "⭐⭐⭐",
+          "score": 3,
+          "observacoes": null
+        },
+        "redes_sociais": [
+          "Instagram",
+          "YouTube",
+          "LinkedIn",
+          "Facebook",
+          "TikTok",
+          "Spotify"
+        ]
+      }
+    },
+    "bws": {
+      "id": "bws",
+      "nome": "Instituto BWS",
+      "url": "institutobws.com.br",
+      "grupo": "institucionais",
+      "prioridade": "media",
+      "ficha_cadastral": {
+        "nome_completo": "Instituto BWS",
+        "natureza_juridica": "Privada",
+        "credenciamento_mec": "Credenciada",
+        "ano_fundacao": 2008,
+        "alunos_formados": null,
+        "modalidade": [
+          "EAD",
+          "Hibrido"
+        ],
+        "especialidades": [
+          "Medicina"
+        ],
+        "sede": "São Paulo/SP"
+      },
+      "oferta": {
+        "valor_total": 6200,
+        "preco_transparente": false
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "45k",
+          "engajamento": "1.5%"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 5
+        }
+      },
+      "vulnerabilidades": [],
+      "status_coleta": "resumida",
+      "enriched_data": {
+        "presenca_digital": {
+          "seguidores_instagram": null,
+          "nota": "⭐⭐⭐",
+          "score": 3,
+          "observacoes": null
+        },
+        "redes_sociais": [
+          "Instagram",
+          "LinkedIn"
+        ]
+      }
+    },
+    "cdt": {
+      "id": "cdt",
+      "nome": "Instituto CDT",
+      "url": "institutocdt.com.br",
+      "grupo": "institucionais",
+      "prioridade": "media",
+      "ficha_cadastral": {
+        "nome_completo": "Instituto CDT",
+        "natureza_juridica": "Privada",
+        "credenciamento_mec": "Credenciada",
+        "ano_fundacao": 2010,
+        "modalidade": [
+          "EAD"
+        ],
+        "especialidades": [
+          "Medicina"
+        ]
+      },
+      "oferta": {
+        "valor_total": 4800,
+        "preco_transparente": true
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "28k",
+          "engajamento": "1.2%"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 3
+        }
+      },
+      "vulnerabilidades": [
+        {
+          "tipo": "dados",
+          "descricao": "FRAQUEZA: Sem prova social relevante - prospecto não tem elementos de decisão",
+          "gravidade": "media",
+          "contra_ataque": "ATAQUE: Prova social massiva com depoimentos e números reais"
+        }
+      ],
+      "status_coleta": "resumida",
+      "enriched_data": {
+        "modelo_negocio": "Hands-on Premium",
+        "estrategia_conteudo": "Educação Prática",
+        "presenca_digital": {
+          "seguidores_instagram": null,
+          "nota": "⭐⭐⭐⭐",
+          "score": 4,
+          "observacoes": "Média"
+        },
+        "redes_sociais": [
+          "Instagram",
+          "YouTube",
+          "LinkedIn",
+          "TikTok"
+        ],
+        "diferenciais_detalhados": [
+          "Método Dr. Thiago Amorim",
+          "Abordagem extremamente prática",
+          "Suporte ao aluno é o forte da instituição",
+          "Cursos hands-on com prática real",
+          "Imersões presenciais com cadáveres frescos",
+          "Materiais didáticos exclusivos (livros)"
+        ],
+        "numeros": {
+          "alunos": "+21.000",
+          "avaliacoes": "229 avaliações"
+        }
+      }
+    },
+    "slmandic": {
+      "id": "slmandic",
+      "nome": "São Leopoldo Mandic",
+      "url": "slmandic.edu.br",
+      "grupo": "institucionais",
+      "prioridade": "alta",
+      "ficha_cadastral": {
+        "nome_completo": "Centro de Pesquisas São Leopoldo Mandic",
+        "natureza_juridica": "Privada",
+        "credenciamento_mec": "Credenciada",
+        "ano_fundacao": 1985,
+        "alunos_formados": "10000+",
+        "modalidade": [
+          "Presencial",
+          "EAD"
+        ],
+        "especialidades": [
+          "Odontologia",
+          "Medicina"
+        ]
+      },
+      "oferta": {
+        "valor_total": 7500,
+        "preco_transparente": true
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "180k",
+          "engajamento": "2.3%"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 15
+        }
+      },
+      "vulnerabilidades": [],
+      "status_coleta": "resumida",
+      "enriched_data": {
+        "presenca_digital": {
+          "seguidores_instagram": null,
+          "nota": "⭐⭐⭐",
+          "score": 3,
+          "observacoes": null
+        },
+        "redes_sociais": [
+          "Instagram",
+          "YouTube",
+          "LinkedIn",
+          "Facebook",
+          "Podcast"
+        ]
+      }
+    },
+    "unyleya_med": {
+      "id": "unyleya_med",
+      "nome": "Unyleya Med",
+      "url": "unyleyamed.com.br",
+      "grupo": "institucionais",
+      "prioridade": "alta",
+      "ficha_cadastral": {
+        "nome_completo": "Unyleya Medicina",
+        "natureza_juridica": "Privada",
+        "credenciamento_mec": "Credenciada",
+        "ano_fundacao": 2015,
+        "modalidade": [
+          "EAD"
+        ],
+        "especialidades": [
+          "Medicina"
+        ]
+      },
+      "oferta": {
+        "valor_total": 4200,
+        "preco_transparente": true
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "85k",
+          "engajamento": "2.8%"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 22
+        }
+      },
+      "vulnerabilidades": [
+        {
+          "tipo": "autoridade",
+          "descricao": "RISCO: Docentes sem autoridade comprovada - qualidade questionável",
+          "gravidade": "media",
+          "contra_ataque": "ATAQUE: Docentes referências nacionais em suas especialidades"
+        }
+      ],
+      "status_coleta": "resumida",
+      "enriched_data": {
+        "modelo_negocio": "EAD Massivo (Inst)",
+        "presenca_digital": {
+          "seguidores_instagram": null,
+          "nota": "⭐⭐⭐",
+          "score": 3,
+          "observacoes": null
+        },
+        "redes_sociais": [
+          "Instagram"
+        ],
+        "diferenciais_detalhados": [
+          "Educação Flexível para Médicos - Metodologia desenvolvida para a rotina de plantões e atendimentos",
+          "Plataforma 100% digital, com videoaulas objetivas",
+          "Acesso de qualquer dispositivo e flexível aos seus horários",
+          "Simulador de Casos Clínicos - Simulação realista de atendimentos médicos",
+          "Decisões em tempo real, interação com pacientes e feedback imediato",
+          "Biblioteca Médica - Milhões de artigos e diretrizes atualizados",
+          "Adaptados ao SUS, com curadoria de especialistas da América Latina",
+          "Tutoria com Médicos Especialistas - Acompanhamento individualizado",
+          "Corpo Docente Renomado - Especialistas, mestres e doutores",
+          "Certificação Reconhecida pelo MEC - Válida nacionalmente"
+        ],
+        "numeros": {
+          "medicos": "+2 mil",
+          "cursos": "+50",
+          "docentes_medicos": "100%",
+          "tempo_unyleya": "19 anos de excelência em Educação Superior"
+        }
+      }
+    },
+    "fgmed": {
+      "id": "fgmed",
+      "nome": "FGMed",
+      "url": "fgmed.org",
+      "grupo": "institucionais",
+      "prioridade": "media",
+      "ficha_cadastral": {
+        "credenciamento_mec": "Em análise",
+        "modalidade": [
+          "EAD"
+        ]
+      },
+      "oferta": {
+        "valor_total": 3600,
+        "preco_transparente": true
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "12k",
+          "engajamento": "1.8%"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 2
+        }
+      },
+      "status_coleta": "resumida",
+      "enriched_data": {
+        "modelo_negocio": "EAD Massivo (Inst)",
+        "presenca_digital": {
+          "seguidores_instagram": null,
+          "nota": "⭐⭐⭐",
+          "score": 3,
+          "observacoes": null
+        },
+        "redes_sociais": [
+          "Instagram",
+          "YouTube",
+          "LinkedIn",
+          "Twitter/X",
+          "Facebook",
+          "WhatsApp"
+        ],
+        "diferenciais_detalhados": [
+          "Certificado com Validade Nacional",
+          "Outorga Título Acadêmico de Especialização",
+          "Mais de 30 mil Médicos formados",
+          "Qualidade Reconhecida pelo Ministério da Educação",
+          "Avançado Sistema Virtual de Aprendizagem",
+          "Corpo docente 100% composto por Doutores, Mestres e Especialistas",
+          "Suporte Pedagógico 24hs",
+          "Aproveitamento de Estudos: Conclua estudos incompletos de outras instituições",
+          "Certificado Digital em até 48 horas"
+        ],
+        "numeros": {
+          "medicos_formados": "+30 mil",
+          "especializacoes": "+400",
+          "anos_atuacao": "+12"
+        }
+      }
+    },
+    "mevbrasil": {
+      "id": "mevbrasil",
+      "nome": "MEV Brasil",
+      "url": "mevbrasil.com.br",
+      "grupo": "institucionais",
+      "prioridade": "media",
+      "ficha_cadastral": {
+        "nome_completo": "Escola Brasileira de Medicina do Estilo de Vida",
+        "natureza_juridica": "Privada",
+        "credenciamento_mec": "Credenciada",
+        "ano_fundacao": 2019,
+        "tempo_atuacao": "5+ anos",
+        "modalidade": [
+          "EAD",
+          "Presencial",
+          "Hibrido"
+        ],
+        "area_atuacao": [
+          "Medicina do Estilo de Vida"
+        ],
+        "total_alunos": "900+ médicos",
+        "cursos_principais": [
+          "Formação em Medicina do Estilo de Vida",
+          "MEVPlan (ferramenta exclusiva)",
+          "Imersão em Planos de Acompanhamento",
+          "MevConf (conferências regionais)"
+        ]
+      },
+      "posicionamento": {
+        "proposta_valor": "Escola pioneira no ensino exclusivo em Medicina do Estilo de Vida do Brasil. Transforme sua prática clínica e gere mais resultados para seus pacientes.",
+        "diferenciais": [
+          "Pioneira no Brasil em Medicina do Estilo de Vida",
+          "Ecossistema completo: Podcast, Eventos, Formações, Comunidade",
+          "MEVPlan - ferramenta exclusiva de avaliação do estilo de vida",
+          "Foco nas 6 áreas: Alimentação, Movimento, Sono, Conexões Sociais, Gerenciamento do Estresse, Redução de Tóxicos",
+          "Professores que vivem a MEV na prática",
+          "Comunidade de 900+ médicos"
+        ],
+        "tom_voz": "Inovadora, prática, baseada em evidências"
+      },
+      "oferta": {
+        "valor_total": 5800,
+        "preco_transparente": false,
+        "observacao_preco": "Preço não divulgado no site - requer contato",
+        "cursos_livres": [
+          "MevConf",
+          "Imersões presenciais"
+        ]
+      },
+      "autoridade": {
+        "corpo_docente_publico": true,
+        "professores_destacados": [
+          "Dr. Antonio G. Laurinavicius - Cardiologista pelo InCor, Doutor em Ciências pela FMUSP"
+        ],
+        "metodologia": "Baseada nas melhores evidências associadas à prática clínica brasileira",
+        "ferramentas_proprias": [
+          "MEVPlan"
+        ]
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "35k",
+          "engajamento": "2.1%"
+        },
+        "spotify": {
+          "url": "https://open.spotify.com",
+          "tipo": "Podcast MEV Brasil"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 6
+        }
+      },
+      "vulnerabilidades": [
+        {
+          "tipo": "preco_nao_transparente",
+          "descricao": "CRÍTICO: Preço oculto - força captura de leads antes de informar investimento",
+          "gravidade": "media",
+          "contra_ataque": "ATAQUE: Preço transparente - consumidor decide com informação completa"
+        }
+      ],
+      "status_coleta": "completa",
+      "enriched_data": {
+        "modelo_negocio": "Comunidade/Tribo",
+        "estrategia_conteudo": "Comunidade/Tribo",
+        "presenca_digital": {
+          "seguidores_instagram": null,
+          "nota": "⭐⭐⭐⭐",
+          "score": 4,
+          "observacoes": "Comunidade 1.1K"
+        },
+        "redes_sociais": [
+          "Instagram",
+          "LinkedIn",
+          "Spotify"
+        ],
+        "diferenciais_detalhados": [
+          "Pioneira no ensino exclusivo em Medicina do Estilo de Vida do Brasil",
+          "Ecossistema completo (escola + comunidade + ferramentas)",
+          "MEV Plan - Ferramenta exclusiva de avaliação do estilo de vida",
+          "Professores que vivem a MEV na prática",
+          "Foco na geração de resultados para pacientes",
+          "Metodologias para a prática clínica brasileira"
+        ],
+        "quantidade_produtos": 4,
+        "comunidade": "1100+ médicos"
+      }
+    },
+    "cetrus": {
+      "id": "cetrus",
+      "nome": "Cetrus",
+      "url": "cetrus.com.br",
+      "grupo": "institucionais",
+      "prioridade": "media",
+      "ficha_cadastral": {
+        "nome_completo": "Cetrus - Centro de Diagnóstico e Treinamento",
+        "natureza_juridica": "Privada",
+        "credenciamento_mec": "Credenciada",
+        "modalidade": [
+          "Presencial",
+          "EAD"
+        ],
+        "area_atuacao": [
+          "Especialização Médica",
+          "Ultrassonografia",
+          "Medicina da Dor"
+        ],
+        "cidade_sede": "São Paulo/SP",
+        "outras_unidades": [
+          "Belém/PA"
+        ]
+      },
+      "posicionamento": {
+        "proposta_valor": "Cursos de especialização médica com infraestrutura de ponta para se desenvolver ao lado dos melhores",
+        "diferenciais": [
+          "Corpo docente de excelência com nomes renomados",
+          "Cursos presenciais com poucos alunos por turma (4-6 alunos)",
+          "Infraestrutura de ponta",
+          "Cursos inovadores: Medicina Regenerativa, Endoscopia da Coluna"
+        ],
+        "tom_voz": "Especializada, prática, focada em habilidades"
+      },
+      "oferta": {
+        "valor_total": null,
+        "preco_transparente": false,
+        "observacao_preco": "Preço não divulgado - requer contato",
+        "cursos_destaque": [
+          "Emergências Pediátricas (EAD)",
+          "Medicina Regenerativa Musculoesquelética",
+          "US TV Avançado e Endometriose",
+          "Cosmiatria",
+          "USG Obstétrica, Morfológica e Doppler",
+          "Medicina da Dor",
+          "Endoscopia da Coluna Vertebral",
+          "Intervenção em Dor"
+        ]
+      },
+      "autoridade": {
+        "corpo_docente_publico": true,
+        "professores_destacados": [
+          "Dra. Saionara Nunes - Emergências Pediátricas",
+          "Dr. Marco Demange - Medicina Regenerativa Musculoesquelética",
+          "Dr. Fernando Guastella - US TV Avançado e Endometriose",
+          "Dra. Juliana Martins - Cosmiatria",
+          "Dr. Daniele Luminoso - USG Obstétrica",
+          "Dr. Kelson Ogata - Medicina da Dor",
+          "Dr. Alexandre Ferraz - Ultrassonografia",
+          "Dr. David Del Curto - Endoscopia da Coluna",
+          "Dr. Marcos Cardoso - Intervenção em Dor"
+        ],
+        "diferencial_docente": "Professores renomados e atuantes na prática clínica"
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "18k",
+          "engajamento": "1.5%"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 1
+        }
+      },
+      "vulnerabilidades": [
+        {
+          "tipo": "preco_nao_transparente",
+          "descricao": "GRAVE: Zero transparência de preços - prática obsoleta e anti-consumidor",
+          "gravidade": "alta",
+          "contra_ataque": "ATAQUE: Transparência total - sem pegadinhas ou surpresas no checkout"
+        }
+      ],
+      "status_coleta": "completa",
+      "enriched_data": {
+        "modelo_negocio": "Hands-on Premium",
+        "estrategia_conteudo": "Educação Prática",
+        "presenca_digital": {
+          "seguidores_instagram": null,
+          "nota": "⭐⭐⭐",
+          "score": 3,
+          "observacoes": null
+        },
+        "redes_sociais": [
+          "Instagram",
+          "YouTube",
+          "LinkedIn",
+          "Facebook"
+        ],
+        "diferenciais_detalhados": [
+          "Foco prático hands-on",
+          "Turmas pequenas (4-6 alunos)",
+          "Presença em mais de 50 cidades",
+          "Centros de treinamento em todo o Brasil",
+          "Parte do ecossistema Sanar"
+        ],
+        "numeros": {
+          "cursos_especializacoes": "+250",
+          "professores_especialistas": "+150",
+          "medicos_formados": "+60k",
+          "pacientes_atendidos": "+600k"
+        }
+      }
+    },
+    "pucrs": {
+      "id": "pucrs",
+      "nome": "PUCRS",
+      "url": "pucrs.br",
+      "grupo": "institucionais",
+      "prioridade": "media",
+      "ficha_cadastral": {
+        "nome_completo": "Pontifícia Universidade Católica do Rio Grande do Sul",
+        "natureza_juridica": "Universidade",
+        "credenciamento_mec": "Credenciada",
+        "ano_fundacao": 1948,
+        "modalidade": [
+          "Presencial",
+          "EAD"
+        ]
+      },
+      "oferta": {
+        "valor_total": 9200,
+        "preco_transparente": true
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "320k",
+          "engajamento": "1.2%"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 4
+        }
+      },
+      "status_coleta": "resumida",
+      "enriched_data": {
+        "modelo_negocio": "Universidade Tradicional",
+        "presenca_digital": {
+          "seguidores_instagram": null,
+          "nota": "⭐⭐⭐⭐⭐",
+          "score": 5,
+          "observacoes": "6 plataformas"
+        },
+        "redes_sociais": [
+          "Instagram",
+          "YouTube",
+          "LinkedIn",
+          "Twitter/X",
+          "Facebook",
+          "TikTok"
+        ],
+        "diferenciais_detalhados": [
+          "Conceito 5 no MEC (nota máxima)",
+          "Melhor universidade privada do RS",
+          "Excelência em ensino, pesquisa e inovação",
+          "Fortaleza em saúde (Hospital São Lucas)",
+          "Ecossistema de inovação (Tecnopuc)",
+          "Mobilidade acadêmica internacional",
+          "Múltiplas unidades e campi"
+        ]
+      }
+    },
+    "sanar": {
+      "id": "sanar",
+      "nome": "Sanar",
+      "url": "sanar.com.br",
+      "grupo": "institucionais",
+      "prioridade": "alta",
+      "ficha_cadastral": {
+        "nome_completo": "Sanar",
+        "natureza_juridica": "Privada",
+        "credenciamento_mec": "Não aplicável (prepatory)",
+        "ano_fundacao": 2015,
+        "modalidade": [
+          "EAD"
+        ]
+      },
+      "oferta": {
+        "valor_total": 2800,
+        "preco_transparente": true
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "1.2M",
+          "engajamento": "3.5%"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 45
+        }
+      },
+      "vulnerabilidades": [
+        {
+          "tipo": "modelo",
+          "descricao": "ALERTA: Não é pós-graduação MEC - preparatório vendido como especialização",
+          "gravidade": "alta",
+          "contra_ataque": "ATAQUE: MEC credenciado - não confunda com preparatório sem validade"
+        }
+      ],
+      "status_coleta": "resumida",
+      "enriched_data": {
+        "modelo_negocio": "Ecossistema (Inst)",
+        "estrategia_conteudo": "Multi-perfil",
+        "presenca_digital": {
+          "seguidores_instagram": null,
+          "nota": "⭐⭐⭐⭐⭐",
+          "score": 5,
+          "observacoes": "Múltiplos perfis"
+        },
+        "redes_sociais": [
+          "Instagram",
+          "YouTube",
+          "LinkedIn",
+          "Twitter/X",
+          "Facebook"
+        ],
+        "numeros": {
+          "alunos": "+100 mil"
+        },
+        "quantidade_produtos": 5
+      }
+    },
+    "idomed": {
+      "id": "idomed",
+      "nome": "iDomed",
+      "url": "idomed.com.br",
+      "grupo": "institucionais",
+      "prioridade": "media",
+      "ficha_cadastral": {
+        "nome_completo": "iDomed - Instituto de Desenvolvimento Médico",
+        "natureza_juridica": "Privada",
+        "credenciamento_mec": "Credenciada",
+        "ano_fundacao": 1999,
+        "tempo_atuacao": "25+ anos",
+        "modalidade": [
+          "Presencial",
+          "EAD",
+          "Hibrido"
+        ],
+        "area_atuacao": [
+          "Graduação",
+          "Pós-Graduação",
+          "MBA"
+        ],
+        "total_unidades": "18 faculdades médicas",
+        "cursos_principais": [
+          "Medicina (Graduação)",
+          "Odontologia (Graduação)",
+          "Pós-Graduação Lato Sensu",
+          "MBA para Médicos"
+        ]
+      },
+      "posicionamento": {
+        "proposta_valor": "Excelência médica com tradição e inovação. Formação de médicos inclusivos e de excelência em todo o país.",
+        "diferenciais": [
+          "25+ anos unindo tradição à tecnologia",
+          "18 faculdades médicas ao redor do país",
+          "Apoio em todas as fases da formação médica",
+          "Valores: Excelência, aprendizado prático e tecnologia",
+          "Compromisso social com inclusão e diversidade",
+          "MBA para médicos com formato híbrido"
+        ],
+        "tom_voz": "Tradicional, inclusiva, focada em excelência"
+      },
+      "oferta": {
+        "valor_total": null,
+        "preco_transparente": false,
+        "observacao_preco": "Preço não divulgado no site",
+        "telefone": "0800 880 6770",
+        "modalidades": [
+          "Graduação",
+          "Pós-Graduação",
+          "MBA"
+        ]
+      },
+      "autoridade": {
+        "corpo_docente_publico": false,
+        "diferencial": "Rede com 18 faculdades médicas",
+        "tempo_mercado": "25+ anos"
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "8k",
+          "engajamento": "1.1%"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 0
+        }
+      },
+      "vulnerabilidades": [
+        {
+          "tipo": "preco_nao_transparente",
+          "descricao": "FALHA: Preço omitido - prospecto sem autonomia para comparar opções",
+          "gravidade": "media",
+          "contra_ataque": "ATAQUE: Preço visível - sem formulários ou consultores pressionando"
+        }
+      ],
+      "status_coleta": "completa",
+      "enriched_data": {
+        "modelo_negocio": "Hospital + Ensino",
+        "presenca_digital": {
+          "seguidores_instagram": null,
+          "nota": "⭐⭐⭐",
+          "score": 3,
+          "observacoes": null
+        },
+        "redes_sociais": [
+          "Instagram",
+          "WhatsApp"
+        ],
+        "diferenciais_detalhados": [
+          "Tradição de +25 anos",
+          "Tecnologia e inovação",
+          "Formação de médicos inclusivos",
+          "Excelência acadêmica",
+          "18 faculdades em todo o país"
+        ],
+        "numeros": {
+          "faculdades_medicas": "18 faculdades médicas ao redor do país"
+        }
+      }
+    },
+    "hcor": {
+      "id": "hcor",
+      "nome": "HCOR",
+      "url": "hcor.com.br",
+      "grupo": "institucionais",
+      "prioridade": "media",
+      "ficha_cadastral": {
+        "nome_completo": "Hospital do Coração",
+        "natureza_juridica": "Privada",
+        "credenciamento_mec": "Credenciada",
+        "ano_fundacao": 1978,
+        "tempo_atuacao": "45+ anos",
+        "modalidade": [
+          "Presencial",
+          "EAD"
+        ],
+        "area_atuacao": [
+          "Cardiologia",
+          "Oncologia",
+          "Medicina Diagnóstica"
+        ]
+      },
+      "posicionamento": {
+        "proposta_valor": "Hospital de excelência em cardiologia e oncologia. Padrão de excelência em diagnóstico e tratamento.",
+        "diferenciais": [
+          "45+ anos de tradição",
+          "Centro de Cuidado em Oncologia e Hematologia",
+          "Padrão de excelência em cardiologia",
+          "Centro de Diagnósticos completo",
+          "Coleta domiciliar disponível"
+        ],
+        "tom_voz": "Sério, acadêmico, confiável"
+      },
+      "oferta": {
+        "valor_total": 8200,
+        "preco_transparente": false,
+        "observacao_preco": "Preço não divulgado no site",
+        "especialidades_destaque": [
+          "Cardiologia",
+          "Oncologia",
+          "Medicina Diagnóstica"
+        ],
+        "telefone": "(11) 3889-3939"
+      },
+      "autoridade": {
+        "corpo_docente_publico": false,
+        "diferencial": "Hospital com 45+ anos de excelência",
+        "areas_destaque": [
+          "Cardiologia",
+          "Oncologia"
+        ]
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "95k",
+          "engajamento": "1.6%"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 3
+        }
+      },
+      "vulnerabilidades": [
+        {
+          "tipo": "preco_nao_transparente",
+          "descricao": "Preço não divulgado no site",
+          "gravidade": "media",
+          "contra_ataque": "ATAQUE: Preço visível - sem formulários ou consultores pressionando"
+        }
+      ],
+      "status_coleta": "completa",
+      "enriched_data": {
+        "presenca_digital": {
+          "seguidores_instagram": null,
+          "nota": "⭐⭐⭐",
+          "score": 3,
+          "observacoes": null
+        },
+        "redes_sociais": [
+          "Instagram",
+          "YouTube",
+          "LinkedIn",
+          "Facebook"
+        ],
+        "diferenciais_detalhados": [
+          "45+ anos de tradição",
+          "Centro de Cuidado em Oncologia e Hematologia",
+          "Padrão de excelência em cardiologia",
+          "Centro de Diagnósticos completo",
+          "Coleta domiciliar disponível"
+        ]
+      }
+    },
+    "unyleya": {
+      "id": "unyleya",
+      "nome": "Unyleya",
+      "url": "unyleya.edu.br",
+      "grupo": "institucionais",
+      "prioridade": "media",
+      "ficha_cadastral": {
+        "credenciamento_mec": "Credenciada",
+        "modalidade": [
+          "EAD"
+        ]
+      },
+      "oferta": {
+        "valor_total": 3600,
+        "preco_transparente": true
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "65k",
+          "engajamento": "2.0%"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 8
+        }
+      },
+      "status_coleta": "resumida",
+      "enriched_data": {
+        "modelo_negocio": "EAD Massivo (Inst)",
+        "presenca_digital": {
+          "seguidores_instagram": null,
+          "nota": "⭐⭐⭐",
+          "score": 3,
+          "observacoes": null
+        },
+        "redes_sociais": [
+          "Instagram",
+          "YouTube",
+          "LinkedIn",
+          "Twitter/X",
+          "Facebook",
+          "TikTok"
+        ],
+        "numeros": {
+          "cursos": "+1.800",
+          "convenios": "+2.500",
+          "alunos": "+500 mil",
+          "colaboradores": "+3.000",
+          "tempo_atuacao": "Pioneira em EAD"
+        },
+        "quantidade_produtos": 3
+      }
+    },
+    "afya": {
+      "id": "afya",
+      "nome": "Afya",
+      "url": "afya.com.br",
+      "grupo": "institucionais",
+      "prioridade": "alta",
+      "ficha_cadastral": {
+        "nome_completo": "Afya",
+        "natureza_juridica": "Grupo educacional",
+        "credenciamento_mec": "Credenciada",
+        "ano_fundacao": 2012,
+        "modalidade": [
+          "Presencial",
+          "EAD"
+        ]
+      },
+      "oferta": {
+        "valor_total": 6800,
+        "preco_transparente": true
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "150k",
+          "engajamento": "2.5%"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 18
+        }
+      },
+      "status_coleta": "resumida",
+      "enriched_data": {
+        "modelo_negocio": "Ecossistema (Inst)",
+        "presenca_digital": {
+          "seguidores_instagram": null,
+          "nota": "⭐⭐⭐",
+          "score": 3,
+          "observacoes": null
+        },
+        "redes_sociais": [
+          "Instagram",
+          "YouTube",
+          "LinkedIn",
+          "Facebook"
+        ],
+        "diferenciais_detalhados": [
+          "Maior ecossistema de educação médica do Brasil",
+          "Metodologia ativa e exclusiva",
+          "Aulas práticas desde o primeiro dia",
+          "Presença em 14 estados",
+          "3 milhões de atendimentos gratuitos desde 2019",
+          "1 em cada 3 médicos usa soluções Afya"
+        ],
+        "numeros": {
+          "unidades_graduacao": "38 (33 com curso de Medicina)",
+          "alunos_medicina": "+20 mil",
+          "unidades_educacao_continuada": "25",
+          "cursos_educacao_continuada": "+70",
+          "penetracao": "1 em cada 3 médicos ou estudantes de medicina usa uma solução da Afya",
+          "atendimentos_gratuitos": "3 milhões (desde 2019)"
+        }
+      }
+    },
+    "sirio_libanes": {
+      "id": "sirio_libanes",
+      "nome": "Sírio-Libanês",
+      "url": "faculdadesiriolibanes.org.br",
+      "grupo": "institucionais",
+      "prioridade": "alta",
+      "ficha_cadastral": {
+        "nome_completo": "Faculdade de Medicina do Hospital Sírio-Libanês",
+        "credenciamento_mec": "Credenciada",
+        "ano_fundacao": 2009,
+        "modalidade": [
+          "Presencial",
+          "Hibrido"
+        ]
+      },
+      "oferta": {
+        "valor_total": 9500,
+        "preco_transparente": false
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "210k",
+          "engajamento": "1.9%"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 6
+        }
+      },
+      "status_coleta": "resumida",
+      "enriched_data": {
+        "modelo_negocio": "Hospital + Ensino",
+        "presenca_digital": {
+          "seguidores_instagram": null,
+          "nota": "⭐⭐⭐",
+          "score": 3,
+          "observacoes": null
+        },
+        "redes_sociais": [
+          "Instagram"
+        ],
+        "diferenciais_detalhados": [
+          "Tradição de +100 anos do Hospital Sírio-Libanês",
+          "Humanidade e ética no ensino",
+          "Inovação com propósito",
+          "Formação de profissionais com empatia",
+          "Excelência reconhecida pelo MEC",
+          "Estrutura tecnológica de ponta",
+          "Corpo docente do corpo clínico HSL"
+        ]
+      }
+    },
+    "ibcmed": {
+      "id": "ibcmed",
+      "nome": "IBCMED",
+      "url": "ibcmed.com",
+      "grupo": "institucionais",
+      "prioridade": "media",
+      "ficha_cadastral": {
+        "credenciamento_mec": "Credenciada",
+        "modalidade": [
+          "EAD"
+        ]
+      },
+      "oferta": {
+        "valor_total": 5200,
+        "preco_transparente": true
+      },
+      "digital": {
+        "instagram": {
+          "seguidores": "42k",
+          "engajamento": "1.7%"
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 7
+        }
+      },
+      "status_coleta": "resumida",
+      "enriched_data": {
+        "modelo_negocio": "EAD Massivo (Inst)",
+        "presenca_digital": {
+          "seguidores_instagram": null,
+          "nota": "⭐⭐⭐",
+          "score": 3,
+          "observacoes": null
+        },
+        "redes_sociais": [
+          "Instagram",
+          "YouTube",
+          "LinkedIn",
+          "Facebook",
+          "TikTok"
+        ],
+        "diferenciais_detalhados": [
+          "Formação sólida e abrangente",
+          "Conectada às necessidades reais das áreas da saúde",
+          "Docentes são referências no mercado",
+          "Experiência prática unida à paixão por ensinar",
+          "Parte do maior ecossistema de educação médica do Brasil (Inspirali)"
+        ]
+      }
+    },
+    "cenbrap": {
+      "id": "cenbrap",
+      "nome": "CENBRAP",
+      "url": "cenbrap.edu.br",
+      "grupo": "benchmark",
+      "prioridade": "alta",
+      "ficha_cadastral": {
+        "nome_completo": "Faculdade Cenbrap",
+        "natureza_juridica": "Privada",
+        "cnpj": "10.660.800/0001-92",
+        "credenciamento_mec": "Credenciada",
+        "ano_fundacao": 2009,
+        "tempo_atuacao": "15+ anos",
+        "total_alunos_formados": "25.000+",
+        "modalidade": [
+          "EAD",
+          "Presencial"
+        ],
+        "area_atuacao": [
+          "Pós-Graduação Médica"
+        ],
+        "cursos_principais": [
+          "Psiquiatria",
+          "Psiquiatria da Infância e Adolescência",
+          "Endocrinologia",
+          "Medicina do Trabalho",
+          "Perícias Médicas"
+        ]
+      },
+      "posicionamento": {
+        "proposta_valor": "Credibilidade, qualidade e resultados. Pós-Graduações para Médicos reconhecidas pelo MEC.",
+        "diferenciais": [
+          "15+ anos de história no mercado",
+          "25.000+ médicos formados",
+          "Centenas de aprovados em provas de título",
+          "Reconhecimento MEC",
+          "Professores renomados",
+          "Conteúdo científico atualizado"
+        ],
+        "tom_voz": "Profissional, científico, confiável"
+      },
+      "oferta": {
+        "valor_total": 7200,
+        "valor_mensal": 600,
+        "duracao_meses": 12,
+        "preco_transparente": true,
+        "observacao_preco": "Preço transparente no site"
+      },
+      "operacional": {
+        "cidade_sede": "São Paulo",
+        "telefone": "0800 945 2500",
+        "whatsapp": "(11) 94478-6755",
+        "email": "contato@cenbrap.edu.br",
+        "portal_aluno": "https://portal.cenbrap.edu.br"
+      },
+      "digital": {
+        "site": {
+          "url": "https://cenbrap.edu.br",
+          "tecnologia": "WordPress"
+        },
+        "redes_sociais": {
+          "instagram": {
+            "url": "https://www.instagram.com/cenbrap",
+            "seguidores": "10,4 mil",
+            "posts": "5.620",
+            "seguindo": "692",
+            "engajamento": "2.8%"
+          },
+          "facebook": {
+            "url": "https://www.facebook.com/Cenbrap/",
+            "seguidores": "32k"
+          },
+          "linkedin": {
+            "url": "https://www.linkedin.com/company/faculdadecenbrap",
+            "seguidores": "18k"
+          },
+          "youtube": {
+            "url": "https://www.youtube.com/user/cenbrap",
+            "inscritos": "45k"
+          }
+        }
+      },
+      "trafego_pago": {
+        "meta_ads": {
+          "anuncios_ativos": 8,
+          "investimento_estimado": "Médio",
+          "campanhas": [
+            "Pós-graduação médica",
+            "Curso de psiquiatria"
+          ],
+          "fonte": "Meta Ads Library - https://www.facebook.com/ads/library"
+        },
+        "google_ads": {
+          "anuncios_ativos": 3,
+          "investimento_estimado": "Baixo"
+        }
+      },
+      "vulnerabilidades": [],
+      "ultima_atualizacao": "2026-02-05",
+      "status_coleta": "completa",
+      "enriched_data": {
+        "diferenciais_detalhados": [
+          "15+ anos de história no mercado",
+          "25.000+ médicos formados",
+          "Centenas de aprovados em provas de título",
+          "Reconhecimento MEC",
+          "Professores renomados",
+          "Conteúdo científico atualizado"
+        ]
+      }
+    }
+  },
+  "analise_geral": {
+    "total_anuncios_meta": 161,
+    "total_vulnerabilidades": 12,
+    "total_insights": 5,
+    "media_precos": 5564,
+    "concorrentes_com_transparencia": 8,
+    "concorrentes_com_mec": 14
+  }
+}

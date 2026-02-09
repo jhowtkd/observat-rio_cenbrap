@@ -1,0 +1,70 @@
+{
+  "nome": "FGMED",
+  "site": "https://fgmed.org",
+  "segmento": "Educação Médica Continuada e Pós-Graduação Médica",
+  "descricao": "Há mais de 12 anos capacita profissionais para atuação em Hospitais e Clínicas por meio de professores que são referências em saúde.",
+  "tempo_atuacao": "+12 anos",
+  "cursos_formatos": [
+    {
+      "tipo": "Pós-Graduações",
+      "quantidade": "+400 especializações médicas",
+      "url": "https://fgmed.org/pos-graduacoes/"
+    },
+    {
+      "tipo": "Práticas Hands On",
+      "url": "https://fgmed.org/praticas/"
+    },
+    {
+      "tipo": "Treinamentos",
+      "descricao": "Cursos in-company e especializados"
+    },
+    {
+      "tipo": "Aperfeiçoamentos (Cursos Livres)",
+      "url": "https://fgmed.org/cursos-livres/"
+    },
+    {
+      "tipo": "Extensões",
+      "url": "https://fgmed.org/extensoes/"
+    },
+    {
+      "tipo": "Preceptorship",
+      "url": "https://fgmed.org/preceptorship/"
+    }
+  ],
+  "diferenciais": [
+    "Certificado com Validade Nacional",
+    "Outorga Título Acadêmico de Especialização",
+    "Mais de 30 mil Médicos formados",
+    "Qualidade Reconhecida pelo Ministério da Educação",
+    "Avançado Sistema Virtual de Aprendizagem",
+    "Corpo docente 100% composto por Doutores, Mestres e Especialistas",
+    "Suporte Pedagógico 24hs",
+    "Aproveitamento de Estudos: Conclua estudos incompletos de outras instituições",
+    "Certificado Digital em até 48 horas"
+  ],
+  "numeros": {
+    "medicos_formados": "+30 mil",
+    "especializacoes": "+400",
+    "anos_atuacao": "+12"
+  },
+  "servicos_adicionais": [
+    "MEDFLIX - Streaming de conteúdo médico",
+    "E-books",
+    "FGCRED - Crédito educacional",
+    "APP FGMED"
+  ],
+  "contato": {
+    "telefone": "0800-111-1011",
+    "whatsapp": "+55 11 97070-2940",
+    "email": "contato@fgmed.org"
+  },
+  "redes_sociais": {
+    "twitter": "https://www.twitter.com/fgmedbr",
+    "facebook": "https://www.facebook.com/FG.FGMED/",
+    "youtube": "https://www.youtube.com/@fgmed9133",
+    "instagram": "https://www.instagram.com/fg_med/",
+    "linkedin": "https://www.linkedin.com/company/fgmed/"
+  },
+  "reconhecimento": "MEC",
+  "extraido_em": "2026-02-06"
+}

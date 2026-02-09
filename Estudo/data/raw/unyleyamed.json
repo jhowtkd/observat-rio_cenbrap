@@ -1,0 +1,105 @@
+{
+  "nome": "UnyleyaMED",
+  "site": "https://unyleyamed.com.br",
+  "segmento": "Pós-Graduação EAD exclusiva para médicos",
+  "descricao": "Programa de Pós-Graduação Médica da Unyleya. Cursos criados por médicos, para médicos. Formação flexível em formato EAD e reconhecida pelo MEC.",
+  "numeros": {
+    "medicos": "+2 mil",
+    "cursos": "+50",
+    "docentes_medicos": "100%",
+    "tempo_unyleya": "19 anos de excelência em Educação Superior"
+  },
+  "caracteristicas": [
+    "Exclusivo para Médicos",
+    "Reconhecido pelo MEC",
+    "Formação flexível em formato EAD",
+    "Compatível com rotina de atendimentos e plantões",
+    "Foco na ampliação da atuação e no reconhecimento profissional",
+    "Embasamento científico para decisões clínicas mais seguras"
+  ],
+  "diferenciais": [
+    "Educação Flexível para Médicos - Metodologia desenvolvida para a rotina de plantões e atendimentos",
+    "Plataforma 100% digital, com videoaulas objetivas",
+    "Acesso de qualquer dispositivo e flexível aos seus horários",
+    "Simulador de Casos Clínicos - Simulação realista de atendimentos médicos",
+    "Decisões em tempo real, interação com pacientes e feedback imediato",
+    "Biblioteca Médica - Milhões de artigos e diretrizes atualizados",
+    "Adaptados ao SUS, com curadoria de especialistas da América Latina",
+    "Tutoria com Médicos Especialistas - Acompanhamento individualizado",
+    "Corpo Docente Renomado - Especialistas, mestres e doutores",
+    "Certificação Reconhecida pelo MEC - Válida nacionalmente"
+  ],
+  "cursos_areas": [
+    {
+      "area": "Clínica Médica e Especialidades",
+      "url": "/cursos/areas/clinica-medica-e-especialidades"
+    },
+    {
+      "area": "Saúde Pública, Trabalho e Medicina Legal",
+      "url": "/cursos/areas/saude-publica-e-medicina-legal"
+    },
+    {
+      "area": "Gestão, Inovação e Áreas Emergentes",
+      "url": "/cursos/areas/gestao-inovacao-e-areas-emergentes"
+    }
+  ],
+  "cursos_destaque": [
+    "Alergologia", "Anestesiologia Pediátrica", "Angiologia",
+    "Atendimento Clínico Médico Ambulatorial Transgênero", "Cardiologia",
+    "Cardiologia - Interpretação de Laudos ECG, MAPA, Holter", "Clínica em Dor",
+    "Cuidados Paliativos em Medicina", "Dermatologia",
+    "Doenças Autoimunes Sistêmicas - Abordagem Clínica", "Empreendedorismo Médico",
+    "Endocrinologia", "Epidemiologia e Pesquisa Médica", "Gastroenterologia",
+    "General Practice - Medicina Generalista na Saúde Integral", "Geriatria",
+    "Geriatria e Gerontologia", "Ginecologia", "Hematologia",
+    "Manejo Médico das Dores Crônicas", "Mastologia",
+    "MBA em Gestão Médica Hospitalar e Governança Clínica",
+    "MBA em Negócios Médicos - Gestão Comercial e Marketing Digital",
+    "Medicina 5.0 e Inovação", "Medicina Aeroespacial", "Medicina Canabinoide",
+    "Medicina Comunitária e Saúde Pública", "Medicina da Dor",
+    "Medicina de Desastre", "Medicina de Família",
+    "Medicina de Precisão e Genômica Clínica", "Medicina de Tráfego",
+    "Medicina de Viagem", "Medicina do Climatério e Transição Hormonal",
+    "Medicina do Estilo de Vida", "Medicina do Surfe",
+    "Medicina do Trabalho e Saúde Laboral", "Medicina Intensiva Adulta",
+    "Medicina Intensiva Pediátrica e Neonatal", "Medicina Legal",
+    "Medicina Metabólica - Diabetes e Obesidade", "Medicina Preventiva",
+    "Medicina Tropical", "Nefrologia", "Neurologia", "Neuropediatria",
+    "Nutrologia", "Oftalmologia", "Oncologia", "Ortopedia",
+    "Patologias Hepáticas - Interpretação Diagnóstica", "Pediatria Hospitalar",
+    "Perícia Médica", "Pneumologia",
+    "Principais Patologias Gástricas - Diagnóstico e Prescrições", "Psiquiatria",
+    "Psiquiatria da Infância e Adolescência", "Psiquiatria e Saúde Mental",
+    "Psiquiatria Geriátrica", "Reumatologia",
+    "Transtorno do Espectro Autista (TEA) na Prática Médica",
+    "Tricologia Médica", "Ultrassonografia Diagnóstica", "Urologia",
+    "Wilderness Medicine - Medicina em Áreas Remotas"
+  ],
+  "programas_especiais": [
+    {
+      "nome": "Indique e Ganhe",
+      "beneficio": "Receba até R$500 por matrícula confirmida"
+    },
+    {
+      "nome": "Simulador de Casos Clínicos",
+      "descricao": "Treine decisões médicas em tempo real"
+    },
+    {
+      "nome": "Prática Médica Supervisionada",
+      "descricao": "Vivência clínica real com supervisão"
+    }
+  ],
+  "reconhecimento": "MEC",
+  "contato": {
+    "portal_aluno": "https://portalaluno.unyleya.edu.br",
+    "ouvidoria": "https://unyleya.edu.br/ouvidoria"
+  },
+  "redes_sociais": {
+    "facebook": "https://www.facebook.com/UnyleyaMEDoficial",
+    "instagram": "https://www.instagram.com/unyleyamedoficial",
+    "x": "https://x.com/Unyleya",
+    "linkedin": "https://www.linkedin.com/company/unyleyamedoficial/",
+    "youtube": "https://www.youtube.com/@unyleyamed"
+  },
+  "extraido_em": "2026-02-06"
+}

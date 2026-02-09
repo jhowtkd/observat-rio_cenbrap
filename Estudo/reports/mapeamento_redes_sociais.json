@@ -1,0 +1,384 @@
+{
+  "mapeamento_rede_social": {
+    "data_extracao": "2026-02-06",
+    "total_players": 20,
+    "players": [
+      {
+        "nome": "Liberdade Médica",
+        "tipo": "Nicho",
+        "site": "https://liberdademedicaedu.com.br",
+        "instagram": {
+          "perfil": "@liberdademedicaedu",
+          "url": "https://www.instagram.com/liberdademedicaedu/",
+          "seguidores": "473K",
+          "posts": "2.228",
+          "descricao": "🎯 1 MILHÃO de Vidas Salvas nos próximos 10 anos. Pós Graduação Médica com Dupla Certificação e Prática Hospitalar"
+        },
+        "youtube": {
+          "canal": "@liberdademedicatv",
+          "url": "https://www.youtube.com/@liberdademedicatv"
+        },
+        "linkedin": "Não identificado"
+      },
+      {
+        "nome": "Caduceu Cursos",
+        "tipo": "Nicho",
+        "site": "https://caduceucursos.com.br",
+        "instagram": "@caduceucursos (a confirmar)",
+        "youtube": "Pendente",
+        "linkedin": "Pendente"
+      },
+      {
+        "nome": "Comportalmente",
+        "tipo": "Nicho",
+        "site": "https://comportalmente.com.br",
+        "instagram": "@comportalmente (a confirmar)",
+        "youtube": "Pendente",
+        "linkedin": "Pendente"
+      },
+      {
+        "nome": "IPM Pós-Graduação (Pedro Miranda)",
+        "tipo": "Nicho",
+        "site": "https://ipmpos.com.br",
+        "instagram": {
+          "perfil_institucional": "@ipm.pos",
+          "perfil_fundador": "@pedroernestomiranda",
+          "url_fundador": "https://www.instagram.com/pedroernestomiranda/",
+          "seguidores_fundador": "118K",
+          "posts_fundador": "994"
+        },
+        "linkedin": {
+          "empresa": "IPM EDUCAÇÃO",
+          "url": "https://br.linkedin.com/company/ipmpos"
+        },
+        "youtube": "Pendente"
+      },
+      {
+        "nome": "Sanar",
+        "tipo": "Institucional",
+        "site": "https://sanar.com.br",
+        "instagram": {
+          "perfil_principal": "@sanar",
+          "url": "https://www.instagram.com/sanar/",
+          "perfis_especificos": [
+            {
+              "nome": "SanarFlix",
+              "perfil": "@sanarflix",
+              "url": "https://www.instagram.com/sanarflix/"
+            },
+            {
+              "nome": "Sanar Pós",
+              "perfil": "@sanarpos.med",
+              "url": "https://www.instagram.com/sanarpos.med/"
+            },
+            {
+              "nome": "Sanar Shopping",
+              "perfil": "@sanar.shopping",
+              "url": "https://www.instagram.com/sanar.shopping/"
+            }
+          ]
+        },
+        "youtube": {
+          "canal": "Sanar Oficial",
+          "url": "https://www.youtube.com/c/SanarOficial"
+        },
+        "linkedin": {
+          "empresa": "Sanar",
+          "url": "https://www.linkedin.com/company/sanar/"
+        },
+        "twitter": "@sanartech",
+        "facebook": "https://www.facebook.com/TalentosSanar"
+      },
+      {
+        "nome": "FGMED",
+        "tipo": "Institucional",
+        "site": "https://fgmed.org",
+        "instagram": {
+          "perfil": "@fgmed.online",
+          "url": "https://www.instagram.com/fgmed.online/"
+        },
+        "youtube": {
+          "canal": "@fgmed9133",
+          "url": "https://www.youtube.com/@fgmed9133"
+        },
+        "linkedin": {
+          "empresa": "FGMED",
+          "url": "https://www.linkedin.com/company/fgmed/"
+        },
+        "twitter": "@fgmedbr",
+        "facebook": "https://www.facebook.com/FG.FGMED/",
+        "whatsapp": "0800-111-1011"
+      },
+      {
+        "nome": "Unyleya",
+        "tipo": "Institucional",
+        "site": "https://unyleya.edu.br",
+        "instagram": {
+          "perfil": "@faculdadeunyleya",
+          "url": "https://www.instagram.com/faculdadeunyleya/"
+        },
+        "youtube": {
+          "canal": "@faculdade.unyleya",
+          "url": "https://www.youtube.com/@faculdade.unyleya"
+        },
+        "linkedin": {
+          "empresa": "Unyleya Educacional",
+          "url": "https://www.linkedin.com/company/unyleyaeducacional/"
+        },
+        "twitter": "@Unyleya",
+        "tiktok": "@unyleya",
+        "facebook": "https://www.facebook.com/faculdadeunyleya"
+      },
+      {
+        "nome": "UnyleyaMED",
+        "tipo": "Institucional",
+        "site": "https://unyleyamed.com.br",
+        "instagram": "Pendente - @unyleyamed",
+        "youtube": "Pendente",
+        "linkedin": "Pendente"
+      },
+      {
+        "nome": "Instituto CDT",
+        "tipo": "Institucional",
+        "site": "https://institutocdt.com.br",
+        "instagram": {
+          "perfil": "@institutocdt",
+          "url": "https://www.instagram.com/institutocdt/"
+        },
+        "youtube": {
+          "canal": "Instituto CDT",
+          "url": "https://www.youtube.com/channel/UCmljj6vCQ2ZGv4832SRoq0g"
+        },
+        "linkedin": {
+          "empresa": "Instituto CDT",
+          "url": "https://www.linkedin.com/company/81813900/"
+        },
+        "tiktok": "@drthiago"
+      },
+      {
+        "nome": "IBCMED / Inspirali Pós Medicina",
+        "tipo": "Institucional",
+        "site": "https://ibcmed.com",
+        "instagram": {
+          "perfil": "@inspirali.posmedicina",
+          "url": "https://www.instagram.com/inspirali.posmedicina/"
+        },
+        "youtube": {
+          "canal": "@inspirali.posmedicina",
+          "url": "https://www.youtube.com/@inspirali.posmedicina"
+        },
+        "linkedin": {
+          "empresa": "Inspirali Pós",
+          "url": "https://www.linkedin.com/company/inspiralipos/"
+        },
+        "facebook": "https://www.facebook.com/inspirali.pos",
+        "tiktok": "@inspirali.pos"
+      },
+      {
+        "nome": "MEV Brasil",
+        "tipo": "Institucional",
+        "site": "https://mevbrasil.com.br",
+        "instagram": {
+          "perfil": "@mevbrasil",
+          "url": "https://www.instagram.com/mevbrasil/"
+        },
+        "linkedin": {
+          "empresa": "MEV Brasil",
+          "url": "https://www.linkedin.com/company/mevbrasil"
+        },
+        "youtube": "Pendente",
+        "spotify": "Presente"
+      },
+      {
+        "nome": "Afya",
+        "tipo": "Institucional",
+        "site": "https://afya.com.br",
+        "instagram": {
+          "perfil": "@afya.oficial",
+          "url": "https://www.instagram.com/afya.oficial/"
+        },
+        "youtube": {
+          "canal": "Afya Educacional",
+          "url": "https://www.youtube.com/c/Afyaeducacional"
+        },
+        "linkedin": {
+          "empresa": "Afya Medicina",
+          "url": "https://br.linkedin.com/company/afyamedicina"
+        },
+        "facebook": "https://www.facebook.com/afyaeducacional/"
+      },
+      {
+        "nome": "Instituto BWS",
+        "tipo": "Institucional",
+        "site": "https://institutobws.com.br",
+        "instagram": {
+          "perfil": "@institutobws (a confirmar)",
+          "url": "https://www.instagram.com/institutobws/"
+        },
+        "linkedin": {
+          "empresa": "BWS (a confirmar)",
+          "url": "https://www.linkedin.com/company/institutobws/"
+        },
+        "youtube": "Pendente"
+      },
+      {
+        "nome": "São Leopoldo Mandic",
+        "tipo": "Institucional",
+        "site": "https://slmandic.edu.br",
+        "instagram": {
+          "perfil": "@saoleopoldomandic",
+          "url": "https://www.instagram.com/saoleopoldomandic/"
+        },
+        "youtube": {
+          "canal": "São Leopoldo Mandic",
+          "url": "https://www.youtube.com/channel/UClx774EbaBecptaAvw00n0A"
+        },
+        "linkedin": {
+          "empresa": "São Leopoldo Mandic",
+          "url": "https://br.linkedin.com/school/saoleopoldomandic/"
+        },
+        "facebook": "https://www.facebook.com/saoleopoldomandic",
+        "podcast": "Mandicast"
+      },
+      {
+        "nome": "HCOR",
+        "tipo": "Institucional",
+        "site": "https://hcor.com.br",
+        "instagram": {
+          "perfil": "@hcoroficial",
+          "url": "https://www.instagram.com/hcoroficial/"
+        },
+        "youtube": {
+          "canal": "HCOR",
+          "url": "https://www.youtube.com/channel/UC7tOeqLpmCejyymIyZlrWNQ"
+        },
+        "linkedin": {
+          "empresa": "HCOR",
+          "url": "https://www.linkedin.com/company/hcor"
+        },
+        "facebook": "https://www.facebook.com/HCor.Oficial"
+      },
+      {
+        "nome": "Einstein",
+        "tipo": "Institucional",
+        "site": "https://einstein.br",
+        "instagram": {
+          "perfil": "@hosp_einstein",
+          "url": "https://instagram.com/hosp_einstein"
+        },
+        "youtube": {
+          "canal": "@einstein",
+          "url": "https://www.youtube.com/@einstein"
+        },
+        "linkedin": {
+          "empresa": "Einstein Hospital Israelita",
+          "url": "https://www.linkedin.com/company/einstein-hospital-israelita"
+        },
+        "facebook": "https://www.facebook.com/EinsteinHospital",
+        "tiktok": "@hosp_einstein",
+        "spotify": "https://open.spotify.com/user/hospital_albert_einstein"
+      },
+      {
+        "nome": "Cetrus",
+        "tipo": "Institucional",
+        "site": "https://cetrus.com.br",
+        "instagram": {
+          "perfil": "@cetrus.ensino",
+          "url": "https://www.instagram.com/cetrus.ensino/"
+        },
+        "linkedin": {
+          "empresa": "Cetrus Ensino",
+          "url": "https://br.linkedin.com/company/cetrusensino"
+        },
+        "youtube": {
+          "canal": "Cetrus",
+          "url": "https://www.youtube.com/user/mktcetrus"
+        },
+        "facebook": "https://pt-br.facebook.com/CetrusBrasil/"
+      },
+      {
+        "nome": "PUCRS",
+        "tipo": "Institucional",
+        "site": "https://pucrs.br",
+        "instagram": {
+          "perfil": "@pucrs",
+          "url": "https://www.instagram.com/pucrs/"
+        },
+        "linkedin": {
+          "empresa": "PUCRS",
+          "url": "https://www.linkedin.com/school/pucrs/"
+        },
+        "youtube": {
+          "canal": "@PUCRSOficial",
+          "url": "https://www.youtube.com/@PUCRSOficial"
+        },
+        "twitter": "@pucrs",
+        "tiktok": "@pucrs",
+        "facebook": "https://www.facebook.com/pucrs"
+      },
+      {
+        "nome": "IDOMED",
+        "tipo": "Institucional",
+        "site": "https://idomed.com.br",
+        "instagram": "Pendente - @idomed (a confirmar)",
+        "youtube": "Pendente",
+        "linkedin": "Pendente",
+        "whatsapp": "0800 880 6770"
+      },
+      {
+        "nome": "Faculdade Sírio-Libanês",
+        "tipo": "Institucional",
+        "site": "https://faculdadesiriolibanes.org.br/fsl/",
+        "instagram": "Pendente - @faculdadesiriolibanes (a confirmar)",
+        "youtube": "Pendente",
+        "linkedin": "Pendente"
+      }
+    ]
+  },
+  "analise_presenca_social": {
+    "total_completo": 16,
+    "total_pendente": 4,
+    "players_com_maior_presenca": [
+      {
+        "nome": "Sanar",
+        "destaque": "Estratégia multi-perfil: @sanar (geral), @sanarflix (conteúdo), @sanarpos.med (pós), @sanar.shopping (e-commerce)"
+      },
+      {
+        "nome": "PUCRS",
+        "destaque": "Maior diversidade de redes: Instagram, YouTube, LinkedIn, Twitter, TikTok, Facebook"
+      },
+      {
+        "nome": "Einstein",
+        "destaque": "Presença completa incluindo Spotify (podcasts)"
+      },
+      {
+        "nome": "Unyleya",
+        "destaque": "Presença em 5 redes sociais + apps próprios"
+      }
+    ],
+    "players_nicho_destaque": [
+      {
+        "nome": "Liberdade Médica",
+        "seguidores": "473K no Instagram",
+        "estrategia": "Maior audiência entre todos os players nicho"
+      },
+      {
+        "nome": "IPM (Pedro Miranda)",
+        "seguidores": "118K no perfil pessoal",
+        "estrategia": "Usa perfil pessoal do fundador como vetor de autoridade"
+      }
+    ]
+  },
+  "observacoes": [
+    "Liberdade Médica tem a maior presença no Instagram entre os nichos com 473K seguidores",
+    "Sanar tem estratégia multi-perfil: @sanar (geral), @sanarflix (conteúdo), @sanarpos.med (pós), @sanar.shopping (e-commerce)",
+    "Pedro Miranda (IPM) usa perfil pessoal @pedroernestomiranda (118K) como vetor de autoridade",
+    "Cetrus tem presença organizada em todas as principais redes",
+    "PUCRS é a mais completa em diversidade de redes (IG, YT, LI, TT, TikTok, FB)",
+    "Einstein se destaca por ter presença no Spotify (podcasts)",
+    "IBCMED mudou de marca para Inspirali Pós Medicina",
+    "MEV Brasil foca em LinkedIn e Instagram, com podcasts no Spotify"
+  ],
+  "status": "Quase Completo - 16/20 completos, 4 pendentes (Caduceu, Comportalmente, IDOMED, Sírio-Libanês - necessária verificação manual)",
+  "arquivo_local": "projects/cenbrap/concorrencia/reports/mapeamento_redes_sociais.json"
+}

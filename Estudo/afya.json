@@ -1,0 +1,80 @@
+{
+  "nome": "Afya",
+  "site": "https://afya.com.br",
+  "segmento": "Ecossistema de educação e soluções para prática médica",
+  "descricao": "O maior ecossistema de educação e soluções para prática médica do Brasil. Aliados do médico para potencializar a formação, com assertividade e produtividade.",
+  "numeros": {
+    "unidades_graduacao": "38 (33 com curso de Medicina)",
+    "alunos_medicina": "+20 mil",
+    "unidades_educacao_continuada": "25",
+    "cursos_educacao_continuada": "+70",
+    "penetracao": "1 em cada 3 médicos ou estudantes de medicina usa uma solução da Afya",
+    "atendimentos_gratuitos": "3 milhões (desde 2019)"
+  },
+  "data_numeros": "Dezembro/2024",
+  "areas_atuacao": [
+    {
+      "area": "Graduação",
+      "descricao": "Líder em graduação médica no Brasil. Metodologia ativa e exclusiva, com aulas práticas desde o primeiro dia.",
+      "cursos": ["Medicina", "Outros cursos"],
+      "url": "https://facamedicina.afya.com.br"
+    },
+    {
+      "area": "Preparatório para Residência",
+      "descricao": "Preparação para R1 e residências médicas"
+    },
+    {
+      "area": "Educação Médica Continuada",
+      "descricao": "Pós-graduação, aprimoramentos e demais modalidades",
+      "cursos": "+70 cursos"
+    },
+    {
+      "area": "Suporte à Decisão Clínica",
+      "descricao": "Ferramentas digitais para auxiliar na prática médica"
+    },
+    {
+      "area": "Gestão de Consultório e Cuidado ao Paciente",
+      "descricao": "Soluções para médicos em consultório particular"
+    }
+  ],
+  "cobertura": "Unidades presentes em 14 estados do Brasil",
+  "produtos_servicos": [
+    "Cursos de graduação em Medicina",
+    "Educação médica continuada (pós-graduação, aprimoramentos)",
+    "Soluções digitais",
+    "Preparatórios para residência",
+    "Suporte à decisão clínica",
+    "Gestão de consultório"
+  ],
+  "proposito": "Transformar a saúde em conjunto com quem tem a medicina como vocação. Facilitar a prática médica do dia a dia em todas as fases da carreira.",
+  "diferenciais": [
+    "Maior ecossistema de educação médica do Brasil",
+    "Metodologia ativa e exclusiva",
+    "Aulas práticas desde o primeiro dia",
+    "Presença em 14 estados",
+    "3 milhões de atendimentos gratuitos desde 2019",
+    "1 em cada 3 médicos usa soluções Afya"
+  ],
+  "empresa": {
+    "razao_social": "Afya Participações S.A",
+    "cnpj": "23.399.329/0001-72"
+  },
+  "contato": {
+    "portal_aluno": "https://portalaluno.afya.com.br",
+    "central_aluno": "/fale-com-a-afya",
+    "ouvidoria": "/fale-com-a-afya",
+    "canal_etica": "/fale-com-a-afya"
+  },
+  "redes_sociais": {
+    "linkedin": "https://br.linkedin.com/company/afyamedicina",
+    "youtube": "https://www.youtube.com/c/Afyaeducacional",
+    "instagram": "https://www.instagram.com/afya.oficial/",
+    "facebook": "https://www.facebook.com/afyaeducacional/"
+  },
+  "links_uteis": {
+    "blog": "https://facamedicina.afya.com.br/blog",
+    "imprensa": "/sala-de-imprensa",
+    "relacionamento_investidores": "https://ri.afya.com.br"
+  },
+  "extraido_em": "2026-02-06"
+}

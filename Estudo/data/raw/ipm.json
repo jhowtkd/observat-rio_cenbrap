@@ -1,0 +1,22 @@
+{
+  "nome": "IPM Pós-graduação",
+  "site": "https://ipmpos.com.br",
+  "segmento": "Pós-graduação médica presencial",
+  "descricao": "IPM Pós oferece cursos de pós-graduação médica em várias cidades do Brasil. Foco em formação prática com unidades em Brasília, São José do Rio Preto, Goiânia e São Paulo.",
+  "unidades": [
+    "Brasília",
+    "São José do Rio Preto",
+    "Goiânia",
+    "São Paulo"
+  ],
+  "redes_sociais": {
+    "instagram": "https://www.instagram.com/ipm.pos/",
+    "youtube": "https://www.youtube.com/@ipmposgraduacao",
+    "spotify": "https://creators.spotify.com/pod/show/ipm-ps"
+  },
+  "diferenciais": [
+    "Presença em 4 cidades brasileiras",
+    "Podcast no Spotify",
+    "Foco em pós-graduação médica prática"
+  ]
+}

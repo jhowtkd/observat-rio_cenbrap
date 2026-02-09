@@ -1,0 +1,60 @@
+{
+  "nome": "IDOMED",
+  "site": "https://idomed.com.br",
+  "segmento": "Instituto de Educação Médica - Graduação e Pós-Graduação",
+  "descricao": "Excelência médica é no IDOMED. +25 anos unindo tradição à tecnologia e inovação. Formação de médicos inclusivos e de excelência.",
+  "tempo_atuacao": "+25 anos",
+  "numeros": {
+    "faculdades_medicas": "18 faculdades médicas ao redor do país"
+  },
+  "valores": [
+    {
+      "nome": "Excelência, aprendizado prático e tecnologia"
+    },
+    {
+      "nome": "Tradição e inovação",
+      "descricao": "Foco e valorização no futuro e no cuidado humano"
+    },
+    {
+      "nome": "Compromisso social",
+      "descricao": "Ações que valorizam a inclusão e a diversidade"
+    }
+  ],
+  "programas": [
+    {
+      "nome": "Mediversidade",
+      "descricao": "Educar para transformar - Formação de médicos inclusivos e de excelência",
+      "url": "https://www.idomed.com.br/mediversidade"
+    }
+  ],
+  "categorias_cursos": [
+    {
+      "nome": "Graduação",
+      "url": "https://www.idomed.com.br/selecao?modalidade=PRESENCIAL&formacao=GRAD&curso=51"
+    },
+    {
+      "nome": "Pós-Graduação",
+      "url": "https://www.idomed.com.br/pos-graduacao"
+    }
+  ],
+  "diferenciais": [
+    "Tradição de +25 anos",
+    "Tecnologia e inovação",
+    "Formação de médicos inclusivos",
+    "Excelência acadêmica",
+    "18 faculdades em todo o país"
+  ],
+  "unidades": "Múltiplas unidades no Brasil",
+  "contato": {
+    "telefone": "0800 880 6770",
+    "whatsapp": "+55 11 4004-8285"
+  },
+  "recursos_acessibilidade": [
+    "Perfil cego (Alt+C)",
+    "Menu de acessibilidade (Alt+P)",
+    "Libras",
+    "Navegação por face",
+    "Assistente de voz"
+  ],
+  "extraido_em": "2026-02-06"
+}

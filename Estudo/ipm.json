@@ -1,0 +1,69 @@
+{
+  "nome": "IPM Pós-graduação (Instituto Pedro Miranda)",
+  "site": "https://ipmpos.com.br",
+  "segmento": "Pós-graduação médica presencial",
+  "descricao": "Instituto de pós-graduação médica com atuação em múltiplas cidades brasileiras. Foco em especialidades médicas com abordagem prática através de ambulatórios.",
+  "unidades": [
+    {
+      "cidade": "Brasília",
+      "url": "https://ipmpos.com.br/brasilia-selecao-pos-graduacao"
+    },
+    {
+      "cidade": "São José do Rio Preto",
+      "url": "https://ipmpos.com.br/sjrp-selecao-pos-graduacao"
+    },
+    {
+      "cidade": "Goiânia",
+      "url": "https://ipmpos.com.br/goiania-selecao-pos-graduacao/"
+    },
+    {
+      "cidade": "São Paulo",
+      "url": "https://ipmpos.com.br/sao-paulo-selecao-pos-graduacao/"
+    }
+  ],
+  "cursos": [
+    {
+      "nome": "Pós-Graduação em Dermatologia",
+      "descricao": "Pós-graduação em dermatologia ideal para o seu perfil",
+      "status": "Inscrições abertas"
+    },
+    {
+      "nome": "Pós-Graduação em Psiquiatria",
+      "descricao": "Explore o futuro da saúde mental com nossa pós-graduação",
+      "status": "Inscrições abertas"
+    },
+    {
+      "nome": "Pós-Graduação em Nutrologia",
+      "descricao": "Uma abordagem prática de aprendizado por meio de ambulatórios",
+      "status": "Inscrições abertas"
+    },
+    {
+      "nome": "Pós-Graduação em Endocrinologia",
+      "descricao": "Cadastre-se em nossa lista de espera e receba uma notificação assim que as inscrições forem abertas",
+      "status": "Lista de espera"
+    }
+  ],
+  "diferenciais": [
+    "Abordagem prática de aprendizado por meio de ambulatórios",
+    "Programa de pacientes modelos",
+    "Presença em múltiplas cidades brasileiras",
+    "Foco em especialidades médicas práticas"
+  ],
+  "recursos": [
+    {
+      "nome": "Paciente Modelo",
+      "descricao": "Programa onde pacientes podem se candidatar para serem atendidos pelos alunos"
+    }
+  ],
+  "contato": {
+    "whatsapp_goiania": "+55 62 8226-0092",
+    "whatsapp_pacientes": "+55 62 98128-9632"
+  },
+  "redes_sociais": {
+    "instagram": "https://www.instagram.com/ipm.pos/",
+    "youtube": "https://www.youtube.com/@ipmposgraduacao",
+    "spotify": "https://creators.spotify.com/pod/show/ipm-ps"
+  },
+  "observacoes": "Site minimalista com foco em direcionar para unidades específicas. Pouca informação institucional disponível na home.",
+  "extraido_em": "2026-02-06"
+}

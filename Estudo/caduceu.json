@@ -1,0 +1,140 @@
+{
+  "nome": "Faculdade Caduceu",
+  "site": "https://caduceucursos.com.br",
+  "segmento": "Pós-graduação médica multidisciplinar",
+  "descricao": "Faculdade de pós-graduação médica com mais de 20 cursos em diferentes especialidades. Estrutura em São Paulo com IES e clínica de alto padrão.",
+  "diferenciais_institucionais": [
+    "Certificação MEC",
+    "+ De 20 Cursos Médicos",
+    "Ensino De Qualidade",
+    "Corpo docente com experiência acadêmica e atuação ativa no mercado",
+    "Estrutura em São Paulo (maior cidade do país)",
+    "IES e clínica de alto padrão",
+    "Sala de aulas, sala de reuniões, sala de procedimentos e ambulatórios",
+    "Administração apoiada por médicos e gestores educacionais especialistas",
+    "Desconto de até 15% para alunos e ex-alunos na aquisição do segundo curso"
+  ],
+  "categorias_cursos": [
+    {
+      "categoria": "Pós-Graduação Médica",
+      "quantidade": "30+ cursos",
+      "cursos": [
+        "Quiropraxia Pediátrica",
+        "Alergia e Imunologia",
+        "Emergência Médica",
+        "Otorrinolaringologia",
+        "Neurologia Pediátrica",
+        "Neonatologia",
+        "Medicina Intensiva",
+        "Gastroenterologia",
+        "Endocrinologia e Metabologia Pediátrica",
+        "Angiologia",
+        "Dermatologia com Ênfase em Estética",
+        "Ultrassonografia",
+        "Reumatologia",
+        "Pneumologia e Tisiologia",
+        "Psiquiatria",
+        "Neurologia",
+        "Psiquiatria da Infância e Adolescência",
+        "Pneumologia Pediátrica",
+        "Perícias Médicas",
+        "Oftalmologia",
+        "Nutrologia Pediátrica",
+        "Nutrologia Esportiva",
+        "Nutrologia",
+        "Medicina Legal",
+        "Medicina do Exercício e do Esporte",
+        "Medicina de Tráfego",
+        "Medicina de Família e Comunidade",
+        "Endocrinologia e Metabologia",
+        "Clínica Médica",
+        "Cardiologia Clínica",
+        "Alergia e Imunologia Pediátrica",
+        "Dermatologia"
+      ]
+    },
+    {
+      "categoria": "Pós em Saúde/Multidisciplinar",
+      "descricao": "Cursos para diferentes profissionais da saúde"
+    },
+    {
+      "categoria": "Extensão/Livre",
+      "cursos": [
+        "Curso livre de atualização em Ginecologia e Obstetrícia",
+        "Nutrição Parenteral – Hands-on",
+        "Medicina Estética 360° – Hands-on Facial e Corporal"
+      ]
+    }
+  ],
+  "professores_destaque": [
+    {
+      "nome": "Dr. Gustavo Medeiros",
+      "especialidade": "Nutrologia Esportiva",
+      "credenciais": "Médico Nutrólogo, Palestrante e Professor"
+    },
+    {
+      "nome": "Dr. Márcio Tannure",
+      "especialidade": "Ortopedia e Traumatologia",
+      "credenciais": "Médico do UFC Brazil e Flamengo"
+    },
+    {
+      "nome": "Dr. Victor B. Soraggi",
+      "especialidade": "Medicina Esportiva",
+      "credenciais": "Médico do Palmeiras FC – Campeão Brasileiro (2022 e 2023)"
+    },
+    {
+      "nome": "Dra. Camila Nicolucci",
+      "especialidade": "Psiquiatria",
+      "credenciais": "Membro da Associação Brasileira de Psiquiatria (ABP)"
+    },
+    {
+      "nome": "Dra. Cristiane Fumo",
+      "especialidade": "Pediatria",
+      "credenciais": "Membro da Sociedade Brasileira de Pediatria (SBP)"
+    },
+    {
+      "nome": "Dra. Júlia Ribar",
+      "especialidade": "Dermatologia",
+      "credenciais": "Membro da Sociedade Brasileira de Dermatologia (SBD)"
+    },
+    {
+      "nome": "Dra. Juliana Risso",
+      "especialidade": "Ginecologia e Obstetrícia",
+      "credenciais": "Diretora da Sociedade Brasileira de Medicina da Obesidade (SBEMO)"
+    }
+  ],
+  "depoimentos_alunos": [
+    {
+      "aluno": "Dra. Carla Cavalcante",
+      "depoimento": "Pessoal, amei muito o curso foi muito proveitoso e as aulas agregaram muito. Fizemos muitos procedimentos e isso deixa nós alunos muito felizes e realmente animados em colocar a mão na massa."
+    },
+    {
+      "aluno": "Dra. Marcela Queiroz",
+      "depoimento": "Quero parabenizar aos nossos queridos professores, que não só deram uma boa aula como também pelo hands on, Material excelente."
+    },
+    {
+      "aluno": "Dra. Michele Silvares",
+      "depoimento": "Fiz a Pós em Medicina do Trabalho com o Caduceu porque senti firmeza em você. E agora fui APROVADA na prova de título da ANAMT. E já vou pegar meu RQE."
+    },
+    {
+      "aluno": "Dra. Ivana Murta",
+      "depoimento": "Maravilhoso! Foi ótimo! Os professores super empenhados e com paciência… Muito obrigada. Com certeza temos que partir para os próximos."
+    }
+  ],
+  "blog": [
+    "Natal Médico: Reflexões de Quem Cuida",
+    "O Que Médicos Podem Aprender com Podcasters",
+    "Como a Netflix Mudou a Forma de Consumir Conteúdo Médico"
+  ],
+  "contato": {
+    "telefone": "+55 51 31054085",
+    "email": "atendimento@caduceucursos.com.br",
+    "endereco": "São Paulo (estrutura física com IES e clínica)"
+  },
+  "redes_sociais": {
+    "facebook": "https://www.facebook.com/faculdadecaduceu",
+    "instagram": "https://www.instagram.com/faculdadecaduceu/"
+  },
+  "plataforma": "Cademi (caduceucursos.cademi.com.br)",
+  "extraido_em": "2026-02-06"
+}

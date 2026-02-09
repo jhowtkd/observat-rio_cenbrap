@@ -1,0 +1,136 @@
+{
+  "nome": "PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)",
+  "site": "https://portal.pucrs.br",
+  "segmento": "Universidade completa - Graduação, Pós, Mestrado e Doutorado",
+  "descricao": "Única universidade privada do RS com conceito 5, entre as melhores do Brasil. Excelência em ensino, pesquisa e inovação.",
+  "conceito_mec": "5 (nota máxima)",
+  "reconhecimento": "Única universidade privada do RS com conceito 5",
+  "niveis_ensino": [
+    {
+      "nivel": "Graduação",
+      "url": "https://portal.pucrs.br/ensino/graduacao/",
+      "modalidades": ["Presencial", "Online"]
+    },
+    {
+      "nivel": "Mestrado e Doutorado",
+      "url": "https://portal.pucrs.br/ensino/mestrado-e-doutorado/"
+    },
+    {
+      "nivel": "Especialização e MBA",
+      "url": "https://portal.pucrs.br/ensino/especializacao-e-mba"
+    },
+    {
+      "nivel": "Certificação",
+      "url": "https://portal.pucrs.br/ensino/certificacao/"
+    },
+    {
+      "nivel": "Idiomas",
+      "url": "https://portal.pucrs.br/ensino/idiomas/"
+    },
+    {
+      "nivel": "Cursos 60+",
+      "url": "https://portal.pucrs.br/ensino/60mais/"
+    }
+  ],
+  "escolas": [
+    {
+      "nome": "Escola de Medicina",
+      "url": "https://portal.pucrs.br/ensino/escola-de-medicina/"
+    },
+    {
+      "nome": "Escola de Ciências da Saúde e da Vida",
+      "url": "https://portal.pucrs.br/ensino/escola-de-ciencias-da-saude-e-da-vida/"
+    },
+    {
+      "nome": "Escola de Comunicação, Artes e Design - Famecos",
+      "url": "https://portal.pucrs.br/ensino/escola-de-comunicacao-artes-e-design-famecos/"
+    },
+    {
+      "nome": "Escola de Direito",
+      "url": "https://portal.pucrs.br/ensino/escola-de-direito/"
+    },
+    {
+      "nome": "Escola de Humanidades",
+      "url": "https://portal.pucrs.br/ensino/escola-de-humanidades/"
+    },
+    {
+      "nome": "Escola de Negócios",
+      "url": "https://portal.pucrs.br/ensino/escola-de-negocios/"
+    },
+    {
+      "nome": "Escola Politécnica",
+      "url": "https://portal.pucrs.br/ensino/escola-politecnica/"
+    }
+  ],
+  "formas_ingresso": [
+    {
+      "nome": "Vestibular Online",
+      "descricao": "Prova online, formação em até 2,5 anos"
+    },
+    {
+      "nome": "Transferência",
+      "descricao": "Estude na PUCRS e descubra tudo que você pode ser"
+    },
+    {
+      "nome": "Ingresso Diplomado",
+      "descricao": "Faça seu próximo curso onde você pode ser muito mais"
+    },
+    {
+      "nome": "Nota ENEM",
+      "descricao": "Utilize sua nota do ENEM"
+    }
+  ],
+  "diferenciais": [
+    "Conceito 5 no MEC (nota máxima)",
+    "Melhor universidade privada do RS",
+    "Excelência em ensino, pesquisa e inovação",
+    "Fortaleza em saúde (Hospital São Lucas)",
+    "Ecossistema de inovação (Tecnopuc)",
+    "Mobilidade acadêmica internacional",
+    "Múltiplas unidades e campi"
+  ],
+  "estrutura": [
+    {
+      "nome": "Hospital São Lucas",
+      "descricao": "Nosso cuidado é com a vida",
+      "url": "https://hospitalsaolucas.pucrs.br/"
+    },
+    {
+      "nome": "Tecnopuc",
+      "descricao": "Ecossistema de inovação conectado e global",
+      "url": "https://tecnopuc.pucrs.br/"
+    },
+    {
+      "nome": "Biblioteca Central",
+      "url": "https://biblioteca.pucrs.br/"
+    },
+    {
+      "nome": "Parque Esportivo",
+      "url": "https://www.pucrs.br/parqueesportivo/"
+    },
+    {
+      "nome": "Centro de Reabilitação",
+      "url": "https://www.pucrs.br/reabilitacao/"
+    },
+    {
+      "nome": "Museu de Ciências e Tecnologia",
+      "url": "https://www.pucrs.br/mct/"
+    }
+  ],
+  "contato": {
+    "telefone": "(51) 3320.3500",
+    "whatsapp": "(51) 98443.0788",
+    "email": "atendimento@pucrs.br"
+  },
+  "redes_sociais": {
+    "instagram": "https://www.instagram.com/pucrs/",
+    "facebook": "https://www.facebook.com/pucrs",
+    "linkedin": "https://www.linkedin.com/school/pucrs/",
+    "twitter": "https://twitter.com/pucrs",
+    "tiktok": "https://www.tiktok.com/@pucrs",
+    "youtube": "https://www.youtube.com/@PUCRSOficial",
+    "flickr": "https://www.flickr.com/photos/pucrsfotos/"
+  },
+  "reconhecimento": "MEC - Conceito 5",
+  "extraido_em": "2026-02-06"
+}

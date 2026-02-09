@@ -1,0 +1,59 @@
+{
+  "nome": "Sanar",
+  "site": "https://sanar.com.br",
+  "segmento": "Ecossistema completo de educação médica",
+  "descricao": "A Sanar oferece um ecossistema de produtos e serviços de apoio aos estudantes e profissionais de medicina, da graduação à pós-graduação.",
+  "produtos": [
+    {
+      "nome": "SanarFlix",
+      "url": "https://www.sanarflix.com.br",
+      "descricao": "Estude com videoaulas, mapas mentais e questões de todos os temas da faculdade até a preparação do R1",
+      "publico": "Estudantes de medicina"
+    },
+    {
+      "nome": "Sanar Pós (SanarMed)",
+      "url": "https://posmed.sanarmed.com",
+      "descricao": "Cursos de pós-graduação na área médica",
+      "publico": "Médicos"
+    },
+    {
+      "nome": "Cetrus",
+      "url": "https://www.cetrus.com.br",
+      "descricao": "Treinamento de habilidades médicas especializadas",
+      "publico": "Médicos"
+    },
+    {
+      "nome": "Sanar Shopping",
+      "url": "https://www.sanarsaude.com",
+      "descricao": "Livros e materiais de estudos sobre medicina e saúde - maior loja online do Brasil para médicos",
+      "publico": "Médicos e profissionais da saúde"
+    },
+    {
+      "nome": "Portal Sanar Med",
+      "url": "https://www.sanarmed.com",
+      "descricao": "Portal de conteúdo médico",
+      "publico": "Médicos"
+    }
+  ],
+  "numeros": {
+    "alunos": "+100 mil"
+  },
+  "depoimentos": [
+    {
+      "autor": "Luiza Vitória da Silva (Estudante de medicina do 5º semestre)",
+      "texto": "Facilita o acesso à informação, na medida, que utiliza uma linguagem clara e objetiva. Emprega tabelas, fluxogramas, imagens de qualidade para ilustrar conteúdo, aborda questões comentadas, possui aulas direcionadas e é acessível também financeiramente, diferentemente de muitas plataformas médicas, cujos custos são proibitivos para estudantes mais humildes"
+    },
+    {
+      "autor": "Dra. Lucia Amoedo (Estudante de Pós em Nutrologia)",
+      "texto": "Inicialmente, eu, sinceramente, estava meio descrente, mas em 5 meses essa empresa conseguiu me convencer do contrário. É muito importante, realmente, esse trabalho que eles fazem. Eu aprovo e digo para vocês: todos vocês que quiserem fazer um curso de consistência venham para a Sanar porque realmente eles fazem um trabalho de qualidade e com seriedade"
+    }
+  ],
+  "redes_sociais": {
+    "instagram": "https://www.instagram.com/sanar/",
+    "youtube": "https://www.youtube.com/c/SanarOficial",
+    "linkedin": "https://www.linkedin.com/company/sanar/",
+    "twitter": "https://twitter.com/sanartech",
+    "facebook": "https://www.facebook.com/TalentosSanar"
+  },
+  "extraido_em": "2026-02-06"
+}

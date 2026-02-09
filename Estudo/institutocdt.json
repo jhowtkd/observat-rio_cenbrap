@@ -1,0 +1,133 @@
+{
+  "nome": "Instituto CDT",
+  "site": "https://institutocdt.com.br",
+  "segmento": "Pós-Graduação em Medicina com foco prático",
+  "descricao": "Instituto de pós-graduação médica com método Dr. Thiago Amorim. Abordagem extremamente prática para o médico que trabalha e quer resolver problemas.",
+  "pilares": [
+    "Transformar a medicina brasileira",
+    "Criar médicos resolvedores de problemas",
+    "Gerar novas oportunidades de emprego e maior remuneração para nossos alunos"
+  ],
+  "numeros": {
+    "alunos": "+21.000",
+    "avaliacoes": "229 avaliações"
+  },
+  "pos_graduacoes": [
+    {
+      "nome": "Medicina Intervencionista da Dor",
+      "tipo": "Hands-on",
+      "coordenador": "Dra. Isabela Dantas (CRM-SP: 179.987 | RQE: 874.531)"
+    },
+    {
+      "nome": "Rinoplastia",
+      "tipo": "Hands-on",
+      "coordenador": "Dr. Thiago Fraga (CRM-SP: 147.089 | RQE: 90.063)"
+    },
+    {
+      "nome": "Medicina Estética",
+      "tipo": "Hands-on",
+      "coordenador": "Dra. Renata Araújo (CRM-SP: 146.089 | RQE: 83.298)"
+    },
+    {
+      "nome": "Medicina de Emergência",
+      "modalidade": "Híbrido ou EAD",
+      "coordenador": "Dr. Vinicius Sauerressig (CRM-PR 43.319)"
+    },
+    {
+      "nome": "Emergências Pediátricas e Neonatais",
+      "modalidade": "Híbrido ou EAD",
+      "coordenador": "Dra. Caline Daisy (CRM-MT 6543 | RQE 5362)"
+    },
+    {
+      "nome": "Medicina Intensiva",
+      "modalidade": "Híbrido ou EAD",
+      "coordenador": "Dr. Itamar Regazzo (CRM-PR 29.333 | RQE 23829)"
+    },
+    {
+      "nome": "Medicina da Dor",
+      "modalidade": "Híbrido ou EAD",
+      "coordenador": "Dra. Isabela Dantas (CRM-SP 179.987 | RQE 874.531)"
+    },
+    {
+      "nome": "Nutrologia",
+      "modalidade": "Híbrido ou EAD",
+      "coordenador": "Dr. Manoel Quintino (CRM-SP: 166.432 | RQE 133.759)"
+    },
+    {
+      "nome": "Psiquiatria",
+      "modalidade": "EAD",
+      "coordenador": "Dr. Alexandre Matsuo Nomura (CRM 168.275 | RQE 99.724)"
+    },
+    {
+      "nome": "Endocrinologia",
+      "modalidade": "Híbrido ou EAD",
+      "coordenador": "Dra. Thaísa Carvalho Fernandes (CRM-SP 195.327 | RQE 118.996)"
+    },
+    {
+      "nome": "Medicina Paliativa",
+      "modalidade": "EAD",
+      "coordenador": "Dr. Jonathan Vinicius (CRM-PR: 31.238 | RQE: 26.136)"
+    },
+    {
+      "nome": "Medicina Legal e Perícia Médica",
+      "modalidade": "EAD",
+      "coordenador": "Dra. Ana Elizabete Carvalheira (CRM-SP: 73.925 | RQE: 17.635)"
+    },
+    {
+      "nome": "Medicina do Trabalho",
+      "modalidade": "EAD",
+      "coordenador": "Dr. Alexandre de Castro Costa (CRM-SP: 150.980 | RQE: 79.246)"
+    },
+    {
+      "nome": "Medicina do Exercício e do Esporte",
+      "modalidade": "Híbrido ou EAD",
+      "coordenador": "Dr. Paulo Victor Dias Macedo (CRM: 190.724)"
+    }
+  ],
+  "imersoes_presenciais": [
+    {
+      "nome": "ACLS - Advanced Cardiovascular Life Support"
+    },
+    {
+      "nome": "Via Aérea Avançada com Cadáveres Frescos"
+    },
+    {
+      "nome": "Acesso Venoso Central em Cadáveres"
+    },
+    {
+      "nome": "Ultrassonografia Point-of-Care"
+    }
+  ],
+  "cursos_aperfeicoamento": [
+    "Intubação Orotraqueal Pediátrica",
+    "Aperfeiçoamento Intubação Orotraqueal",
+    "Ventilação Mecânica do Básico ao Avançado",
+    "Guia de Punções"
+  ],
+  "livros": [
+    "Manual Prático de Ventilação Mecânica",
+    "Manual Prático de Sedação Avançada",
+    "Manual Prático de Intubação Orotraqueal",
+    "A Bíblia do ECG",
+    "Manual Prático de Agentes Vasoativos",
+    "Manual Prático de Procedimentos Médicos"
+  ],
+  "diferenciais": [
+    "Método Dr. Thiago Amorim",
+    "Abordagem extremamente prática",
+    "Suporte ao aluno é o forte da instituição",
+    "Cursos hands-on com prática real",
+    "Imersões presenciais com cadáveres frescos",
+    "Materiais didáticos exclusivos (livros)"
+  ],
+  "contato": {
+    "whatsapp": "+55 83 99115-8909"
+  },
+  "redes_sociais": {
+    "youtube": "https://www.youtube.com/channel/UCmljj6vCQ2ZGv4832SRoq0g",
+    "tiktok": "https://www.tiktok.com/@drthiago",
+    "instagram": "https://www.instagram.com/institutocdt/",
+    "linkedin": "https://www.linkedin.com/company/81813900/"
+  },
+  "extraido_em": "2026-02-06"
+}

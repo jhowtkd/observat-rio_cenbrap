@@ -1,0 +1,284 @@
+{
+  "competitor_analysis": {
+    "institution": {
+      "full_name": "Hospital Israelita Albert Einstein (HIAE)",
+      "formal_entity": "Sociedade Beneficente Israelita Brasileira Albert Einstein (SBIBAE)",
+      "foundation_date": "4 de junho de 1955",
+      "hospital_inauguration": "28 de julho de 1971",
+      "location": "Morumbi, São Paulo, SP, Brasil",
+      "university_name": "Faculdade Israelita de Ciências da Saúde Albert Einstein (FICSAE)",
+      "teaching_center": "Centro de Educação em Saúde Abram Szajman (CESAS)",
+      "research_institute": "Instituto Israelita de Ensino e Pesquisa Albert Einstein (IIEP)"
+    },
+    "mec_accreditation": {
+      "has_accreditation": true,
+      "accreditation_status": "Nota máxima (5) pelo MEC",
+      "accreditation_year_medicine": "2 de julho de 2015",
+      "additional_recognition": "Nota máxima no ENADE",
+      "courses_accredited": [
+        "Medicina (autorizado em 2015, 100 vagas anuais)",
+        "Enfermagem",
+        "Odontologia",
+        "Fisioterapia",
+        "Engenharia Biomédica",
+        "Administração",
+        "Nutrição (início 2024)",
+        "Psicologia (em avaliação)"
+      ]
+    },
+    "medical_education_offerings": {
+      "undergraduate": {
+        "courses": [
+          "Medicina",
+          "Enfermagem",
+          "Odontologia",
+          "Fisioterapia",
+          "Engenharia Biomédica",
+          "Administração",
+          "Nutrição",
+          "Psicologia"
+        ],
+        "medicine_vacancies": 100,
+        "medicine_semiannual": "50 vagas por semestre"
+      },
+      "post_graduation": {
+        "total_courses": 242,
+        "modalities": [
+          "Especialização Flexível (18)",
+          "Especialização Híbrida (156)",
+          "Especialização Presencial (34)",
+          "Especialização a Distância (34)"
+        ],
+        "areas_covered": [
+          "Medicina (145 cursos para médicos)",
+          "Enfermagem (72 cursos)",
+          "Fisioterapia (64 cursos)",
+          "Psicologia (49 cursos)",
+          "Odontologia (48 cursos)",
+          "Nutrição (52 cursos)",
+          "Farmácia (59 cursos)",
+          "Gestão em Saúde",
+          "Terapia Intensiva",
+          "Oncologia",
+          "Cardiologia",
+          "Neurologia",
+          "Radiologia"
+        ]
+      },
+      "residency_programs": {
+        "medical": "Residência Médica (110 vagas para 2026)",
+        "multiprofessional": "Residência Multiprofissional",
+        "uniprofessional": "Residência Uniprofissional",
+        "enhancement": "Aprimoramento (52 programas)"
+      },
+      "stricto_sensu": {
+        "masters_professional": "Mestrado Profissional",
+        "masters_doctorate": "Mestrado e Doutorado em Ciências da Saúde",
+        "tuition": "Gratuito (sem taxa de inscrição, matrícula ou mensalidade)"
+      },
+      "technical_school": {
+        "founded": 1989,
+        "students_formed": "+ de 4.000 alunos",
+        "courses": [
+          "Técnico em Enfermagem",
+          "Análises Clínicas",
+          "Farmácia",
+          "Hotelaria Hospitalar",
+          "Radiologia"
+        ]
+      },
+      "short_duration": {
+        "types": [
+          "Atualização",
+          "Simulação Realística",
+          "Imersão",
+          "Programas Internacionais",
+          "Cursos Gratuitos"
+        ]
+      },
+      "distance_learning": {
+        "post_graduation": "Pós-graduação EAD",
+        "short_courses": "Cursos de Curta Duração EAD",
+        "free_courses": "Cursos Gratuitos EAD"
+      }
+    },
+    "pricing": {
+      "transparency": "Parcial - valores não exibidos publicamente no site",
+      "medicine_undergraduate": {
+        "monthly_fee_2024": "R$ 11.025,00",
+        "monthly_fee_2025": "R$ 11.910,00",
+        "installments": "12 parcelas anuais",
+        "total_annual": "R$ 142.920,00"
+      },
+      "post_graduation": {
+        "pricing_model": "Por curso específico - valores variam",
+        "discounts_available": [
+          "Desconto de 30% para unidades (SP, RJ, BH e GO)",
+          "Taxa de inscrição gratuita em campanhas"
+        ],
+        "residency_registration_fee": "R$ 770,00"
+      },
+      "financial_aid": {
+        "scholarship_socioeconomic": "Até 100% por critério socioeconômico",
+        "scholarship_duration": "Renovável por 5 anos",
+        "student_credit": "Crédito Estudantil Einstein (50% da mensalidade em 12x)"
+      }
+    },
+    "digital_presence": {
+      "instagram": {
+        "hospital_main": {
+          "handle": "@hosp_einstein",
+          "followers": "603K"
+        },
+        "faculdade": {
+          "handle": "@faculdadeeinstein",
+          "description": "Canal oficial da área de Ensino do Einstein"
+        },
+        "athletics_medicine": {
+          "handle": "@aaamth.einstein",
+          "followers": "8.934"
+        }
+      },
+      "facebook": {
+        "page_id": "143935572292340",
+        "presence": "Ativa"
+      },
+      "website": {
+        "main": "https://www.einstein.br",
+        "education_portal": "https://ensino.einstein.br",
+        "authority": "Alto - Site oficial do maior hospital da América Latina",
+        "technology": "VTEX commerce platform"
+      },
+      "blog": "Fique Por Dentro (fiquepordentro.ensinoeinstein.com)"
+    },
+    "paid_traffic": {
+      "meta_ads": {
+        "active": true,
+        "facebook_pixel": "Detectado no site",
+        "campaign_types": [
+          "Educação",
+          "Cursos",
+          "Residência Médica"
+        ]
+      },
+      "google_ads": {
+        "active": true,
+        "gtm_id": "GTM-K2J3CZC (ensino)",
+        "gtm_main": "GTM-PVHJBX (principal)"
+      },
+      "investment_level": "Alto - instituição de grande porte com orçamento significativo em marketing",
+      "remarketing": "Ativo através de Google Tag Manager e VTEX"
+    },
+    "reputation_credibility": {
+      "international_accreditations": [
+        "Joint Commission International (1999) - primeiro hospital fora dos EUA",
+        "Certificação Planetree (2011) - primeira da América Latina",
+        "ISO 9002:1994 - primeiro Centro de UTI do mundo"
+      ],
+      "rankings": [
+        "Melhor hospital da América Latina por 12+ anos consecutivos (América Economía)",
+        "Entre as 50 melhores instituições médicas do mundo (Newsweek 2020-2023)",
+        "22º melhor hospital do mundo (Newsweek 2021)"
+      ],
+      "specialties_recognized": [
+        "Oncologia - melhor do Brasil e América Latina",
+        "Ortopedia - melhor do Brasil e América Latina",
+        "Gastroenterologia - melhor do Brasil e América Latina",
+        "Cardiologia",
+        "Cirurgia Cardiovascular",
+        "Neurologia",
+        "Neurocirurgia",
+        "Endocrinologia",
+        "Pediatria"
+      ],
+      "research_recognition": {
+        "articles_published": "380 artigos em revistas indexadas",
+        "high_impact": "198 em revistas de alto impacto",
+        "citations": "Maior número de citações entre instituições brasileiras",
+        "studies_in_progress": "+ de 240 estudos",
+        "investment": "R$ 18,5 milhões em pesquisa"
+      }
+    },
+    "infrastructure_differentiators": {
+      "simulation_center": {
+        "name": "Centro de Simulação Realística (CSR)",
+        "founded": 2007,
+        "accreditation": "Society for Simulation in Healthcare (SSH) em 4 categorias",
+        "unique_feature": "Único da América Latina com acreditação em 4 categorias",
+        "annual_training": "~22 mil profissionais"
+      },
+      "robotic_surgery": {
+        "status": "Maior parque robótico da América Latina",
+        "since": 2008,
+        "equipment": "Da Vinci"
+      },
+      "libraries": {
+        "total": 6,
+        "system": "Sistema Einstein Integrado de Bibliotecas",
+        "digital_tools": "ClinicalKey Elsevier"
+      },
+      "campus": [
+        "Centro de Ensino e Pesquisa Albert Einstein - Campus Cecilia e Abram Szajman",
+        "Unidade Einstein - Morumbi",
+        "Unidade Einstein - Paulista",
+        "Unidade Einstein - Paulista II",
+        "Unidade Einstein - Vila Mariana",
+        "Unidade Einstein - Rio de Janeiro",
+        "Unidade Einstein - Goiânia",
+        "Unidade Einstein - Belo Horizonte",
+        "Unidade Einstein - Morato"
+      ]
+    },
+    "strengths": {
+      "brand_power": [
+        "70 anos de história e tradição",
+        "Reconhecimento nacional e internacional",
+        "Marca forte associada à excelência médica",
+        "Hospital privado mais moderno da América Latina"
+      ],
+      "academic_strengths": [
+        "Corpo docente composto por profissionais que atuam no hospital",
+        "Metodologia Team Based Learning (TBL)",
+        "Contato com pacientes desde o início do curso",
+        "Centro de Simulação Realística único na América Latina",
+        "Maior parque robótico da América Latina",
+        "Infraestrutura de ponta integrada ao hospital de alta complexidade"
+      ],
+      "market_position": [
+        "Primeiro hospital a abrir curso de medicina via chamamento público do MEC (2015)",
+        "Nota máxima em todas as avaliações do MEC",
+        "Residência médica extremamente concorrida (46 candidatos/vaga)",
+        "Alta empregabilidade (73% dos técnicos empregados após formatura)"
+      ],
+      "social_responsibility": [
+        "Proadi-SUS desde 2009",
+        "Administra 27 unidades de saúde públicas",
+        "Programa Einstein na Comunidade de Paraisópolis (PECP) desde 1998",
+        "1/3 dos leitos destinados a atendimento gratuito desde a fundação",
+        "97% dos transplantes pelo SUS"
+      ],
+      "innovation": [
+        "Primeiro hospital fora dos EUA com Joint Commission",
+        "Primeiro centro de UTI com ISO 9002 do mundo",
+        "Primeiro da América Latina com designação Planetree",
+        "Único com acreditação SSH em 4 categorias",
+        "Pioneiro em cirurgia robótica no Brasil (2008)"
+      ]
+    },
+    "weaknesses_observed": [
+      "Preços não transparentes no site - requer cadastro para valores detalhados",
+      "Processo seletivo de residência extremamente concorrido (difícil acesso)",
+      "Localização concentrada em São Paulo (capital)",
+      "Valores de mensalidade elevados (R$ 11.910,00/mês medicina)"
+    ],
+    "competitive_threat_level": "MUITO ALTO",
+    "threat_assessment": {
+      "brand_recognition": "Máxima - referência nacional em saúde",
+      "quality_perception": "Excelente - nota máxima em todas as avaliações",
+      "market_reach": "Ampla - presença em SP, RJ, BH, GO e expansão",
+      "digital_marketing": "Profissional - boa presença digital e tráfego pago",
+      "price_positioning": "Premium - preços elevados mas com bolsa disponível",
+      "differentiation": "Altíssima - infraestrutura única e corpo clínico próprio"
+    }
+  }
+}

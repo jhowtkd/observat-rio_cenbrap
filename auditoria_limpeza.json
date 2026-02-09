@@ -1,0 +1,438 @@
+{
+  "auditoria": "limpeza",
+  "data": "2026-02-06",
+  "arquivos_analisados": [
+    "src/App.tsx",
+    "src/main.tsx",
+    "src/types.ts",
+    "src/utils/priceUtils.ts",
+    "src/pages/PresencaDigital.tsx",
+    "src/pages/Oportunidades.tsx",
+    "src/pages/index.ts",
+    "src/components/Dashboard.tsx",
+    "src/components/Chart.tsx",
+    "src/components/ComparisonMatrix.tsx",
+    "src/components/VulnerabilitiesList.tsx",
+    "src/components/MapaPosicionamento.tsx",
+    "src/components/layout/Layout.tsx",
+    "src/components/layout/Header.tsx",
+    "src/components/layout/ChromeTabs.tsx",
+    "src/components/layout/GroupTabs.tsx",
+    "src/components/layout/ExecutiveSummary.tsx",
+    "src/components/layout/CompetitorSelector.tsx",
+    "src/components/charts/AdsInvestmentChart.tsx",
+    "src/components/charts/PriceDistribution.tsx",
+    "src/components/charts/PositioningMatrix.tsx",
+    "src/components/charts/RadarComparison.tsx",
+    "src/components/shared/SourceBadge.tsx",
+    "src/components/shared/SocialLinks.tsx",
+    "src/components/shared/PriceTag.tsx",
+    "src/components/competitor/CompetitorDetail.tsx",
+    "src/components/competitor/FichaTab.tsx",
+    "src/components/competitor/PrecoTab.tsx",
+    "src/components/competitor/AdsTab.tsx",
+    "src/components/competitor/VulnerabilitiesTab.tsx",
+    "vite.config.ts",
+    "tailwind.config.js",
+    "eslint.config.js"
+  ],
+  "problemas_encontrados": [
+    {
+      "arquivo": "src/components/Chart.tsx",
+      "linha": 1,
+      "tipo": "componente",
+      "descricao": "Componente Chart genérico não está sendo utilizado em nenhum lugar do projeto. Todos os gráficos usam recharts diretamente.",
+      "sugestao": "Remover o arquivo Chart.tsx ou refatorar para ser utilizado pelos componentes de gráfico existentes.",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "src/components/Chart.tsx",
+      "linha": 37,
+      "tipo": "any",
+      "descricao": "Uso de 'any' nos parâmetros data e options da interface ChartProps.",
+      "sugestao": "Definir tipos específicos para data e options baseados nas props do ChartJS.",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "src/components/layout/Header.tsx",
+      "linha": 1,
+      "tipo": "componente",
+      "descricao": "Componente Header não está sendo importado ou utilizado em nenhum arquivo. O Layout.tsx usa seu próprio header interno.",
+      "sugestao": "Remover o arquivo Header.tsx ou integrá-lo ao Layout.tsx se for necessário.",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "src/components/layout/GroupTabs.tsx",
+      "linha": 1,
+      "tipo": "componente",
+      "descricao": "Componente GroupTabs não está sendo utilizado em nenhum arquivo do projeto.",
+      "sugestao": "Remover o arquivo GroupTabs.tsx ou integrá-lo ao Dashboard se for necessário para alternar entre grupos de concorrentes.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/components/layout/ExecutiveSummary.tsx",
+      "linha": 1,
+      "tipo": "componente",
+      "descricao": "Componente ExecutiveSummary não está sendo utilizado. O Layout.tsx possui seu próprio resumo executivo inline.",
+      "sugestao": "Remover o arquivo ExecutiveSummary.tsx ou refatorar o Layout.tsx para usá-lo.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/components/layout/CompetitorSelector.tsx",
+      "linha": 1,
+      "tipo": "componente",
+      "descricao": "Componente CompetitorSelector não está sendo utilizado. O Dashboard.tsx usa ChromeTabs para seleção de concorrentes.",
+      "sugestao": "Remover o arquivo CompetitorSelector.tsx ou avaliar se deve substituir o ChromeTabs.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/components/ComparisonMatrix.tsx",
+      "linha": 1,
+      "tipo": "componente",
+      "descricao": "Componente ComparisonMatrix não está sendo importado ou utilizado em nenhum arquivo.",
+      "sugestao": "Remover o arquivo ComparisonMatrix.tsx ou integrá-lo ao Dashboard para exibição de tabela comparativa.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/components/VulnerabilitiesList.tsx",
+      "linha": 1,
+      "tipo": "componente",
+      "descricao": "Componente VulnerabilitiesList não está sendo utilizado. O Dashboard.tsx mostra vulnerabilidades inline no detalhe do competidor.",
+      "sugestao": "Remover o arquivo VulnerabilitiesList.tsx ou refatorar para ser utilizado.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/pages/PresencaDigital.tsx",
+      "linha": 752,
+      "tipo": "any",
+      "descricao": "Uso de 'as any' no onChange do select de filtroTipo.",
+      "sugestao": "Usar tipo específico: 'todos' | 'Nicho' | 'Institucional' em vez de any.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/components/Dashboard.tsx",
+      "linha": 46,
+      "tipo": "console",
+      "descricao": "Console.error presente no catch do fetch de dados.",
+      "sugestao": "Remover console.error ou substituir por um sistema de logging apropriado.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/pages/Oportunidades.tsx",
+      "linha": 50,
+      "tipo": "console",
+      "descricao": "Console.error presente no catch do fetch de dados.",
+      "sugestao": "Remover console.error ou substituir por um sistema de logging apropriado.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/components/charts/PositioningMatrix.tsx",
+      "linha": 66,
+      "tipo": "any",
+      "descricao": "Uso de 'any' nos parâmetros do CustomTooltip.",
+      "sugestao": "Definir tipo específico para as props do tooltip do recharts.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/components/layout/Layout.tsx",
+      "linha": 152,
+      "tipo": "inline",
+      "descricao": "Estilos inline usando style={{ background: '#111', border: '1px solid #222' }}.",
+      "sugestao": "Mover para classes Tailwind ou criar classe CSS customizada no index.css.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/components/layout/Layout.tsx",
+      "linha": 154,
+      "tipo": "inline",
+      "descricao": "Estilos inline usando style={{ color: '#a1a1aa' }}.",
+      "sugestao": "Usar classe Tailwind text-zinc-400.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/components/layout/Layout.tsx",
+      "linha": 155,
+      "tipo": "inline",
+      "descricao": "Estilos inline usando style={{ color: '#ff7a00' }} (cor hardcoded).",
+      "sugestao": "Usar classe Tailwind ou definir constante de cor no tema.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/components/Dashboard.tsx",
+      "linha": 133,
+      "tipo": "inline",
+      "descricao": "Estilos inline usando style={{ background: '#000' }}.",
+      "sugestao": "Usar classe Tailwind bg-black.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/components/Dashboard.tsx",
+      "linha": 136,
+      "tipo": "inline",
+      "descricao": "Estilos inline usando style={{ color: '#71717a' }}.",
+      "sugestao": "Usar classe Tailwind text-zinc-500.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/components/Dashboard.tsx",
+      "linha": 217,
+      "tipo": "inline",
+      "descricao": "Estilos inline usando style={{ fontSize: '18px', marginTop: '4px' }}.",
+      "sugestao": "Usar classes Tailwind text-lg mt-1.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/components/Dashboard.tsx",
+      "linha": 337,
+      "tipo": "inline",
+      "descricao": "Estilos inline usando style={{ display: 'flex', alignItems: 'center', gap: '8px' }}.",
+      "sugestao": "Usar classes Tailwind flex items-center gap-2.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/components/Dashboard.tsx",
+      "linha": 470,
+      "tipo": "inline",
+      "descricao": "Estilos inline usando style={{ color: selectedCompetitor.oferta.preco_transparente ? '#22c55e' : '#ef4444' }}.",
+      "sugestao": "Usar classes Tailwind condicionais text-green-500 ou text-red-500.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/components/Dashboard.tsx",
+      "linha": 592,
+      "tipo": "inline",
+      "descricao": "Estilos inline usando style={{ background: 'rgba(34, 197, 94, 0.1)' }}.",
+      "sugestao": "Usar classe Tailwind bg-green-500/10.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/components/Dashboard.tsx",
+      "linha": 593,
+      "tipo": "inline",
+      "descricao": "Estilos inline usando style={{ color: '#22c55e' }}.",
+      "sugestao": "Usar classe Tailwind text-green-500.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/components/Dashboard.tsx",
+      "linha": 595,
+      "tipo": "inline",
+      "descricao": "Estilos inline usando style={{ color: '#fff', fontWeight: 500 }}.",
+      "sugestao": "Usar classes Tailwind text-white font-medium.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/components/Dashboard.tsx",
+      "linha": 596,
+      "tipo": "inline",
+      "descricao": "Estilos inline usando style={{ color: '#71717a', fontSize: '14px' }}.",
+      "sugestao": "Usar classes Tailwind text-zinc-500 text-sm.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/pages/Oportunidades.tsx",
+      "linha": 283,
+      "tipo": "inline",
+      "descricao": "Estilos inline usando style={{ background: '#000' }}.",
+      "sugestao": "Usar classe Tailwind bg-black.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/pages/Oportunidades.tsx",
+      "linha": 286,
+      "tipo": "inline",
+      "descricao": "Estilos inline usando style={{ color: '#71717a' }}.",
+      "sugestao": "Usar classe Tailwind text-zinc-500.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/pages/Oportunidades.tsx",
+      "linha": 293,
+      "tipo": "inline",
+      "descricao": "Estilos inline usando style={{ background: '#000' }}.",
+      "sugestao": "Usar classe Tailwind bg-black.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/pages/Oportunidades.tsx",
+      "linha": 298,
+      "tipo": "inline",
+      "descricao": "Estilos inline usando style={{ background: 'linear-gradient(135deg, #ff7a00 0%, #ff5500 100%)' }}.",
+      "sugestao": "Criar classe CSS customizada ou usar classes utilitárias do Tailwind.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/pages/Oportunidades.tsx",
+      "linha": 421,
+      "tipo": "inline",
+      "descricao": "Estilos inline usando style={{ background: 'rgba(255, 122, 0, 0.1)' }}.",
+      "sugestao": "Usar classe Tailwind com cor personalizada ou criar classe CSS.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/components/competitor/CompetitorDetail.tsx",
+      "linha": 27,
+      "tipo": "variavel",
+      "descricao": "Parâmetro mediaPrecoMercado da interface CompetitorDetailProps não está sendo utilizado no componente.",
+      "sugestao": "Remover o parâmetro não utilizado ou implementar funcionalidade que o utilize.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/components/competitor/PrecoTab.tsx",
+      "linha": 9,
+      "tipo": "variavel",
+      "descricao": "Parâmetro mediaMercado é opcional e pode não ser passado, mas não há tratamento para quando é undefined além do render condicional.",
+      "sugestao": "Verificar se há necessidade de tratamento adicional ou tornar o parâmetro obrigatório.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/components/charts/PriceDistribution.tsx",
+      "linha": 69,
+      "tipo": "variavel",
+      "descricao": "Chamada de função getPriceRange(averagePrice) sem uso do retorno.",
+      "sugestao": "Remover chamada desnecessária ou utilizar o valor retornado.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/components/charts/AdsInvestmentChart.tsx",
+      "linha": 73,
+      "tipo": "variavel",
+      "descricao": "Parâmetro _name no formatter do Tooltip não está sendo utilizado (prefixado com underscore mas ainda presente).",
+      "sugestao": "Remover o parâmetro _name ou usar underscore sem nome: (_, props) =>.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/utils/priceUtils.ts",
+      "linha": 18,
+      "tipo": "string",
+      "descricao": "Valores de preço hardcoded (4000, 7000) nas configurações de faixa de preço.",
+      "sugestao": "Extrair para constantes nomeadas como PRICE_THRESHOLD_LOW e PRICE_THRESHOLD_HIGH.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/utils/priceUtils.ts",
+      "linha": 25,
+      "linha_2": 41,
+      "tipo": "string",
+      "descricao": "Cores hexadecimais hardcoded (#10b981, #f59e0b, #ef4444) nas configurações.",
+      "sugestao": "Definir constantes de cor ou usar um tema centralizado.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/components/charts/PositioningMatrix.tsx",
+      "linha": 33,
+      "tipo": "string",
+      "descricao": "Ano atual (2026) hardcoded no cálculo de idade da instituição.",
+      "sugestao": "Usar new Date().getFullYear() para calcular dinamicamente.",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "src/components/layout/ChromeTabs.tsx",
+      "linha": 76,
+      "tipo": "inline",
+      "descricao": "Uso de React.CSSProperties inline para variáveis CSS customizadas.",
+      "sugestao": "Considerar usar classes Tailwind com modificadores ou styled-components.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/components/shared/PriceTag.tsx",
+      "linha": 237,
+      "tipo": "inline",
+      "descricao": "Estilos inline dinâmicos usando style com template literals para cores.",
+      "sugestao": "Considerar usar classes utilitárias do Tailwind com map de cores predefinidas.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/types.ts",
+      "linha": 83,
+      "tipo": "comentado",
+      "descricao": "Comentário '// Para compatibilidade com dados antigos' indica código legado.",
+      "sugestao": "Avaliar se ainda é necessário manter compatibilidade ou se pode ser removido.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/components/Dashboard.tsx",
+      "linha": 367,
+      "tipo": "comentado",
+      "descricao": "Comentário '// EXPANDED SECTIONS - ALL VISIBLE' é desnecessário.",
+      "sugestao": "Remover comentário óbvio ou substituir por documentação mais útil.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/components/competitor/CompetitorDetail.tsx",
+      "linha": 240,
+      "tipo": "comentado",
+      "descricao": "Comentário '// Placeholder para a aba Digital' indica código temporário.",
+      "sugestao": "Implementar a aba Digital ou remover o comentário se já está implementado.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/pages/PresencaDigital.tsx",
+      "linha": 1,
+      "tipo": "import",
+      "descricao": "Import de Music2 do lucide-react usado apenas em uma condição ternária para TikTok/Spotify (linha 1021-1027) com lógica confusa.",
+      "sugestao": "Refatorar a lógica de exibição de ícones ou adicionar ícone específico para TikTok.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "src/components/layout/Layout.tsx",
+      "linha": 187,
+      "tipo": "inline",
+      "descricao": "Estilos inline usando style={{ overflow: 'auto' }}.",
+      "sugestao": "Usar classe Tailwind overflow-auto.",
+      "prioridade": "baixa"
+    }
+  ],
+  "estatisticas": {
+    "total_arquivos": 32,
+    "total_problemas": 43,
+    "por_tipo": {
+      "import": 1,
+      "variavel": 4,
+      "duplicado": 0,
+      "console": 2,
+      "comentado": 3,
+      "any": 3,
+      "componente": 7,
+      "inline": 22,
+      "string": 1
+    }
+  },
+  "recomendacoes_gerais": [
+    {
+      "titulo": "Remover componentes não utilizados",
+      "descricao": "7 componentes (Chart, Header, GroupTabs, ExecutiveSummary, CompetitorSelector, ComparisonMatrix, VulnerabilitiesList) não estão sendo utilizados e podem ser removidos para reduzir a complexidade da codebase.",
+      "prioridade": "alta"
+    },
+    {
+      "titulo": "Eliminar estilos inline",
+      "descricao": "22 ocorrências de estilos inline foram encontradas. Recomenda-se mover todas para classes Tailwind ou CSS modules para manter consistência e facilitar manutenção.",
+      "prioridade": "media"
+    },
+    {
+      "titulo": "Remover console.log/error",
+      "descricao": "2 ocorrências de console.error em tratamento de erros. Substituir por sistema de logging apropriado ou removê-los em produção.",
+      "prioridade": "media"
+    },
+    {
+      "titulo": "Tipagem TypeScript estrita",
+      "descricao": "3 ocorrências de 'any' encontradas. Substituir por tipos específicos para melhorar a segurança de tipos do projeto.",
+      "prioridade": "media"
+    },
+    {
+      "titulo": "Extrair constantes de configuração",
+      "descricao": "Valores hardcoded como anos (2026), preços (4000, 7000) e cores hexadecimais devem ser extraídos para constantes nomeadas ou tema centralizado.",
+      "prioridade": "baixa"
+    },
+    {
+      "titulo": "Revisar comentários desnecessários",
+      "descricao": "Remover comentários óbvios ou que indicam código temporário/legado que já foi resolvido.",
+      "prioridade": "baixa"
+    },
+    {
+      "titulo": "Consolidar tipos duplicados",
+      "descricao": "Verificar se há tipos/interfaces duplicados entre types.ts e interfaces locais nos componentes.",
+      "prioridade": "baixa"
+    }
+  ]
+}

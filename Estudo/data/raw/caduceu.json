@@ -1,0 +1,68 @@
+{
+  "nome": "Caduceu Cursos",
+  "site": "https://caduceucursos.com.br",
+  "segmento": "Faculdade de Pós-Graduação Multidisciplinar",
+  "descricao": "Faculdade Caduceu oferece cursos de pós-graduação médica e multidisciplinar com mais de 20 cursos em diversas especialidades. Estrutura em São Paulo com IES e clínica de alto padrão.",
+  "certificacao": "MEC",
+  "numero_cursos": "20+ cursos médicos",
+  "cursos_destaque": [
+    "Pós-Graduação em Quiropraxia Pediátrica",
+    "Pós-Graduação em Alergia e Imunologia",
+    "Pós-Graduação em Emergência Médica",
+    "Pós-Graduação em Otorrinolaringologia",
+    "Pós-Graduação em Neurologia Pediátrica",
+    "Pós-Graduação em Neonatologia"
+  ],
+  "cursos_livres": [
+    "Atualização em Ginecologia e Obstetrícia",
+    "Nutrição Parenteral - Hands-on",
+    "Medicina Estética 360° - Hands-on Facial e Corporal"
+  ],
+  "professores_destaque": [
+    {
+      "nome": "Dr. Gustavo Medeiros",
+      "especialidade": "Nutrologia Esportiva"
+    },
+    {
+      "nome": "Dr. Márcio Tannure",
+      "especialidade": "Ortopedia e Traumatologia (UFC e Flamengo)"
+    },
+    {
+      "nome": "Dr. Victor B. Soraggi",
+      "especialidade": "Medicina Esportiva (Palmeiras)"
+    },
+    {
+      "nome": "Dra. Camila Nicolucci",
+      "especialidade": "Psiquiatria (ABP)"
+    },
+    {
+      "nome": "Dra. Cristiane Fumo",
+      "especialidade": "Pediatria (SBP)"
+    },
+    {
+      "nome": "Dra. Júlia Ribar",
+      "especialidade": "Dermatologia (SBD)"
+    },
+    {
+      "nome": "Dra. Juliana Risso",
+      "especialidade": "Ginecologia e Obstetrícia (SBEMO)"
+    }
+  ],
+  "diferenciais": [
+    "Corpo docente com médicos de times de futebol (Palmeiras, Flamengo, UFC)",
+    "Estrutura em São Paulo - maior cidade do país",
+    "IES e clínica de alto padrão",
+    "Cursos multidisciplinares",
+    "Blog com conteúdo atualizado",
+    "Mais de 20 cursos médicos disponíveis"
+  ],
+  "localizacao": "São Paulo",
+  "contato": {
+    "telefone": "+55 51 31054085",
+    "email": "atendimento@caduceucursos.com.br"
+  },
+  "redes_sociais": {
+    "facebook": "https://www.facebook.com/faculdadecaduceu",
+    "instagram": "https://www.instagram.com/faculdadecaduceu/"
+  }
+}

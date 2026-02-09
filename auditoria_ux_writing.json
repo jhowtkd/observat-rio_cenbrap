@@ -1,0 +1,994 @@
+{
+  "auditoria": "ux_writing",
+  "data": "2026-02-06",
+  "arquivos_analisados": [
+    "pages/PresencaDigital.tsx",
+    "pages/Oportunidades.tsx",
+    "components/MapaPosicionamento.tsx",
+    "App.tsx",
+    "components/layout/Layout.tsx",
+    "components/Dashboard.tsx"
+  ],
+  "problemas_encontrados": [
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 706,
+      "texto_original": "Inteligência Competitiva",
+      "tipo": "tom",
+      "problema": "Termo em inglês sem necessidade quando 'Análise Competitiva' ou 'Inteligência de Mercado' seria mais natural em português",
+      "sugestao": "Análise Competitiva",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 711,
+      "texto_original": "Presença Digital",
+      "tipo": "titulo",
+      "problema": "Título da página muito genérico, não comunica o valor específico desta seção",
+      "sugestao": "Presença Digital dos Concorrentes",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 713,
+      "texto_original": "Análise completa do posicionamento digital de 20 players do mercado de educação médica. Mapeamento de redes sociais, estratégias de conteúdo e oportunidades de diferenciação.",
+      "tipo": "longo",
+      "problema": "Subtítulo muito longo e denso. Duas frases poderiam ser mais concisas.",
+      "sugestao": "Mapeamento de 20 players: redes sociais, estratégias e oportunidades de diferenciação.",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 722,
+      "texto_original": "Players Mapeados",
+      "tipo": "terminologia",
+      "problema": "Inconsistência: em outros lugares usa 'Concorrentes', aqui usa 'Players'. Deve padronizar.",
+      "sugestao": "Concorrentes Mapeados",
+      "prioridade": "alta"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 726,
+      "texto_original": "Maior Audiência",
+      "tipo": "confuso",
+      "problema": "Label pouco claro. Audiência de quê? Não especifica que é do Instagram.",
+      "sugestao": "Maior Audiência (IG)",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 730,
+      "texto_original": "Plataformas (PUCRS)",
+      "tipo": "confuso",
+      "problema": "Referência específica a PUCRS sem contexto. Usuário pode não entender o que significa.",
+      "sugestao": "Redes Sociais (máx.)",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 734,
+      "texto_original": "Perfis Sanar",
+      "tipo": "confuso",
+      "problema": "Referência específica a Sanar sem contexto. Não explica o que são esses perfis.",
+      "sugestao": "Perfis de Marca (máx.)",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 745,
+      "texto_original": "Filtros",
+      "tipo": "titulo",
+      "problema": "Título muito genérico, poderia ser mais descritivo",
+      "sugestao": "Filtrar Concorrentes",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 784,
+      "texto_original": "Top Players por Seguidores",
+      "tipo": "terminologia",
+      "problema": "Mais uma inconsistência de 'Players' vs 'Concorrentes'",
+      "sugestao": "Top Concorrentes por Seguidores",
+      "prioridade": "alta"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 820,
+      "texto_original": "OPORTUNIDADE",
+      "tipo": "cta",
+      "problema": "Label em maiúsculas é agressivo visualmente. Além disso, 'Oportunidade' é muito vago.",
+      "sugestao": "Oportunidade para CENBRAP",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 826,
+      "texto_original": "Potencial de Crescimento",
+      "tipo": "confuso",
+      "problema": "Texto genérico que não comunica valor específico",
+      "sugestao": "Potencial: 473K seguidores",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 829,
+      "texto_original": "Espaço para construir presença digital forte no nicho de pós-graduação médica",
+      "tipo": "longo",
+      "problema": "Frase longa e genérica. Poderia ser mais direta e inspiradora.",
+      "sugestao": "Espaço para crescer no nicho de pós-graduação médica",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 840,
+      "texto_original": "Comparativo de Seguidores Instagram",
+      "tipo": "titulo",
+      "problema": "Título funcional mas sem personalidade",
+      "sugestao": "Ranking de Seguidores no Instagram",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 892,
+      "texto_original": "Estratégias de Destaque",
+      "tipo": "titulo",
+      "problema": "Título vago - destaque em quê?",
+      "sugestao": "Estratégias de Marketing Digital",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 924,
+      "texto_original": "Mapeamento Completo de Redes Sociais",
+      "tipo": "titulo",
+      "problema": "Título redundante com o da página",
+      "sugestao": "Todas as Redes Sociais",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 931,
+      "texto_original": "Player",
+      "tipo": "terminologia",
+      "problema": "Cabeçalho de tabela usando 'Player' em vez de 'Concorrente'",
+      "sugestao": "Concorrente",
+      "prioridade": "alta"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 1053,
+      "texto_original": "Mostrando {playersFiltrados.length} de {playersData.length} players",
+      "tipo": "terminologia",
+      "problema": "Mais uma ocorrência de 'players' em vez de 'concorrentes'",
+      "sugestao": "Mostrando {playersFiltrados.length} de {playersData.length} concorrentes",
+      "prioridade": "alta"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 1063,
+      "texto_original": "Insights e Oportunidades",
+      "tipo": "titulo",
+      "problema": "Dois substantivos juntos sem conexão clara. 'E' é fraco.",
+      "sugestao": "Insights: Oportunidades para o CENBRAP",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 1067,
+      "texto_original": "🎯 Oportunidade Identificada",
+      "tipo": "titulo",
+      "problema": "Emoji no meio do texto pode atrapalhar acessibilidade (leitores de tela)",
+      "sugestao": "Oportunidade Identificada",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 1068,
+      "texto_original": "Nenhum player combina personalidade (nicho) com escala institucional. O CENBRAP pode criar uma marca pessoal forte com estrutura institucional, aproveitando o gap entre Liberdade Médica (473K) e os grandes players institucionais.",
+      "tipo": "longo",
+      "problema": "Parágrafo muito longo e denso. Múltiplas ideias em uma só frase. Uso de 'gap' (inglês).",
+      "sugestao": "Nenhum concorrente combina personalidade de nicho com escala institucional. O CENBRAP pode preencher essa lacuna entre Liberdade Médica (473K seguidores) e grandes instituições.",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 1075,
+      "texto_original": "📊 Recomendação Estratégica",
+      "tipo": "titulo",
+      "problema": "Emoji no título pode atrapalhar acessibilidade",
+      "sugestao": "Recomendação Estratégica",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "pages/Oportunidades.tsx",
+      "linha": 286,
+      "texto_original": "Carregando oportunidades estratégicas...",
+      "tipo": "tom",
+      "problema": "Mensagem de loading muito formal e robótica",
+      "sugestao": "Buscando oportunidades...",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "pages/Oportunidades.tsx",
+      "linha": 302,
+      "texto_original": "Oportunidades Estratégicas",
+      "tipo": "titulo",
+      "problema": "Redundância: 'Oportunidades' já implica estratégia",
+      "sugestao": "Oportunidades de Crescimento",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "pages/Oportunidades.tsx",
+      "linha": 303,
+      "texto_original": "Oportunidades identificadas a partir da análise competitiva",
+      "tipo": "confuso",
+      "problema": "Subtítulo circular (repete 'oportunidades') e não agrega informação",
+      "sugestao": "Ações baseadas nos dados dos concorrentes",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "pages/Oportunidades.tsx",
+      "linha": 327,
+      "texto_original": "Total de Oportunidades",
+      "tipo": "titulo",
+      "problema": "Label genérico em KPI",
+      "sugestao": "Oportunidades",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "pages/Oportunidades.tsx",
+      "linha": 340,
+      "texto_original": "Alto Impacto",
+      "tipo": "titulo",
+      "problema": "Sem contexto - alto impacto em quê?",
+      "sugestao": "Alto Impacto Potencial",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "pages/Oportunidades.tsx",
+      "linha": 354,
+      "texto_original": "Baixo Esforço",
+      "tipo": "titulo",
+      "problema": "'Esforço' é vago - esforço de quem? Implementação?",
+      "sugestao": "Fácil Implementação",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "pages/Oportunidades.tsx",
+      "linha": 370,
+      "texto_original": "Implementação Rápida",
+      "tipo": "titulo",
+      "problema": "Inconsistência: antes usou 'Baixo Esforço', agora 'Rápida'. São a mesma coisa?",
+      "sugestao": "Rápida Implementação",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "pages/Oportunidades.tsx",
+      "linha": 385,
+      "texto_original": "Todas as categorias",
+      "tipo": "botao",
+      "problema": "Label de dropdown longo e genérico",
+      "sugestao": "Todas",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "pages/Oportunidades.tsx",
+      "linha": 397,
+      "texto_original": "Todos os impactos",
+      "tipo": "botao",
+      "problema": "Label de dropdown longo e genérico",
+      "sugestao": "Todos",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "pages/Oportunidades.tsx",
+      "linha": 406,
+      "texto_original": "Oportunidades Identificadas",
+      "tipo": "titulo",
+      "problema": "Redundância com o título da página",
+      "sugestao": "Lista de Ações",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "pages/Oportunidades.tsx",
+      "linha": 431,
+      "texto_original": "Impacto {op.impacto}",
+      "tipo": "tom",
+      "problema": "Uso de 'Impacto' como prefixo pode ser redundante. Badge já está no contexto.",
+      "sugestao": "{op.impacto}",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "pages/Oportunidades.tsx",
+      "linha": 433,
+      "texto_original": "Esforço: {op.esforco}",
+      "tipo": "tom",
+      "problema": "Prefixo 'Esforço:' desnecessário em badge",
+      "sugestao": "{op.esforco}",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "pages/Oportunidades.tsx",
+      "linha": 440,
+      "texto_original": "Tempo",
+      "tipo": "titulo",
+      "problema": "Label 'Tempo' muito vago - tempo de quê?",
+      "sugestao": "Prazo",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "pages/Oportunidades.tsx",
+      "linha": 463,
+      "texto_original": "Ações recomendadas:",
+      "tipo": "titulo",
+      "problema": "Dois pontos desnecessários, 'recomendadas' é redundante",
+      "sugestao": "Próximos passos",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/MapaPosicionamento.tsx",
+      "linha": 77,
+      "texto_original": "Mapa de Posicionamento Competitivo",
+      "tipo": "titulo",
+      "problema": "Título longo e redundante ('Competitivo' é óbvio no contexto)",
+      "sugestao": "Posicionamento no Mercado",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/MapaPosicionamento.tsx",
+      "linha": 80,
+      "texto_original": "Análise de posicionamento por preço e modelo de ensino",
+      "tipo": "longo",
+      "problema": "Subtítulo denso e técnico",
+      "sugestao": "Comparativo: preço vs. modelo de ensino",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/MapaPosicionamento.tsx",
+      "linha": 89,
+      "texto_original": "Nicho (Vermelho)",
+      "tipo": "confuso",
+      "problema": "Legenda redundante - a cor já está indicada visualmente",
+      "sugestao": "Nicho",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/MapaPosicionamento.tsx",
+      "linha": 93,
+      "texto_original": "Institucional (Azul)",
+      "tipo": "confuso",
+      "problema": "Legenda redundante - a cor já está indicada visualmente",
+      "sugestao": "Institucional",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/MapaPosicionamento.tsx",
+      "linha": 112,
+      "texto_original": "← Acessível                Premium →",
+      "tipo": "confuso",
+      "problema": "Label do eixo com setas pode confundir. 'Acessível' vs 'Premium' são conceitos diferentes de preço.",
+      "sugestao": "Preço: Menor ← → Maior",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "components/MapaPosicionamento.tsx",
+      "linha": 128,
+      "texto_original": "← 100% Digital                100% Presencial →",
+      "tipo": "confuso",
+      "problema": "Label confuso - setas indicam direção mas o texto é binário",
+      "sugestao": "Modalidade: Digital ← → Presencial",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "components/MapaPosicionamento.tsx",
+      "linha": 167,
+      "texto_original": "Nicho Digital",
+      "tipo": "confuso",
+      "problema": "Label de quadrante confuso - 'Nicho' é tipo de player, não posição",
+      "sugestao": "Digital / Nicho",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "components/MapaPosicionamento.tsx",
+      "linha": 170,
+      "texto_original": "Nicho Presencial",
+      "tipo": "confuso",
+      "problema": "Label de quadrante confuso",
+      "sugestao": "Presencial / Nicho",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "components/MapaPosicionamento.tsx",
+      "linha": 173,
+      "texto_original": "Institucional Digital",
+      "tipo": "confuso",
+      "problema": "Label de quadrante confuso",
+      "sugestao": "Digital / Institucional",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "components/MapaPosicionamento.tsx",
+      "linha": 176,
+      "texto_original": "Institucional Premium",
+      "tipo": "confuso",
+      "problema": "Label de quadrante confuso - 'Premium' não é oposto de 'Digital'",
+      "sugestao": "Presencial / Institucional",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "components/MapaPosicionamento.tsx",
+      "linha": 186,
+      "texto_original": "Players de Nicho",
+      "tipo": "terminologia",
+      "problema": "Inconsistência: 'Players' em vez de 'Concorrentes'",
+      "sugestao": "Concorrentes de Nicho",
+      "prioridade": "alta"
+    },
+    {
+      "arquivo": "components/MapaPosicionamento.tsx",
+      "linha": 204,
+      "texto_original": "Players Institucionais",
+      "tipo": "terminologia",
+      "problema": "Inconsistência: 'Players' em vez de 'Concorrentes'",
+      "sugestao": "Concorrentes Institucionais",
+      "prioridade": "alta"
+    },
+    {
+      "arquivo": "components/layout/Layout.tsx",
+      "linha": 98,
+      "texto_original": "Inteligência Competitiva",
+      "tipo": "tom",
+      "problema": "Termo em inglês sem necessidade",
+      "sugestao": "Análise Competitiva",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "components/layout/Layout.tsx",
+      "linha": 104,
+      "texto_original": "Navegação",
+      "tipo": "titulo",
+      "problema": "Título de seção óbvio e desnecessário",
+      "sugestao": "Menu",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/layout/Layout.tsx",
+      "linha": 123,
+      "texto_original": "Resumo Executivo",
+      "tipo": "titulo",
+      "problema": "Jargão corporativo excessivo",
+      "sugestao": "Resumo",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/layout/Layout.tsx",
+      "linha": 170,
+      "texto_original": "Visão Geral",
+      "tipo": "titulo",
+      "problema": "Título genérico em seção de status",
+      "sugestao": "Status",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/layout/Layout.tsx",
+      "linha": 173,
+      "texto_original": "Data",
+      "tipo": "titulo",
+      "problema": "Label vago - data de quê?",
+      "sugestao": "Atualizado em",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 136,
+      "texto_original": "Carregando inteligência competitiva...",
+      "tipo": "tom",
+      "problema": "Mensagem de loading muito formal e técnica",
+      "sugestao": "Carregando dados...",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 152,
+      "texto_original": "Dashboard Competitivo",
+      "tipo": "titulo",
+      "problema": "Redundância - 'Competitivo' é óbvio no contexto",
+      "sugestao": "Painel de Concorrência",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 153,
+      "texto_original": "Pós-graduação EAD Médica • Análise em tempo real",
+      "tipo": "longo",
+      "problema": "Subtítulo longo com bullet (•) que pode quebrar em telas pequenas",
+      "sugestao": "Pós-graduação médica EAD",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 163,
+      "texto_original": "Monitoramento Ativo",
+      "tipo": "confuso",
+      "problema": "Badge que sugere monitoramento contínuo, mas os dados são estáticos",
+      "sugestao": "Dados Atualizados",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 171,
+      "texto_original": "Concorrentes",
+      "tipo": "titulo",
+      "problema": "Label vago - número de concorrentes?",
+      "sugestao": "Total de Concorrentes",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 189,
+      "texto_original": "Concorrentes",
+      "tipo": "titulo",
+      "problema": "Label de KPI truncado - deveria ser mais descritivo",
+      "sugestao": "Concorrentes Analisados",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 198,
+      "texto_original": "Com Ads Ativos",
+      "tipo": "confuso",
+      "problema": "Abreviação 'Ads' em inglês sem necessidade",
+      "sugestao": "Com Anúncios Ativos",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 207,
+      "texto_original": "Vuln. Críticas",
+      "tipo": "confuso",
+      "problema": "Abreviação desnecessária que dificulta leitura",
+      "sugestao": "Vulnerabilidades",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 226,
+      "texto_original": "Comparativo: {selectedCompetitor?.nome || 'Selecionado'} vs Média",
+      "tipo": "titulo",
+      "problema": "Título de gráfico longo e com 'vs' informal",
+      "sugestao": "{selectedCompetitor?.nome || 'Selecionado'} vs. Média",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 238,
+      "texto_original": "Distribuição de Preços",
+      "tipo": "titulo",
+      "problema": "Título funcional mas genérico",
+      "sugestao": "Faixa de Preços",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 247,
+      "texto_original": "Matriz de Posicionamento",
+      "tipo": "titulo",
+      "problema": "Jargão técnico ('Matriz') sem explicação",
+      "sugestao": "Posicionamento no Mercado",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 248,
+      "texto_original": "Preço x Credibilidade",
+      "tipo": "confuso",
+      "problema": "Uso de 'x' para 'versus' pode confundir com multiplicação",
+      "sugestao": "Preço vs. Credibilidade",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 257,
+      "texto_original": "Meta Ads - Anúncios Ativos",
+      "tipo": "confuso",
+      "problema": "Mistura de termos em inglês e português",
+      "sugestao": "Anúncios no Meta",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 258,
+      "texto_original": "Top 10 concorrentes",
+      "tipo": "tom",
+      "problema": "Uso de 'Top' em inglês sem necessidade",
+      "sugestao": "10 principais concorrentes",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 269,
+      "texto_original": "Alertas",
+      "tipo": "titulo",
+      "problema": "Título vago - alertas de quê?",
+      "sugestao": "Alertas do Mercado",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 287,
+      "texto_original": "Oportunidades Identificadas",
+      "tipo": "titulo",
+      "problema": "Redundância - 'Identificadas' é óbvio",
+      "sugestao": "Oportunidades",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 296,
+      "texto_original": "Impacto {opp.impacto}",
+      "tipo": "tom",
+      "problema": "Prefixo desnecessário em badge",
+      "sugestao": "{opp.impacto}",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 309,
+      "texto_original": "Análise Detalhada: {selectedCompetitor.nome}",
+      "tipo": "titulo",
+      "problema": "Redundância - 'Detalhada' é óbvio na seção expandida",
+      "sugestao": "{selectedCompetitor.nome}",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 344,
+      "texto_original": "Preço",
+      "tipo": "titulo",
+      "problema": "Label vago em card de estatísticas",
+      "sugestao": "Investimento",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 350,
+      "texto_original": "Anúncios",
+      "tipo": "titulo",
+      "problema": "Label vago - anúncios de quê? onde?",
+      "sugestao": "Anúncios Ativos",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 376,
+      "texto_original": "Ficha Cadastral",
+      "tipo": "titulo",
+      "problema": "Termo burocrático e formal",
+      "sugestao": "Dados da Empresa",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 381,
+      "texto_original": "Institucional",
+      "tipo": "titulo",
+      "problema": "Label de subseção vago",
+      "sugestao": "Informações",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 383,
+      "texto_original": "Nome Completo",
+      "tipo": "titulo",
+      "problema": "Label redundante - 'Completo' é desnecessário",
+      "sugestao": "Razão Social",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 387,
+      "texto_original": "Credenciamento",
+      "tipo": "titulo",
+      "problema": "Label técnico sem contexto",
+      "sugestao": "Situação no MEC",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 391,
+      "texto_original": "Ano de Fundação",
+      "tipo": "titulo",
+      "problema": "Label longo e formal",
+      "sugestao": "Fundação",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 395,
+      "texto_original": "Alunos Formados",
+      "tipo": "titulo",
+      "problema": "Label que pode ser interpretado como 'alunos que se formaram' em vez de 'total de formados'",
+      "sugestao": "Total de Formados",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 400,
+      "texto_original": "Operacional",
+      "tipo": "titulo",
+      "problema": "Jargão corporativo",
+      "sugestao": "Funcionamento",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 402,
+      "texto_original": "Modalidade",
+      "tipo": "titulo",
+      "problema": "Label técnico - usuário comum pode não entender",
+      "sugestao": "Formato",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 410,
+      "texto_original": "Natureza Jurídica",
+      "tipo": "titulo",
+      "problema": "Termo jurídico técnico sem necessidade neste contexto",
+      "sugestao": "Tipo de Empresa",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 414,
+      "texto_original": "Docentes Destacados",
+      "tipo": "titulo",
+      "problema": "'Destacados' é ambíguo - são os melhores? Os que aparecem no site?",
+      "sugestao": "Professores Listados",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 428,
+      "texto_original": "Preços e Condições",
+      "tipo": "titulo",
+      "problema": "Redundância - 'e Condições' é vago",
+      "sugestao": "Investimento",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 434,
+      "texto_original": "Faixa de Preço",
+      "tipo": "titulo",
+      "problema": "Label redundante com o contexto",
+      "sugestao": "Categoria",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 442,
+      "texto_original": "Preço à Vista",
+      "tipo": "titulo",
+      "problema": "Label formal demais",
+      "sugestao": "À Vista",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 446,
+      "texto_original": "Preço Parcelado",
+      "tipo": "titulo",
+      "problema": "Label formal demais",
+      "sugestao": "Parcelado",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 450,
+      "texto_original": "Parcelamento Máx",
+      "tipo": "confuso",
+      "problema": "Abreviação desnecessária",
+      "sugestao": "Máx. de Parcelas",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 457,
+      "texto_original": "Inclui Material",
+      "tipo": "tom",
+      "problema": "Tom impessoal. Poderia ser mais direto.",
+      "sugestao": "Material Incluso",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 461,
+      "texto_original": "Inclui Certificado",
+      "tipo": "tom",
+      "problema": "Tom impessoal",
+      "sugestao": "Certificado Incluso",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 469,
+      "texto_original": "Preço Transparente",
+      "tipo": "titulo",
+      "problema": "Label confuso - preço transparente é um conceito, não uma característica binária",
+      "sugestao": "Preço no Site",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 477,
+      "texto_original": "Dados de preço não disponíveis",
+      "tipo": "erro",
+      "problema": "Mensagem de estado vazio genérica e pouco útil. Não orienta o usuário.",
+      "sugestao": "Não encontramos informações de preço para este concorrente",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 488,
+      "texto_original": "Tráfego Pago",
+      "tipo": "titulo",
+      "problema": "Jargão de marketing que usuários podem não entender",
+      "sugestao": "Anúncios Online",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 499,
+      "texto_original": "Investimento Estimado",
+      "tipo": "confuso",
+      "problema": "Pode confundir com o preço do curso, não dos anúncios",
+      "sugestao": "Investimento em Ads (est.)",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 503,
+      "texto_original": "Formatos",
+      "tipo": "titulo",
+      "problema": "Label vago - formatos de quê?",
+      "sugestao": "Tipos de Anúncio",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 514,
+      "texto_original": "Palavras-chave",
+      "tipo": "titulo",
+      "problema": "Termo técnico de SEO/Ads sem explicação",
+      "sugestao": "Termos Buscados",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 528,
+      "texto_original": "Presença Digital",
+      "tipo": "titulo",
+      "problema": "Redundância com nome da página no menu",
+      "sugestao": "Redes Sociais",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 587,
+      "texto_original": "Vulnerabilidades ({selectedCompetitor.vulnerabilidades?.length || 0})",
+      "tipo": "titulo",
+      "problema": "Termo técnico ('Vulnerabilidades') pode assustar ou confundir usuários não técnicos",
+      "sugestao": "Fraquezas ({selectedCompetitor.vulnerabilidades?.length || 0})",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 595,
+      "texto_original": "Nenhuma vulnerabilidade crítica",
+      "tipo": "tom",
+      "problema": "Uso de 'crítica' sem contexto - o que seria uma vulnerabilidade não crítica?",
+      "sugestao": "Nenhuma fraqueza identificada",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 596,
+      "texto_original": "Este concorrente não apresenta vulnerabilidades significativas.",
+      "tipo": "longo",
+      "problema": "Frase longa e formal demais para estado vazio",
+      "sugestao": "Não encontramos pontos fracos para este concorrente.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 604,
+      "texto_original": "{vuln.gravidade}",
+      "tipo": "titulo",
+      "problema": "Label de severidade sem contexto - gravidade de quê?",
+      "sugestao": "Nível: {vuln.gravidade}",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 611,
+      "texto_original": "Como Explorar:",
+      "tipo": "tom",
+      "problema": "Tom agressivo ('Explorar') pode não ser apropriado para todos os contextos de uso",
+      "sugestao": "Oportunidade:",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "components/Dashboard.tsx",
+      "linha": 615,
+      "texto_original": "Contra-ataque:",
+      "tipo": "tom",
+      "problema": "Termo militar/agressivo pode ser inadequado",
+      "sugestao": "Nossa Defesa:",
+      "prioridade": "media"
+    }
+  ],
+  "recomendacoes_gerais": [
+    {
+      "categoria": "Padronização de Terminologia",
+      "prioridade": "alta",
+      "descricao": "O dashboard alterna entre 'Players', 'Concorrentes' e 'Instituições'. Escolher um termo único ('Concorrentes' é mais claro) e aplicar em todos os arquivos.",
+      "arquivos_afetados": ["PresencaDigital.tsx", "MapaPosicionamento.tsx", "Dashboard.tsx"]
+    },
+    {
+      "categoria": "Evitar Anglicismos Desnecessários",
+      "prioridade": "media",
+      "descricao": "Termos como 'Inteligência Competitiva', 'Ads', 'Top', 'Gap', 'Players' podem ser substituídos por equivalentes em português mais naturais.",
+      "arquivos_afetados": ["PresencaDigital.tsx", "Dashboard.tsx", "Layout.tsx"]
+    },
+    {
+      "categoria": "Simplificar Labels de KPI",
+      "prioridade": "media",
+      "descricao": "Muitos labels de KPI são vagos ('Data', 'Tempo', 'Status'). Adicionar contexto ou usar termos mais descritivos.",
+      "arquivos_afetados": ["Dashboard.tsx", "Oportunidades.tsx"]
+    },
+    {
+      "categoria": "Reduzir Jargão Técnico",
+      "prioridade": "media",
+      "descricao": "Termos como 'Vulnerabilidades', 'Tráfego Pago', 'Modalidade', 'Natureza Jurídica' podem ser simplificados para maior acessibilidade.",
+      "arquivos_afetados": ["Dashboard.tsx"]
+    },
+    {
+      "categoria": "Padronizar Tom de Voz",
+      "prioridade": "media",
+      "descricao": "O tom varia entre formal ('Análise Detalhada'), técnico ('Vulnerabilidades') e casual ('Top 10'). Definir um tom único (recomendado: profissional mas acessível).",
+      "arquivos_afetados": ["Todos"]
+    },
+    {
+      "categoria": "Concisão em Subtítulos",
+      "prioridade": "baixa",
+      "descricao": "Vários subtítulos são longos e densos. Preferir frases curtas e diretas.",
+      "arquivos_afetados": ["PresencaDigital.tsx", "Dashboard.tsx"]
+    },
+    {
+      "categoria": "Acessibilidade",
+      "prioridade": "media",
+      "descricao": "Emojis em títulos (🎯, 📊) podem atrapalhar leitores de tela. Mover para fora do texto ou remover.",
+      "arquivos_afetados": ["PresencaDigital.tsx"]
+    },
+    {
+      "categoria": "Estados Vazios",
+      "prioridade": "media",
+      "descricao": "Mensagens como 'Dados de preço não disponíveis' são genéricas. Tornar mais úteis e orientadoras.",
+      "arquivos_afetados": ["Dashboard.tsx"]
+    },
+    {
+      "categoria": "Consistência Visual de Labels",
+      "prioridade": "baixa",
+      "descricao": "Alguns labels usam prefixos ('Impacto: alto') enquanto outros não. Padronizar para cleaner UI.",
+      "arquivos_afetados": ["Oportunidades.tsx", "Dashboard.tsx"]
+    },
+    {
+      "categoria": "Evitar Termos Agressivos",
+      "prioridade": "media",
+      "descricao": "Termos como 'Explorar' (vulnerabilidades) e 'Contra-ataque' podem ser inadequados. Substituir por 'Oportunidade' e 'Defesa'.",
+      "arquivos_afetados": ["Dashboard.tsx"]
+    }
+  ]
+}

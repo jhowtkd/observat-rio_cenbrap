@@ -1,0 +1,313 @@
+{
+  "auditoria": "acessibilidade",
+  "data": "2026-02-06",
+  "arquivos_analisados": [
+    "pages/PresencaDigital.tsx",
+    "pages/Oportunidades.tsx",
+    "components/MapaPosicionamento.tsx",
+    "App.tsx",
+    "components/layout/Layout.tsx"
+  ],
+  "problemas_encontrados": [
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 706,
+      "tipo": "contraste",
+      "descricao": "Texto 'Inteligência Competitiva' usa classe 'text-blue-200' sobre fundo gradiente azul (#1e3c72 → #2a5298). O contraste pode estar abaixo do mínimo 4.5:1 para texto normal.",
+      "wcag_referencia": "WCAG 2.1 - Critério 1.4.3 (Contraste Mínimo - Nível AA)",
+      "sugestao": "Aumentar a luminosidade do texto para text-blue-100 ou usar branco puro (text-white) com opacidade controlada para garantir contraste mínimo de 4.5:1.",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 713,
+      "tipo": "contraste",
+      "descricao": "Texto descritivo usa 'text-blue-100' sobre fundo gradiente azul. Pode não atingir o contraste adequado de 4.5:1.",
+      "wcag_referencia": "WCAG 2.1 - Critério 1.4.3 (Contraste Mínimo - Nível AA)",
+      "sugestao": "Verificar contraste com ferramenta e ajustar para text-white/90 ou similar que garanta 4.5:1.",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 722,
+      "tipo": "contraste",
+      "descricao": "Texto 'text-blue-200' em cards de estatísticas sobre fundo 'bg-white/10' pode ter contraste insuficiente.",
+      "wcag_referencia": "WCAG 2.1 - Critério 1.4.3 (Contraste Mínimo - Nível AA)",
+      "sugestao": "Aumentar opacidade do fundo para bg-white/20 ou usar texto mais claro (text-blue-50).",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 750,
+      "tipo": "semantica",
+      "descricao": "Select de filtro sem label associado. O texto 'Tipo:' está em um span separado sem associação programática ao select.",
+      "wcag_referencia": "WCAG 2.1 - Critério 1.3.1 (Informações e Relações - Nível A) e 4.1.2 (Nome, Função, Valor - Nível A)",
+      "sugestao": "Adicionar atributo 'id' ao select e 'htmlFor' no label, ou usar aria-label/aria-labelledby no elemento select.",
+      "prioridade": "alta"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 762,
+      "tipo": "semantica",
+      "descricao": "Select de plataforma sem label associado. O texto 'Plataforma:' está em span separado.",
+      "wcag_referencia": "WCAG 2.1 - Critério 1.3.1 (Informações e Relações - Nível A) e 4.1.2 (Nome, Função, Valor - Nível A)",
+      "sugestao": "Adicionar aria-label='Filtrar por plataforma' ou associar label via htmlFor/id.",
+      "prioridade": "alta"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 793,
+      "tipo": "contraste",
+      "descricao": "Badge de tipo 'Nicho' usa 'bg-orange-100 text-orange-700'. O contraste pode estar próximo do limite.",
+      "wcag_referencia": "WCAG 2.1 - Critério 1.4.3 (Contraste Mínimo - Nível AA)",
+      "sugestao": "Verificar contraste de orange-700 sobre orange-100. Se necessário, usar orange-800 ou fundo mais escuro.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 877,
+      "tipo": "contraste",
+      "descricao": "Texto da legenda 'text-gray-600' pode ter contraste insuficiente (aproximadamente 4.0:1) sobre fundo branco.",
+      "wcag_referencia": "WCAG 2.1 - Critério 1.4.3 (Contraste Mínimo - Nível AA)",
+      "sugestao": "Alterar para text-gray-700 ou text-gray-800 para garantir contraste mínimo de 4.5:1.",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 1067,
+      "tipo": "semantica",
+      "descricao": "Uso de emoji '🎯' no início do título sem alternativa textual para leitores de tela.",
+      "wcag_referencia": "WCAG 2.1 - Critério 1.1.1 (Conteúdo Não Textual - Nível A)",
+      "sugestao": "Adicionar aria-label no elemento ou usar sr-only para descrever o significado do emoji, ou mover emoji para pseudo-elemento CSS.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "pages/PresencaDigital.tsx",
+      "linha": 1067,
+      "tipo": "contraste",
+      "descricao": "Título 'text-blue-200' sobre fundo gradiente azul pode ter contraste insuficiente.",
+      "wcag_referencia": "WCAG 2.1 - Critério 1.4.3 (Contraste Mínimo - Nível AA)",
+      "sugestao": "Usar text-white ou text-blue-50 para garantir contraste adequado.",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "pages/Oportunidades.tsx",
+      "linha": 283,
+      "tipo": "semantica",
+      "descricao": "Estado de carregamento usa spinner animado sem texto alternativo ou aria-label descrevendo o estado.",
+      "wcag_referencia": "WCAG 2.1 - Critério 4.1.3 (Mensagens de Status - Nível AA)",
+      "sugestao": "Adicionar role='status' e aria-live='polite' no container, ou adicionar texto sr-only descrevendo 'Carregando oportunidades'.",
+      "prioridade": "alta"
+    },
+    {
+      "arquivo": "pages/Oportunidades.tsx",
+      "linha": 303,
+      "tipo": "contraste",
+      "descricao": "Texto 'text-zinc-500' sobre fundo preto (#000) tem contraste aproximado de 4.0:1, abaixo do mínimo de 4.5:1.",
+      "wcag_referencia": "WCAG 2.1 - Critério 1.4.3 (Contraste Mínimo - Nível AA)",
+      "sugestao": "Alterar para text-zinc-400 ou mais claro para garantir contraste mínimo de 4.5:1.",
+      "prioridade": "alta"
+    },
+    {
+      "arquivo": "pages/Oportunidades.tsx",
+      "linha": 327,
+      "tipo": "contraste",
+      "descricao": "Texto 'text-zinc-400' em cards de KPI pode ter contraste insuficiente sobre fundo zinc-900/50.",
+      "wcag_referencia": "WCAG 2.1 - Critério 1.4.3 (Contraste Mínimo - Nível AA)",
+      "sugestao": "Verificar contraste e ajustar para text-zinc-300 ou text-white/80 se necessário.",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "pages/Oportunidades.tsx",
+      "linha": 380,
+      "tipo": "semantica",
+      "descricao": "Selects de filtro sem labels associados. Não há aria-label ou elemento label vinculado.",
+      "wcag_referencia": "WCAG 2.1 - Critério 1.3.1 (Informações e Relações - Nível A) e 4.1.2 (Nome, Função, Valor - Nível A)",
+      "sugestao": "Adicionar aria-label='Filtrar por categoria' e aria-label='Filtrar por impacto' nos selects.",
+      "prioridade": "alta"
+    },
+    {
+      "arquivo": "pages/Oportunidades.tsx",
+      "linha": 427,
+      "tipo": "contraste",
+      "descricao": "Badge 'bg-zinc-800 text-zinc-400' pode ter contraste insuficiente.",
+      "wcag_referencia": "WCAG 2.1 - Critério 1.4.3 (Contraste Mínimo - Nível AA)",
+      "sugestao": "Verificar contraste e ajustar para text-zinc-300 ou bg-zinc-700 se necessário.",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "pages/Oportunidades.tsx",
+      "linha": 445,
+      "tipo": "contraste",
+      "descricao": "Texto 'text-zinc-400' em descrições pode ter contraste insuficiente sobre fundo escuro.",
+      "wcag_referencia": "WCAG 2.1 - Critério 1.4.3 (Contraste Mínimo - Nível AA)",
+      "sugestao": "Aumentar para text-zinc-300 para garantir contraste adequado.",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "pages/Oportunidades.tsx",
+      "linha": 454,
+      "tipo": "contraste",
+      "descricao": "Texto 'text-zinc-500' em labels de métricas tem contraste insuficiente.",
+      "wcag_referencia": "WCAG 2.1 - Critério 1.4.3 (Contraste Mínimo - Nível AA)",
+      "sugestao": "Alterar para text-zinc-400 ou mais claro.",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "pages/Oportunidades.tsx",
+      "linha": 463,
+      "tipo": "contraste",
+      "descricao": "Texto 'text-zinc-500' em 'Ações recomendadas' pode ter contraste insuficiente.",
+      "wcag_referencia": "WCAG 2.1 - Critério 1.4.3 (Contraste Mínimo - Nível AA)",
+      "sugestao": "Ajustar para text-zinc-400 para melhor legibilidade.",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "components/MapaPosicionamento.tsx",
+      "linha": 80,
+      "tipo": "semantica",
+      "descricao": "O subtítulo 'text-sm text-gray-500' é um parágrafo descritivo mas poderia ter maior destaque semântico.",
+      "wcag_referencia": "WCAG 2.1 - Critério 2.4.6 (Cabeçalhos e Labels - Nível AA)",
+      "sugestao": "Considerar adicionar aria-describedby no h2 apontando para este texto, ou garantir que seja lido por leitores de tela.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/MapaPosicionamento.tsx",
+      "linha": 88,
+      "tipo": "contraste",
+      "descricao": "Texto 'text-gray-700' na legenda pode ter contraste limite sobre fundo branco (aproximadamente 4.5:1).",
+      "wcag_referencia": "WCAG 2.1 - Critério 1.4.3 (Contraste Mínimo - Nível AA)",
+      "sugestao": "Verificar contraste exato e considerar text-gray-800 para margem de segurança.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/MapaPosicionamento.tsx",
+      "linha": 167,
+      "tipo": "contraste",
+      "descricao": "Labels dos quadrantes usam 'text-gray-400' com 'bg-white/80'. O contraste pode ser insuficiente.",
+      "wcag_referencia": "WCAG 2.1 - Critério 1.4.3 (Contraste Mínimo - Nível AA)",
+      "sugestao": "Aumentar para text-gray-600 ou text-gray-700 para garantir contraste adequado.",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "components/MapaPosicionamento.tsx",
+      "linha": 195,
+      "tipo": "contraste",
+      "descricao": "Texto 'text-xs text-gray-500' em diferenciais pode ter contraste insuficiente.",
+      "wcag_referencia": "WCAG 2.1 - Critério 1.4.3 (Contraste Mínimo - Nível AA)",
+      "sugestao": "Ajustar para text-gray-600 para garantir contraste mínimo, especialmente por ser texto pequeno.",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "components/layout/Layout.tsx",
+      "linha": 98,
+      "tipo": "semantica",
+      "descricao": "O subtítulo 'Inteligência Competitiva' é um div sem marcação semântica adequada.",
+      "wcag_referencia": "WCAG 2.1 - Critério 1.3.1 (Informações e Relações - Nível A)",
+      "sugestao": "Considerar usar <span role='doc-subtitle'> ou estrutura de heading adequada para hierarquia.",
+      "prioridade": "baixa"
+    },
+    {
+      "arquivo": "components/layout/Layout.tsx",
+      "linha": 106,
+      "tipo": "teclado",
+      "descricao": "Links de navegação (NavLink) não têm estados focus-visible explicitamente definidos.",
+      "wcag_referencia": "WCAG 2.1 - Critério 2.4.7 (Foco Visível - Nível AA)",
+      "sugestao": "Adicionar estilos focus-visible aos links de navegação para garantir indicador de foco visível.",
+      "prioridade": "alta"
+    },
+    {
+      "arquivo": "components/layout/Layout.tsx",
+      "linha": 127,
+      "tipo": "aria",
+      "descricao": "Botões de expansão de tópicos não têm aria-expanded indicando estado.",
+      "wcag_referencia": "WCAG 2.1 - Critério 4.1.2 (Nome, Função, Valor - Nível A)",
+      "sugestao": "Adicionar aria-expanded={expandedTopics.has(topic.id)} ao botão para indicar estado de expansão.",
+      "prioridade": "alta"
+    },
+    {
+      "arquivo": "components/layout/Layout.tsx",
+      "linha": 154,
+      "tipo": "contraste",
+      "descricao": "Texto com cor '#a1a1aa' (zinc-400) sobre fundo '#111' pode ter contraste insuficiente.",
+      "wcag_referencia": "WCAG 2.1 - Critério 1.4.3 (Contraste Mínimo - Nível AA)",
+      "sugestao": "Verificar contraste e ajustar para zinc-300 ou mais claro se necessário.",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "components/layout/Layout.tsx",
+      "linha": 173,
+      "tipo": "contraste",
+      "descricao": "Texto 'text-zinc-400' em 'Data' pode ter contraste insuficiente.",
+      "wcag_referencia": "WCAG 2.1 - Critério 1.4.3 (Contraste Mínimo - Nível AA)",
+      "sugestao": "Ajustar para text-zinc-300 para garantir contraste adequado.",
+      "prioridade": "media"
+    },
+    {
+      "arquivo": "App.tsx",
+      "linha": 18,
+      "tipo": "semantica",
+      "descricao": "Componente Agentation renderizado condicionalmente em DEV não tem atributos de acessibilidade.",
+      "wcag_referencia": "WCAG 2.1 - Critério 4.1.2 (Nome, Função, Valor - Nível A)",
+      "sugestao": "Garantir que o componente Agentation tenha atributos de acessibilidade adequados ou seja oculto de leitores de tela via aria-hidden se não for relevante.",
+      "prioridade": "baixa"
+    }
+  ],
+  "recomendacoes_gerais": [
+    {
+      "categoria": "Contraste de Cores",
+      "recomendacao": "Implementar verificação sistemática de contraste usando ferramentas como o contrast checker do WebAIM. Priorizar correção de textos zinc-500 sobre fundo escuro e textos coloridos sobre gradientes.",
+      "prioridade": "alta"
+    },
+    {
+      "categoria": "Formulários e Labels",
+      "recomendacao": "Todos os elementos de formulário (selects, inputs) devem ter labels associados via htmlFor/id ou aria-label descritivo. Isso é crítico para leitores de tela.",
+      "prioridade": "alta"
+    },
+    {
+      "categoria": "Navegação por Teclado",
+      "recomendacao": "Adicionar estilos focus-visible consistentes em todos os elementos interativos (links, botões, selects). Garantir ordem de tabulação lógica.",
+      "prioridade": "alta"
+    },
+    {
+      "categoria": "ARIA e Semântica",
+      "recomendacao": "Implementar atributos ARIA em componentes interativos: aria-expanded em acordeões, aria-label em botões de ícone, role e aria-live em estados de carregamento.",
+      "prioridade": "media"
+    },
+    {
+      "categoria": "Hierarquia de Cabeçalhos",
+      "recomendacao": "Revisar estrutura de headings (h1-h6) para garantir hierarquia lógica sem saltos. Usar apenas um h1 por página.",
+      "prioridade": "media"
+    },
+    {
+      "categoria": "Estados de Carregamento",
+      "recomendacao": "Todos os estados de carregamento devem ser anunciados por leitores de tela usando aria-live regions ou role='status'.",
+      "prioridade": "media"
+    },
+    {
+      "categoria": "Landmarks ARIA",
+      "recomendacao": "Considerar adicionar landmarks semânticos (role='main', role='navigation', role='complementary') para facilitar navegação por regiões.",
+      "prioridade": "baixa"
+    },
+    {
+      "categoria": "Skip Links",
+      "recomendacao": "Adicionar 'skip to content' link no início da página para permitir que usuários de teclado pulem a navegação repetitiva.",
+      "prioridade": "baixa"
+    }
+  ],
+  "resumo_executivo": {
+    "total_problemas": 27,
+    "por_prioridade": {
+      "alta": 6,
+      "media": 16,
+      "baixa": 5
+    },
+    "por_categoria": {
+      "contraste": 15,
+      "semantica": 6,
+      "aria": 2,
+      "teclado": 1
+    },
+    "observacoes": "A maioria dos problemas está relacionada a contraste de cores, especialmente em temas escuros (Oportunidades.tsx) e elementos sobre gradientes. Os problemas de semântica em formulários são críticos e devem ser priorizados."
+  }
+}

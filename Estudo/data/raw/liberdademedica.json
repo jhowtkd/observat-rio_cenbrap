@@ -1,0 +1,35 @@
+{
+  "nome": "Liberdade Médica",
+  "site": "https://liberdademedicaedu.com.br",
+  "segmento": "Pós-graduação médica nicho - Medicina de Emergência e Intensiva",
+  "descricao": "Pós-graduação com dupla certificação focada no atendimento de pacientes críticos. Formação completa para médicos que desejam se tornar especialistas em UTI, Sala Vermelha e Pronto-Socorro.",
+  "duracao": "14 meses",
+  "certificacao": "Dupla certificação MEC",
+  "modalidade": "Aulas online e ao vivo",
+  "diferenciais": [
+    "Dupla certificação em um único programa",
+    "Foco total em pacientes críticos",
+    "Corpo docente de excelência (instrutores AHA)",
+    "Comunidade exclusiva para suporte em plantões",
+    "Método baseado em evidências",
+    "Prática intensiva"
+  ],
+  "coordenadores": [
+    {
+      "nome": "Dr. Ian Camilo",
+      "especialidade": "Medicina de Emergência",
+      "credenciais": "ACLS/BLS Instructor (AHA), Pós-graduado pelo Hospital Albert Einstein"
+    },
+    {
+      "nome": "Dr. Rodrigo Cleto",
+      "especialidade": "Medicina Intensiva",
+      "credenciais": "Cardiologista, Intensivista, Coordenador de UTI há 20+ anos"
+    }
+  ],
+  "publico_alvo": "Médicos que desejam expertise em ambientes críticos (UTI, Sala Vermelha, Pronto-Socorro)",
+  "cta": "Vagas limitadas para próxima turma",
+  "links": {
+    "matricula": "https://liberdademedicaedu.com.br",
+    "lista_espera": "Disponível"
+  }
+}

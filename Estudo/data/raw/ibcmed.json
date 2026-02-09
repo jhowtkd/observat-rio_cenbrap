@@ -1,0 +1,70 @@
+{
+  "nome": "IBCMED / Inspirali Pós Medicina",
+  "site": "https://ibcmed.com",
+  "segmento": "Pós-Graduação e MBA em Medicina",
+  "descricao": "O IBCMED e MedPós agora são Inspirali Pós Medicina. Instituição integrada ao maior ecossistema de educação médica do Brasil (Inspirali), com mais de 14 escolas de medicina. Cursos em diversas áreas com foco na prática clínica.",
+  "ecossistema": "Inspirali",
+  "escolas_medicina": "14+",
+  "cursos_destaque": [
+    {
+      "nome": "Pediatria",
+      "descricao": "Curso flexível e completo para atuação clínica"
+    },
+    {
+      "nome": "Dermatologia",
+      "descricao": "Curso híbrido com foco na prática e aprendizado de novas técnicas"
+    },
+    {
+      "nome": "Psiquiatria",
+      "descricao": "Foco nas principais doenças que afetam a população"
+    }
+  ],
+  "modalidades": [
+    "Pós-Graduação",
+    "MBA",
+    "Graduação (via Inspirali)"
+  ],
+  "instituicoes_integradas": [
+    "IBCMED",
+    "MedPós",
+    "Inspirali"
+  ],
+  "depoimentos": [
+    {
+      "aluno": "Dra. Layla Duarte",
+      "curso": "Ginecologia e Obstetrícia"
+    },
+    {
+      "aluno": "Dra. Estefania Diniz",
+      "curso": "Pediatria"
+    },
+    {
+      "aluno": "Dra. Gabriela Galeano",
+      "curso": "Psiquiatria"
+    }
+  ],
+  "diferenciais": [
+    "Integração ao ecossistema Inspirali (14+ escolas)",
+    "Maior ecossistema de educação médica do Brasil",
+    "Cursos pensados para impulsionar carreira",
+    "Formação sólida e abrangente",
+    "Docentes com experiência prática",
+    "Reconhecimento MEC"
+  ],
+  "contato": {
+    "telefone": "+55 (31) 3181-4055",
+    "email": "jornadaestudante.emc@inspirali.com",
+    "whatsapp": "https://wa.me/3131814055"
+  },
+  "redes_sociais": {
+    "facebook": "https://www.facebook.com/inspirali.pos",
+    "tiktok": "https://www.tiktok.com/@inspirali.pos",
+    "instagram": "https://www.instagram.com/inspirali.posmedicina/",
+    "linkedin": "https://www.linkedin.com/company/inspiralipos/",
+    "youtube": "https://www.youtube.com/@inspirali.posmedicina"
+  },
+  "links_oficiais": {
+    "emec": "https://emec.mec.gov.br/emec/consulta-cadastro/detalhamento/d96957f455f6405d14c6",
+    "inspirali": "https://www.inspirali.com/cursos-para-medicos/"
+  }
+}

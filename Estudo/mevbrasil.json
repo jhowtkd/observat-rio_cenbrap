@@ -1,0 +1,106 @@
+{
+  "nome": "MEV Brasil",
+  "site": "https://mevbrasil.com.br",
+  "segmento": "Escola Brasileira de Medicina do Estilo de Vida",
+  "descricao": "Escola pioneira no ensino exclusivo em Medicina do Estilo de Vida do Brasil. Ecossistema de soluções para o médico especialista que busca gerar mais resultados para os seus pacientes.",
+  "tempo_atuacao": "5 anos",
+  "comunidade": "1100+ médicos",
+  "pilares": [
+    "Somos uma escola",
+    "Somos uma tribo",
+    "Somos um ecossistema"
+  ],
+  "produtos": [
+    {
+      "nome": "MEV Clinic",
+      "descricao": "Formação completa para médicos - Se torne um especialista em mudança dominando as ferramentas e técnicas da ciência da mudança",
+      "url": "./mevclinic"
+    },
+    {
+      "nome": "MEV Change",
+      "descricao": "Programa de transformação",
+      "url": "./mevchange"
+    },
+    {
+      "nome": "MEV Books",
+      "descricao": "Livros e materiais didáticos",
+      "url": "./mevbooks"
+    },
+    {
+      "nome": "MEV Plan",
+      "descricao": "Ferramenta personalizada de avaliação do estilo de vida dos pacientes - Exclusiva de alunos mevbrasil",
+      "url": "./mevplan/onboarding"
+    }
+  ],
+  "eventos": [
+    {
+      "nome": "MevConf",
+      "descricao": "Conferência Regional de Medicina do Estilo de Vida",
+      "edicoes": "Goiânia e outras cidades"
+    },
+    {
+      "nome": "Imersão em Planos de Acompanhamento",
+      "descricao": "Descubra a estratégia por trás dos consultórios médicos que estão prosperando colocando o paciente no centro"
+    }
+  ],
+  "conteudos": [
+    {
+      "tipo": "Podcast",
+      "plataforma": "Spotify"
+    },
+    {
+      "tipo": "Eventos",
+      "descricao": "Presenciais e online"
+    },
+    {
+      "tipo": "Formações",
+      "descricao": "Cursos completos"
+    },
+    {
+      "tipo": "Comunidade",
+      "descricao": "Interação entre médicos"
+    },
+    {
+      "tipo": "Pesquisa",
+      "descricao": "Evidências científicas"
+    }
+  ],
+  "professores_destaque": [
+    {
+      "nome": "Antonio G. Laurinavicius",
+      "especialidade": "Cardiologia",
+      "credenciais": "Cardiologista pelo InCor e Doutor em Ciências pela Faculdade de Medicina da USP, responsável pelo ambulatório de Medicina do Estilo de Vida do IDPC"
+    },
+    {
+      "nome": "Marcos Lange",
+      "especialidade": "Neurologia",
+      "credenciais": "Neurologista, diretor da Comissão de Medicina do Estilo de Vida da Academia Brasileira de Neurologia"
+    },
+    {
+      "nome": "Diandro Mota",
+      "especialidade": "Cardiologia",
+      "credenciais": "Cardiologista PhD (USP), Diretor Médico da Neomed, cardiologista assistente no Instituto Dante Pazzanese de Cardiologia (IDPC)"
+    },
+    {
+      "nome": "Luiz Carlos Junior",
+      "especialidade": "Psiquiatria"
+    }
+  ],
+  "o_que_e_mev": "A Medicina do Estilo de Vida é uma abordagem de saúde que utiliza as ferramentas e técnicas da ciência da mudança para promover intervenções de estilo de vida de maneira mais efetiva, tendo como eixo central a avaliação e intervenções de estilo de vida (Alimentação, Movimento, Sono, Conexões Sociais, Gerenciamento do Estresse, Redução de Tóxicos), a fim de prevenir, tratar e remitir doenças crônicas associadas ao estilo de vida.",
+  "diferenciais": [
+    "Pioneira no ensino exclusivo em Medicina do Estilo de Vida do Brasil",
+    "Ecossistema completo (escola + comunidade + ferramentas)",
+    "MEV Plan - Ferramenta exclusiva de avaliação do estilo de vida",
+    "Professores que vivem a MEV na prática",
+    "Foco na geração de resultados para pacientes",
+    "Metodologias para a prática clínica brasileira"
+  ],
+  "contato": {
+    "whatsapp": "+55 11 91548-2210"
+  },
+  "redes_sociais": {
+    "linkedin": "https://www.linkedin.com/company/mevbrasil",
+    "instagram": "https://www.instagram.com/mevbrasil/"
+  },
+  "extraido_em": "2026-02-06"
+}

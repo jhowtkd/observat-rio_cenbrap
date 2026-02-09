@@ -1,0 +1,112 @@
+{
+  "nome": "Instituto CDT",
+  "site": "https://institutocdt.com.br",
+  "segmento": "Pós-Graduação prática hands-on em Medicina",
+  "descricao": "Instituto CDT oferece pós-graduação com método Dr. Thiago Amorim. Mais de 21.000 alunos. Foco em cursos hands-on, imersões presenciais e formação prática para médicos.",
+  "fundador": "Dr. Thiago Amorim",
+  "alunos": "21.000+",
+  "avaliacoes": "229 avaliações",
+  "pilares": [
+    "Transformar a medicina brasileira",
+    "Criar médicos resolvedores de problemas",
+    "Gerar novas oportunidades de emprego e maior remuneração para os alunos"
+  ],
+  "categorias": {
+    "pos_graduacoes": [
+      {
+        "nome": "Medicina Intervencionista da Dor",
+        "coordenador": "Dra. Isabela Dantas"
+      },
+      {
+        "nome": "Rinoplastia",
+        "coordenador": "Dr. Thiago Fraga"
+      },
+      {
+        "nome": "Medicina Estética",
+        "coordenador": "Dra. Renata Araújo"
+      },
+      {
+        "nome": "Medicina de Emergência (Híbrido/EAD)",
+        "coordenador": "Dr. Vinicius Sauerressig"
+      },
+      {
+        "nome": "Emergências Pediátricas e Neonatais (Híbrido/EAD)",
+        "coordenador": "Dra. Caline Daisy"
+      },
+      {
+        "nome": "Medicina Intensiva (Híbrido/EAD)",
+        "coordenador": "Dr. Itamar Regazzo"
+      },
+      {
+        "nome": "Medicina da Dor (Híbrido/EAD)",
+        "coordenador": "Dra. Isabela Dantas"
+      },
+      {
+        "nome": "Nutrologia (Híbrido/EAD)",
+        "coordenador": "Dr. Manoel Quintino (Harvard Medical School)"
+      },
+      {
+        "nome": "Psiquiatria (EAD)",
+        "coordenador": "Dr. Alexandre Matsuo Nomura"
+      },
+      {
+        "nome": "Endocrinologia (Híbrido/EAD)",
+        "coordenador": "Dra. Thaísa Carvalho Fernandes"
+      },
+      {
+        "nome": "Medicina Paliativa (EAD)",
+        "coordenador": "Dr. Jonathan Vinicius"
+      },
+      {
+        "nome": "Medicina Legal e Perícia Médica (EAD)",
+        "coordenador": "Dra. Ana Elizabete Carvalheira"
+      },
+      {
+        "nome": "Medicina do Trabalho (EAD)",
+        "coordenador": "Dr. Alexandre de Castro Costa"
+      },
+      {
+        "nome": "Medicina do Exercício e do Esporte (Híbrido/EAD)",
+        "coordenador": "Dr. Paulo Victor Dias Macedo"
+      }
+    ],
+    "imersoes": [
+      "ACLS - Advanced Cardiovascular Life Support",
+      "Via Aérea Avançada com Cadáveres Frescos",
+      "Acesso Venoso Central em Cadáveres",
+      "Ultrassonografia Point-of-Care"
+    ],
+    "cursos": [
+      "Intubação Orotraqueal Pediátrica",
+      "Aperfeiçoamento Intubação Orotraqueal",
+      "Ventilação Mecânica",
+      "Guia de Punções"
+    ],
+    "livros": [
+      "Manual Prático de Ventilação Mecânica",
+      "Manual Prático de Sedação Avançada",
+      "Manual Prático de Intubação Orotraqueal",
+      "A Bíblia do ECG",
+      "Manual Prático de Agentes Vasoativos",
+      "Manual Prático de Procedimentos Médicos"
+    ]
+  },
+  "diferenciais": [
+    "Método Dr. Thiago Amorim",
+    "Abordagem extremamente prática",
+    "Suporte ao aluno forte",
+    "Mais de 21.000 alunos",
+    "Imersões com cadáveres frescos",
+    "Cursos hands-on",
+    "Livros técnicos próprios"
+  ],
+  "redes_sociais": {
+    "youtube": "https://www.youtube.com/channel/UCmljj6vCQ2ZGv4832SRoq0g",
+    "tiktok": "https://www.tiktok.com/@drthiago",
+    "instagram": "https://www.instagram.com/institutocdt/",
+    "linkedin": "https://www.linkedin.com/company/81813900/"
+  },
+  "contato": {
+    "whatsapp": "+55 83 99115-8909"
+  }
+}

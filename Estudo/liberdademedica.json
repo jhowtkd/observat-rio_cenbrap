@@ -1,0 +1,70 @@
+{
+  "nome": "Liberdade Médica Educação",
+  "site": "https://liberdademedicaedu.com.br",
+  "segmento": "Pós-graduação médica - Medicina de Emergência e Medicina Intensiva",
+  "descricao": "Pós-Graduação em Paciente Grave oferece abordagem exclusiva para médicos que desejam se tornar especialistas no atendimento de pacientes críticos, com foco total no diagnóstico preciso, prognóstico eficaz e prática clínica avançada.",
+  "missao": "Preparar médicos para avaliar e tratar pacientes graves de forma segura e assertiva, proporcionando resultados rápidos, duradouros e alinhados às melhores práticas da medicina baseada em evidências.",
+  "cursos": [
+    {
+      "nome": "Pós-Graduação em Medicina de Emergência e Medicina Intensiva - Paciente Grave",
+      "duracao": "14 meses",
+      "modalidade": "Aulas online e ao vivo",
+      "certificacao": "Dupla certificação (duas pós-graduações em um único programa)",
+      "reconhecimento": "MEC",
+      "publico_alvo": "Médicos que desejam se tornar especialistas no atendimento de pacientes críticos"
+    }
+  ],
+  "diferenciais": [
+    "Dupla certificação em um único programa",
+    "Foco na prática e aplicabilidade real",
+    "Aulas online e ao vivo",
+    "Reconhecido pelo MEC",
+    "Baseado em evidências científicas",
+    "Comunidade exclusiva para suporte nos plantões",
+    "Discussão de casos clínicos em tempo real"
+  ],
+  "professores": [
+    {
+      "nome": "Dr. Ian Camilo",
+      "especialidade": "Medicina de Emergência",
+      "credenciais": "ACLS/BLS Instructor (AHA), Pós-graduado pelo Hospital Albert Einstein, Graduado em Medicina pela UFMG",
+      "atuacao": "Diarista na UTI1 do Hospital Jacob Facuri, Professor Universitário na Disciplina de Urgência e Emergência e Preceptor do internato de Clínica Médica"
+    },
+    {
+      "nome": "Dr. Rodrigo Cleto",
+      "especialidade": "Medicina Intensiva",
+      "credenciais": "Titulado em Clínica Médica, Cardiologia e Medicina Intensiva, ACLS/BLS Instructor (AHA)",
+      "atuacao": "Co-fundador da Liberdade Médica Educação, Coordenador de UTI há mais de 20 anos"
+    }
+  ],
+  "objetivos_formacao": [
+    "Expertise em Ambientes Críticos - Desenvolver expertise no manejo de pacientes graves em UTI, Sala Vermelha e Pronto-Socorro",
+    "Confiança e Domínio Técnico - Conquistar confiança e domínio técnico em cuidados intensivos e emergências médicas",
+    "Dupla Certificação - Potencializar currículo com duas Pós-Graduações",
+    "Carreira de Excelência - Construir carreira sólida capacitando-se para salvar vidas"
+  ],
+  "recursos": [
+    "Colaboração em tempo real",
+    "Comunidade exclusiva",
+    "Suporte nos plantões",
+    "Discussão de casos clínicos em tempo real"
+  ],
+  "reconhecimentos": [
+    "Reconhecido pelo MEC"
+  ],
+  "contato": {
+    "metodo": "Lista de espera via site",
+    "botoes": ["Fazer Matrícula", "Iniciar minha jornada", "Quero ser avisado da próxima turma"]
+  },
+  "faq": [
+    "A pós-graduação é reconhecida pelo MEC?",
+    "Ainda estou na faculdade, posso me inscrever?",
+    "Estou fazendo a residência, posso me inscrever?",
+    "Como funciona o pagamento?",
+    "Qual é a duração do curso?",
+    "Como funciona o cancelamento ou trancamento?",
+    "Onde encontro o cronograma das aulas?",
+    "Em qual região ocorrem as aulas práticas presenciais?"
+  ],
+  "extraido_em": "2026-02-06"
+}

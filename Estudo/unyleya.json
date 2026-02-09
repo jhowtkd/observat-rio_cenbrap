@@ -1,0 +1,104 @@
+{
+  "nome": "Unyleya",
+  "site": "https://unyleya.edu.br",
+  "segmento": "Graduação e Pós-Graduação EAD - Multidisciplinar",
+  "descricao": "Pioneira em EAD e Líder em Pós-Graduação no Brasil. Atuação em todo Brasil e no Exterior com cursos de Pós-graduação e Graduação.",
+  "numeros": {
+    "cursos": "+1.800",
+    "convenios": "+2.500",
+    "alunos": "+500 mil",
+    "colaboradores": "+3.000",
+    "tempo_atuacao": "Pioneira em EAD"
+  },
+  "produtos": [
+    {
+      "nome": "Graduação EAD",
+      "descricao": "Cursos de graduação a distância"
+    },
+    {
+      "nome": "Pós-Graduação EAD",
+      "descricao": "Cursos de pós-graduação e MBA",
+      "cursos": "+1.800"
+    },
+    {
+      "nome": "Atualização Profissional",
+      "url": "https://unyleyaplay.com.br",
+      "descricao": "Cursos de curta duração"
+    }
+  ],
+  "marcas_especializadas": [
+    {
+      "nome": "UnyleyaCannabis",
+      "url": "https://unyleyacannabis.com.br",
+      "foco": "Medicina canabinoide"
+    },
+    {
+      "nome": "UnyleyaOdonto",
+      "url": "https://unyleyaodonto.com.br",
+      "foco": "Odontologia"
+    },
+    {
+      "nome": "UnyleyaMED",
+      "url": "https://unyleyamed.com.br",
+      "foco": "Medicina"
+    },
+    {
+      "nome": "UnyleyaVET",
+      "url": "https://unyleyavet.com.br",
+      "foco": "Medicina Veterinária"
+    }
+  ],
+  "vantagens": [
+    "UnyVantagens: descontos exclusivos em +10mil estabelecimentos",
+    "Bolsas de estudos para cursos de inglês",
+    "Centro de Carreiras",
+    "Ensino digital",
+    "Indique&Ganhe: receba até R$ 500,00 por matrícula",
+    "Melhor app do mercado, estude até offline",
+    "Reconhecido pelo MEC",
+    "Metodologia Inovadora",
+    "Microsoft 365 gratuito",
+    "Cursos alinhados ao mercado de trabalho",
+    "Presente em todos os estados e DF",
+    "Portal do Egresso com cursos gratuitos e descontos especiais",
+    "Professores com formação e experiência na área"
+  ],
+  "areas_pos_graduacao": [
+    "Administração Pública", "Agronomia", "Arquitetura e Urbanismo", "Artes e Música",
+    "Auditoria, Contabilidade e Finanças", "Biologia", "Biomedicina", "Cannabis",
+    "Ciência da Informação", "Ciências Agrárias e Agronegócio", "Ciências Ambientais",
+    "Ciências Biológicas", "Ciências Exatas", "Ciências Sociais Aplicadas", "Coaching",
+    "Comércio Exterior", "Comunicação Organizacional", "Comunicação Social",
+    "Concursos Públicos", "Diagnóstico e Imagem", "Direito", "Direitos Humanos",
+    "Docência", "Economia", "Educação e Magistério", "Educação Física", "Enfermagem",
+    "Engenharia", "Esportes", "Estética", "Farmácia", "Filosofia", "Fisioterapia",
+    "Fitoterapia", "Fonoaudiologia", "Gastronomia", "Gestão", "Gestão Bancária",
+    "Jornalismo", "Licitações e Contratos", "Língua Portuguesa", "Logística",
+    "Marketing", "Matemática e Estatística", "MBA", "Medicina", "Medicina Veterinária",
+    "Meio Ambiente e Sustentabilidade", "Moda", "Nutrição", "Odontologia",
+    "Petróleo e Gás", "Poder Judiciário", "Políticas Públicas", "Portos e Navegação",
+    "Psicologia", "Publicidade", "Química", "Recursos Humanos", "Relações Internacionais",
+    "Saúde e Bem-Estar", "Saúde Mental", "Segurança do Trabalho",
+    "Segurança Pública e Inteligência", "Seguros e Previdência", "Serviço Social",
+    "Sociologia", "Tecnologia da Informação", "Teologia", "Trânsito e Tráfego"
+  ],
+  "parcerias_internacionais": [
+    "Universidade de Aveiro (Portugal)",
+    "Universidade de Valladolid (Espanha)"
+  ],
+  "reconhecimento": "MEC",
+  "contato": {
+    "portal_aluno": "https://portalaluno.unyleya.edu.br",
+    "portal_egresso": "https://portalegresso.unyleya.edu.br",
+    "ouvidoria": "https://unyleya.edu.br/ouvidoria"
+  },
+  "redes_sociais": {
+    "facebook": "https://www.facebook.com/faculdadeunyleya",
+    "instagram": "https://www.instagram.com/faculdadeunyleya/",
+    "twitter": "https://twitter.com/Unyleya",
+    "linkedin": "https://www.linkedin.com/company/unyleyaeducacional/",
+    "youtube": "https://www.youtube.com/@faculdade.unyleya",
+    "tiktok": "https://www.tiktok.com/@unyleya"
+  },
+  "extraido_em": "2026-02-06"
+}
