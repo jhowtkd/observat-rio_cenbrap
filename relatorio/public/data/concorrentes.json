@@ -1736,11 +1736,15 @@
         "tom_voz": "Profissional, científico, confiável"
       },
       "oferta": {
-        "valor_total": 7200,
-        "valor_mensal": 600,
-        "duracao_meses": 12,
+        "preco_avista": 17415,
+        "preco_parcelado": "15x R$ 1.290,00",
+        "valor_total": 19350,
+        "desconto_a_vista": "10% (R$ 17.415)",
+        "garantia": null,
+        "parcelamento_max": 15,
+        "bonus_inclusos": [],
         "preco_transparente": true,
-        "observacao_preco": "Preço transparente no site"
+        "observacao_preco": "Mensalidade: 15x R$ 1.290. À vista com 10% de desconto: R$ 17.415."
       },
       "operacional": {
         "cidade_sede": "São Paulo",
