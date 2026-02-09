@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>CENBRAP Dashboard - Dark Mode Edition</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined|Material+Icons+Round" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Roboto', 'sans-serif'],
+            display: ['Roboto', 'sans-serif'],
+          },
+          colors: {
+            primary: "#F97316",
+            secondary: "#3B82F6",
+            success: "#10B981",
+            warning: "#F59E0B",
+            danger: "#EF4444",
+            "background-dark": "#121212",
+            "surface-dark": "#1E1E1E",
+            "surface-glass": "rgba(30, 30, 30, 0.60)",
+            "text-dark": "#E5E7EB",
+            "text-muted": "#9CA3AF",
+            "card-dark": "#1E1E1E",
+            "sidebar-dark": "#0A0A0A",
+            "border-dark": "rgba(255, 255, 255, 0.08)"
+          },
+          backgroundImage: {
+            'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+            'card-gradient': 'linear-gradient(145deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.01) 100%)',
+            'active-sidebar-gradient': 'linear-gradient(90deg, rgba(59, 130, 246, 0.15) 0%, rgba(59, 130, 246, 0.02) 100%)',
+            'icon-glow-orange': 'radial-gradient(circle, rgba(249, 115, 22, 0.2) 0%, rgba(249, 115, 22, 0) 70%)',
+            'icon-glow-blue': 'radial-gradient(circle, rgba(59, 130, 246, 0.2) 0%, rgba(59, 130, 246, 0) 70%)',
+            'icon-glow-green': 'radial-gradient(circle, rgba(16, 185, 129, 0.2) 0%, rgba(16, 185, 129, 0) 70%)',
+          },
+          borderRadius: {
+            DEFAULT: "16px",
+            'xl': "24px",
+            '2xl': "28px",
+          },
+          boxShadow: {
+            'glass': '0 4px 30px rgba(0, 0, 0, 0.1)',
+            'glow': '0 0 15px rgba(59, 130, 246, 0.1)',
+          }
+        },
+      },
+    };
+  </script>
+  <style>
+    body {
+      background-color: #121212;
+      color: #E5E7EB;
+    }
+
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #444;
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #666;
+    }
+
+    .chart-container {
+      position: relative;
+      height: 250px;
+      width: 100%;
+    }
+
+    .glass-card {
+      background: rgba(30, 30, 30, 0.4);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+
+    .text-gradient {
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-image: linear-gradient(to right, #60A5FA, #A78BFA);
+    }
+  </style>
+</head>
+
+<body
+  class="bg-background-dark text-text-dark font-sans antialiased transition-colors duration-200 selection:bg-primary selection:text-white dark">
+  <div class="flex h-screen overflow-hidden">
+    <aside
+      class="w-64 flex-shrink-0 flex flex-col bg-sidebar-dark border-r border-border-dark overflow-y-auto hidden lg:flex relative z-20">
+      <div class="p-6 flex items-center gap-3">
+        <div
+          class="w-10 h-10 bg-gradient-to-br from-orange-500 to-red-600 rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-orange-900/20">
+          C</div>
+        <div>
+          <h1 class="font-bold text-lg tracking-wide text-white">CENBRAP</h1>
+          <p class="text-xs text-text-muted uppercase tracking-wider">Inteligência Comp.</p>
+        </div>
+      </div>
+      <nav class="flex-1 px-4 space-y-1 mt-4">
+        <p class="px-4 py-2 text-[10px] font-bold text-gray-500 uppercase tracking-widest">Resumo Executivo</p>
+        <a class="flex items-center gap-3 px-4 py-3 bg-active-sidebar-gradient border-l-2 border-blue-500 text-blue-400 group transition-all"
+          href="#">
+          <span
+            class="material-icons-outlined text-blue-400 drop-shadow-[0_0_5px_rgba(59,130,246,0.5)]">monetization_on</span>
+          <span class="font-medium">Preços</span>
+        </a>
+        <a class="flex items-center gap-3 px-4 py-3 text-text-muted hover:text-white hover:bg-white/5 rounded-r-full group transition-all border-l-2 border-transparent"
+          href="#">
+          <span class="material-icons-outlined group-hover:text-white transition-colors">people</span>
+          <span class="font-medium">Corpo Docente</span>
+        </a>
+        <a class="flex items-center gap-3 px-4 py-3 text-text-muted hover:text-white hover:bg-white/5 rounded-r-full group transition-all border-l-2 border-transparent"
+          href="#">
+          <span class="material-icons-outlined group-hover:text-white transition-colors">shield</span>
+          <span class="font-medium">Vulnerabilidades</span>
+        </a>
+        <a class="flex items-center gap-3 px-4 py-3 text-text-muted hover:text-white hover:bg-white/5 rounded-r-full group transition-all border-l-2 border-transparent"
+          href="#">
+          <span class="material-icons-outlined group-hover:text-white transition-colors">radar</span>
+          <span class="font-medium">Posicionamento</span>
+        </a>
+        <a class="flex items-center gap-3 px-4 py-3 text-text-muted hover:text-white hover:bg-white/5 rounded-r-full group transition-all border-l-2 border-transparent"
+          href="#">
+          <span class="material-icons-outlined group-hover:text-white transition-colors">lightbulb</span>
+          <span class="font-medium">Recomendações</span>
+        </a>
+      </nav>
+      <div class="p-4 mt-auto border-t border-border-dark bg-black/20">
+        <div class="text-xs text-text-muted space-y-3">
+          <p class="uppercase font-bold text-[10px] tracking-widest text-gray-600 mb-2">Resumo Mercado</p>
+          <div class="flex items-center justify-between">
+            <span class="text-gray-400">Maior preço</span>
+            <span class="font-mono text-green-400">R$ 16.470</span>
+          </div>
+          <div class="w-full bg-gray-800 h-1 rounded-full overflow-hidden">
+            <div class="bg-gradient-to-r from-green-500 to-green-300 w-3/4 h-full"></div>
+          </div>
+          <div class="flex items-center justify-between mt-1">
+            <span class="text-gray-400">Menor preço</span>
+            <span class="font-mono text-red-400">R$ 3.960</span>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <main class="flex-1 flex flex-col h-screen overflow-hidden relative bg-background-dark">
+      <div
+        class="absolute top-0 left-0 w-full h-96 bg-gradient-to-b from-blue-900/10 to-transparent pointer-events-none">
+      </div>
+      <header
+        class="h-16 flex items-center justify-between px-6 bg-background-dark/80 backdrop-blur-md border-b border-border-dark z-10 sticky top-0">
+        <div class="flex items-center gap-4">
+          <div
+            class="w-10 h-10 rounded-xl bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 flex items-center justify-center shadow-lg">
+            <span class="material-icons-round text-blue-400">analytics</span>
+          </div>
+          <div>
+            <h2 class="text-xl font-bold text-white tracking-tight">Dashboard Competitivo</h2>
+            <p class="text-xs text-text-muted">Pós-graduação EAD Médica • Análise em tempo real</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-4">
+          <div
+            class="flex items-center gap-2 px-3 py-1.5 bg-white/5 rounded-lg border border-white/10 text-sm text-text-muted hover:border-white/20 transition-colors cursor-default">
+            <span class="material-icons-outlined text-base text-gray-400">calendar_today</span>
+            09 de fevereiro de 2026
+          </div>
+          <div
+            class="flex items-center gap-2 px-3 py-1.5 bg-green-500/10 text-green-400 rounded-lg border border-green-500/20 text-sm font-medium shadow-[0_0_10px_rgba(16,185,129,0.1)]">
+            <span class="relative flex h-2 w-2">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+            </span>
+            Monitoramento Ativo
+          </div>
+          <button
+            class="w-8 h-8 rounded-full bg-white/5 hover:bg-white/10 flex items-center justify-center text-text-muted transition-colors">
+            <span class="material-icons-outlined text-sm">notifications</span>
+          </button>
+          <div class="w-8 h-8 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-[1px]">
+            <div
+              class="w-full h-full rounded-full bg-gray-900 flex items-center justify-center text-xs font-bold text-white">
+              JS</div>
+          </div>
+        </div>
+      </header>
+      <div class="flex-1 overflow-y-auto p-6 scroll-smooth custom-scrollbar">
+        <div class="max-w-[1600px] mx-auto space-y-6">
+          <div class="flex items-center gap-4 overflow-x-auto pb-2 scrollbar-hide">
+            <span class="text-xs text-text-muted whitespace-nowrap font-medium">Concorrentes <span
+                class="bg-white/10 px-1.5 py-0.5 rounded ml-1 text-white text-[10px]">20</span></span>
+            <div class="flex gap-2">
+              <span
+                class="flex items-center gap-1 px-3 py-1 rounded-full text-xs bg-white/5 border border-white/10 hover:border-blue-500/50 hover:bg-blue-500/10 transition-all cursor-pointer whitespace-nowrap text-gray-300 hover:text-white"><span
+                  class="material-icons-round text-xs opacity-70">school</span> Liberdade Médica</span>
+              <span
+                class="flex items-center gap-1 px-3 py-1 rounded-full text-xs bg-white/5 border border-white/10 hover:border-blue-500/50 hover:bg-blue-500/10 transition-all cursor-pointer whitespace-nowrap text-gray-300 hover:text-white"><span
+                  class="material-icons-round text-xs opacity-70">school</span> Caduceu</span>
+              <span
+                class="flex items-center gap-1 px-3 py-1 rounded-full text-xs bg-white/5 border border-white/10 hover:border-blue-500/50 hover:bg-blue-500/10 transition-all cursor-pointer whitespace-nowrap text-gray-300 hover:text-white"><span
+                  class="material-icons-round text-xs opacity-70">school</span> Comportamento</span>
+              <span
+                class="flex items-center gap-1 px-3 py-1 rounded-full text-xs bg-white/5 border border-white/10 hover:border-blue-500/50 hover:bg-blue-500/10 transition-all cursor-pointer whitespace-nowrap text-gray-300 hover:text-white"><span
+                  class="material-icons-round text-xs opacity-70">school</span> IPM</span>
+              <span
+                class="flex items-center gap-1 px-3 py-1 rounded-full text-xs bg-white/5 border border-white/10 hover:border-blue-500/50 hover:bg-blue-500/10 transition-all cursor-pointer whitespace-nowrap text-gray-300 hover:text-white"><span
+                  class="material-icons-round text-xs opacity-70">school</span> Instituto BWS</span>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div class="glass-card p-5 rounded-xl flex items-center gap-4 relative overflow-hidden group">
+              <div
+                class="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+              </div>
+              <div class="p-3 bg-white/5 rounded-xl border border-white/10 relative">
+                <div class="absolute inset-0 bg-icon-glow-blue opacity-50 blur-lg"></div>
+                <span class="material-icons-outlined text-blue-400 relative z-10">business</span>
+              </div>
+              <div>
+                <p class="text-[10px] text-text-muted uppercase font-bold tracking-wider">Concorrentes</p>
+                <p class="text-2xl font-bold text-white mt-0.5">20</p>
+              </div>
+            </div>
+            <div class="glass-card p-5 rounded-xl flex items-center gap-4 relative overflow-hidden group">
+              <div
+                class="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+              </div>
+              <div class="p-3 bg-primary/10 rounded-xl border border-primary/20 relative">
+                <div class="absolute inset-0 bg-icon-glow-orange opacity-60 blur-lg"></div>
+                <span class="material-icons-outlined text-primary relative z-10">campaign</span>
+              </div>
+              <div>
+                <p class="text-[10px] text-text-muted uppercase font-bold tracking-wider">Com Ads Ativos</p>
+                <p class="text-2xl font-bold text-white mt-0.5">17</p>
+              </div>
+            </div>
+            <div class="glass-card p-5 rounded-xl flex items-center gap-4 relative overflow-hidden group">
+              <div
+                class="absolute inset-0 bg-gradient-to-br from-yellow-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+              </div>
+              <div class="p-3 bg-yellow-500/10 rounded-xl border border-yellow-500/20 relative">
+                <span class="material-icons-outlined text-yellow-500 relative z-10">warning_amber</span>
+              </div>
+              <div>
+                <p class="text-[10px] text-text-muted uppercase font-bold tracking-wider">Vuln. Críticas</p>
+                <p class="text-2xl font-bold text-white mt-0.5">7</p>
+              </div>
+            </div>
+            <div class="glass-card p-5 rounded-xl flex items-center gap-4 relative overflow-hidden group">
+              <div
+                class="absolute inset-0 bg-gradient-to-br from-green-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+              </div>
+              <div class="p-3 bg-green-500/10 rounded-xl border border-green-500/20 relative">
+                <div class="absolute inset-0 bg-icon-glow-green opacity-50 blur-lg"></div>
+                <span class="material-icons-outlined text-green-400 relative z-10">check_circle</span>
+              </div>
+              <div>
+                <p class="text-[10px] text-text-muted uppercase font-bold tracking-wider">Status</p>
+                <p class="text-2xl font-bold text-white mt-0.5">Ativo</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div class="glass-card p-6 rounded-xl">
+              <div class="flex justify-between items-center mb-6">
+                <h3 class="font-bold text-white text-lg">Comparativo: CENBRAP vs Média</h3>
+                <div class="flex gap-4 text-xs">
+                  <span class="flex items-center gap-1.5 text-gray-300"><span
+                      class="w-2 h-2 rounded-full bg-green-400 shadow-[0_0_8px_rgba(74,222,128,0.6)]"></span>
+                    CENBRAP</span>
+                  <span class="flex items-center gap-1.5 text-gray-400"><span
+                      class="w-2 h-2 rounded-full bg-blue-500/50"></span> Média do Grupo</span>
+                </div>
+              </div>
+              <div class="chart-container flex justify-center relative">
+                <div
+                  class="absolute inset-0 bg-gradient-to-b from-green-500/5 to-blue-500/5 rounded-full blur-3xl -z-10">
+                </div>
+                <canvas id="radarChart"></canvas>
+              </div>
+            </div>
+            <div class="glass-card p-6 rounded-xl">
+              <h3 class="font-bold text-white text-lg mb-6">Distribuição de Preços</h3>
+              <div class="chart-container relative">
+                <canvas id="barChart"></canvas>
+              </div>
+              <div class="flex justify-center gap-6 mt-4 text-xs text-gray-400">
+                <span class="flex items-center gap-2"><span
+                    class="w-2 h-2 rounded bg-gradient-to-br from-green-400 to-emerald-600"></span> Acessível</span>
+                <span class="flex items-center gap-2"><span
+                    class="w-2 h-2 rounded bg-gradient-to-br from-yellow-400 to-orange-500"></span> Médio</span>
+                <span class="flex items-center gap-2"><span
+                    class="w-2 h-2 rounded bg-gradient-to-br from-red-400 to-pink-600"></span> Superior</span>
+              </div>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div class="glass-card p-6 rounded-xl">
+              <div class="flex justify-between items-center mb-6">
+                <h3 class="font-bold text-white text-lg">Matriz de Posicionamento</h3>
+                <span class="text-xs text-gray-400 border border-white/10 px-2 py-1 rounded bg-white/5">Preço x
+                  Credibilidade</span>
+              </div>
+              <div class="chart-container">
+                <canvas id="scatterChart"></canvas>
+              </div>
+            </div>
+            <div class="glass-card p-6 rounded-xl">
+              <div class="flex justify-between items-center mb-6">
+                <h3 class="font-bold text-white text-lg">Meta Ads - Anúncios Ativos</h3>
+                <span class="text-xs text-gray-400">Top 10 concorrentes</span>
+              </div>
+              <div class="chart-container">
+                <canvas id="hBarChart"></canvas>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h4
+              class="text-xs font-bold text-primary mb-3 uppercase tracking-wider border-l-4 border-primary pl-3 flex items-center gap-2">
+              Alertas
+            </h4>
+            <div class="space-y-3">
+              <div
+                class="bg-gradient-to-r from-yellow-900/20 to-transparent border-l-4 border-yellow-500/50 p-4 rounded-r-lg flex items-center gap-4 relative overflow-hidden">
+                <div class="absolute inset-0 bg-yellow-500/5 pointer-events-none"></div>
+                <span class="material-icons-outlined text-yellow-500">warning</span>
+                <span class="text-sm text-gray-300">Sanar está com alta atividade de anúncios <span
+                    class="text-white font-bold">(45 ativos)</span>, superando a média em 120%.</span>
+              </div>
+              <div
+                class="bg-gradient-to-r from-blue-900/20 to-transparent border-l-4 border-blue-500/50 p-4 rounded-r-lg flex items-center gap-4 relative overflow-hidden">
+                <div class="absolute inset-0 bg-blue-500/5 pointer-events-none"></div>
+                <span class="material-icons-outlined text-blue-400">info</span>
+                <span class="text-sm text-gray-300">11 concorrentes não têm preço transparente no site. Oportunidade de
+                  diferenciação.</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h4 class="text-xs font-bold text-primary mb-3 uppercase tracking-wider border-l-4 border-primary pl-3">
+              Oportunidades Identificadas</h4>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div
+                class="glass-card p-5 rounded-xl border border-white/10 hover:border-primary/50 transition-all hover:bg-white/5 group cursor-pointer">
+                <div class="flex items-center gap-2 mb-3">
+                  <span
+                    class="bg-primary/20 text-primary p-1.5 rounded-lg border border-primary/20 group-hover:scale-110 transition-transform"><span
+                      class="material-icons-round text-sm">bolt</span></span>
+                  <span class="text-[10px] font-bold uppercase text-primary tracking-wide">Impacto Alto</span>
+                </div>
+                <h5 class="font-bold text-white mb-1 group-hover:text-primary transition-colors">Gap de preço R$ 3k-4k
+                </h5>
+                <p class="text-xs text-gray-400 leading-relaxed">Poucos concorrentes na faixa de preço intermediária.
+                  Potencial para capturar mercado insatisfeito.</p>
+              </div>
+              <div
+                class="glass-card p-5 rounded-xl border border-white/10 hover:border-yellow-500/50 transition-all hover:bg-white/5 group cursor-pointer">
+                <div class="flex items-center gap-2 mb-3">
+                  <span
+                    class="bg-yellow-500/20 text-yellow-500 p-1.5 rounded-lg border border-yellow-500/20 group-hover:scale-110 transition-transform"><span
+                      class="material-icons-round text-sm">visibility</span></span>
+                  <span class="text-[10px] font-bold uppercase text-yellow-500 tracking-wide">Impacto Médio</span>
+                </div>
+                <h5 class="font-bold text-white mb-1 group-hover:text-yellow-500 transition-colors">Transparência
+                  docente</h5>
+                <p class="text-xs text-gray-400 leading-relaxed">Maioria não publica corpo docente completo. Publicar
+                  lista completa gera autoridade.</p>
+              </div>
+              <div
+                class="glass-card p-5 rounded-xl border border-white/10 hover:border-blue-500/50 transition-all hover:bg-white/5 group cursor-pointer">
+                <div class="flex items-center gap-2 mb-3">
+                  <span
+                    class="bg-blue-500/20 text-blue-400 p-1.5 rounded-lg border border-blue-500/20 group-hover:scale-110 transition-transform"><span
+                      class="material-icons-round text-sm">verified_user</span></span>
+                  <span class="text-[10px] font-bold uppercase text-blue-400 tracking-wide">Impacto Médio</span>
+                </div>
+                <h5 class="font-bold text-white mb-1 group-hover:text-blue-400 transition-colors">Garantia estendida
+                </h5>
+                <p class="text-xs text-gray-400 leading-relaxed">Nenhum oferece garantia superior a 7 dias. Oferecer 15
+                  ou 30 dias reduz barreira de entrada.</p>
+              </div>
+            </div>
+          </div>
+          <div class="pt-6">
+            <h4 class="text-xs font-bold text-primary mb-3 uppercase tracking-wider border-l-4 border-primary pl-3">
+              Análise Detalhada: CENBRAP</h4>
+            <div class="glass-card rounded-xl border border-white/10 overflow-hidden mb-8">
+              <div
+                class="p-6 border-b border-white/10 flex flex-col md:flex-row justify-between items-start md:items-center gap-4 bg-white/[0.02]">
+                <div class="flex items-center gap-4">
+                  <div
+                    class="w-16 h-16 bg-white rounded-xl flex items-center justify-center text-black font-bold text-2xl shadow-lg border-2 border-primary/50 relative overflow-hidden">
+                    <div class="absolute -right-4 -top-4 w-12 h-12 bg-primary/20 rounded-full blur-xl"></div>
+                    CE
+                  </div>
+                  <div>
+                    <h3 class="text-2xl font-bold text-white tracking-tight">CENBRAP</h3>
+                    <a class="text-primary text-sm hover:underline flex items-center gap-1" href="#">
+                      cenbrap.edu.br
+                      <span class="material-icons-outlined text-[12px]">open_in_new</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="flex gap-2">
+                  <span
+                    class="px-3 py-1 bg-white/5 text-gray-300 text-xs rounded-lg border border-white/10 font-mono">benchmark</span>
+                  <span
+                    class="px-3 py-1 bg-gradient-to-r from-primary to-orange-600 text-white text-xs rounded-lg font-bold shadow-lg shadow-orange-900/40">MEC</span>
+                  <span
+                    class="px-3 py-1 bg-red-500/10 text-red-300 text-xs rounded-lg border border-red-500/20 flex items-center gap-1 font-medium">$$$
+                    Superior</span>
+                </div>
+              </div>
+              <div class="grid grid-cols-2 md:grid-cols-4 divide-x divide-y md:divide-y-0 divide-white/10 bg-black/20">
+                <div class="p-6 text-center group hover:bg-white/5 transition-colors">
+                  <span
+                    class="px-2 py-0.5 rounded bg-red-500/10 text-red-400 text-[10px] border border-red-500/20 font-mono">$$$
+                    Superior</span>
+                  <p class="text-xs text-gray-500 mt-2 uppercase tracking-widest font-bold">Posicionamento</p>
+                </div>
+                <div class="p-6 text-center group hover:bg-white/5 transition-colors">
+                  <p class="text-3xl font-bold text-white group-hover:scale-110 transition-transform duration-300">8</p>
+                  <p class="text-xs text-gray-500 mt-1 uppercase tracking-widest font-bold">Anúncios</p>
+                </div>
+                <div class="p-6 text-center group hover:bg-white/5 transition-colors">
+                  <p class="text-3xl font-bold text-green-400 group-hover:scale-110 transition-transform duration-300">0
+                  </p>
+                  <p class="text-xs text-gray-500 mt-1 uppercase tracking-widest font-bold">Vulnerabilidades</p>
+                </div>
+                <div class="p-6 text-center group hover:bg-white/5 transition-colors">
+                  <p class="text-3xl font-bold text-white group-hover:scale-110 transition-transform duration-300">2009
+                  </p>
+                  <p class="text-xs text-gray-500 mt-1 uppercase tracking-widest font-bold">Fundação</p>
+                </div>
+              </div>
+            </div>
+            <div class="grid grid-cols-1 xl:grid-cols-3 gap-6 mb-12">
+              <div class="xl:col-span-2 glass-card rounded-xl overflow-hidden flex flex-col">
+                <div class="px-6 py-4 bg-white/[0.03] border-b border-white/10 flex items-center gap-3">
+                  <div
+                    class="bg-gradient-to-br from-primary to-orange-600 p-1.5 rounded-lg shadow-lg shadow-orange-900/20 text-white">
+                    <span class="material-icons-round text-sm">description</span>
+                  </div>
+                  <h3 class="font-bold text-white">Ficha Cadastral</h3>
+                </div>
+                <div class="p-6 grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6 text-sm flex-1">
+                  <div class="space-y-4">
+                    <p
+                      class="text-[10px] font-bold text-gray-500 uppercase tracking-widest border-b border-white/5 pb-1">
+                      Institucional</p>
+                    <div class="flex justify-between items-center group">
+                      <span class="text-gray-400">Nome Completo</span>
+                      <span
+                        class="font-medium text-white group-hover:text-primary transition-colors text-right">Faculdade
+                        Cenbrap</span>
+                    </div>
+                    <div class="flex justify-between items-center group">
+                      <span class="text-gray-400">Credenciamento</span>
+                      <span class="font-medium text-white group-hover:text-primary transition-colors">Credenciada</span>
+                    </div>
+                    <div class="flex justify-between items-center group">
+                      <span class="text-gray-400">Ano de Fundação</span>
+                      <span class="font-medium text-white group-hover:text-primary transition-colors">2009</span>
+                    </div>
+                  </div>
+                  <div class="space-y-4">
+                    <p
+                      class="text-[10px] font-bold text-gray-500 uppercase tracking-widest border-b border-white/5 pb-1">
+                      Operacional</p>
+                    <div class="flex justify-between items-center group">
+                      <span class="text-gray-400">Modalidade</span>
+                      <span class="font-medium text-white group-hover:text-primary transition-colors">EAD,
+                        Presencial</span>
+                    </div>
+                    <div class="flex justify-between items-center group">
+                      <span class="text-gray-400">Natureza Jurídica</span>
+                      <span class="font-medium text-white group-hover:text-primary transition-colors">Privada</span>
+                    </div>
+                    <div class="flex justify-between items-center group">
+                      <span class="text-gray-400">Docentes Destacados</span>
+                      <span class="font-medium text-white group-hover:text-primary transition-colors">0</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="glass-card rounded-xl overflow-hidden flex flex-col">
+                <div class="px-6 py-4 bg-white/[0.03] border-b border-white/10 flex items-center gap-3">
+                  <div
+                    class="bg-gradient-to-br from-blue-500 to-indigo-600 p-1.5 rounded-lg shadow-lg shadow-blue-900/20 text-white">
+                    <span class="material-icons-round text-sm">language</span>
+                  </div>
+                  <h3 class="font-bold text-white">Presença Digital</h3>
+                </div>
+                <div class="p-6 flex flex-col gap-3 flex-1 justify-center">
+                  <div
+                    class="bg-black/30 p-3 rounded-lg flex items-center gap-3 border border-white/5 hover:border-white/20 transition-all group">
+                    <div
+                      class="bg-gradient-to-br from-pink-500 to-purple-600 p-2 rounded text-white shadow-lg shadow-pink-900/20 group-hover:scale-110 transition-transform">
+                      <span class="material-icons-round text-sm">camera_alt</span></div>
+                    <div class="flex-1">
+                      <div class="flex justify-between items-center">
+                        <p class="text-xs font-bold text-white">Instagram</p>
+                        <span class="text-[10px] text-green-400 flex items-center"><span
+                            class="material-icons-round text-[10px]">arrow_upward</span> 2%</span>
+                      </div>
+                      <p class="text-[10px] text-gray-400">10,4 mil seguidores</p>
+                    </div>
+                  </div>
+                  <div
+                    class="bg-black/30 p-3 rounded-lg flex items-center gap-3 border border-white/5 hover:border-white/20 transition-all group">
+                    <div
+                      class="bg-blue-700 p-2 rounded text-white shadow-lg shadow-blue-900/20 group-hover:scale-110 transition-transform">
+                      <span class="material-icons-round text-sm">work</span></div>
+                    <div class="flex-1">
+                      <div class="flex justify-between items-center">
+                        <p class="text-xs font-bold text-white">LinkedIn</p>
+                        <span class="text-[10px] text-green-400 flex items-center"><span
+                            class="material-icons-round text-[10px]">arrow_upward</span> 5%</span>
+                      </div>
+                      <p class="text-[10px] text-gray-400">18k seguidores</p>
+                    </div>
+                  </div>
+                  <div
+                    class="bg-black/30 p-3 rounded-lg flex items-center gap-3 border border-white/5 hover:border-white/20 transition-all group">
+                    <div
+                      class="bg-blue-600 p-2 rounded text-white shadow-lg shadow-blue-900/20 group-hover:scale-110 transition-transform">
+                      <span class="material-icons-round text-sm">facebook</span></div>
+                    <div class="flex-1">
+                      <div class="flex justify-between items-center">
+                        <p class="text-xs font-bold text-white">Facebook</p>
+                        <span class="text-[10px] text-gray-500">0%</span>
+                      </div>
+                      <p class="text-[10px] text-gray-400">32k seguidores</p>
+                    </div>
+                  </div>
+                  <div
+                    class="bg-black/30 p-3 rounded-lg flex items-center gap-3 border border-white/5 hover:border-white/20 transition-all group">
+                    <div
+                      class="bg-red-600 p-2 rounded text-white shadow-lg shadow-red-900/20 group-hover:scale-110 transition-transform">
+                      <span class="material-icons-round text-sm">play_arrow</span></div>
+                    <div class="flex-1">
+                      <div class="flex justify-between items-center">
+                        <p class="text-xs font-bold text-white">YouTube</p>
+                        <span class="text-[10px] text-green-400 flex items-center"><span
+                            class="material-icons-round text-[10px]">arrow_upward</span> 12%</span>
+                      </div>
+                      <p class="text-[10px] text-gray-400">45k inscritos</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="glass-card rounded-xl p-8 text-center mb-12 border border-green-500/20 bg-gradient-to-b from-green-900/10 to-transparent">
+              <div
+                class="w-16 h-16 bg-green-500/10 rounded-full flex items-center justify-center mx-auto mb-4 border border-green-500/30 shadow-[0_0_20px_rgba(34,197,94,0.15)] animate-pulse">
+                <span class="material-icons-outlined text-green-400 text-3xl">gpp_good</span>
+              </div>
+              <h3 class="text-lg font-bold text-white">Nenhuma vulnerabilidade crítica</h3>
+              <p class="text-sm text-gray-400 mt-1 max-w-lg mx-auto">Este concorrente não apresenta vulnerabilidades de
+                segurança ou compliance significativas no momento.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script>
+    // --- Chart Configuration ---
+    Chart.defaults.color = '#9ca3af';
+    Chart.defaults.borderColor = 'rgba(255, 255, 255, 0.08)';
+    Chart.defaults.font.family = 'Roboto';
+    const gridColor = 'rgba(255, 255, 255, 0.05)';
+    const textColor = '#e5e7eb';
+    // Gradients creation helper
+    function createGradient(ctx, colorStart, colorEnd) {
+      const gradient = ctx.createLinearGradient(0, 0, 0, 400);
+      gradient.addColorStop(0, colorStart);
+      gradient.addColorStop(1, colorEnd);
+      return gradient;
+    }
+    // Radar Chart
+    const ctxRadar = document.getElementById('radarChart').getContext('2d');
+    // Custom gradient for Radar fill
+    const radarGradientCenbrap = ctxRadar.createRadialGradient(150, 150, 0, 150, 150, 150);
+    radarGradientCenbrap.addColorStop(0, 'rgba(16, 185, 129, 0.4)'); // Center glow
+    radarGradientCenbrap.addColorStop(1, 'rgba(16, 185, 129, 0.05)');
+    new Chart(ctxRadar, {
+      type: 'radar',
+      data: {
+        labels: ['Credenciamento', 'Corpo Docente', 'Preço Transparente', 'Invest. Ads', 'Presença Social'],
+        datasets: [{
+          label: 'CENBRAP',
+          data: [8, 7, 9, 6, 8],
+          fill: true,
+          backgroundColor: radarGradientCenbrap,
+          borderColor: '#4ade80', // bright green
+          pointBackgroundColor: '#22c55e',
+          pointBorderColor: '#fff',
+          pointHoverBackgroundColor: '#fff',
+          pointHoverBorderColor: '#22c55e',
+          borderWidth: 2,
+          pointRadius: 3
+        }, {
+          label: 'Média',
+          data: [6, 5, 7, 5, 6],
+          fill: true,
+          backgroundColor: 'rgba(59, 130, 246, 0.1)',
+          borderColor: 'rgba(59, 130, 246, 0.5)',
+          pointBackgroundColor: 'rgba(59, 130, 246, 0.5)',
+          borderWidth: 1,
+          pointRadius: 2,
+          borderDash: [5, 5]
+        }]
+      },
+      options: {
+        maintainAspectRatio: false,
+        scales: {
+          r: {
+            angleLines: { color: 'rgba(255, 255, 255, 0.1)' },
+            grid: { color: 'rgba(255, 255, 255, 0.1)' },
+            pointLabels: {
+              color: '#e5e7eb',
+              font: { size: 11, weight: 'bold' }
+            },
+            ticks: { display: false, backdropColor: 'transparent' }
+          }
+        },
+        plugins: { legend: { display: false } }
+      }
+    });
+    // Bar Chart (Prices)
+    const ctxBar = document.getElementById('barChart').getContext('2d');
+    const gradientGreen = ctxBar.createLinearGradient(0, 0, 0, 250);
+    gradientGreen.addColorStop(0, '#34d399');
+    gradientGreen.addColorStop(1, '#059669');
+    const gradientYellow = ctxBar.createLinearGradient(0, 0, 0, 250);
+    gradientYellow.addColorStop(0, '#fbbf24');
+    gradientYellow.addColorStop(1, '#d97706');
+    const gradientRed = ctxBar.createLinearGradient(0, 0, 0, 250);
+    gradientRed.addColorStop(0, '#f87171');
+    gradientRed.addColorStop(1, '#dc2626');
+    new Chart(ctxBar, {
+      type: 'bar',
+      data: {
+        labels: ['$', '$$', '$$$', '?'],
+        datasets: [{
+          data: [3, 6, 6, 6],
+          backgroundColor: [
+            gradientGreen,
+            gradientYellow,
+            gradientRed,
+            '#4b5563'
+          ],
+          borderRadius: 6,
+          borderSkipped: false,
+        }]
+      },
+      options: {
+        maintainAspectRatio: false,
+        scales: {
+          y: {
+            beginAtZero: true,
+            grid: { color: gridColor, drawBorder: false },
+            ticks: { color: textColor }
+          },
+          x: {
+            grid: { display: false },
+            ticks: { color: textColor, font: { weight: 'bold' } }
+          }
+        },
+        plugins: { legend: { display: false } }
+      }
+    });
+    // Scatter Chart
+    const ctxScatter = document.getElementById('scatterChart').getContext('2d');
+    new Chart(ctxScatter, {
+      type: 'scatter',
+      data: {
+        datasets: [{
+          label: 'Concorrente',
+          data: [
+            { x: 3, y: 6 }, { x: 4, y: 7 }, { x: 5, y: 8 }, { x: 6, y: 8 },
+            { x: 7, y: 8 }, { x: 8, y: 9 }, { x: 9, y: 9 }, { x: 10, y: 8 }
+          ],
+          backgroundColor: '#60a5fa', // lighter blue
+          pointStyle: 'rectRounded',
+          radius: 5,
+          hoverRadius: 8
+        }, {
+          label: 'Selecionado',
+          data: [{ x: 4.5, y: 8 }],
+          backgroundColor: '#f97316', // orange
+          borderColor: '#fff',
+          borderWidth: 2,
+          radius: 8,
+          hoverRadius: 10,
+          pointStyle: 'circle',
+          shadowOffsetX: 0,
+          shadowOffsetY: 0,
+          shadowBlur: 10,
+          shadowColor: 'rgba(249, 115, 22, 0.5)'
+        }]
+      },
+      options: {
+        maintainAspectRatio: false,
+        scales: {
+          x: {
+            grid: { color: gridColor },
+            ticks: { color: textColor },
+            title: { display: true, text: 'Preço (R$ mil)', color: '#6b7280' }
+          },
+          y: {
+            grid: { color: gridColor },
+            ticks: { color: textColor },
+            title: { display: true, text: 'Credibilidade', color: '#6b7280' }
+          }
+        },
+        plugins: { legend: { display: false } }
+      }
+    });
+    // Horizontal Bar Chart
+    const ctxHBar = document.getElementById('hBarChart').getContext('2d');
+    // Create a horizontal gradient
+    const hBarGradient = ctxHBar.createLinearGradient(0, 0, 300, 0);
+    hBarGradient.addColorStop(0, '#3b82f6');
+    hBarGradient.addColorStop(1, '#8b5cf6');
+    new Chart(ctxHBar, {
+      type: 'bar',
+      indexAxis: 'y',
+      data: {
+        labels: ['Sanar', 'Unyleya Med', 'Afya', 'São Leopoldo', 'Liberdade', 'Einstein', 'Unyleya', 'CENBRAP', 'IBCMED', 'MEV Brasil'],
+        datasets: [{
+          data: [45, 25, 22, 18, 15, 12, 10, 8, 5, 2],
+          backgroundColor: function (context) {
+            const index = context.dataIndex;
+            // Highlight top 1 and user selected (CENBRAP)
+            if (index === 0) return '#fbbf24'; // Top 1 warning
+            if (index === 7) return '#10b981'; // CENBRAP
+            return '#4b5563'; // Others
+          },
+          borderRadius: 4,
+          barThickness: 10
+        }]
+      },
+      options: {
+        maintainAspectRatio: false,
+        scales: {
+          x: {
+            grid: { color: gridColor },
+            ticks: { color: textColor }
+          },
+          y: {
+            grid: { display: false },
+            ticks: { color: textColor, font: { size: 11 } }
+          }
+        },
+        plugins: { legend: { display: false } }
+      }
+    });
+  </script>
+
+</body>
+
+</html>
