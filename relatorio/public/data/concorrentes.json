@@ -9,17 +9,41 @@
     "benchmark": {
       "nome": "CENBRAP (Referência)",
       "descricao": "Dados da nossa instituição para comparação",
-      "concorrentes": ["cenbrap"]
+      "concorrentes": [
+        "cenbrap"
+      ]
     },
     "diretos": {
       "nome": "Concorrentes Diretos",
       "descricao": "Pós-graduação EAD Médica - Mesmo nicho",
-      "concorrentes": ["liberdade_medica", "caduceu", "comportamente", "ipm"]
+      "concorrentes": [
+        "liberdade_medica",
+        "caduceu",
+        "comportamente",
+        "ipm"
+      ]
     },
     "institucionais": {
       "nome": "Players Institucionais",
       "descricao": "Grandes instituições de saúde/educação",
-      "concorrentes": ["einstein", "bws", "cdt", "slmandic", "unyleya_med", "fgmed", "mevbrasil", "cetrus", "pucrs", "sanar", "idomed", "hcor", "unyleya", "afya", "sirio_libanes", "ibcmed"]
+      "concorrentes": [
+        "einstein",
+        "bws",
+        "cdt",
+        "slmandic",
+        "unyleya_med",
+        "fgmed",
+        "mevbrasil",
+        "cetrus",
+        "pucrs",
+        "sanar",
+        "idomed",
+        "hcor",
+        "unyleya",
+        "afya",
+        "sirio_libanes",
+        "ibcmed"
+      ]
     }
   },
   "concorrentes": {
@@ -36,8 +60,13 @@
         "credenciamento_mec": "Reconhecido pelo MEC",
         "ano_fundacao": 2019,
         "tempo_atuacao": "6+ anos",
-        "modalidade": ["EAD", "Presencial"],
-        "area_atuacao": ["Pós-Graduação Médica"],
+        "modalidade": [
+          "EAD",
+          "Presencial"
+        ],
+        "area_atuacao": [
+          "Pós-Graduação Médica"
+        ],
         "cursos_principais": [
           "Medicina de Emergência",
           "Medicina Intensiva",
@@ -58,12 +87,19 @@
         "tom_voz": "Especializado, prático, focado em emergência"
       },
       "oferta": {
-        "valor_total": null,
-        "preco_transparente": false,
-        "observacao_preco": "Preço não divulgado no site - requer contato com consultor",
-        "duracao_meses": 14,
+        "valor_total": 41900,
+        "preco_transparente": true,
+        "observacao_preco": "Condição Especial até 04/02: Matrícula R$ 500 + 23x R$ 1.800. Original: 24x R$ 2.200 (Total R$ 52.800). Opção 100% Online: Matrícula R$ 500 + 23x R$ 1.000 (Total R$ 23.500).",
+        "duracao_meses": 24,
         "garantia": "Política de cancelamento/trancamento disponível",
-        "bonus_inclusos": ["Comunidade exclusiva", "Suporte 24h com IA", "Certificado de extensão (para formados no exterior)"]
+        "bonus_inclusos": [
+          "Comunidade exclusiva",
+          "Suporte 24h com IA",
+          "Certificado de extensão (para formados no exterior)"
+        ],
+        "preco_avista": 41900,
+        "preco_parcelado": "23x R$ 1.800,00",
+        "parcelamento_max": 24
       },
       "operacional": {
         "cidade_sede": "Goiânia - GO",
@@ -77,7 +113,10 @@
           "Dr. Ian Camilo - Especialista em Medicina de Emergência, ACLS/BLS Instructor (AHA), Pós-graduado pelo Hospital Albert Einstein (UFMG)",
           "Dr. Rodrigo Cleto - Especialista em Medicina Intensiva, Cardiologista, Intensivista, Coordenador de UTI há 20+ anos, Co-fundador da Liberdade Médica"
         ],
-        "certificacoes": ["ACLS/BLS Instructor (AHA)", "Reconhecido pelo MEC"],
+        "certificacoes": [
+          "ACLS/BLS Instructor (AHA)",
+          "Reconhecido pelo MEC"
+        ],
         "metodologia": "Baseada em casos reais do dia a dia hospitalar"
       },
       "digital": {
@@ -92,7 +131,9 @@
         "meta_ads": {
           "anuncios_ativos": 12,
           "investimento_estimado": "Médio-Alto",
-          "landing_pages": ["liberdademedicaedu.com.br"]
+          "landing_pages": [
+            "liberdademedicaedu.com.br"
+          ]
         }
       },
       "vulnerabilidades": [
@@ -112,14 +153,23 @@
           "duracao": "12 min",
           "mensagem_principal": "Transformação de carreira"
         },
-        "bullets_beneficios": ["Certificação internacional", "Networking global", "Conteúdo exclusivo"],
+        "bullets_beneficios": [
+          "Certificação internacional",
+          "Networking global",
+          "Conteúdo exclusivo"
+        ],
         "prova_social": {
           "tipo": "Depoimentos em vídeo",
           "quantidade": null,
           "identificacao": false
         },
         "formulario": {
-          "campos": ["Nome", "Email", "WhatsApp", "Especialidade"],
+          "campos": [
+            "Nome",
+            "Email",
+            "WhatsApp",
+            "Especialidade"
+          ],
           "cta": "Quero garantir minha vaga"
         },
         "escassez": "Vagas limitadas",
@@ -151,10 +201,24 @@
         }
       ],
       "swot": {
-        "forcas": ["Copy persuasiva", "Promessa de certificação internacional", "Preço competitivo"],
-        "fraquezas": ["Falta de transparência docente", "Sem dados públicos de resultados", "Marca recente"],
-        "oportunidades": ["Mercado aspiracional", "Busca por diferenciação"],
-        "ameacas": ["Concorrência institucional estabelecida", "Validação das certificações"]
+        "forcas": [
+          "Copy persuasiva",
+          "Promessa de certificação internacional",
+          "Preço competitivo"
+        ],
+        "fraquezas": [
+          "Falta de transparência docente",
+          "Sem dados públicos de resultados",
+          "Marca recente"
+        ],
+        "oportunidades": [
+          "Mercado aspiracional",
+          "Busca por diferenciação"
+        ],
+        "ameacas": [
+          "Concorrência institucional estabelecida",
+          "Validação das certificações"
+        ]
       },
       "screenshots": {
         "homepage": null,
@@ -176,14 +240,32 @@
         "credenciamento_mec": "Credenciada",
         "ano_fundacao": null,
         "alunos_formados": null,
-        "modalidade": ["EAD", "Presencial", "Hibrido"],
-        "especialidades": ["Medicina", "Quiropraxia", "Nutrologia", "Psiquiatria", "Dermatologia", "Cardiologia", "Neurologia", "Ortopedia"],
+        "modalidade": [
+          "EAD",
+          "Presencial",
+          "Hibrido"
+        ],
+        "especialidades": [
+          "Medicina",
+          "Quiropraxia",
+          "Nutrologia",
+          "Psiquiatria",
+          "Dermatologia",
+          "Cardiologia",
+          "Neurologia",
+          "Ortopedia"
+        ],
         "sede": "Porto Alegre - RS e São Paulo - SP"
       },
       "posicionamento": {
         "headline": "Cursos de Pós-Graduação para Médicos",
         "slogan": "Desenvolvimento e Capacitação de profissionais voltados à saúde",
-        "diferenciais_declarados": ["+20 Cursos Médicos", "Certificação MEC", "Corpo docente renomado", "Ensino de qualidade"],
+        "diferenciais_declarados": [
+          "+20 Cursos Médicos",
+          "Certificação MEC",
+          "Corpo docente renomado",
+          "Ensino de qualidade"
+        ],
         "tom_de_voz": "Profissional, institucional"
       },
       "oferta": {
@@ -198,9 +280,24 @@
       },
       "autoridade": {
         "corpo_docente_publico": true,
-        "professores_destacados": ["Dr. Gustavo Medeiros - Nutrologia Esportiva", "Dr. Márcio Tannure - Ortopedia (UFC/Flamengo)", "Dr. Victor B. Soraggi - Medicina Esportiva (Palmeiras)", "Dra. Camila Nicolucci - Psiquiatria", "Dra. Cristiane Fumo - Pediatria", "Dra. Júlia Ribar - Dermatologia", "Dra. Juliana Risso - Ginecologia", "Thiago Monteiro - Obesidade"],
-        "parcerias": ["UFC Brazil", "Flamengo", "Palmeiras FC"],
-        "certificacoes": ["MEC"],
+        "professores_destacados": [
+          "Dr. Gustavo Medeiros - Nutrologia Esportiva",
+          "Dr. Márcio Tannure - Ortopedia (UFC/Flamengo)",
+          "Dr. Victor B. Soraggi - Medicina Esportiva (Palmeiras)",
+          "Dra. Camila Nicolucci - Psiquiatria",
+          "Dra. Cristiane Fumo - Pediatria",
+          "Dra. Júlia Ribar - Dermatologia",
+          "Dra. Juliana Risso - Ginecologia",
+          "Thiago Monteiro - Obesidade"
+        ],
+        "parcerias": [
+          "UFC Brazil",
+          "Flamengo",
+          "Palmeiras FC"
+        ],
+        "certificacoes": [
+          "MEC"
+        ],
         "casos_sucesso": "Depoimentos de alunos disponíveis",
         "depoimentos_quantidade": "Vários"
       },
@@ -249,7 +346,11 @@
           "duracao": null,
           "mensagem_principal": null
         },
-        "bullets_beneficios": ["Certificação MEC", "Corpo docente renomado", "Mais de 20 cursos médicos"],
+        "bullets_beneficios": [
+          "Certificação MEC",
+          "Corpo docente renomado",
+          "Mais de 20 cursos médicos"
+        ],
         "prova_social": {
           "tipo": "Depoimentos",
           "quantidade": "Vários",
@@ -276,10 +377,24 @@
         }
       ],
       "swot": {
-        "forcas": ["Credenciamento MEC", "Corpo docente renomado", "Presença em duas cidades (POA e SP)", "Parcerias com times de futebol"],
-        "fraquezas": ["Preço não transparente", "Sem anúncios ativos", "Pouca presença digital"],
-        "oportunidades": ["Expandir EAD", "Investir em marketing digital"],
-        "ameacas": ["Concorrência digital"]
+        "forcas": [
+          "Credenciamento MEC",
+          "Corpo docente renomado",
+          "Presença em duas cidades (POA e SP)",
+          "Parcerias com times de futebol"
+        ],
+        "fraquezas": [
+          "Preço não transparente",
+          "Sem anúncios ativos",
+          "Pouca presença digital"
+        ],
+        "oportunidades": [
+          "Expandir EAD",
+          "Investir em marketing digital"
+        ],
+        "ameacas": [
+          "Concorrência digital"
+        ]
       },
       "screenshots": {
         "homepage": null,
@@ -301,30 +416,52 @@
         "credenciamento_mec": "Pendente de verificação",
         "ano_fundacao": null,
         "alunos_formados": "8000+",
-        "modalidade": ["EAD"],
-        "especialidades": ["Psiquiatria", "Psicologia", "Neurodesenvolvimento"],
+        "modalidade": [
+          "EAD"
+        ],
+        "especialidades": [
+          "Psiquiatria",
+          "Psicologia",
+          "Neurodesenvolvimento"
+        ],
         "sede": "Alphaville, Barueri - SP"
       },
       "posicionamento": {
         "headline": "Formação de excelência para profissionais da Saúde Mental",
         "slogan": "Unindo ciência, tecnologia e cuidado humano",
-        "diferenciais_declarados": ["100% Online com Prática Real", "Corpo Docente de Referência", "Base Científica e Abordagens Atuais", "Mais de 10 anos de história", "8.000+ alunos formados"],
+        "diferenciais_declarados": [
+          "100% Online com Prática Real",
+          "Corpo Docente de Referência",
+          "Base Científica e Abordagens Atuais",
+          "Mais de 10 anos de história",
+          "8.000+ alunos formados"
+        ],
         "tom_de_voz": "Humanizado, científico, profissional"
       },
       "oferta": {
-        "preco_avista": null,
-        "preco_parcelado": null,
-        "valor_total": null,
-        "desconto_a_vista": null,
+        "preco_avista": 9900,
+        "preco_parcelado": "24x R$ 550,00",
+        "valor_total": 13200,
+        "desconto_a_vista": "25% (R$ 9.900)",
         "garantia": null,
-        "parcelamento_max": null,
-        "bonus_inclusos": ["Descontos Editora Manole", "Descontos Editora Sinopsys"],
-        "preco_transparente": false
+        "parcelamento_max": 24,
+        "bonus_inclusos": [
+          "Livro Psiquiatria da Infância (15 primeiros)",
+          "Minicurso 20h",
+          "Descontos Editora Manole/Sinopsys"
+        ],
+        "preco_transparente": true,
+        "observacao_preco": "Menor parcela: 24x R$ 550. Opções com desconto progressivo (10% em 18x, 15% em 12x, 25% à vista). Limite do cartão recorrente."
       },
       "autoridade": {
         "corpo_docente_publico": true,
-        "professores_destacados": ["Corpo docente reconhecido nacional e internacionalmente"],
-        "parcerias": ["Editora Manole", "Editora Sinopsys"],
+        "professores_destacados": [
+          "Corpo docente reconhecido nacional e internacionalmente"
+        ],
+        "parcerias": [
+          "Editora Manole",
+          "Editora Sinopsys"
+        ],
         "certificacoes": [],
         "casos_sucesso": "Depoimentos de alunos disponíveis",
         "depoimentos_quantidade": "Vários"
@@ -374,7 +511,11 @@
           "duracao": null,
           "mensagem_principal": null
         },
-        "bullets_beneficios": ["100% Online com Prática Real", "Corpo Docente de Referência", "Mais de 10 anos de história"],
+        "bullets_beneficios": [
+          "100% Online com Prática Real",
+          "Corpo Docente de Referência",
+          "Mais de 10 anos de história"
+        ],
         "prova_social": {
           "tipo": "Depoimentos",
           "quantidade": "Vários",
@@ -401,10 +542,24 @@
         }
       ],
       "swot": {
-        "forcas": ["10+ anos de história", "8.000+ alunos formados", "Corpo docente renomado", "100% online", "Blog ativo"],
-        "fraquezas": ["Preço não transparente", "Sem anúncios ativos"],
-        "oportunidades": ["Expandir para outros estados", "Aumentar investimento em ads"],
-        "ameacas": ["Concorrência digital"]
+        "forcas": [
+          "10+ anos de história",
+          "8.000+ alunos formados",
+          "Corpo docente renomado",
+          "100% online",
+          "Blog ativo"
+        ],
+        "fraquezas": [
+          "Preço não transparente",
+          "Sem anúncios ativos"
+        ],
+        "oportunidades": [
+          "Expandir para outros estados",
+          "Aumentar investimento em ads"
+        ],
+        "ameacas": [
+          "Concorrência digital"
+        ]
       },
       "screenshots": {
         "homepage": null,
@@ -426,25 +581,34 @@
         "credenciamento_mec": "Pendente de verificação",
         "ano_fundacao": null,
         "alunos_formados": null,
-        "modalidade": ["Presencial", "Hibrido"],
-        "especialidades": ["Medicina"],
+        "modalidade": [
+          "Presencial",
+          "Hibrido"
+        ],
+        "especialidades": [
+          "Medicina"
+        ],
         "sede": "Brasília, São José do Rio Preto, Goiânia, São Paulo"
       },
       "posicionamento": {
         "headline": "IPM Pós-graduação",
         "slogan": null,
-        "diferenciais_declarados": ["Presença em 4 cidades", "Cursos presenciais e híbridos"],
+        "diferenciais_declarados": [
+          "Presença em 4 cidades",
+          "Cursos presenciais e híbridos"
+        ],
         "tom_de_voz": "Profissional"
       },
       "oferta": {
-        "preco_avista": null,
-        "preco_parcelado": null,
-        "valor_total": null,
+        "preco_avista": 13727.64,
+        "preco_parcelado": "30x R$ 2.497,00",
+        "valor_total": 74910,
         "desconto_a_vista": null,
         "garantia": null,
-        "parcelamento_max": null,
+        "parcelamento_max": 30,
         "bonus_inclusos": [],
-        "preco_transparente": false
+        "preco_transparente": true,
+        "observacao_preco": "Plano Longo: 30x R$ 2.497. Plano Concentrado (12x R$ 1.144, Total R$ 13.727). Plano Facilitado (3x R$ 990 + 9x R$ 1.307 + 3x R$ 648, Total R$ 16.678)."
       },
       "autoridade": {
         "corpo_docente_publico": false,
@@ -526,10 +690,23 @@
         }
       ],
       "swot": {
-        "forcas": ["Presença em 4 cidades", "Canal no YouTube", "Podcast no Spotify"],
-        "fraquezas": ["Preço não transparente", "Sem anúncios ativos", "Pouca informação no site"],
-        "oportunidades": ["Expandir EAD", "Investir em marketing digital"],
-        "ameacas": ["Concorrência digital"]
+        "forcas": [
+          "Presença em 4 cidades",
+          "Canal no YouTube",
+          "Podcast no Spotify"
+        ],
+        "fraquezas": [
+          "Preço não transparente",
+          "Sem anúncios ativos",
+          "Pouca informação no site"
+        ],
+        "oportunidades": [
+          "Expandir EAD",
+          "Investir em marketing digital"
+        ],
+        "ameacas": [
+          "Concorrência digital"
+        ]
       },
       "screenshots": {
         "homepage": null,
@@ -551,8 +728,16 @@
         "credenciamento_mec": "Credenciada",
         "ano_fundacao": 1955,
         "alunos_formados": "5000+",
-        "modalidade": ["Presencial", "Hibrido", "EAD"],
-        "especialidades": ["Medicina", "Enfermagem", "Saúde"],
+        "modalidade": [
+          "Presencial",
+          "Hibrido",
+          "EAD"
+        ],
+        "especialidades": [
+          "Medicina",
+          "Enfermagem",
+          "Saúde"
+        ],
         "sede": "São Paulo/SP"
       },
       "posicionamento": {
@@ -572,14 +757,23 @@
         "desconto_a_vista": null,
         "garantia": null,
         "parcelamento_max": 18,
-        "bonus_inclusos": ["Acesso ao hospital", "Biblioteca"],
+        "bonus_inclusos": [
+          "Acesso ao hospital",
+          "Biblioteca"
+        ],
         "preco_transparente": false
       },
       "autoridade": {
         "corpo_docente_publico": true,
-        "professores_destacados": ["Diversos especialistas do hospital"],
-        "parcerias": ["Hospital Albert Einstein"],
-        "certificacoes": ["Credenciamento MEC"],
+        "professores_destacados": [
+          "Diversos especialistas do hospital"
+        ],
+        "parcerias": [
+          "Hospital Albert Einstein"
+        ],
+        "certificacoes": [
+          "Credenciamento MEC"
+        ],
         "casos_sucesso": "Alto",
         "depoimentos_quantidade": "100+"
       },
@@ -610,13 +804,26 @@
         "meta_ads": {
           "anuncios_ativos": 8,
           "investimento_estimado": "Alto",
-          "angulos_copy": ["Excelência acadêmica", "Tradição", "Resultados"],
-          "formatos": ["Video", "Imagem"],
-          "landing_pages": ["einstein.br/pos-graduacao"]
+          "angulos_copy": [
+            "Excelência acadêmica",
+            "Tradição",
+            "Resultados"
+          ],
+          "formatos": [
+            "Video",
+            "Imagem"
+          ],
+          "landing_pages": [
+            "einstein.br/pos-graduacao"
+          ]
         },
         "google_ads": {
           "anuncios_ativos": true,
-          "palavras_chave": ["pós graduação médica", "especialização médica", "einstein cursos"]
+          "palavras_chave": [
+            "pós graduação médica",
+            "especialização médica",
+            "einstein cursos"
+          ]
         }
       },
       "landing_page": {
@@ -628,14 +835,23 @@
           "duracao": null,
           "mensagem_principal": null
         },
-        "bullets_beneficios": ["Corpo docente especializado", "Infraestrutura completa", "Networking"],
+        "bullets_beneficios": [
+          "Corpo docente especializado",
+          "Infraestrutura completa",
+          "Networking"
+        ],
         "prova_social": {
           "tipo": "Institucional",
           "quantidade": "Alto",
           "identificacao": true
         },
         "formulario": {
-          "campos": ["Nome", "Email", "Telefone", "Curso de interesse"],
+          "campos": [
+            "Nome",
+            "Email",
+            "Telefone",
+            "Curso de interesse"
+          ],
           "cta": "Solicitar informações"
         },
         "escassez": null,
@@ -667,10 +883,25 @@
         }
       ],
       "swot": {
-        "forcas": ["Marca forte", "Credibilidade institucional", "Corpo docente renomado", "Infraestrutura"],
-        "fraquezas": ["Preço alto", "Processos burocráticos", "Foco em presencial"],
-        "oportunidades": ["Expansão EAD", "Novas especialidades"],
-        "ameacas": ["Concorrência digital ágil", "Precificação agressiva"]
+        "forcas": [
+          "Marca forte",
+          "Credibilidade institucional",
+          "Corpo docente renomado",
+          "Infraestrutura"
+        ],
+        "fraquezas": [
+          "Preço alto",
+          "Processos burocráticos",
+          "Foco em presencial"
+        ],
+        "oportunidades": [
+          "Expansão EAD",
+          "Novas especialidades"
+        ],
+        "ameacas": [
+          "Concorrência digital ágil",
+          "Precificação agressiva"
+        ]
       },
       "screenshots": {
         "homepage": null,
@@ -692,8 +923,13 @@
         "credenciamento_mec": "Credenciada",
         "ano_fundacao": 2008,
         "alunos_formados": null,
-        "modalidade": ["EAD", "Hibrido"],
-        "especialidades": ["Medicina"],
+        "modalidade": [
+          "EAD",
+          "Hibrido"
+        ],
+        "especialidades": [
+          "Medicina"
+        ],
         "sede": "São Paulo/SP"
       },
       "oferta": {
@@ -725,8 +961,12 @@
         "natureza_juridica": "Privada",
         "credenciamento_mec": "Credenciada",
         "ano_fundacao": 2010,
-        "modalidade": ["EAD"],
-        "especialidades": ["Medicina"]
+        "modalidade": [
+          "EAD"
+        ],
+        "especialidades": [
+          "Medicina"
+        ]
       },
       "oferta": {
         "valor_total": 4800,
@@ -765,12 +1005,25 @@
         "credenciamento_mec": "Credenciada",
         "ano_fundacao": 1985,
         "alunos_formados": "10000+",
-        "modalidade": ["Presencial", "EAD"],
-        "especialidades": ["Odontologia", "Medicina"]
+        "modalidade": [
+          "Presencial",
+          "EAD"
+        ],
+        "especialidades": [
+          "Odontologia",
+          "Medicina"
+        ]
       },
       "oferta": {
-        "valor_total": 7500,
-        "preco_transparente": true
+        "preco_avista": 15130,
+        "preco_parcelado": "16x R$ 890,00",
+        "valor_total": 15130,
+        "desconto_a_vista": null,
+        "garantia": null,
+        "parcelamento_max": 16,
+        "bonus_inclusos": [],
+        "preco_transparente": true,
+        "observacao_preco": "Online: Matrícula R$ 890 + 16x R$ 890 (Total R$ 15.130). Híbrido: Matrícula R$ 1.690 + 16x R$ 1.690 (Total R$ 28.730)."
       },
       "digital": {
         "instagram": {
@@ -797,8 +1050,12 @@
         "natureza_juridica": "Privada",
         "credenciamento_mec": "Credenciada",
         "ano_fundacao": 2015,
-        "modalidade": ["EAD"],
-        "especialidades": ["Medicina"]
+        "modalidade": [
+          "EAD"
+        ],
+        "especialidades": [
+          "Medicina"
+        ]
       },
       "oferta": {
         "valor_total": 4200,
@@ -833,11 +1090,20 @@
       "prioridade": "media",
       "ficha_cadastral": {
         "credenciamento_mec": "Em análise",
-        "modalidade": ["EAD"]
+        "modalidade": [
+          "EAD"
+        ]
       },
       "oferta": {
-        "valor_total": 3600,
-        "preco_transparente": true
+        "preco_avista": 16000,
+        "preco_parcelado": "12x R$ 1.500,00",
+        "valor_total": 30000,
+        "desconto_a_vista": "R$ 16.000 à vista (Original 30k)",
+        "garantia": null,
+        "parcelamento_max": 12,
+        "bonus_inclusos": [],
+        "preco_transparente": true,
+        "observacao_preco": "Valor original R$ 30k. Promoção hoje: 16k à vista ou 18k parcelado em 12x R$ 1.500."
       },
       "digital": {
         "instagram": {
@@ -864,8 +1130,14 @@
         "credenciamento_mec": "Credenciada",
         "ano_fundacao": 2019,
         "tempo_atuacao": "5+ anos",
-        "modalidade": ["EAD", "Presencial", "Hibrido"],
-        "area_atuacao": ["Medicina do Estilo de Vida"],
+        "modalidade": [
+          "EAD",
+          "Presencial",
+          "Hibrido"
+        ],
+        "area_atuacao": [
+          "Medicina do Estilo de Vida"
+        ],
         "total_alunos": "900+ médicos",
         "cursos_principais": [
           "Formação em Medicina do Estilo de Vida",
@@ -890,7 +1162,10 @@
         "valor_total": 5800,
         "preco_transparente": false,
         "observacao_preco": "Preço não divulgado no site - requer contato",
-        "cursos_livres": ["MevConf", "Imersões presenciais"]
+        "cursos_livres": [
+          "MevConf",
+          "Imersões presenciais"
+        ]
       },
       "autoridade": {
         "corpo_docente_publico": true,
@@ -898,7 +1173,9 @@
           "Dr. Antonio G. Laurinavicius - Cardiologista pelo InCor, Doutor em Ciências pela FMUSP"
         ],
         "metodologia": "Baseada nas melhores evidências associadas à prática clínica brasileira",
-        "ferramentas_proprias": ["MEVPlan"]
+        "ferramentas_proprias": [
+          "MEVPlan"
+        ]
       },
       "digital": {
         "instagram": {
@@ -935,10 +1212,19 @@
         "nome_completo": "Cetrus - Centro de Diagnóstico e Treinamento",
         "natureza_juridica": "Privada",
         "credenciamento_mec": "Credenciada",
-        "modalidade": ["Presencial", "EAD"],
-        "area_atuacao": ["Especialização Médica", "Ultrassonografia", "Medicina da Dor"],
+        "modalidade": [
+          "Presencial",
+          "EAD"
+        ],
+        "area_atuacao": [
+          "Especialização Médica",
+          "Ultrassonografia",
+          "Medicina da Dor"
+        ],
         "cidade_sede": "São Paulo/SP",
-        "outras_unidades": ["Belém/PA"]
+        "outras_unidades": [
+          "Belém/PA"
+        ]
       },
       "posicionamento": {
         "proposta_valor": "Cursos de especialização médica com infraestrutura de ponta para se desenvolver ao lado dos melhores",
@@ -1012,7 +1298,10 @@
         "natureza_juridica": "Universidade",
         "credenciamento_mec": "Credenciada",
         "ano_fundacao": 1948,
-        "modalidade": ["Presencial", "EAD"]
+        "modalidade": [
+          "Presencial",
+          "EAD"
+        ]
       },
       "oferta": {
         "valor_total": 9200,
@@ -1042,11 +1331,20 @@
         "natureza_juridica": "Privada",
         "credenciamento_mec": "Não aplicável (prepatory)",
         "ano_fundacao": 2015,
-        "modalidade": ["EAD"]
+        "modalidade": [
+          "EAD"
+        ]
       },
       "oferta": {
-        "valor_total": 2800,
-        "preco_transparente": true
+        "preco_avista": 11470.32,
+        "preco_parcelado": "24x R$ 477,93",
+        "valor_total": 24600.24,
+        "desconto_a_vista": "50% OFF no MT",
+        "garantia": null,
+        "parcelamento_max": 24,
+        "bonus_inclusos": [],
+        "preco_transparente": true,
+        "observacao_preco": "Sanar PS: 24x R$ 1.025,01 (Total R$ 24.600,24). Sanar MT (50% OFF): 24x R$ 477,93 (Total R$ 11.470,32)."
       },
       "digital": {
         "instagram": {
@@ -1081,8 +1379,16 @@
         "credenciamento_mec": "Credenciada",
         "ano_fundacao": 1999,
         "tempo_atuacao": "25+ anos",
-        "modalidade": ["Presencial", "EAD", "Hibrido"],
-        "area_atuacao": ["Graduação", "Pós-Graduação", "MBA"],
+        "modalidade": [
+          "Presencial",
+          "EAD",
+          "Hibrido"
+        ],
+        "area_atuacao": [
+          "Graduação",
+          "Pós-Graduação",
+          "MBA"
+        ],
         "total_unidades": "18 faculdades médicas",
         "cursos_principais": [
           "Medicina (Graduação)",
@@ -1108,7 +1414,11 @@
         "preco_transparente": false,
         "observacao_preco": "Preço não divulgado no site",
         "telefone": "0800 880 6770",
-        "modalidades": ["Graduação", "Pós-Graduação", "MBA"]
+        "modalidades": [
+          "Graduação",
+          "Pós-Graduação",
+          "MBA"
+        ]
       },
       "autoridade": {
         "corpo_docente_publico": false,
@@ -1148,8 +1458,15 @@
         "credenciamento_mec": "Credenciada",
         "ano_fundacao": 1978,
         "tempo_atuacao": "45+ anos",
-        "modalidade": ["Presencial", "EAD"],
-        "area_atuacao": ["Cardiologia", "Oncologia", "Medicina Diagnóstica"]
+        "modalidade": [
+          "Presencial",
+          "EAD"
+        ],
+        "area_atuacao": [
+          "Cardiologia",
+          "Oncologia",
+          "Medicina Diagnóstica"
+        ]
       },
       "posicionamento": {
         "proposta_valor": "Hospital de excelência em cardiologia e oncologia. Padrão de excelência em diagnóstico e tratamento.",
@@ -1166,13 +1483,20 @@
         "valor_total": 8200,
         "preco_transparente": false,
         "observacao_preco": "Preço não divulgado no site",
-        "especialidades_destaque": ["Cardiologia", "Oncologia", "Medicina Diagnóstica"],
+        "especialidades_destaque": [
+          "Cardiologia",
+          "Oncologia",
+          "Medicina Diagnóstica"
+        ],
         "telefone": "(11) 3889-3939"
       },
       "autoridade": {
         "corpo_docente_publico": false,
         "diferencial": "Hospital com 45+ anos de excelência",
-        "areas_destaque": ["Cardiologia", "Oncologia"]
+        "areas_destaque": [
+          "Cardiologia",
+          "Oncologia"
+        ]
       },
       "digital": {
         "instagram": {
@@ -1203,7 +1527,9 @@
       "prioridade": "media",
       "ficha_cadastral": {
         "credenciamento_mec": "Credenciada",
-        "modalidade": ["EAD"]
+        "modalidade": [
+          "EAD"
+        ]
       },
       "oferta": {
         "valor_total": 3600,
@@ -1233,7 +1559,10 @@
         "natureza_juridica": "Grupo educacional",
         "credenciamento_mec": "Credenciada",
         "ano_fundacao": 2012,
-        "modalidade": ["Presencial", "EAD"]
+        "modalidade": [
+          "Presencial",
+          "EAD"
+        ]
       },
       "oferta": {
         "valor_total": 6800,
@@ -1262,7 +1591,10 @@
         "nome_completo": "Faculdade de Medicina do Hospital Sírio-Libanês",
         "credenciamento_mec": "Credenciada",
         "ano_fundacao": 2009,
-        "modalidade": ["Presencial", "Hibrido"]
+        "modalidade": [
+          "Presencial",
+          "Hibrido"
+        ]
       },
       "oferta": {
         "valor_total": 9500,
@@ -1289,11 +1621,20 @@
       "prioridade": "media",
       "ficha_cadastral": {
         "credenciamento_mec": "Credenciada",
-        "modalidade": ["EAD"]
+        "modalidade": [
+          "EAD"
+        ]
       },
       "oferta": {
-        "valor_total": 5200,
-        "preco_transparente": true
+        "preco_avista": 20900,
+        "preco_parcelado": "24x R$ 829,17",
+        "valor_total": 20900,
+        "desconto_a_vista": null,
+        "garantia": "Sinal R$ 1.000",
+        "parcelamento_max": 24,
+        "bonus_inclusos": [],
+        "preco_transparente": true,
+        "observacao_preco": "Sinal R$ 1.000 + 24x R$ 829,17 (sem juros). 1ª parcela em 30/03/2026. Parcelamento recorrente."
       },
       "digital": {
         "instagram": {
@@ -1322,8 +1663,13 @@
         "ano_fundacao": 2009,
         "tempo_atuacao": "15+ anos",
         "total_alunos_formados": "25.000+",
-        "modalidade": ["EAD", "Presencial"],
-        "area_atuacao": ["Pós-Graduação Médica"],
+        "modalidade": [
+          "EAD",
+          "Presencial"
+        ],
+        "area_atuacao": [
+          "Pós-Graduação Médica"
+        ],
         "cursos_principais": [
           "Psiquiatria",
           "Psiquiatria da Infância e Adolescência",
@@ -1389,7 +1735,10 @@
         "meta_ads": {
           "anuncios_ativos": 8,
           "investimento_estimado": "Médio",
-          "campanhas": ["Pós-graduação médica", "Curso de psiquiatria"],
+          "campanhas": [
+            "Pós-graduação médica",
+            "Curso de psiquiatria"
+          ],
           "fonte": "Meta Ads Library - https://www.facebook.com/ads/library"
         },
         "google_ads": {
