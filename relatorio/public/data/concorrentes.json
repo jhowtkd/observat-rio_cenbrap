@@ -753,15 +753,13 @@
       "oferta": {
         "preco_avista": null,
         "preco_parcelado": null,
-        "valor_total": 8900,
+        "valor_total": null,
         "desconto_a_vista": null,
         "garantia": null,
-        "parcelamento_max": 18,
-        "bonus_inclusos": [
-          "Acesso ao hospital",
-          "Biblioteca"
-        ],
-        "preco_transparente": false
+        "parcelamento_max": null,
+        "bonus_inclusos": [],
+        "preco_transparente": false,
+        "observacao_preco": "PESQUISANDO"
       },
       "autoridade": {
         "corpo_docente_publico": true,
@@ -933,8 +931,15 @@
         "sede": "São Paulo/SP"
       },
       "oferta": {
-        "valor_total": 6200,
-        "preco_transparente": false
+        "preco_avista": null,
+        "preco_parcelado": null,
+        "valor_total": null,
+        "desconto_a_vista": null,
+        "garantia": null,
+        "parcelamento_max": null,
+        "bonus_inclusos": [],
+        "preco_transparente": false,
+        "observacao_preco": "PESQUISANDO"
       },
       "digital": {
         "instagram": {
@@ -969,8 +974,15 @@
         ]
       },
       "oferta": {
-        "valor_total": 4800,
-        "preco_transparente": true
+        "preco_avista": null,
+        "preco_parcelado": null,
+        "valor_total": null,
+        "desconto_a_vista": null,
+        "garantia": null,
+        "parcelamento_max": null,
+        "bonus_inclusos": [],
+        "preco_transparente": false,
+        "observacao_preco": "PESQUISANDO"
       },
       "digital": {
         "instagram": {
@@ -1015,15 +1027,15 @@
         ]
       },
       "oferta": {
-        "preco_avista": 15130,
-        "preco_parcelado": "16x R$ 890,00",
-        "valor_total": 15130,
+        "preco_avista": null,
+        "preco_parcelado": null,
+        "valor_total": null,
         "desconto_a_vista": null,
         "garantia": null,
-        "parcelamento_max": 16,
+        "parcelamento_max": null,
         "bonus_inclusos": [],
-        "preco_transparente": true,
-        "observacao_preco": "Online: Matrícula R$ 890 + 16x R$ 890 (Total R$ 15.130). Híbrido: Matrícula R$ 1.690 + 16x R$ 1.690 (Total R$ 28.730)."
+        "preco_transparente": false,
+        "observacao_preco": "PESQUISANDO"
       },
       "digital": {
         "instagram": {
@@ -1058,8 +1070,15 @@
         ]
       },
       "oferta": {
-        "valor_total": 4200,
-        "preco_transparente": true
+        "preco_avista": null,
+        "preco_parcelado": null,
+        "valor_total": null,
+        "desconto_a_vista": null,
+        "garantia": null,
+        "parcelamento_max": null,
+        "bonus_inclusos": [],
+        "preco_transparente": false,
+        "observacao_preco": "PESQUISANDO"
       },
       "digital": {
         "instagram": {
@@ -1159,13 +1178,15 @@
         "tom_voz": "Inovadora, prática, baseada em evidências"
       },
       "oferta": {
-        "valor_total": 5800,
+        "preco_avista": null,
+        "preco_parcelado": null,
+        "valor_total": null,
+        "desconto_a_vista": null,
+        "garantia": null,
+        "parcelamento_max": null,
+        "bonus_inclusos": [],
         "preco_transparente": false,
-        "observacao_preco": "Preço não divulgado no site - requer contato",
-        "cursos_livres": [
-          "MevConf",
-          "Imersões presenciais"
-        ]
+        "observacao_preco": "PESQUISANDO"
       },
       "autoridade": {
         "corpo_docente_publico": true,
@@ -1237,19 +1258,15 @@
         "tom_voz": "Especializada, prática, focada em habilidades"
       },
       "oferta": {
+        "preco_avista": null,
+        "preco_parcelado": null,
         "valor_total": null,
+        "desconto_a_vista": null,
+        "garantia": null,
+        "parcelamento_max": null,
+        "bonus_inclusos": [],
         "preco_transparente": false,
-        "observacao_preco": "Preço não divulgado - requer contato",
-        "cursos_destaque": [
-          "Emergências Pediátricas (EAD)",
-          "Medicina Regenerativa Musculoesquelética",
-          "US TV Avançado e Endometriose",
-          "Cosmiatria",
-          "USG Obstétrica, Morfológica e Doppler",
-          "Medicina da Dor",
-          "Endoscopia da Coluna Vertebral",
-          "Intervenção em Dor"
-        ]
+        "observacao_preco": "PESQUISANDO"
       },
       "autoridade": {
         "corpo_docente_publico": true,
@@ -1304,8 +1321,15 @@
         ]
       },
       "oferta": {
-        "valor_total": 9200,
-        "preco_transparente": true
+        "preco_avista": null,
+        "preco_parcelado": null,
+        "valor_total": null,
+        "desconto_a_vista": null,
+        "garantia": null,
+        "parcelamento_max": null,
+        "bonus_inclusos": [],
+        "preco_transparente": false,
+        "observacao_preco": "PESQUISANDO"
       },
       "digital": {
         "instagram": {
@@ -1410,15 +1434,15 @@
         "tom_voz": "Tradicional, inclusiva, focada em excelência"
       },
       "oferta": {
+        "preco_avista": null,
+        "preco_parcelado": null,
         "valor_total": null,
+        "desconto_a_vista": null,
+        "garantia": null,
+        "parcelamento_max": null,
+        "bonus_inclusos": [],
         "preco_transparente": false,
-        "observacao_preco": "Preço não divulgado no site",
-        "telefone": "0800 880 6770",
-        "modalidades": [
-          "Graduação",
-          "Pós-Graduação",
-          "MBA"
-        ]
+        "observacao_preco": "PESQUISANDO"
       },
       "autoridade": {
         "corpo_docente_publico": false,
@@ -1480,15 +1504,15 @@
         "tom_voz": "Sério, acadêmico, confiável"
       },
       "oferta": {
-        "valor_total": 8200,
+        "preco_avista": null,
+        "preco_parcelado": null,
+        "valor_total": null,
+        "desconto_a_vista": null,
+        "garantia": null,
+        "parcelamento_max": null,
+        "bonus_inclusos": [],
         "preco_transparente": false,
-        "observacao_preco": "Preço não divulgado no site",
-        "especialidades_destaque": [
-          "Cardiologia",
-          "Oncologia",
-          "Medicina Diagnóstica"
-        ],
-        "telefone": "(11) 3889-3939"
+        "observacao_preco": "PESQUISANDO"
       },
       "autoridade": {
         "corpo_docente_publico": false,
@@ -1532,8 +1556,15 @@
         ]
       },
       "oferta": {
-        "valor_total": 3600,
-        "preco_transparente": true
+        "preco_avista": null,
+        "preco_parcelado": null,
+        "valor_total": null,
+        "desconto_a_vista": null,
+        "garantia": null,
+        "parcelamento_max": null,
+        "bonus_inclusos": [],
+        "preco_transparente": false,
+        "observacao_preco": "PESQUISANDO"
       },
       "digital": {
         "instagram": {
@@ -1565,8 +1596,15 @@
         ]
       },
       "oferta": {
-        "valor_total": 6800,
-        "preco_transparente": true
+        "preco_avista": null,
+        "preco_parcelado": null,
+        "valor_total": null,
+        "desconto_a_vista": null,
+        "garantia": null,
+        "parcelamento_max": null,
+        "bonus_inclusos": [],
+        "preco_transparente": false,
+        "observacao_preco": "PESQUISANDO"
       },
       "digital": {
         "instagram": {
@@ -1597,8 +1635,15 @@
         ]
       },
       "oferta": {
-        "valor_total": 9500,
-        "preco_transparente": false
+        "preco_avista": null,
+        "preco_parcelado": null,
+        "valor_total": null,
+        "desconto_a_vista": null,
+        "garantia": null,
+        "parcelamento_max": null,
+        "bonus_inclusos": [],
+        "preco_transparente": false,
+        "observacao_preco": "PESQUISANDO"
       },
       "digital": {
         "instagram": {
