@@ -1,9 +1,9 @@
 import { useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { 
-    Target, 
-    ShieldAlert, 
-    TrendingUp, 
+import {
+    Target,
+    ShieldAlert,
+    TrendingUp,
     Users,
     ChevronDown,
     Zap,
@@ -143,7 +143,7 @@ export function Dashboard() {
     // Calcular KPIs
     const kpis = useMemo(() => {
         const comAds = competitors.filter(c => (c.trafego_pago?.meta_ads?.anuncios_ativos || 0) > 0).length;
-        const vulnCriticas = competitors.reduce((sum, c) => 
+        const vulnCriticas = competitors.reduce((sum, c) =>
             sum + (c.vulnerabilidades?.filter(v => v.gravidade === 'alta').length || 0), 0
         );
         return {
@@ -156,7 +156,7 @@ export function Dashboard() {
     // Gerar alertas
     const alerts: AlertItem[] = useMemo(() => {
         const items: AlertItem[] = [];
-        
+
         const sanar = competitors.find(c => c.nome.toLowerCase().includes('sanar'));
         if (sanar && (sanar.trafego_pago?.meta_ads?.anuncios_ativos || 0) > 30) {
             items.push({
@@ -253,7 +253,7 @@ export function Dashboard() {
                                     <span className="flex-1">{topic.title}</span>
                                     <ChevronDown className={`w-4 h-4 transition-transform ${expandedTopics.has(topic.id) ? 'rotate-180' : ''}`} />
                                 </button>
-                                
+
                                 {/* Conteúdo abaixo do título */}
                                 <AnimatePresence>
                                     {expandedTopics.has(topic.id) && (
@@ -331,7 +331,7 @@ export function Dashboard() {
                             <span>Concorrentes</span>
                             <span className="px-1.5 py-0.5 rounded bg-zinc-800 text-zinc-400">{filteredCompetitors.length}</span>
                         </div>
-                        <ChromeTabs 
+                        <ChromeTabs
                             competitors={filteredCompetitors}
                             selectedId={selectedCompetitorId}
                             onSelect={setSelectedCompetitorId}
@@ -394,7 +394,7 @@ export function Dashboard() {
                             <CardTitle className="cenbrap-card-title text-base">Comparativo: {selectedCompetitor?.nome || 'Selecionado'} vs Média</CardTitle>
                         </CardHeader>
                         <CardContent className="cenbrap-card-body pt-0">
-                            <RadarComparison 
+                            <RadarComparison
                                 competitors={competitors}
                                 selectedCompetitor={selectedCompetitor}
                             />
@@ -445,8 +445,8 @@ export function Dashboard() {
                                         <div className="cenbrap-alert-content">
                                             <p className="cenbrap-alert-text">{alert.mensagem}</p>
                                         </div>
-                                        <Badge 
-                                            variant={alert.tipo === 'warning' ? 'destructive' : 'secondary'} 
+                                        <Badge
+                                            variant={alert.tipo === 'warning' ? 'destructive' : 'secondary'}
                                             className="ml-auto"
                                         >
                                             {alert.tipo === 'warning' ? 'Urgente' : 'Info'}
@@ -469,7 +469,7 @@ export function Dashboard() {
                                         <div className="cenbrap-opportunity-icon">
                                             <Zap className="w-4 h-4" />
                                         </div>
-                                        <Badge 
+                                        <Badge
                                             variant={opp.impacto === 'alto' ? 'default' : opp.impacto === 'medio' ? 'warning' : 'secondary'}
                                             className="text-xs"
                                         >
@@ -488,7 +488,7 @@ export function Dashboard() {
                 {selectedCompetitor && (
                     <div className="cenbrap-section" style={{ marginTop: '32px' }}>
                         <h3 className="cenbrap-section-title">Análise Detalhada: {selectedCompetitor.nome}</h3>
-                        
+
                         {/* Detail Header */}
                         <div className="cenbrap-detail-header">
                             <div className="cenbrap-detail-header-top">
@@ -547,7 +547,7 @@ export function Dashboard() {
 
                         {/* EXPANDED SECTIONS - ALL VISIBLE */}
                         <div className="cenbrap-expanded-sections">
-                            
+
                             {/* FICHA SECTION */}
                             <div className="cenbrap-section-card">
                                 <div className="cenbrap-section-card-header">
@@ -612,42 +612,56 @@ export function Dashboard() {
                                     {selectedCompetitor.oferta ? (
                                         <div className="cenbrap-info-grid">
                                             <div className="cenbrap-info-group">
-                                                <div className="cenbrap-info-group-title">Faixa de Preço</div>
+                                                <div className="cenbrap-info-group-title">Valores</div>
                                                 <div className="cenbrap-info-row">
-                                                    <span className="cenbrap-info-label">Categoria</span>
-                                                    <span className="cenbrap-info-value">
-                                                        <PriceRangeBadge value={selectedCompetitor.oferta.valor_total} size="md" />
+                                                    <span className="cenbrap-info-label">Investimento Total</span>
+                                                    <span className="cenbrap-info-value" style={{ fontWeight: 600, color: '#e4e4e7' }}>
+                                                        {selectedCompetitor.oferta.valor_total
+                                                            ? new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(selectedCompetitor.oferta.valor_total)
+                                                            : 'Não informado'}
                                                     </span>
                                                 </div>
                                                 <div className="cenbrap-info-row">
-                                                    <span className="cenbrap-info-label">Preço à Vista</span>
-                                                    <span className="cenbrap-info-value">{selectedCompetitor.oferta.preco_avista || 'N/A'}</span>
+                                                    <span className="cenbrap-info-label">À Vista</span>
+                                                    <span className="cenbrap-info-value">
+                                                        {selectedCompetitor.oferta.preco_avista
+                                                            ? (typeof selectedCompetitor.oferta.preco_avista === 'number'
+                                                                ? new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(selectedCompetitor.oferta.preco_avista)
+                                                                : selectedCompetitor.oferta.preco_avista)
+                                                            : '-'}
+                                                    </span>
                                                 </div>
                                                 <div className="cenbrap-info-row">
-                                                    <span className="cenbrap-info-label">Preço Parcelado</span>
-                                                    <span className="cenbrap-info-value">{selectedCompetitor.oferta.preco_parcelado || 'N/A'}</span>
+                                                    <span className="cenbrap-info-label">Parcelado</span>
+                                                    <span className="cenbrap-info-value">{selectedCompetitor.oferta.preco_parcelado || '-'}</span>
                                                 </div>
-                                                <div className="cenbrap-info-row">
-                                                    <span className="cenbrap-info-label">Parcelamento Máx</span>
-                                                    <span className="cenbrap-info-value">{selectedCompetitor.oferta.parcelamento_max ? `${selectedCompetitor.oferta.parcelamento_max}x` : 'N/A'}</span>
-                                                </div>
+                                                {selectedCompetitor.oferta.desconto_a_vista && (
+                                                    <div className="cenbrap-info-row">
+                                                        <span className="cenbrap-info-label" style={{ color: '#22c55e' }}>Desconto à Vista</span>
+                                                        <span className="cenbrap-info-value" style={{ color: '#22c55e' }}>{selectedCompetitor.oferta.desconto_a_vista}</span>
+                                                    </div>
+                                                )}
                                             </div>
                                             <div className="cenbrap-info-group">
-                                                <div className="cenbrap-info-group-title">Condições</div>
-                                                <div className="cenbrap-info-row">
-                                                    <span className="cenbrap-info-label">Inclui Material</span>
-                                                    <span className="cenbrap-info-value">{selectedCompetitor.oferta.inclui_material ? 'Sim' : 'Não'}</span>
-                                                </div>
-                                                <div className="cenbrap-info-row">
-                                                    <span className="cenbrap-info-label">Inclui Certificado</span>
-                                                    <span className="cenbrap-info-value">{selectedCompetitor.oferta.inclui_certificado ? 'Sim' : 'Não'}</span>
-                                                </div>
+                                                <div className="cenbrap-info-group-title">Detalhes e Condições</div>
+                                                {selectedCompetitor.oferta.observacao_preco && selectedCompetitor.oferta.observacao_preco !== "PESQUISANDO" && (
+                                                    <div className="mb-3 p-2 rounded bg-zinc-900/50 border border-zinc-800">
+                                                        <p className="text-xs text-zinc-400 mb-1">Observações de Pagamento:</p>
+                                                        <p className="text-sm text-zinc-200">{selectedCompetitor.oferta.observacao_preco}</p>
+                                                    </div>
+                                                )}
+                                                {selectedCompetitor.oferta.observacao_preco === "PESQUISANDO" && (
+                                                    <div className="mb-3 p-2 rounded bg-yellow-900/20 border border-yellow-800/50">
+                                                        <p className="text-sm text-yellow-500">Valor sob consulta / Em pesquisa</p>
+                                                    </div>
+                                                )}
+
                                                 <div className="cenbrap-info-row">
                                                     <span className="cenbrap-info-label">Garantia</span>
-                                                    <span className="cenbrap-info-value">{selectedCompetitor.oferta.garantia || 'N/A'}</span>
+                                                    <span className="cenbrap-info-value">{selectedCompetitor.oferta.garantia || '-'}</span>
                                                 </div>
                                                 <div className="cenbrap-info-row">
-                                                    <span className="cenbrap-info-label">Preço Transparente</span>
+                                                    <span className="cenbrap-info-label">Transparência</span>
                                                     <span className="cenbrap-info-value" style={{ color: selectedCompetitor.oferta.preco_transparente ? '#22c55e' : '#ef4444' }}>
                                                         {selectedCompetitor.oferta.preco_transparente ? 'Sim' : 'Não'}
                                                     </span>
