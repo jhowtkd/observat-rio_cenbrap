@@ -4,38 +4,38 @@
    ============================================ */
 
 :root {
-  --cenbrap-bg: #000000;
-  --cenbrap-bg-elevated: #0a0a0a;
-  --cenbrap-bg-card: #111111;
-  --cenbrap-bg-hover: #1a1a1a;
+  --cenbrap-bg: #09090b; /* Zinc 950 - Mais moderno que #000 */
+  --cenbrap-bg-elevated: #18181b; /* Zinc 900 */
+  --cenbrap-bg-card: #18181b; /* Zinc 900 */
+  --cenbrap-bg-hover: #27272a; /* Zinc 800 */
   
-  --cenbrap-border: #222222;
-  --cenbrap-border-light: #333333;
+  --cenbrap-border: #27272a; /* Zinc 800 - Mais suave */
+  --cenbrap-border-light: #3f3f46; /* Zinc 700 */
   
-  --cenbrap-text: #ffffff;
+  --cenbrap-text: #fafafa;
   --cenbrap-text-secondary: #a1a1aa;
   --cenbrap-text-muted: #71717a;
   
-  --cenbrap-accent: #ff7a00;
-  --cenbrap-accent-soft: #ff9933;
-  --cenbrap-accent-gradient: linear-gradient(90deg, #f97316, #fb923c);
+  --cenbrap-accent: #f97316; /* Orange 500 */
+  --cenbrap-accent-soft: #fb923c;
+  --cenbrap-accent-gradient: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
   
-  --cenbrap-primary: #003366;
-  --cenbrap-primary-soft: #134a8e;
+  --cenbrap-primary: #0ea5e9; /* Sky 500 - Mais vibrante que o azul antigo */
+  --cenbrap-primary-soft: #38bdf8;
   
   --cenbrap-success: #22c55e;
-  --cenbrap-warning: #f59e0b;
+  --cenbrap-warning: #eab308;
   --cenbrap-danger: #ef4444;
   --cenbrap-info: #06b6d4;
   
-  --cenbrap-radius-lg: 16px;
-  --cenbrap-radius-md: 12px;
-  --cenbrap-radius-sm: 8px;
+  --cenbrap-radius-lg: 12px; /* Reduzindo um pouco o arredondamento para profissionalismo */
+  --cenbrap-radius-md: 8px;
+  --cenbrap-radius-sm: 6px;
   
-  --shadow-soft: 0 14px 30px rgba(0, 0, 0, 0.5);
-  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.4);
+  --shadow-soft: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+  --shadow-card: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   
-  --transition-fast: 0.18s ease-out;
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ============================================

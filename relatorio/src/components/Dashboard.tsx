@@ -300,26 +300,26 @@ export function Dashboard() {
             </aside>
 
             {/* Main Content */}
-            <main className="cenbrap-main">
+            <main className="cenbrap-main bg-background text-text">
                 {/* Header com Tabs tipo Chrome */}
-                <header className="cenbrap-header" style={{ flexDirection: 'column', gap: '16px' }}>
-                    <div className="cenbrap-header-title-group" style={{ width: '100%', justifyContent: 'space-between' }}>
+                <header className="cenbrap-header flex flex-col gap-4 border-b border-border pb-5 mb-6">
+                    <div className="flex w-full justify-between items-center flex-wrap gap-4">
                         <div className="flex items-center gap-4">
-                            <div className="cenbrap-header-icon">
+                            <div className="cenbrap-header-icon bg-surface border border-border/50 text-primary p-2 rounded-lg">
                                 <BarChart3 className="w-6 h-6" />
                             </div>
                             <div>
-                                <h1 className="cenbrap-header-title">Dashboard Competitivo</h1>
-                                <p className="cenbrap-header-subtitle">Pós-graduação EAD Médica • Análise em tempo real</p>
+                                <h1 className="text-2xl font-bold tracking-tight text-text">Dashboard Competitivo</h1>
+                                <p className="text-sm text-muted">Pós-graduação EAD Médica • Análise em tempo real</p>
                             </div>
                         </div>
-                        <div className="cenbrap-header-meta">
-                            <div className="cenbrap-date-badge">
+                        <div className="flex items-center gap-4">
+                            <div className="flex items-center gap-2 px-4 py-2 bg-surface border border-border rounded-full text-sm text-text-secondary">
                                 <Calendar className="w-4 h-4" />
                                 {new Date().toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' })}
                             </div>
-                            <div className="cenbrap-live-badge">
-                                <span className="cenbrap-live-dot" />
+                            <div className="flex items-center gap-2 px-4 py-2 bg-emerald-500/10 text-emerald-500 rounded-full text-xs font-semibold border border-emerald-500/20">
+                                <span className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse" />
                                 Monitoramento Ativo
                             </div>
                         </div>
@@ -327,9 +327,9 @@ export function Dashboard() {
 
                     {/* Chrome Tabs - Navegação de Concorrentes */}
                     <div className="w-full">
-                        <div className="text-xs text-zinc-500 mb-2 flex items-center gap-2">
+                        <div className="text-xs text-muted mb-2 flex items-center gap-2">
                             <span>Concorrentes</span>
-                            <span className="px-1.5 py-0.5 rounded bg-zinc-800 text-zinc-400">{filteredCompetitors.length}</span>
+                            <span className="px-1.5 py-0.5 rounded bg-surface border border-border text-muted">{filteredCompetitors.length}</span>
                         </div>
                         <ChromeTabs
                             competitors={filteredCompetitors}
@@ -340,60 +340,60 @@ export function Dashboard() {
                 </header>
 
                 {/* KPIs com shadcn Card */}
-                <div className="cenbrap-kpi-grid">
-                    <Card className="cenbrap-kpi-card border-[var(--cenbrap-border)]">
-                        <CardContent className="p-4 flex items-center gap-4">
-                            <div className="cenbrap-kpi-icon cenbrap-kpi-icon--primary">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+                    <Card className="bg-card border-border shadow-sm hover:border-border/80 transition-all">
+                        <CardContent className="p-5 flex items-center gap-4">
+                            <div className="p-3 bg-surface border border-border/50 rounded-lg text-text">
                                 <Target className="w-5 h-5" />
                             </div>
-                            <div className="cenbrap-kpi-content">
-                                <div className="cenbrap-kpi-label">Concorrentes</div>
-                                <div className="cenbrap-kpi-value">{kpis.total}</div>
+                            <div>
+                                <div className="text-xs font-medium text-muted uppercase tracking-wider mb-1">Concorrentes</div>
+                                <div className="text-2xl font-bold text-text">{kpis.total}</div>
                             </div>
                         </CardContent>
                     </Card>
-                    <Card className="cenbrap-kpi-card border-[var(--cenbrap-border)]">
-                        <CardContent className="p-4 flex items-center gap-4">
-                            <div className="cenbrap-kpi-icon cenbrap-kpi-icon--accent">
+                    <Card className="bg-card border-border shadow-sm hover:border-border/80 transition-all">
+                        <CardContent className="p-5 flex items-center gap-4">
+                            <div className="p-3 bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg text-white shadow-lg shadow-orange-500/20">
                                 <Megaphone className="w-5 h-5" />
                             </div>
-                            <div className="cenbrap-kpi-content">
-                                <div className="cenbrap-kpi-label">Com Ads Ativos</div>
-                                <div className="cenbrap-kpi-value">{kpis.comAds}</div>
+                            <div>
+                                <div className="text-xs font-medium text-muted uppercase tracking-wider mb-1">Com Ads Ativos</div>
+                                <div className="text-2xl font-bold text-text">{kpis.comAds}</div>
                             </div>
                         </CardContent>
                     </Card>
-                    <Card className="cenbrap-kpi-card border-[var(--cenbrap-border)]">
-                        <CardContent className="p-4 flex items-center gap-4">
-                            <div className="cenbrap-kpi-icon cenbrap-kpi-icon--warning">
+                    <Card className="bg-card border-border shadow-sm hover:border-border/80 transition-all">
+                        <CardContent className="p-5 flex items-center gap-4">
+                            <div className="p-3 bg-amber-500/10 border border-amber-500/20 rounded-lg text-amber-500">
                                 <ShieldAlert className="w-5 h-5" />
                             </div>
-                            <div className="cenbrap-kpi-content">
-                                <div className="cenbrap-kpi-label">Vuln. Críticas</div>
-                                <div className="cenbrap-kpi-value">{kpis.vulnCriticas}</div>
+                            <div>
+                                <div className="text-xs font-medium text-muted uppercase tracking-wider mb-1">Vuln. Críticas</div>
+                                <div className="text-2xl font-bold text-text">{kpis.vulnCriticas}</div>
                             </div>
                         </CardContent>
                     </Card>
-                    <Card className="cenbrap-kpi-card border-[var(--cenbrap-border)]">
-                        <CardContent className="p-4 flex items-center gap-4">
-                            <div className="cenbrap-kpi-icon cenbrap-kpi-icon--success">
+                    <Card className="bg-card border-border shadow-sm hover:border-border/80 transition-all">
+                        <CardContent className="p-5 flex items-center gap-4">
+                            <div className="p-3 bg-emerald-500/10 border border-emerald-500/20 rounded-lg text-emerald-500">
                                 <Activity className="w-5 h-5" />
                             </div>
-                            <div className="cenbrap-kpi-content">
-                                <div className="cenbrap-kpi-label">Status</div>
-                                <div className="cenbrap-kpi-value" style={{ fontSize: '18px', marginTop: '4px' }}>Ativo</div>
+                            <div>
+                                <div className="text-xs font-medium text-muted uppercase tracking-wider mb-1">Status</div>
+                                <div className="text-lg font-bold text-text mt-1">Ativo</div>
                             </div>
                         </CardContent>
                     </Card>
                 </div>
 
                 {/* Charts Grid com shadcn Card */}
-                <div className="cenbrap-content-grid">
-                    <Card className="cenbrap-card border-[var(--cenbrap-border)]">
-                        <CardHeader className="cenbrap-card-header pb-2">
-                            <CardTitle className="cenbrap-card-title text-base">Comparativo: {selectedCompetitor?.nome || 'Selecionado'} vs Média</CardTitle>
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+                    <Card className="bg-card border-border shadow-sm overflow-hidden">
+                        <CardHeader className="border-b border-border/50 pb-4">
+                            <CardTitle className="text-base font-semibold text-text">Comparativo: {selectedCompetitor?.nome || 'Selecionado'} vs Média</CardTitle>
                         </CardHeader>
-                        <CardContent className="cenbrap-card-body pt-0">
+                        <CardContent className="pt-6">
                             <RadarComparison
                                 competitors={competitors}
                                 selectedCompetitor={selectedCompetitor}
@@ -401,31 +401,31 @@ export function Dashboard() {
                         </CardContent>
                     </Card>
 
-                    <Card className="cenbrap-card border-[var(--cenbrap-border)]">
-                        <CardHeader className="cenbrap-card-header pb-2">
-                            <CardTitle className="cenbrap-card-title text-base">Distribuição de Preços</CardTitle>
+                    <Card className="bg-card border-border shadow-sm overflow-hidden">
+                        <CardHeader className="border-b border-border/50 pb-4">
+                            <CardTitle className="text-base font-semibold text-text">Distribuição de Preços</CardTitle>
                         </CardHeader>
-                        <CardContent className="cenbrap-card-body pt-0">
+                        <CardContent className="pt-6">
                             <PriceDistribution competitors={competitors} />
                         </CardContent>
                     </Card>
 
-                    <Card className="cenbrap-card border-[var(--cenbrap-border)]">
-                        <CardHeader className="cenbrap-card-header pb-2">
-                            <CardTitle className="cenbrap-card-title text-base">Matriz de Posicionamento</CardTitle>
-                            <span className="cenbrap-card-subtitle">Preço x Credibilidade</span>
+                    <Card className="bg-card border-border shadow-sm overflow-hidden">
+                        <CardHeader className="border-b border-border/50 pb-4">
+                            <CardTitle className="text-base font-semibold text-text">Matriz de Posicionamento</CardTitle>
+                            <span className="text-xs text-muted">Preço x Credibilidade</span>
                         </CardHeader>
-                        <CardContent className="cenbrap-card-body pt-0">
+                        <CardContent className="pt-6">
                             <PositioningMatrix competitors={competitors} />
                         </CardContent>
                     </Card>
 
-                    <Card className="cenbrap-card border-[var(--cenbrap-border)]">
-                        <CardHeader className="cenbrap-card-header pb-2">
-                            <CardTitle className="cenbrap-card-title text-base">Meta Ads - Anúncios Ativos</CardTitle>
-                            <span className="cenbrap-card-subtitle">Top 10 concorrentes</span>
+                    <Card className="bg-card border-border shadow-sm overflow-hidden">
+                        <CardHeader className="border-b border-border/50 pb-4">
+                            <CardTitle className="text-base font-semibold text-text">Meta Ads - Anúncios Ativos</CardTitle>
+                            <span className="text-xs text-muted">Top 10 concorrentes</span>
                         </CardHeader>
-                        <CardContent className="cenbrap-card-body pt-0">
+                        <CardContent className="pt-6">
                             <AdsInvestmentChart competitors={competitors} />
                         </CardContent>
                     </Card>
@@ -433,17 +433,19 @@ export function Dashboard() {
 
                 {/* Alerts Section com shadcn Card e Badge */}
                 {alerts.length > 0 && (
-                    <div className="cenbrap-section">
-                        <h3 className="cenbrap-section-title">Alertas</h3>
-                        <div className="cenbrap-alert-list">
+                    <div className="mb-6">
+                        <h3 className="flex items-center gap-2 text-sm font-semibold text-text mb-4 pl-1 border-l-4 border-accent">
+                            Alertas
+                        </h3>
+                        <div className="flex flex-col gap-3">
                             {alerts.map((alert) => (
-                                <Card key={alert.id} className={`cenbrap-alert-item cenbrap-alert-item--${alert.tipo} border-[var(--cenbrap-border)]`}>
-                                    <CardContent className="p-3 flex items-center gap-3">
-                                        <div className={`cenbrap-alert-icon cenbrap-alert-icon--${alert.tipo}`}>
+                                <Card key={alert.id} className={`bg-card border border-border border-l-4 ${alert.tipo === 'warning' ? 'border-l-warning' : 'border-l-info'} shadow-sm`}>
+                                    <CardContent className="p-4 flex items-center gap-3">
+                                        <div className={`p-2 rounded-full ${alert.tipo === 'warning' ? 'bg-warning/10 text-warning' : 'bg-info/10 text-info'}`}>
                                             <AlertTriangle className="w-4 h-4" />
                                         </div>
-                                        <div className="cenbrap-alert-content">
-                                            <p className="cenbrap-alert-text">{alert.mensagem}</p>
+                                        <div className="flex-1">
+                                            <p className="text-sm text-text-secondary leading-relaxed">{alert.mensagem}</p>
                                         </div>
                                         <Badge
                                             variant={alert.tipo === 'warning' ? 'destructive' : 'secondary'}
@@ -459,25 +461,27 @@ export function Dashboard() {
                 )}
 
                 {/* Opportunities Section com shadcn Card e Badge */}
-                <div className="cenbrap-section">
-                    <h3 className="cenbrap-section-title">Oportunidades Identificadas</h3>
-                    <div className="cenbrap-opportunity-grid">
+                <div className="mb-6">
+                    <h3 className="flex items-center gap-2 text-sm font-semibold text-text mb-4 pl-1 border-l-4 border-accent">
+                        Oportunidades Identificadas
+                    </h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                         {opportunities.map((opp) => (
-                            <Card key={opp.id} className="cenbrap-opportunity-card border-[var(--cenbrap-border)]">
-                                <CardContent className="p-4">
-                                    <div className="cenbrap-opportunity-header">
-                                        <div className="cenbrap-opportunity-icon">
+                            <Card key={opp.id} className="bg-card border-border shadow-sm hover:border-accent/50 transition-all hover:-translate-y-1">
+                                <CardContent className="p-5">
+                                    <div className="flex items-center gap-3 mb-3">
+                                        <div className="w-8 h-8 rounded-full bg-gradient-to-br from-orange-500 to-orange-600 flex items-center justify-center text-white shadow-lg shadow-orange-500/20">
                                             <Zap className="w-4 h-4" />
                                         </div>
                                         <Badge
                                             variant={opp.impacto === 'alto' ? 'default' : opp.impacto === 'medio' ? 'warning' : 'secondary'}
-                                            className="text-xs"
+                                            className="text-xs ml-auto"
                                         >
                                             Impacto {opp.impacto}
                                         </Badge>
                                     </div>
-                                    <h4 className="cenbrap-opportunity-title">{opp.titulo}</h4>
-                                    <p className="cenbrap-opportunity-desc">{opp.descricao}</p>
+                                    <h4 className="text-sm font-semibold text-text mb-2 line-clamp-1">{opp.titulo}</h4>
+                                    <p className="text-xs text-muted leading-relaxed line-clamp-3">{opp.descricao}</p>
                                 </CardContent>
                             </Card>
                         ))}
@@ -601,78 +605,88 @@ export function Dashboard() {
                             </div>
 
                             {/* PREÇOS SECTION */}
-                            <div className="cenbrap-section-card">
-                                <div className="cenbrap-section-card-header">
-                                    <div className="cenbrap-section-card-icon">
-                                        <DollarSign className="w-5 h-5" />
+                            <Card className="bg-card border-border shadow-sm">
+                                <CardHeader className="border-b border-border/50 pb-3">
+                                    <div className="flex items-center gap-2">
+                                        <div className="p-2 bg-surface rounded-lg text-primary">
+                                            <DollarSign className="w-5 h-5" />
+                                        </div>
+                                        <CardTitle className="text-base font-semibold text-text">Preços e Condições</CardTitle>
                                     </div>
-                                    <h4 className="cenbrap-section-card-title">Preços e Condições</h4>
-                                </div>
-                                <div className="cenbrap-section-card-body">
+                                </CardHeader>
+                                <CardContent className="pt-4">
                                     {selectedCompetitor.oferta ? (
-                                        <div className="cenbrap-info-grid">
-                                            <div className="cenbrap-info-group">
-                                                <div className="cenbrap-info-group-title">Valores</div>
-                                                <div className="cenbrap-info-row">
-                                                    <span className="cenbrap-info-label">Investimento Total</span>
-                                                    <span className="cenbrap-info-value" style={{ fontWeight: 600, color: '#e4e4e7' }}>
-                                                        {selectedCompetitor.oferta.valor_total
-                                                            ? new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(selectedCompetitor.oferta.valor_total)
-                                                            : 'Não informado'}
-                                                    </span>
-                                                </div>
-                                                <div className="cenbrap-info-row">
-                                                    <span className="cenbrap-info-label">À Vista</span>
-                                                    <span className="cenbrap-info-value">
-                                                        {selectedCompetitor.oferta.preco_avista
-                                                            ? (typeof selectedCompetitor.oferta.preco_avista === 'number'
-                                                                ? new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(selectedCompetitor.oferta.preco_avista)
-                                                                : selectedCompetitor.oferta.preco_avista)
-                                                            : '-'}
-                                                    </span>
-                                                </div>
-                                                <div className="cenbrap-info-row">
-                                                    <span className="cenbrap-info-label">Parcelado</span>
-                                                    <span className="cenbrap-info-value">{selectedCompetitor.oferta.preco_parcelado || '-'}</span>
-                                                </div>
-                                                {selectedCompetitor.oferta.desconto_a_vista && (
-                                                    <div className="cenbrap-info-row">
-                                                        <span className="cenbrap-info-label" style={{ color: '#22c55e' }}>Desconto à Vista</span>
-                                                        <span className="cenbrap-info-value" style={{ color: '#22c55e' }}>{selectedCompetitor.oferta.desconto_a_vista}</span>
+                                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                            <div className="space-y-4">
+                                                <h4 className="text-sm font-medium text-text-muted uppercase tracking-wider">Valores</h4>
+                                                <div className="space-y-3">
+                                                    <div className="flex justify-between items-center py-2 border-b border-border/50">
+                                                        <span className="text-sm text-text-secondary">Investimento Total</span>
+                                                        <span className="text-base font-bold text-text">
+                                                            {selectedCompetitor.oferta.valor_total
+                                                                ? new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(selectedCompetitor.oferta.valor_total)
+                                                                : 'Não informado'}
+                                                        </span>
                                                     </div>
-                                                )}
+                                                    <div className="flex justify-between items-center py-2 border-b border-border/50">
+                                                        <span className="text-sm text-text-secondary">À Vista</span>
+                                                        <span className="text-sm font-medium text-text">
+                                                            {selectedCompetitor.oferta.preco_avista
+                                                                ? (typeof selectedCompetitor.oferta.preco_avista === 'number'
+                                                                    ? new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(selectedCompetitor.oferta.preco_avista)
+                                                                    : selectedCompetitor.oferta.preco_avista)
+                                                                : '-'}
+                                                        </span>
+                                                    </div>
+                                                    <div className="flex justify-between items-center py-2 border-b border-border/50">
+                                                        <span className="text-sm text-text-secondary">Parcelado</span>
+                                                        <span className="text-sm font-medium text-text">{selectedCompetitor.oferta.preco_parcelado || '-'}</span>
+                                                    </div>
+                                                    {selectedCompetitor.oferta.desconto_a_vista && (
+                                                        <div className="flex justify-between items-center py-2">
+                                                            <span className="text-sm font-medium text-emerald-500">Desconto à Vista</span>
+                                                            <span className="text-sm font-bold text-emerald-500">{selectedCompetitor.oferta.desconto_a_vista}</span>
+                                                        </div>
+                                                    )}
+                                                </div>
                                             </div>
-                                            <div className="cenbrap-info-group">
-                                                <div className="cenbrap-info-group-title">Detalhes e Condições</div>
+
+                                            <div className="space-y-4">
+                                                <h4 className="text-sm font-medium text-text-muted uppercase tracking-wider">Detalhes e Condições</h4>
+
                                                 {selectedCompetitor.oferta.observacao_preco && selectedCompetitor.oferta.observacao_preco !== "PESQUISANDO" && (
-                                                    <div className="mb-3 p-2 rounded bg-zinc-900/50 border border-zinc-800">
-                                                        <p className="text-xs text-zinc-400 mb-1">Observações de Pagamento:</p>
-                                                        <p className="text-sm text-zinc-200">{selectedCompetitor.oferta.observacao_preco}</p>
+                                                    <div className="p-3 rounded-lg bg-surface border border-border">
+                                                        <p className="text-xs text-text-muted mb-1">Observações de Pagamento:</p>
+                                                        <p className="text-sm text-text-secondary leading-relaxed">{selectedCompetitor.oferta.observacao_preco}</p>
                                                     </div>
                                                 )}
                                                 {selectedCompetitor.oferta.observacao_preco === "PESQUISANDO" && (
-                                                    <div className="mb-3 p-2 rounded bg-yellow-900/20 border border-yellow-800/50">
-                                                        <p className="text-sm text-yellow-500">Valor sob consulta / Em pesquisa</p>
+                                                    <div className="p-3 rounded-lg bg-amber-500/10 border border-amber-500/20">
+                                                        <p className="text-sm text-amber-500">Valor sob consulta / Em pesquisa</p>
                                                     </div>
                                                 )}
 
-                                                <div className="cenbrap-info-row">
-                                                    <span className="cenbrap-info-label">Garantia</span>
-                                                    <span className="cenbrap-info-value">{selectedCompetitor.oferta.garantia || '-'}</span>
-                                                </div>
-                                                <div className="cenbrap-info-row">
-                                                    <span className="cenbrap-info-label">Transparência</span>
-                                                    <span className="cenbrap-info-value" style={{ color: selectedCompetitor.oferta.preco_transparente ? '#22c55e' : '#ef4444' }}>
-                                                        {selectedCompetitor.oferta.preco_transparente ? 'Sim' : 'Não'}
-                                                    </span>
+                                                <div className="grid grid-cols-2 gap-4 pt-2">
+                                                    <div>
+                                                        <span className="text-xs text-text-muted block mb-1">Garantia</span>
+                                                        <span className="text-sm font-medium text-text">{selectedCompetitor.oferta.garantia || '-'}</span>
+                                                    </div>
+                                                    <div>
+                                                        <span className="text-xs text-text-muted block mb-1">Transparência</span>
+                                                        <span className={`text-sm font-medium ${selectedCompetitor.oferta.preco_transparente ? 'text-emerald-500' : 'text-rose-500'}`}>
+                                                            {selectedCompetitor.oferta.preco_transparente ? 'Sim' : 'Não'}
+                                                        </span>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     ) : (
-                                        <p style={{ color: '#71717a', textAlign: 'center', padding: '20px' }}>Dados de preço não disponíveis</p>
+                                        <div className="py-8 text-center text-text-muted border-2 border-dashed border-border/50 rounded-lg bg-surface/30">
+                                            Dados de preço não disponíveis
+                                        </div>
                                     )}
-                                </div>
-                            </div>
+                                </CardContent>
+                            </Card>
 
                             {/* ADS SECTION */}
                             <div className="cenbrap-section-card">

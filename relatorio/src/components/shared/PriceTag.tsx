@@ -36,24 +36,24 @@ export function PriceTag({ preco, showContext = true, showSource = true }: Price
 
     return (
         <div className="space-y-3">
-            {/* Preço Principal - Agora com símbolos $, $$, $$$ */}
+            {/* Preço Principal */}
             <div className="flex items-baseline gap-3">
                 {priceRange === '?' ? (
-                    <span className="text-2xl font-bold text-zinc-500">
+                    <span className="text-2xl font-bold text-muted">
                         Preço sob consulta
                     </span>
                 ) : (
                     <>
-                        <span 
+                        <span
                             className="text-3xl font-bold"
                             style={{ color: priceColor }}
                             title={priceConfig?.description}
                         >
                             {priceRange}
                         </span>
-                        <span className="text-sm text-zinc-400">
+                        <span className="text-sm text-text-secondary">
                             {priceConfig?.label}
-                            <span className="text-zinc-600 ml-1">({priceConfig?.description})</span>
+                            <span className="text-muted ml-1">({priceConfig?.description})</span>
                         </span>
                     </>
                 )}
@@ -62,11 +62,11 @@ export function PriceTag({ preco, showContext = true, showSource = true }: Price
             {/* Preço numérico (menor, secundário) */}
             {preco.valor_total && (
                 <div className="flex items-center gap-2 text-sm">
-                    <DollarSign className="w-4 h-4 text-zinc-600" />
-                    <span className="text-zinc-500 line-through text-xs">
+                    <DollarSign className="w-4 h-4 text-text-secondary" />
+                    <span className="text-muted line-through text-xs">
                         {formatCurrency(preco.valor_total)}
                     </span>
-                    <span className="text-zinc-600 text-xs">
+                    <span className="text-text-secondary text-xs">
                         ({getPeriodLabel(preco.periodo_cobrado)})
                     </span>
                 </div>
@@ -76,18 +76,18 @@ export function PriceTag({ preco, showContext = true, showSource = true }: Price
             {showContext && (
                 <div className="grid grid-cols-2 gap-2 text-sm">
                     {preco.valor_mensal && (
-                        <div className="px-3 py-2 rounded-lg bg-zinc-900/50 border border-white/[0.06]">
-                            <div className="text-xs text-zinc-500">Mensal</div>
-                            <div className="font-medium text-zinc-300">
+                        <div className="px-3 py-2 rounded-lg bg-surface border border-border">
+                            <div className="text-xs text-muted">Mensal</div>
+                            <div className="font-medium text-text">
                                 {formatCurrency(preco.valor_mensal)}
                             </div>
                         </div>
                     )}
-                    
+
                     {preco.valor_semestre && (
-                        <div className="px-3 py-2 rounded-lg bg-zinc-900/50 border border-white/[0.06]">
-                            <div className="text-xs text-zinc-500">Semestral</div>
-                            <div className="font-medium text-zinc-300">
+                        <div className="px-3 py-2 rounded-lg bg-surface border border-border">
+                            <div className="text-xs text-muted">Semestral</div>
+                            <div className="font-medium text-text">
                                 {formatCurrency(preco.valor_semestre)}
                             </div>
                         </div>
@@ -95,12 +95,12 @@ export function PriceTag({ preco, showContext = true, showSource = true }: Price
 
                     {preco.preco_avista && (
                         <div className="px-3 py-2 rounded-lg bg-emerald-500/10 border border-emerald-500/20">
-                            <div className="text-xs text-emerald-400">À Vista</div>
-                            <div className="font-medium text-emerald-300">
+                            <div className="text-xs text-emerald-500">À Vista</div>
+                            <div className="font-medium text-emerald-400">
                                 {preco.preco_avista}
                             </div>
                             {preco.desconto_a_vista && (
-                                <div className="text-[10px] text-emerald-500">
+                                <div className="text-[10px] text-emerald-600">
                                     {preco.desconto_a_vista} OFF
                                 </div>
                             )}
@@ -108,9 +108,9 @@ export function PriceTag({ preco, showContext = true, showSource = true }: Price
                     )}
 
                     {preco.parcelamento_max && (
-                        <div className="px-3 py-2 rounded-lg bg-zinc-900/50 border border-white/[0.06]">
-                            <div className="text-xs text-zinc-500">Parcelamento</div>
-                            <div className="font-medium text-zinc-300">
+                        <div className="px-3 py-2 rounded-lg bg-surface border border-border">
+                            <div className="text-xs text-muted">Parcelamento</div>
+                            <div className="font-medium text-text">
                                 até {preco.parcelamento_max}x
                             </div>
                         </div>
@@ -121,16 +121,16 @@ export function PriceTag({ preco, showContext = true, showSource = true }: Price
             {/* Inclusões */}
             {showContext && (
                 <div className="flex flex-wrap gap-2">
-                    <InclusionBadge 
-                        active={preco.inclui_material} 
-                        label="Material" 
+                    <InclusionBadge
+                        active={preco.inclui_material}
+                        label="Material"
                     />
-                    <InclusionBadge 
-                        active={preco.inclui_certificado} 
-                        label="Certificado" 
+                    <InclusionBadge
+                        active={preco.inclui_certificado}
+                        label="Certificado"
                     />
                     {preco.taxa_matricula && (
-                        <span className="text-xs px-2 py-1 rounded bg-amber-500/10 text-amber-400 border border-amber-500/20">
+                        <span className="text-xs px-2 py-1 rounded bg-amber-500/10 text-amber-500 border border-amber-500/20">
                             + Taxa matrícula: {formatCurrency(preco.taxa_matricula)}
                         </span>
                     )}
@@ -139,8 +139,8 @@ export function PriceTag({ preco, showContext = true, showSource = true }: Price
 
             {/* Duração */}
             {showContext && preco.duracao_meses && (
-                <div className="text-sm text-zinc-400">
-                    Duração: <span className="text-zinc-300">{preco.duracao_meses} meses</span>
+                <div className="text-sm text-muted">
+                    Duração: <span className="text-text-secondary">{preco.duracao_meses} meses</span>
                 </div>
             )}
 
@@ -154,9 +154,9 @@ function InclusionBadge({ active, label }: { active: boolean; label: string }) {
     return (
         <span className={`
             text-xs px-2 py-1 rounded border
-            ${active 
-                ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/20' 
-                : 'bg-zinc-800 text-zinc-500 border-zinc-700'
+            ${active
+                ? 'bg-emerald-500/10 text-emerald-500 border-emerald-500/20'
+                : 'bg-surface text-muted border-border'
             }
         `}>
             {active ? '✓' : '✗'} {label}
@@ -164,7 +164,7 @@ function InclusionBadge({ active, label }: { active: boolean; label: string }) {
     );
 }
 
-// Comparador de preços - atualizado para usar faixas
+// Comparador de preços
 interface PriceComparisonProps {
     preco: number;
     mediaMercado: number;
@@ -175,13 +175,12 @@ export function PriceComparison({ preco, mediaMercado }: PriceComparisonProps) {
     const isAbove = diff > 0;
     const isEqual = Math.abs(diff) < 1;
 
-    // Obter faixas de preço
     const precoRange = getPriceRange(preco);
     const mediaRange = getPriceRange(mediaMercado);
 
     if (isEqual) {
         return (
-            <div className="flex items-center gap-1.5 text-zinc-400">
+            <div className="flex items-center gap-1.5 text-muted">
                 <Minus className="w-4 h-4" />
                 <span className="text-sm">Na média do mercado</span>
             </div>
@@ -194,14 +193,14 @@ export function PriceComparison({ preco, mediaMercado }: PriceComparisonProps) {
             <span className="text-sm font-medium">
                 {Math.abs(diff).toFixed(0)}% {isAbove ? 'acima' : 'abaixo'} da média
             </span>
-            <span className="text-xs text-zinc-500 ml-2">
+            <span className="text-xs text-muted ml-2">
                 ({precoRange} vs {mediaRange})
             </span>
         </div>
     );
 }
 
-// Badge de faixa de preço para uso em listas e cards
+// Badge de faixa de preço
 interface PriceRangeBadgeProps {
     value?: number | null;
     size?: 'sm' | 'md' | 'lg';
@@ -210,8 +209,18 @@ interface PriceRangeBadgeProps {
 export function PriceRangeBadge({ value, size = 'md' }: PriceRangeBadgeProps) {
     const range = getPriceRange(value);
     const config = getPriceRangeConfig(value);
+
+    // Mapeamento de cores para classes Tailwind
+    const colorClasses = {
+        '#22c55e': 'bg-emerald-500/10 text-emerald-500 border-emerald-500/20',
+        '#f59e0b': 'bg-amber-500/10 text-amber-500 border-amber-500/20',
+        '#ef4444': 'bg-rose-500/10 text-rose-500 border-rose-500/20',
+        '#71717a': 'bg-zinc-500/10 text-zinc-500 border-zinc-500/20'
+    };
+
     const color = config?.color || '#71717a';
-    
+    const colorClass = colorClasses[color as keyof typeof colorClasses] || colorClasses['#71717a'];
+
     const sizeClasses = {
         sm: 'text-xs px-2 py-0.5 gap-1',
         md: 'text-sm px-3 py-1 gap-2',
@@ -220,8 +229,8 @@ export function PriceRangeBadge({ value, size = 'md' }: PriceRangeBadgeProps) {
 
     if (range === '?') {
         return (
-            <span 
-                className={`inline-flex items-center rounded-full border border-zinc-700 bg-zinc-800 text-zinc-400 font-medium ${sizeClasses[size]}`}
+            <span
+                className={`inline-flex items-center rounded-full border border-border bg-surface text-muted font-medium ${sizeClasses[size]}`}
                 title="Preço não divulgado no site"
             >
                 <span>?</span>
@@ -231,13 +240,8 @@ export function PriceRangeBadge({ value, size = 'md' }: PriceRangeBadgeProps) {
     }
 
     return (
-        <span 
-            className={`inline-flex items-center rounded-full border font-bold ${sizeClasses[size]}`}
-            style={{ 
-                backgroundColor: `${color}15`,
-                borderColor: `${color}30`,
-                color: color
-            }}
+        <span
+            className={`inline-flex items-center rounded-full border font-bold ${sizeClasses[size]} ${colorClass}`}
             title={config?.description}
         >
             <span className="tracking-wider">{range}</span>
