@@ -72,7 +72,8 @@
           "Medicina Intensiva",
           "Paciente Grave (Dupla Certificação)"
         ],
-        "duracao_cursos": "14-18 meses"
+        "duracao_cursos": "14-18 meses",
+        "carga_horaria": "720h (Dupla Certificação: 360h Urgência e Emergência + 360h Terapia Intensiva)"
       },
       "posicionamento": {
         "proposta_valor": "Pós-Graduação em Paciente Grave com dupla certificação em Medicina de Emergência e Medicina Intensiva",
@@ -95,7 +96,9 @@
         "bonus_inclusos": [
           "Comunidade exclusiva",
           "Suporte 24h com IA",
-          "Certificado de extensão (para formados no exterior)"
+          "Certificado de extensão (para formados no exterior)",
+          "Buda de Plantão: suporte 24h + laudos ECG em até 15min",
+          "Curso Sala Vermelha Sempre Tranquila (gravado em plantões reais)"
         ],
         "preco_avista": 41900,
         "preco_parcelado": "23x R$ 1.800,00",
@@ -122,8 +125,9 @@
       "digital": {
         "instagram": {
           "url": "https://instagram.com/liberdademedica",
-          "seguidores": "15.2k",
-          "engajamento": "2.1%"
+          "seguidores": "475k",
+          "posts": "2.309",
+          "engajamento": "40 orgânico / 100-300 patrocinado"
         },
         "seo_organico": "Médio"
       },
@@ -183,13 +187,19 @@
       "swot": {
         "forcas": [
           "Copy persuasiva",
-          "Promessa de certificação internacional",
-          "Preço competitivo"
+          "Dupla certificação em um único programa",
+          "475k seguidores no Instagram",
+          "Prática com pacientes reais desde o 1º mês",
+          "+1.800h de carga prática optativa",
+          "Avaliação máxima no Google"
         ],
         "fraquezas": [
-          "Falta de transparência docente",
-          "Sem dados públicos de resultados",
-          "Marca recente"
+          "Site sem informações sobre o curso (disciplinas, valores, modalidade)",
+          "Obriga contato via bot de IA antes de falar com consultor",
+          "Sem número ou email direto para contato",
+          "Não repassa informações pelo WhatsApp — apenas por call",
+          "Consultor agenda 'processo seletivo' obrigatório",
+          "Apenas uma pós-graduação disponível"
         ],
         "oportunidades": [
           "Mercado aspiracional",
@@ -200,13 +210,20 @@
           "Validação das certificações"
         ]
       },
+      "reclame_aqui": {
+        "reclamacoes": 7,
+        "respondidas": "100%",
+        "status": "Não verificada",
+        "nota": null,
+        "voltaria_negociar": null
+      },
       "screenshots": {
         "homepage": null,
         "landing_page": null,
         "anuncios": [],
         "instagram": null
       },
-      "status_coleta": "parcial"
+      "status_coleta": "completa"
     },
     "caduceu": {
       "id": "caduceu",
@@ -257,7 +274,9 @@
         "parcelamento_max": 16,
         "bonus_inclusos": [],
         "preco_transparente": true,
-        "observacao_preco": "Online: Matrícula R$ 890 + 16x R$ 890 (Total R$ 15.130). Híbrido: Matrícula R$ 1.690 + 16x R$ 1.690 (Total R$ 28.730)."
+        "observacao_preco": "Online: Matrícula R$ 890 + 16x R$ 890 (Total R$ 15.130). Híbrido: Matrícula R$ 1.690 + 16x R$ 1.690 (Total R$ 28.730).",
+        "carga_horaria": "450h",
+        "duracao": "Até 16 meses"
       },
       "autoridade": {
         "corpo_docente_publico": true,
@@ -285,9 +304,9 @@
       "digital": {
         "instagram": {
           "handle": "@faculdadecaduceu",
-          "seguidores": null,
-          "engajamento": null,
-          "frequencia_posts": null,
+          "seguidores": "7.329",
+          "posts": "134",
+          "engajamento": "Média 5 curtidas (orgânico) / 30 curtidas (patrocinado)",
           "url": "https://www.instagram.com/faculdadecaduceu/"
         },
         "facebook": {
@@ -383,7 +402,19 @@
         "anuncios": [],
         "instagram": null
       },
-      "status_coleta": "parcial"
+      "reclame_aqui": {
+        "reclamacoes": 2,
+        "respondidas": "50%",
+        "status": "Não verificada",
+        "nota": null,
+        "voltaria_negociar": null
+      },
+      "diferenciais_pesquisa": [
+        "Práticas Clínicas em Ambiente Hospitalar Real com pacientes reais",
+        "Corpo Docente de Excelência: médicos especialistas reconhecidos no Brasil e exterior",
+        "Estudo de Casos Reais para visão crítica diagnóstica"
+      ],
+      "status_coleta": "completa"
     },
     "comportamente": {
       "id": "comportamente",
@@ -1334,11 +1365,13 @@
       "ficha_cadastral": {
         "nome_completo": "Sanar",
         "natureza_juridica": "Privada",
-        "credenciamento_mec": "Não aplicável (prepatory)",
+        "credenciamento_mec": "Chancela Uniamérica",
         "ano_fundacao": 2015,
         "modalidade": [
           "EAD"
-        ]
+        ],
+        "carga_horaria": "492h (408h teórica EAD + 60h teleambulatório + 24h aulas ao vivo)",
+        "duracao": "15 meses + 3 meses acesso extra"
       },
       "oferta": {
         "preco_avista": 11470.32,
@@ -1353,8 +1386,9 @@
       },
       "digital": {
         "instagram": {
-          "seguidores": "1.2M",
-          "engajamento": "3.5%"
+          "seguidores": "113k",
+          "posts": "2.584",
+          "engajamento": "20 orgânico / 70 patrocinado"
         }
       },
       "trafego_pago": {
@@ -1370,7 +1404,20 @@
           "contra_ataque": "ATAQUE: MEC credenciado - não confunda com preparatório sem validade"
         }
       ],
-      "status_coleta": "resumida"
+      "reclame_aqui": {
+        "reclamacoes": 116,
+        "respondidas": "91.4%",
+        "status": "Ótima reputação",
+        "nota": 8.1,
+        "voltaria_negociar": "73.4%"
+      },
+      "diferenciais_pesquisa": [
+        "Teleambulatório com Pacientes Reais (atendimento supervisionado)",
+        "SPP - Simulação de Prática Profissional",
+        "Encontros com Experts: sessões mensais interativas",
+        "Networking: comunidade de alunos"
+      ],
+      "status_coleta": "completa"
     },
     "idomed": {
       "id": "idomed",
@@ -1570,27 +1617,44 @@
         "nome_completo": "Afya",
         "natureza_juridica": "Grupo educacional",
         "credenciamento_mec": "Credenciada",
-        "ano_fundacao": 2012,
+        "ano_fundacao": 2006,
         "modalidade": [
           "Presencial",
+          "Híbrido",
           "EAD"
-        ]
+        ],
+        "carga_horaria": "784h (384h teórica presencial + 184h assíncrona + 216h prática)",
+        "duracao": "24 meses"
+      },
+      "posicionamento": {
+        "proposta_valor": "Desde 2006, consolidada como maior referência em pós-graduação médica do Brasil. Estrutura premium e corpo docente altamente qualificado.",
+        "diferenciais": [
+          "Maior referência em pós-graduação médica desde 2006",
+          "Ambulatórios próprios com 3.800 pacientes/mês",
+          "+200h práticas ambulatoriais presenciais",
+          "Corpo docente: mais renomados especialistas do país",
+          "Imersão prática em clínicas e instituições conveniadas",
+          "Formato presencial, híbrido e online",
+          "Nova área de Soluções Corporativas (IA clínica, prontuários eletrônicos)"
+        ],
+        "tom_voz": "Institucional, premium, científico"
       },
       "oferta": {
-        "preco_avista": null,
-        "preco_parcelado": null,
-        "valor_total": null,
+        "preco_avista": 96413.86,
+        "preco_parcelado": "24x R$ 4.029,58",
+        "valor_total": 96413.86,
         "desconto_a_vista": null,
         "garantia": null,
-        "parcelamento_max": null,
+        "parcelamento_max": 30,
         "bonus_inclusos": [],
         "preco_transparente": false,
-        "observacao_preco": "PESQUISANDO"
+        "observacao_preco": "Plano Concentrado: 1ª parcela R$ 3.733,52 + 23x R$ 4.029,58 (Total R$ 96.413,86). Plano Facilitado: 3x R$ 990 + 27x R$ 3.468,77 + 3x R$ 2.558,22 (Total R$ 104.301,45). Valores com desconto de pontualidade."
       },
       "digital": {
         "instagram": {
-          "seguidores": "150k",
-          "engajamento": "2.5%"
+          "seguidores": "101k",
+          "posts": "3.742",
+          "engajamento": "20 orgânico / 100 patrocinado"
         }
       },
       "trafego_pago": {
@@ -1598,7 +1662,35 @@
           "anuncios_ativos": 18
         }
       },
-      "status_coleta": "resumida"
+      "reclame_aqui": {
+        "reclamacoes": 126,
+        "respondidas": "56.3%",
+        "status": "Ruim",
+        "nota": 5.5,
+        "voltaria_negociar": "56%"
+      },
+      "swot": {
+        "forcas": [
+          "Maior marca de pós-graduação médica do Brasil",
+          "Ambulatórios próprios com pacientes reais",
+          "Corpo docente premium",
+          "Estrutura presencial em múltiplas unidades"
+        ],
+        "fraquezas": [
+          "Atendimento fragmentado por região (números diferentes por local)",
+          "Cliente pode perder contato no WhatsApp e desistir",
+          "Deslocamento obrigatório mensal para práticas presenciais",
+          "Variedade de formatos e valores dificulta tomada de decisão",
+          "Em 2026, curso modalidade 'ouro' não disponível mais"
+        ],
+        "oportunidades": [
+          "Nova área de Soluções Corporativas"
+        ],
+        "ameacas": [
+          "Preço muito acima da concorrência (R$ 96k-104k)"
+        ]
+      },
+      "status_coleta": "completa"
     },
     "sirio_libanes": {
       "id": "sirio_libanes",
@@ -1702,7 +1794,9 @@
           "Endocrinologia",
           "Medicina do Trabalho",
           "Perícias Médicas"
-        ]
+        ],
+        "carga_horaria": "360h EAD",
+        "duracao": "12 meses + 3 meses de integralização"
       },
       "posicionamento": {
         "proposta_valor": "Credibilidade, qualidade e resultados. Pós-Graduações para Médicos reconhecidas pelo MEC.",
@@ -1712,7 +1806,12 @@
           "Centenas de aprovados em provas de título",
           "Reconhecimento MEC",
           "Professores renomados",
-          "Conteúdo científico atualizado"
+          "Conteúdo científico atualizado",
+          "BÔNUS: 200h de aulas ONLINE e AO VIVO (terças e quintas)",
+          "Biblioteca Digital com 600h de conteúdo",
+          "Networking exclusivo com professores e colegas",
+          "Suporte direto do coordenador via WhatsApp",
+          "Programa Legacy (descontos para ex-alunos e indicações)"
         ],
         "tom_voz": "Profissional, científico, confiável"
       },
@@ -1777,7 +1876,23 @@
         }
       },
       "vulnerabilidades": [],
-      "ultima_atualizacao": "2026-02-05",
+      "reclame_aqui": {
+        "reclamacoes": 2,
+        "respondidas": "100%",
+        "status": "Não tem",
+        "nota": null,
+        "voltaria_negociar": null
+      },
+      "programa_vantagens": {
+        "segunda_pos": "25% desconto (15x R$ 967,50 = R$ 14.512,50)",
+        "terceira_pos_ou_mais": "50% desconto (15x R$ 645,00 = R$ 9.675,00)",
+        "recem_formados": "25% desconto (15x R$ 967,50 = R$ 14.512,50)",
+        "indicacao": "10% desconto por aluno indicado (máx 10 = 100% bolsa)"
+      },
+      "pontos_atencao": [
+        "Falta teleatendimento / aulas práticas com pacientes reais"
+      ],
+      "ultima_atualizacao": "2026-02-10",
       "status_coleta": "completa"
     }
   },
