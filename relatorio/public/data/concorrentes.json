@@ -180,26 +180,6 @@
         "whatsapp_contato": true,
         "redirect_pos_cadastro": "Pagina de obrigado + WhatsApp"
       },
-      "vulnerabilidades": [
-        {
-          "tipo": "transparencia",
-          "descricao": "GRAVE: Corpo docente anônimo - impossível verificar qualidade dos professores",
-          "gravidade": "alta",
-          "contra_ataque": "ATAQUE: Expor corpo docente completo com Lattes - transparência total"
-        },
-        {
-          "tipo": "dados",
-          "descricao": "FALHA: Número de alunos oculto - sem prova de mercado ou credibilidade",
-          "gravidade": "media",
-          "contra_ataque": "ATAQUE: Comunicar 25.000+ formados como prova de autoridade de mercado"
-        },
-        {
-          "tipo": "resultados",
-          "descricao": "CRÍTICO: Sem taxa de aprovação - aluno compra sem garantia de resultado",
-          "gravidade": "alta",
-          "contra_ataque": "ATAQUE: Divulgar índices de aprovação validados em títulos de especialista"
-        }
-      ],
       "swot": {
         "forcas": [
           "Copy persuasiva",
@@ -269,14 +249,15 @@
         "tom_de_voz": "Profissional, institucional"
       },
       "oferta": {
-        "preco_avista": null,
-        "preco_parcelado": null,
-        "valor_total": null,
+        "preco_avista": 15130,
+        "preco_parcelado": "16x R$ 890,00",
+        "valor_total": 15130,
         "desconto_a_vista": null,
         "garantia": null,
-        "parcelamento_max": null,
+        "parcelamento_max": 16,
         "bonus_inclusos": [],
-        "preco_transparente": false
+        "preco_transparente": true,
+        "observacao_preco": "Online: Matrícula R$ 890 + 16x R$ 890 (Total R$ 15.130). Híbrido: Matrícula R$ 1.690 + 16x R$ 1.690 (Total R$ 28.730)."
       },
       "autoridade": {
         "corpo_docente_publico": true,
