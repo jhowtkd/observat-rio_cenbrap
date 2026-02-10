@@ -41,18 +41,6 @@ interface Topic {
 
 const topics: Topic[] = [
     {
-        id: 'precos',
-        icon: <Target className="w-4 h-4" />,
-        title: 'Preços',
-        summary: 'CENBRAP tem gap de até R$ 9.270',
-        details: [
-            'Maior preço: R$ 16.470 (FIA)',
-            'Menor preço: R$ 3.960 (OGC)',
-            'CENBRAP competitivo na média',
-            'Gap estratégico explorável'
-        ]
-    },
-    {
         id: 'docentes',
         icon: <Users className="w-4 h-4" />,
         title: 'Corpo Docente',
@@ -83,7 +71,7 @@ const topics: Topic[] = [
         summary: 'CENBRAP no quadrante premium',
         details: [
             'Alta presença digital',
-            'Preço médio-alto',
+            'Posicionamento premium',
             'Concorrentes vulneráveis',
             'Espaço para expansão'
         ]
