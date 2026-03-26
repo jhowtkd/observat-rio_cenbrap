@@ -13,7 +13,6 @@ Uso: python3 validar_dados.py
 
 import json
 import sys
-from pathlib import Path
 from collections import Counter
 
 
@@ -55,7 +54,7 @@ def validate_analise_precos():
     for faixa, players in data.get('faixas_preco', {}).items():
         if faixa not in ['sem_preco_divulgado', 'mais_10k'] and isinstance(players, list):
             for p in players:
-                if isinstance(p, dict) and p.get('transparencia') == True:
+                if isinstance(p, dict) and p.get('transparencia'):
                     com_transparencia.append(p['nome'])
     
     resumo_transparente = data.get('resumo', {}).get('preco_transparente', 0)
@@ -66,7 +65,7 @@ def validate_analise_precos():
         )
     else:
         all_passed &= print_result(
-            f"Contagem preço transparente", 
+            "Contagem preço transparente", 
             False, 
             f"Encontrados: {len(com_transparencia)}, Resumo diz: {resumo_transparente}"
         )
@@ -225,7 +224,7 @@ def validate_cross_consistency():
         with open('analise_propostas.json', 'r', encoding='utf-8') as f:
             propostas = json.load(f)
         with open('mapa_vulnerabilidades.json', 'r', encoding='utf-8') as f:
-            vulns = json.load(f)
+            _ = json.load(f)
     except Exception as e:
         print_result("Carregar arquivos", False, str(e))
         return False
